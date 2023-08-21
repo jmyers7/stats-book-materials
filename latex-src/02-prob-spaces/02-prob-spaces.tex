@@ -1,5 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
+\usepackage{../header}
 \usepackage{caption}
 
 \hdr{Mathematical Statistics}{Chapter 2: Probability spaces}
@@ -9,67 +9,50 @@
 \bigskip
 
 \prob Let $A$ and $B$ be two subsets of a set $S$. Let $C$ be the subset of $S$ consisting of elements that are in $A$ or $B$, but not both. Express $C$ in terms of $A$ and $B$ using only the basic set operations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \vspace{2in}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Draw Venn diagrams to illustrate \text{DeMorgan's law}, which states that, given two subsets $A$ and $B$ of a set $S$, that
 
-    \[(A\cup B)^c = A^c \cap B^c.\]
-
-
-
-
-
-
-
-
-
-
-
-
+	\[(A\cup B)^c = A^c \cap B^c.\]
 \vspace{2in}
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Identify appropriate sample spaces for each of the following scenarios.
 
 \medskip
 \begin{enumerate}
-    \item Rolling a die.\vfill
-    
-    
-
-    \item Flipping a coin.\vfill
-    
-
-
-    \item Flipping a coin \textit{three} times.\vfill
-    
-
-
-    \item Flipping a coin until it lands heads.\vfill
-    
-
-
-    \item Forecasting whether it will rain tomorrow.\vfill
-    
-
-
-    \item Conducting an experiment to measure the speed of light.\vfill
-    
-
+\item Rolling a die.\vfill
+\item Flipping a coin.\vfill
+\item Flipping a coin \textit{three} times.\vfill
+\item Flipping a coin until it lands heads.\vfill
+\item Forecasting whether it will rain tomorrow.\vfill
+\item Conducting an experiment to measure the speed of light.\vfill
 \end{enumerate}
 
 
@@ -87,29 +70,12 @@
 
 \medskip
 \begin{enumerate}
-    \item Rolling a die.\vfill
-    
-    
-
-    \item Flipping a coin.\vfill
-    
-    
-
-    \item Flipping a coin \textit{three} times.\vfill
-    
-    
-
-    \item Flipping a coin until it lands heads.\vfill
-    
-    
-
-    \item Forecasting whether it will rain tomorrow.\vfill
-    
-    
-
-    \item Conducting an experiment to measure the speed of light.\vfill
-    
-    
+\item Rolling a die.\vfill
+\item Flipping a coin.\vfill
+\item Flipping a coin \textit{three} times.\vfill
+\item Flipping a coin until it lands heads.\vfill
+\item Forecasting whether it will rain tomorrow.\vfill
+\item Conducting an experiment to measure the speed of light.\vfill
 \end{enumerate}
 
 
@@ -125,22 +91,12 @@
 
 \prob Suppose that you choose at random one of the twelve months of the year.
 
+\medskip
 \begin{enumerate}
-    \item Identify an appropriate sample space.\vfill
-    
-    
-
-    \item Identify the event that you choose a month beginning with a ``J''.\vfill
-    
-    
-
-    \item Identify the event that you choose a month whose name is four letters long.\vfill
-    
-    
-
-    \item Using one of the basic set operations and your answers to the two previous parts, identify the event that you choose a month beginning with a ``J'' and whose name is four letters long.\vfill
-    
-
+\item Identify an appropriate sample space.\vfill
+\item Identify the event that you choose a month beginning with a ``J''.\vfill
+\item Identify the event that you choose a month whose name is four letters long.\vfill
+\item Using one of the basic set operations and your answers to the two previous parts, identify the event that you choose a month beginning with a ``J'' and whose name is four letters long.\vfill
 \end{enumerate}
 
 
@@ -171,11 +127,17 @@
 
 \bigskip
 \begin{enumerate}
-    \item Both events occur.\vfill
-    \item At least one occurs.\vfill
-    \item Neither occurs.\vfill
-    \item Exactly one occurs.\vfill
+\item Both events occur.\vfill
+\item At least one occurs.\vfill
+\item Neither occurs.\vfill
+\item Exactly one occurs.\vfill
 \end{enumerate}
+
+
+
+
+
+
 
 
 
@@ -185,34 +147,25 @@
 
 
 \newpage
-\prob Let $P$ be the discrete probability measure on the sample space $S=\bbr$ with probability mass function
+\prob Let $P$ be the discrete probability measure on the sample space $S=\mathbb{R}$ with probability mass function
 
-    \[p(s) = \begin{cases}
-    1/4 & : s=0, \\
-    1/4 & : s=2, \\
-    1/2 & : s=4, \\
-    0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	p(s) = \begin{cases}
+	1/4 & : s=0, \\
+	1/4 & : s=2, \\
+	1/2 & : s=4, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item $A = [-2, -1]$\vfill
-    
-    
-
-    \item $A = (-1, 1)$\vfill
-    
-
-
-    \item $A = (-1, 1) \cup (3,5]$\vfill
-    
-
-    
-    \item $A = \bbr$\vfill
-    
-
+\item $A = [-2, -1]$\vfill
+\item $A = (-1, 1)$\vfill
+\item $A = (-1, 1) \cup (3,5]$\vfill
+\item $A = \mathbb{R}$\vfill
 \end{enumerate}
 
 
@@ -224,32 +177,26 @@ Compute the probabilities $P(A)$ of the following events.
 
 
 
-\prob Let $P$ be the discrete probability measure on the sample space $S=\bbr$ with probability mass function
 
-\[p(s) = \begin{cases}
-    (0.25) (0.75)^{s-1} & : s=1, 2, 3, \ldots, \\
-0 & : \text{otherwise}.
-\end{cases}\]
+
+
+\prob Let $P$ be the discrete probability measure on the sample space $S=\mathbb{R}$ with probability mass function
+
+	\[
+	p(s) = \begin{cases}
+    	(0.25) (0.75)^{s-1} & : s=1, 2, 3, \ldots, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item $A = (-\infty,1)$\vfill
-    
-
-
-    \item $A = (-10, 4]$\vfill
-    
-
-
-    \item $A = \bbr$\vfill
-    
-
-    
-    \item $A = \{\text{all positive even integers}\}$\vfill
-    
-
+\item $A = (-\infty,1)$\vfill
+\item $A = (-10, 4]$\vfill
+\item $A = \mathbb{R}$\vfill
+\item $A = \{\text{all positive even integers}\}$\vfill
 \end{enumerate}
 
 
@@ -272,19 +219,10 @@ Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item Rolling a fair six-sided die.\vfill
-
-    \item Flipping an \textbf{unfair} coin, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails.\vfill
-    
-    
-
-    \item Flipping an \textbf{unfair} coin twice, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails. What is the probability that you flip \textit{exactly} one head?\vfill
-    
-    
-
-    \item Flipping an \textbf{unfair} fair coin until you obtain a head, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails. What is the probability that you flip an odd number of tails before you see a head?\vfill
-    
-    
+\item Rolling a fair six-sided die.\vfill
+\item Flipping an \textbf{unfair} coin, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails.\vfill
+\item Flipping an \textbf{unfair} coin twice, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails. What is the probability that you flip \textit{exactly} one head?\vfill
+\item Flipping an \textbf{unfair} fair coin until you obtain a head, with probability $0.25$ of obtaining heads, and probability $0.75$ of obtaining tails. What is the probability that you flip an odd number of tails before you see a head?\vfill
 \end{enumerate}
 
 
@@ -308,14 +246,8 @@ Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item If $P(E_1) = P(E_2) = 0.15$, $P(E_3) = 0.4$, and $P(E_4) = 2P(E_5)$, find the probabilities of $E_4$ and $E_5$.\vfill
-    
-
-
-    \item If $P(E_1) = 3P(E_2) = 0.3$, find the probabilities of the remaining simple events if you know that the remaining simple events are equally probable.\vfill
-    
-
-    
+\item If $P(E_1) = P(E_2) = 0.15$, $P(E_3) = 0.4$, and $P(E_4) = 2P(E_5)$, find the probabilities of $E_4$ and $E_5$.\vfill
+\item If $P(E_1) = 3P(E_2) = 0.3$, find the probabilities of the remaining simple events if you know that the remaining simple events are equally probable.\vfill
 \end{enumerate}
 
 
@@ -345,17 +277,9 @@ If a single adult is selected from the large group, find the probabilities of th
 
 \medskip
 \begin{enumerate}
-    \item needs glasses.\vfill
-    
-    
-
-    \item needs glasses but does not use them.\vfill
-    
-    
-
-    \item uses glasses whether the glasses are needed or not.\vfill
-    
-    
+\item needs glasses.\vfill
+\item needs glasses but does not use them.\vfill
+\item uses glasses whether the glasses are needed or not.\vfill
 \end{enumerate}
 
 
@@ -372,32 +296,23 @@ If a single adult is selected from the large group, find the probabilities of th
 
 
 
-\prob Let $P$ be a continuous probability measure on the sample space $S=\bbr$ with probability density function
+\prob Let $P$ be a continuous probability measure on the sample space $S=\mathbb{R}$ with probability density function
 
-    \[f(s) = \begin{cases}
-    \frac{2}{9}s & : 0 \leq s \leq 3, \\\
-    0 & : \text{otherwise}.    
-    \end{cases}\]
+	\[
+	f(s) = \begin{cases}
+	\frac{2}{9}s & : 0 \leq s \leq 3, \\\
+	0 & : \text{otherwise}.    
+	\end{cases}
+	\]
 
 Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item $A=(-1, 1]$\vfill
-    
-
-
-    \item $A = (-1,1) \cup [2, 4)$.\vfill
-    
-
-
-    \item $A = [0,3]$.\vfill
-    
-
-
-    \item $A = \bbr$.\vfill
-    
-
+\item $A=(-1, 1]$\vfill
+\item $A = (-1,1) \cup [2, 4)$.\vfill
+\item $A = [0,3]$.\vfill
+\item $A = \mathbb{R}$.\vfill
 \end{enumerate}
 
 
@@ -411,24 +326,21 @@ Compute the probabilities $P(A)$ of the following events.
 
 
 \newpage
-\prob Let $P$ be a continuous probability measure on the sample space $S=\bbr$ with probability density function
+\prob Let $P$ be a continuous probability measure on the sample space $S=\mathbb{R}$ with probability density function
 
-    \[f(s) = \begin{cases}
-    \displaystyle\frac{1}{s^2} & : s \geq 1, \\\
-    0 & : \text{otherwise}.    
-    \end{cases}\]
+	\[
+	f(s) = \begin{cases}
+	\displaystyle\frac{1}{s^2} & : s \geq 1, \\\
+	0 & : \text{otherwise}.    
+	\end{cases}
+	\]
 
 Compute the probabilities $P(A)$ of the following events.
 
 \medskip
 \begin{enumerate}
-    \item $A=(-10, 0)$\vfill
-    
-
-
-    \item $A = \bbr$.\vfill
-    
-
+\item $A=(-10, 0)$\vfill
+\item $A = \mathbb{R}$.\vfill
 \end{enumerate}
 
 
@@ -439,16 +351,13 @@ Compute the probabilities $P(A)$ of the following events.
 
 
 
-\prob A particle is located somewhere along the real line $\bbr$, but the \text{only} information that you have about its location is that it is at some point in the interval $[0,4]$.
+\prob A particle is located somewhere along the real line $\mathbb{R}$, but the \text{only} information that you have about its location is that it is at some point in the interval $[0,4]$.
 
 \medskip
 \begin{enumerate}
-    \item Describe in complete detail a probability space that models this scenario.\vfill
-
-
-    \item Suppose some new information comes to light that suggests the particle is closer to $4$ than it is $0$. Alter your probability model to reflect this new information.\vfill
-    
-    \end{enumerate}
+\item Describe in complete detail a probability space that models this scenario.\vfill
+\item Suppose some new information comes to light that suggests the particle is closer to $4$ than it is $0$. Alter your probability model to reflect this new information.\vfill
+\end{enumerate}
     
 
 
@@ -464,12 +373,14 @@ Compute the probabilities $P(A)$ of the following events.
 
 
 \newpage
-\prob Let $P$ be the discrete probability measure on $\bbr$ with probability function
+\prob Let $P$ be the discrete probability measure on $\mathbb{R}$ with probability function
 
-    \[p(s) = \begin{cases}
-        \frac{2!}{s!(2-s)!} \left( \frac{1}{4} \right)^s \left(\frac{3}{4} \right)^{2-s} & : s=0, 1, 2, \\
-        0 & :\text{otherwise}.
-    \end{cases}\]
+	\[
+	p(s) = \begin{cases}
+	\frac{2!}{s!(2-s)!} \left( \frac{1}{4} \right)^s \left(\frac{3}{4} \right)^{2-s} & : s=0, 1, 2, \\
+	0 & :\text{otherwise}.
+    	\end{cases}
+	\]
 
 Compute the distribution function $F(s)$.\vfill
 
@@ -488,12 +399,13 @@ Compute the distribution function $F(s)$.\vfill
 
 
 
-\prob Let $P$ be the continuous probability measure on $\bbr$ with density function
+\prob Let $P$ be the continuous probability measure on $\mathbb{R}$ with density function
 
-    \[f(s) = \begin{cases}
-        3s^2 & : 0 \leq s \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[f(s) = \begin{cases}
+	3s^2 & : 0 \leq s \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the distribution function $F(s)$.\vfill
 
@@ -512,13 +424,15 @@ Compute the distribution function $F(s)$.\vfill
 
 
 
-\prob Let $P$ be a probability measure on $\bbr$ with distribution function
+\prob Let $P$ be a probability measure on $\mathbb{R}$ with distribution function
 
-    \[F(s) = \begin{cases}
-        0 & : s < 0, \\
-        s & : 0\leq s \leq 1, \\
-        1 & : s>1.
-    \end{cases}\]
+	\[
+	F(s) = \begin{cases}
+	0 & : s < 0, \\
+	s & : 0\leq s \leq 1, \\
+	1 & : s>1.
+	\end{cases}
+	\]
 
 Is $P$ continuous? If so, compute its density function $f(s)$.\vfill
 
@@ -540,28 +454,24 @@ Is $P$ continuous? If so, compute its density function $f(s)$.\vfill
 
 
 \newpage
-\prob Let $P$ be the discrete probability measure on $\bbr$ with probability function
+\prob Let $P$ be the discrete probability measure on $\mathbb{R}$ with probability function
 
-    \[p(s) = \begin{cases}
-        3/8 & : s=1, \\
-        7/16 & : s=2, \\
-        3/16 & : s=3, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	p(s) = \begin{cases}
+	3/8 & : s=1, \\
+	7/16 & : s=2, \\
+	3/16 & : s=3, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the following quantiles:
 
 \medskip
 \begin{enumerate}
-    \item $Q(0.25)$\vfill
-    
-
-
-    \item $Q(0.5)$ (the median of $P$)\vfill
-    
-
-    \item $Q(0.75)$\vfill
-
+\item $Q(0.25)$\vfill
+\item $Q(0.5)$ (the median of $P$)\vfill
+\item $Q(0.75)$\vfill
 \end{enumerate}
 
 
@@ -575,23 +485,18 @@ Compute the following quantiles:
 
 
 
-\prob Let $P$ be the continuous probability measure on $\bbr$ with density function
+\prob Let $P$ be the continuous probability measure on $\mathbb{R}$ with density function
 
-    \[f(s) = \begin{cases}
-        cs(1-s) & : 0 \leq s \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
-
+	\[f(s) = \begin{cases}
+	cs(1-s) & : 0 \leq s \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Find the value of $c$ that makes $f(s)$ a valid density function.\vfill
-    
-
-
-    \item Compute the quantile $Q(0.95)$.\vfill
-    
-
+\item Find the value of $c$ that makes $f(s)$ a valid density function.\vfill
+\item Compute the quantile $Q(0.95)$.\vfill
 \end{enumerate}
 
 
@@ -606,23 +511,21 @@ Compute the following quantiles:
 
 
 \newpage
-\prob Let $P$ be a continuous probability measure on the sample space $S=\bbr^2$ with probability density function
+\prob Let $P$ be a continuous probability measure on the sample space $S=\mathbb{R}^2$ with probability density function
 
-\[f(s,t) = \begin{cases}
-\frac{1}{8}(s+t) & : 0\leq s,t \leq 2, \\
-0 & : \text{otherwise}.    
-\end{cases}\]
+	\[
+	f(s,t) = \begin{cases}
+	\frac{1}{8}(s+t) & : 0\leq s,t \leq 2, \\
+	0 & : \text{otherwise}.    
+	\end{cases}
+	\]
 
 Compute the probabilities $P(C)$ of the following events.
 
 \medskip
 \begin{enumerate}
 \item $C=[-1,1] \times (-1,1)$\vfill
-
-
-\item $C = \bbr^2$.\vfill
-
-
+\item $C = \mathbb{R}^2$.\vfill
 \end{enumerate}
 
 
@@ -636,14 +539,16 @@ Compute the probabilities $P(C)$ of the following events.
 
 
 
-\prob Let $P$ be a continuous probability measure on the sample space $S=\bbr^2$ with probability density function
+\prob Let $P$ be a continuous probability measure on the sample space $S=\mathbb{R}^2$ with probability density function
 
-\[f(s,t) = \begin{cases}
-e^{-(s+t)} & : s,t >0, \\
-0 & : \text{otherwise}.    
-\end{cases}\]
+	\[
+	f(s,t) = \begin{cases}
+	e^{-(s+t)} & : s,t >0, \\
+	0 & : \text{otherwise}.    
+	\end{cases}
+	\]
 
-Show that $P(\bbr^2)=1$.\vfill
+Show that $P(\mathbb{R}^2)=1$.\vfill
 
 
 
@@ -662,17 +567,17 @@ Show that $P(\bbr^2)=1$.\vfill
 
 
 \newpage
-\prob A particle is now located somewhere in the plane $\bbr^2$, but the \text{only} information that you have about its location is that it is at some point in the square
-    \[R = [0,3] \times [0,3].\]
+\prob A particle is now located somewhere in the plane $\mathbb{R}^2$, but the \text{only} information that you have about its location is that it is at some point in the square
+
+	\[
+	R = [0,3] \times [0,3].
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Describe in complete detail a probability space that models this scenario.\vfill
-
-   
-
-    \item Suppose some new information comes to light that suggests the particle is closer to the corner $(2,2)$ than to the origin $(0,0)$. Alter your probability model to reflect this new information.
-    \end{enumerate}
+\item Describe in complete detail a probability space that models this scenario.\vfill
+\item Suppose some new information comes to light that suggests the particle is closer to the corner $(2,2)$ than to the origin $(0,0)$. Alter your probability model to reflect this new information.\vfill
+\end{enumerate}
     
-   \vfill
+   
 \end{document}

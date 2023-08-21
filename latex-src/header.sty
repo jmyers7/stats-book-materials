@@ -1,0 +1,84 @@
+% Used for font stuff.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Used to change headers.
+\usepackage{fancyhdr}
+
+% Used for page numbering.
+\usepackage{lastpage}
+
+% Used for enumerate with letters.
+\usepackage{enumerate}
+
+% Used for \textcolor command.
+\usepackage{color}
+
+% Used for horizontal lists.
+\usepackage{paralist}
+%\usepackage{/Users/jmyers7/GoogleDrive/tex/tabto} % School computer.
+\usepackage{/Users/johnmyers/MyDrive/tex/tabto} % Personal computer.
+
+\renewcommand{\theenumi}{\alph{enumi}}
+\newenvironment{henumerate}[1]
+ {\NumTabs{#1}\inparaenum\let\latexitem\item
+  \def\item{\def\item{\tab\latexitem}\latexitem}}
+ {\endinparaenum}
+
+% Used for graphics.
+\usepackage{graphicx}
+
+% Used for subfigures.
+\usepackage{subcaption}
+
+% Used for margins.
+\usepackage[margin=0.75in]{geometry}
+
+% Global \noindent.
+\setlength{\parindent}{0pt}
+
+% Create custom header and footers.
+\pagestyle{fancy}
+\newcommand{\hdr}[2]{
+\lhead{\textbf{#1 --- #2}}
+\rhead{\textbf{Page {\thepage} of \pageref{LastPage}}}}
+\cfoot{}
+
+
+% Renew some display style commands.
+\let\oldlimits\lim
+\renewcommand{\lim}{\oldlimits\limits}
+%\renewcommand{\frac}[2]{\dfrac{#1}{#2}}
+
+%\let\oldint\int
+%\renewcommand{\int}{\displaystyle\oldint}
+
+% Change header of first page.
+\thispagestyle{fancy}
+
+\newcounter{problemNumber}
+\stepcounter{problemNumber}
+\newcommand{\prob}{\textbf{Problem \theproblemNumber: \ }\stepcounter{problemNumber}} % This is for consecutive numbering of problems.
+\newcommand{\concept}{\textbf{Concept \theproblemNumber: \ }\stepcounter{problemNumber}} % This is for consecutive numbering of problems.
+\newcommand{\probM}[1]{\textbf{#1}:} % This is for manual numbering, like numbers from book.
+
+\newtheorem*{Thm}{Theorem}
+\newtheorem*{Cor}{Corollary}
+\newtheorem{Prop}{Proposition}
+
+\theoremstyle{definition}
+\newtheorem*{defn}{Definition}
+\newtheorem*{ex}{Example}
+
+\newcommand{\veca}{\mathbf{a}}
+\newcommand{\vecb}{\mathbf{b}}
+\newcommand{\vecc}{\mathbf{c}}
+\newcommand{\vece}{\mathbf{e}}
+\newcommand{\vecu}{\mathbf{u}}
+\newcommand{\vecv}{\mathbf{v}}
+\newcommand{\vecw}{\mathbf{w}}
+\newcommand{\vecx}{\mathbf{x}}
+\newcommand{\veczero}{\mathbf{0}}
+
+
+%%%%%%%%%%%%%%%%
