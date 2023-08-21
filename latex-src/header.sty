@@ -14,17 +14,6 @@
 % Used for \textcolor command.
 \usepackage{color}
 
-% Used for horizontal lists.
-\usepackage{paralist}
-%\usepackage{/Users/jmyers7/GoogleDrive/tex/tabto} % School computer.
-\usepackage{/Users/johnmyers/MyDrive/tex/tabto} % Personal computer.
-
-\renewcommand{\theenumi}{\alph{enumi}}
-\newenvironment{henumerate}[1]
- {\NumTabs{#1}\inparaenum\let\latexitem\item
-  \def\item{\def\item{\tab\latexitem}\latexitem}}
- {\endinparaenum}
-
 % Used for graphics.
 \usepackage{graphicx}
 
@@ -44,14 +33,16 @@
 \rhead{\textbf{Page {\thepage} of \pageref{LastPage}}}}
 \cfoot{}
 
+% Enumerate with letters.
+\renewcommand{\theenumi}{\alph{enumi}}
+\newenvironment{henumerate}[1]
+ {\NumTabs{#1}\inparaenum\let\latexitem\item
+  \def\item{\def\item{\tab\latexitem}\latexitem}}
+ {\endinparaenum}
 
 % Renew some display style commands.
 \let\oldlimits\lim
 \renewcommand{\lim}{\oldlimits\limits}
-%\renewcommand{\frac}[2]{\dfrac{#1}{#2}}
-
-%\let\oldint\int
-%\renewcommand{\int}{\displaystyle\oldint}
 
 % Change header of first page.
 \thispagestyle{fancy}
@@ -79,6 +70,3 @@
 \newcommand{\vecw}{\mathbf{w}}
 \newcommand{\vecx}{\mathbf{x}}
 \newcommand{\veczero}{\mathbf{0}}
-
-
-%%%%%%%%%%%%%%%%

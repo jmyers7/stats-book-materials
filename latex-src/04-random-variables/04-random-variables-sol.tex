@@ -1,6 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
-\usepackage{caption}
+\usepackage{../header}
 
 \hdr{Mathematical Statistics}{Chapter 4: Random variables, \textit{etc}.}
 
@@ -9,9 +8,17 @@
 \bigskip
 
 \prob Suppose that we continue from lecture with our sample space $S$ representing the current population of the United States. Suppose also that to every individual $s\in S$ we assign the state $X(s)$ in which they currently reside. So, for example, I would write
-    \[X(\text{John}) = \text{New York}.\]
+
+	\[
+	X(\text{John}) = \text{New York}.
+	\]
+
 Does this function
-    \[X: S \to \{\text{Alabama}, \text{Alaska},\ldots,\text{Wyoming}\} \]
+
+	\[
+	X: S \to \{\text{Alabama}, \text{Alaska},\ldots,\text{Wyoming}\}
+	\]
+
 qualify as a random variable on $S$? If not, how could you make it fit the template of a random variable?
 
 \bigskip
@@ -36,7 +43,9 @@ qualify as a random variable on $S$? If not, how could you make it fit the templ
 \bigskip
 \prob Suppose that we flip a fair coin twice. As usual, we model the situation using a uniform probability space with sample space
 
-    \[S = \{ HH, HT, TH, TT\}.\]
+	\[
+	S = \{ HH, HT, TH, TT\}.
+	\]
 
 Describe some random variables on $S$.
 
@@ -64,7 +73,9 @@ Describe some random variables on $S$.
 
 \prob Suppose that we toss a pair of fair six-sided dice. As usual, we model the situation using a uniform probability space with sample space
 
-    \[S = \{(1,1),(1,2),\ldots,(5,6),(6,6)\}.\]
+	\[
+	S = \{(1,1),(1,2),\ldots,(5,6),(6,6)\}.
+	\]
 
 Describe some random variables on $S$.
 
@@ -97,9 +108,11 @@ Describe some random variables on $S$.
 \bigskip
 \prob Let
 
-    \[S = \{ (x,y) \in \bbr^2 : x^2+y^2 \leq 1\}\]
+	\[
+	S = \{ (x,y) \in \mathbb{R}^2 : x^2+y^2 \leq 1\}
+	\]
 
-be the solid unit disk in $\bbr^2$. Consider drawing a point at random from $S$. Supposing for the moment that there is a way to model such a situation with an appropriate probability space with sample space $S$ (we'll talk about this later!), describe some random variables on $S$.
+be the solid unit disk in $\mathbb{R}^2$. Consider drawing a point at random from $S$. Supposing for the moment that there is a way to model such a situation with an appropriate probability space with sample space $S$ (we'll talk about this later!), describe some random variables on $S$.
 
 
 \bigskip
@@ -132,23 +145,25 @@ be the solid unit disk in $\bbr^2$. Consider drawing a point at random from $S$.
 
 \medskip
 \begin{enumerate}
-    \item Describe an appropriate probability space that models the situation.
+\item Describe an appropriate probability space that models the situation.
     
-    \bigskip
-    \textcolor{red}{As usual, the sample space is
-        \[S = \{HH,HT,TH,TT\}\]
-    The probability measure is uniform, with the probability of any simple event occurring equal to $1/4$.}
-    \bigskip
+\bigskip
+\textcolor{red}{As usual, the sample space is
+    	\[
+	S = \{HH,HT,TH,TT\}
+	\]
+The probability measure is uniform, with the probability of any simple event occurring equal to $1/4$.}
+\bigskip
 
-    \item Let $X$ be the random variable which gives your winnings on a single play of the game. Describe the probability distribution of $X$.
+\item Let $X$ be the random variable which gives your winnings on a single play of the game. Describe the probability distribution of $X$.
     
-    \bigskip
-    \textcolor{red}{We have
-    \begin{align*}
-    P(X=1) &= 1/4, \\
-    P(X=2) &= 1/4, \\
-    P(X=-1) &= 1/2.
-    \end{align*}}
+\bigskip
+\textcolor{red}{We have
+	\begin{align*}
+	P(X=1) &= 1/4, \\
+	P(X=2) &= 1/4, \\
+	P(X=-1) &= 1/2.
+	\end{align*}}
 \end{enumerate}
 
 
@@ -178,37 +193,37 @@ be the solid unit disk in $\bbr^2$. Consider drawing a point at random from $S$.
 
 \medskip
 \begin{enumerate}
-    \item Describe an appropriate probability space that models the situation.
+\item Describe an appropriate probability space that models the situation.
     
-    \bigskip
-    \textcolor{red}{The sample space $S$ is all two-element combinations chosen from $\{1,2,3,4,5\}$. The probability measure is uniform, and since the cardinality of $S$ is $\binom{5}{2} = 10$, the probability of any simple event is $1/10$.}
-    \bigskip
+\bigskip
+\textcolor{red}{The sample space $S$ is all two-element combinations chosen from $\{1,2,3,4,5\}$. The probability measure is uniform, and since the cardinality of $S$ is $\binom{5}{2} = 10$, the probability of any simple event is $1/10$.}
+\bigskip
 
-    \item Let $X = $ the largest of the two numbers. Describe the probability distribution of $X$.
+\item Let $X = $ the largest of the two numbers. Describe the probability distribution of $X$.
     
-    \bigskip
-    \textcolor{red}{We have
-    \begin{align*}
-    P(X=2) &= 1/10, \\
-    P(X=3) &= 2/10, \\
-    P(X=4) &= 3/10, \\
-    P(X=5) &= 4/10.
-    \end{align*}}
-    \bigskip
+\bigskip
+\textcolor{red}{We have
+	\begin{align*}
+	P(X=2) &= 1/10, \\
+	P(X=3) &= 2/10, \\
+	P(X=4) &= 3/10, \\
+	P(X=5) &= 4/10.
+	\end{align*}}
+\bigskip
 
-    \item Let $Y = $ the sum of the two numbers. Describe the probability distribution of $Y$.
+\item Let $Y = $ the sum of the two numbers. Describe the probability distribution of $Y$.
     
-    \bigskip
-    \textcolor{red}{We have
-    \begin{align*}
-    P(Y=3) &= 1/10, \\
-    P(Y=4) &= 1/10, \\
-    P(Y=5) &= 2/10, \\
-    P(Y=6) &= 2/10, \\
-    P(Y=7) &= 2/10, \\
-    P(Y=8) &= 1/10, \\
-    P(Y=9) &= 1/10.
-    \end{align*}}
+\bigskip
+\textcolor{red}{We have
+	\begin{align*}
+	P(Y=3) &= 1/10, \\
+	P(Y=4) &= 1/10, \\
+	P(Y=5) &= 2/10, \\
+	P(Y=6) &= 2/10, \\
+	P(Y=7) &= 2/10, \\
+	P(Y=8) &= 1/10, \\
+	P(Y=9) &= 1/10.
+	\end{align*}}
 \end{enumerate}
 
 
@@ -228,33 +243,35 @@ be the solid unit disk in $\bbr^2$. Consider drawing a point at random from $S$.
 \bigskip
 \prob Let $S$ be the discrete probability space $S = \{1,2,3,4\}$ with probability function
 
-    \[
-    \begin{array}{c|c}
-    s & p(s) \\ \hline
-    1 & 1/3\\
-    2 & 1/3\\
-    3 & 1/6\\
-    4 & 1/6
-    \end{array}
-    \]
+	\[
+	\begin{array}{c|c}
+	s & p(s) \\ \hline
+	1 & 1/3\\
+	2 & 1/3\\
+	3 & 1/6\\
+	4 & 1/6
+	\end{array}
+	\]
 
-Define the random variable $X:S\to \bbr$ by
+Define the random variable $X:S\to \mathbb{R}$ by
 
-    \[X(s) = \begin{cases}
-    0 & : s = 1, 4, \\
-    1 & : s=2, \\
-    2 & : s=3.
-    \end{cases}\]
+	\[
+	X(s) = \begin{cases}
+	0 & : s = 1, 4, \\
+	1 & : s=2, \\
+	2 & : s=3.
+	\end{cases}
+	\]
 
 Describe the probability distribution of $X$.
 
 \bigskip
 \textcolor{red}{We have
-    \begin{align*}
-    P(X=0) &= 1/3 + 1/6 = 1/2, \\
-    P(X=1) &= 1/3, \\
-    P(X=2) &= 1/6.
-    \end{align*}}
+	\begin{align*}
+	P(X=0) &= 1/3 + 1/6 = 1/2, \\
+	P(X=1) &= 1/3, \\
+	P(X=2) &= 1/6.
+	\end{align*}}
 
 
 
@@ -286,32 +303,44 @@ Describe the probability distribution of $X$.
 \bigskip
 \prob A gas station operates two pumps, each of which can pump up to 10,000 gallons of gas in a month. The total amount of gas pumped at the station in a month is a continuous random variable $X$ (measured in 10,000 gallons) with a probability density function given by
 
-    \[f(x) = \begin{cases}
-        x & : 0 < x < 1, \\
-        2-x & : 1 \leq x < 2, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x) = \begin{cases}
+	x & : 0 < x < 1, \\
+	2-x & : 1 \leq x < 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Find the probability that the station will pump between 8000 and 12,000 gallons in a particular month.
+\item Find the probability that the station will pump between 8000 and 12,000 gallons in a particular month.
     
-    \bigskip
-    \textcolor{red}{We have
-        \[P(0.8 \leq X \leq 1.2) = \int_{0.8}^{1.2}f(x) \ \text{d} x = \int_{0.8}^1 x \ \text{d} x + \int_1^{1.2}(2-x) \ \text{d} x = 0.36. \]}
-    \bigskip
+\bigskip
+\textcolor{red}{We have
+    	\[
+	P(0.8 \leq X \leq 1.2) = \int_{0.8}^{1.2}f(x) \ \text{d} x = \int_{0.8}^1 x \ \text{d} x + \int_1^{1.2}(2-x) \ \text{d} x = 0.36.
+	\]}
+\bigskip
 
-    \item Given that the station pumped more than 10,000 gallons in a particular month, find the probability that the station pumped more than 15,000 gallons during a month.
+\item Given that the station pumped more than 10,000 gallons in a particular month, find the probability that the station pumped more than 15,000 gallons during a month.
     
-    \bigskip
-    \textcolor{red}{We are asked to compute the conditional probability
-        \[P(X\geq 1.5 \mid X\geq 1) = \frac{P(X\geq 1.5 \text{ and } X\geq 1)}{P(X\geq 1)} = \frac{P(X\geq 1.5)}{P(X\geq 1)}.\]
+\bigskip
+\textcolor{red}{We are asked to compute the conditional probability
+    	\[
+	P(X\geq 1.5 \mid X\geq 1) = \frac{P(X\geq 1.5 \text{ and } X\geq 1)}{P(X\geq 1)} = \frac{P(X\geq 1.5)}{P(X\geq 1)}.
+	\]
     But we have
-        \[P(X\geq 1) = \int_1^\infty f(x) \ \text{d}x = \int_1^2(2-x) \ \text{d} x = 1/2\]
+    	\[
+	P(X\geq 1) = \int_1^\infty f(x) \ \text{d}x = \int_1^2(2-x) \ \text{d} x = 1/2
+	\]
     and
-        \[P(X\geq 1.5) = \int_{1.5}^\infty f(x) \ \text{d} x = \int_{1.5}^2 (2-x) \ \text{d} x = 1/8.\]
+    	\[
+	P(X\geq 1.5) = \int_{1.5}^\infty f(x) \ \text{d} x = \int_{1.5}^2 (2-x) \ \text{d} x = 1/8.
+	\]
     Hence
-        \[P(X\geq 1.5 \mid x\geq 1) = 1/4.\]}
+    	\[
+	P(X\geq 1.5 \mid x\geq 1) = 1/4.
+	\]}
 \end{enumerate}
 
 
@@ -326,43 +355,53 @@ Describe the probability distribution of $X$.
 \prob The length of time to failure (in hundreds of hours) for a transistor is a random variable $X$ with
 distribution function given by
 
-    \[F(x) = \begin{cases}
+	\[
+	F(x) = \begin{cases}
         1 - e^{-x^2} & : x\geq 0, \\
         0 & : \text{otherwise}.
-    \end{cases}\]
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Compute the quantile $Q(0.3)$.
+\item Compute the quantile $Q(0.3)$.
     
-    \bigskip
-    \textcolor{red}{We compute the value $x = Q(0.3)$ by solving $F(x) = 0.3$ for $x$:
-        \[F(x) = 0.3 \quad \Rightarrow \quad 1 - e^{-x^2} = 0.3 \quad \Rightarrow \quad x = \sqrt{-\ln{0.7}} \approx 0.60.\]}
-    \bigskip
+\bigskip
+\textcolor{red}{We compute the value $x = Q(0.3)$ by solving $F(x) = 0.3$ for $x$:
+    	\[
+	F(x) = 0.3 \quad \Rightarrow \quad 1 - e^{-x^2} = 0.3 \quad \Rightarrow \quad x = \sqrt{-\ln{0.7}} \approx 0.60.
+	\]}
+\bigskip
 
-    \item Compute the density $f(x)$ of $X$.
+\item Compute the density $f(x)$ of $X$.
     
-    \bigskip
-    \textcolor{red}{We use the Fundamental Theorem of Calculus to compute:
-        \[f(x) = F'(x) = \begin{cases}
-            2xe^{-x^2} & : x>0, \\
-            0 & : x<0.
-        \end{cases}\]}
-    \bigskip
+\bigskip
+\textcolor{red}{We use the Fundamental Theorem of Calculus to compute:
+    	\[
+	f(x) = F'(x) = \begin{cases}
+	2xe^{-x^2} & : x>0, \\
+	0 & : x<0.
+	\end{cases}
+	\]}
+\bigskip
 
-    \item Find the probability that the transistor operates for at least 200 hours.
+\item Find the probability that the transistor operates for at least 200 hours.
     
-    \bigskip
-    \textcolor{red}{We compute:
-        \[P(X\geq 2) = 1 - P(X<2) = 1- F(2) \approx 0.02.\]}
-    \bigskip
+\bigskip
+\textcolor{red}{We compute:
+    	\[
+	P(X\geq 2) = 1 - P(X<2) = 1- F(2) \approx 0.02.
+	\]}
+\bigskip
 
-    \item Compute the conditional probability $P(X>1 \mid X\leq 2)$.
+\item Compute the conditional probability $P(X>1 \mid X\leq 2)$.
     
-    \bigskip
-    \textcolor{red}{We compute:
-        \[P(X>1 \mid X\leq 2) = \frac{P(X>1 \text{ and } X\leq 2)}{P(X\leq 2)} = \frac{F(2)-F(1)}{F(2)} \approx 0.36.  \]}
-    \bigskip
+\bigskip
+\textcolor{red}{We compute:
+    	\[
+	P(X>1 \mid X\leq 2) = \frac{P(X>1 \text{ and } X\leq 2)}{P(X\leq 2)} = \frac{F(2)-F(1)}{F(2)} \approx 0.36.
+	\]}
+\bigskip
 \end{enumerate}
 
 
@@ -388,7 +427,9 @@ distribution function given by
 
 \bigskip
 \textcolor{red}{We have:
-    \[E(Y) = 1\left( \frac{1}{4} \right) + 2\left( \frac{1}{4} \right) - 1 \left( \frac{1}{2} \right) = 0.25.\]}
+	\[
+	E(Y) = 1\left( \frac{1}{4} \right) + 2\left( \frac{1}{4} \right) - 1 \left( \frac{1}{2} \right) = 0.25.
+	\]}
 
 
 
@@ -417,30 +458,40 @@ distribution function given by
 \bigskip
 \prob Suppose $X$ is a discrete random variable distributed uniformly on its range
     
-\[\{1,2,\ldots,n\},\]
+	\[
+	\{1,2,\ldots,n\},
+	\]
 
 for some integer $n\geq 1$. Compute the mean value of $X$.
 
 \bigskip
 \textcolor{red}{Since $X$ is distributed uniformly, its probability function is $p(x) = 1/n$ for all $x$ in the range. Thus:
-    \[\mu_X = \sum_{x=1}^n x\cdot \frac{1}{n} = \frac{n(n+1)}{2} \cdot \frac{1}{n} = \frac{n+1}{2}.\]
+	\[
+	\mu_X = \sum_{x=1}^n x\cdot \frac{1}{n} = \frac{n(n+1)}{2} \cdot \frac{1}{n} = \frac{n+1}{2}.
+	\]
 On the other hand, if we think of $\mu_X$ as the ``center of mass'' of the probability distribution, then $\mu_X$ should be halfway between $1$ and $n$. But the midpoint between these two numbers is precisely their average:
-    \[\mu_X = \frac{n+1}{2}.\]}
+	\[
+	\mu_X = \frac{n+1}{2}.
+	\]}
 
 
 \bigskip
 \prob Let $X$ be the number of interviews that a student has prior to getting a job. Suppose that the probability function of $X$ is given by
 
-    \[p(x) = \begin{cases}
-    k/x^2 & : x=1,2,\ldots, \\
-    0 & : \text{otherwise,}
-    \end{cases}\]
+	\[
+	p(x) = \begin{cases}
+	k/x^2 & : x=1,2,\ldots, \\
+	0 & : \text{otherwise,}
+	\end{cases}
+	\]
 
 where $k$ is a constant such that $\sum_{x=1}^\infty k/x^2 = 1$. Compute the mean $\mu_X$ (if it exists).
 
 \bigskip
 \textcolor{red}{By definition, we have:
-    \[\mu_X = \sum_{x=1}^\infty x\cdot  \frac{k}{x^2} = k\cdot \sum_{x=1}^\infty \frac{1}{x}. \]
+	\[
+	\mu_X = \sum_{x=1}^\infty x\cdot  \frac{k}{x^2} = k\cdot \sum_{x=1}^\infty \frac{1}{x}.
+	\]
 However, the series on the right is the infamous harmonic series, which---as you well know from your training in calculus---diverges. Thus, $\mu_X$ does not exist.}
 
 
@@ -461,16 +512,20 @@ However, the series on the right is the infamous harmonic series, which---as you
 
 \bigskip
 \prob Let $X$ be a continuous random variable with density function
-    \[f(x) = \begin{cases}
-        (3/8)x^2 & : 0 \leq x \leq 2, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x) = \begin{cases}
+	(3/8)x^2 & : 0 \leq x \leq 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the mean value of $X$.
 
 \bigskip
 \textcolor{red}{We have
-    \[E(X) = \int_{-\infty}^\infty x \cdot f(x) \ \text{d}x = \int_0^2 (3/8)x^3 \ \text{d} x = 3/2.\]}
+	\[
+	E(X) = \int_{-\infty}^\infty x \cdot f(x) \ \text{d}x = \int_0^2 (3/8)x^3 \ \text{d} x = 3/2.
+	\]}
 
 
 
@@ -486,28 +541,36 @@ Compute the mean value of $X$.
 \bigskip
 \prob The proportion of time per day that all checkout counters in a supermarket are busy is a random variable $X$ with density function
 
-    \[f(x) = \begin{cases}
-        cx^2(1-x)^4 & : 0 \leq x \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x) = \begin{cases}
+	cx^2(1-x)^4 & : 0 \leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Find the value of $c$ that makes $f(x)$ a valid density function.
+\item Find the value of $c$ that makes $f(x)$ a valid density function.
     
-    \bigskip
-    \textcolor{red}{We must solve the equation
-        \[\int_{-\infty}^\infty f(x) \ \text{d} x  = 1\]
-    for $c$. But
-        \[\int_{-\infty}^\infty f(x) \ \text{d} x = \int_0^1 cx^2(1-x)^4 \ \text{d} x = \frac{c}{105},\]
-    and hence we must have $c=105$.}
-    \bigskip
+\bigskip
+\textcolor{red}{We must solve the equation
+    	\[
+	\int_{-\infty}^\infty f(x) \ \text{d} x  = 1
+	\]
+for $c$. But
+    	\[
+	\int_{-\infty}^\infty f(x) \ \text{d} x = \int_0^1 cx^2(1-x)^4 \ \text{d} x = \frac{c}{105},
+	\]
+and hence we must have $c=105$.}
+\bigskip
 
-    \item Compute the expected value $E(X)$.
+\item Compute the expected value $E(X)$.
     
-    \bigskip
-    \textcolor{red}{We compute:
-        \[E(X) = \int_{-\infty}^\infty x \ \cdot f(x) \ \text{d} x = 105 \int_0^1 x^3(1-x)^4 \ \text{d} x = 3/8.\]}
+\bigskip
+\textcolor{red}{We compute:
+    	\[
+	E(X) = \int_{-\infty}^\infty x \ \cdot f(x) \ \text{d} x = 105 \int_0^1 x^3(1-x)^4 \ \text{d} x = 3/8.
+	\]}
 \end{enumerate}
 
 
@@ -527,66 +590,66 @@ Compute the mean value of $X$.
 \bigskip
 \prob Consider the random variables $X$ and $Y$ defined in lecture via the table:
 
-    \[
-    \begin{array}{c|ccc}
-    s & X(s) & Y(s) & (X+Y)(s) \\ \hline
-    1 & -1 & 0 & -1 \\
-    2 & 1 & 2 & 3 \\
-    3 & 3 & -1 & 2 \\
-    4 & 0 & 3 & 3
-    \end{array}
-    \]
+	\[
+	\begin{array}{c|ccc}
+	s & X(s) & Y(s) & (X+Y)(s) \\ \hline
+	1 & -1 & 0 & -1 \\
+	2 & 1 & 2 & 3 \\
+	3 & 3 & -1 & 2 \\
+	4 & 0 & 3 & 3
+	\end{array}
+	\]
 
 Suppose that the probability distribution on $S$ is uniform.
 
 \medskip
 \begin{enumerate}
-    \item Compute the probability distributions of $X$, $Y$, and $X+Y$.
+\item Compute the probability distributions of $X$, $Y$, and $X+Y$.
 
-    \bigskip
-    \textcolor{red}{
-        For $X$, we have:
-        \begin{align*}
-        P(X=-1) &= 1/4, \\
-        P(X=0) &= 1/4, \\
-        P(X=1) &= 1/4, \\
-        P(X=3) &= 1/4.
+\bigskip
+\textcolor{red}{
+For $X$, we have:
+	\begin{align*}
+	P(X=-1) &= 1/4, \\
+	P(X=0) &= 1/4, \\
+	P(X=1) &= 1/4, \\
+	P(X=3) &= 1/4.
         \end{align*}
-        For $Y$, we have:
-        \begin{align*}
-        P(Y = -1) &= 1/4, \\
-        P(Y = 0) &= 1/4, \\
-        P(Y = 2) &= 1/4, \\
-        P(Y=3) &= 1/4.
-        \end{align*}
-        For $X+Y$, we have:
-        \begin{align*}
-        P(X+Y = -1) &= 1/4, \\
-        P(X+Y = 2) &= 1/4, \\
-        P(X+Y = 3) &= 1/2.
-        \end{align*}
-    In particular, notice that both $X$ and $Y$ are distributed uniformly on their ranges, but $X+Y$ is not!}
-    \bigskip
+For $Y$, we have:
+	\begin{align*}
+	P(Y = -1) &= 1/4, \\
+	P(Y = 0) &= 1/4, \\
+	P(Y = 2) &= 1/4, \\
+	P(Y=3) &= 1/4.
+	\end{align*}
+For $X+Y$, we have:
+	\begin{align*}
+	P(X+Y = -1) &= 1/4, \\
+	P(X+Y = 2) &= 1/4, \\
+	P(X+Y = 3) &= 1/2.
+	\end{align*}
+   In particular, notice that both $X$ and $Y$ are distributed uniformly on their ranges, but $X+Y$ is not!}
+\bigskip
 
-    \item Without me even telling you, I bet you can guess the definition of the pointwise product $XY$. List the outputs of $XY$, and compute its probability distribution.
+\item Without me even telling you, I bet you can guess the definition of the pointwise product $XY$. List the outputs of $XY$, and compute its probability distribution.
     
-    \bigskip
-    \textcolor{red}{The pointwise product is just the row-wise product:
-        \[
-        \begin{array}{c|ccc}
-        s & X(s) & Y(s) & (XY)(s) \\ \hline
-        1 & -1 & 0 & 0 \\
-        2 & 1 & 2 & 2 \\
-        3 & 3 & -1 & -3 \\
-        4 & 0 & 3 & 0
-        \end{array}
-        \]
-    Then:
-        \begin{align*}
-        P(XY = -3) &= 1/4, \\
-        P(XY = 0) &= 1/2, \\
-        P(XY = 2) &= 1/4.
-        \end{align*}}
+\bigskip
+\textcolor{red}{The pointwise product is just the row-wise product:
+    	\[
+	\begin{array}{c|ccc}
+	s & X(s) & Y(s) & (XY)(s) \\ \hline
+	1 & -1 & 0 & 0 \\
+	2 & 1 & 2 & 2 \\
+	3 & 3 & -1 & -3 \\
+	4 & 0 & 3 & 0
+	\end{array}
+	\]
+Then:
+	\begin{align*}
+	P(XY = -3) &= 1/4, \\
+	P(XY = 0) &= 1/2, \\
+	P(XY = 2) &= 1/4.
+	\end{align*}}
 \end{enumerate}
     
 
@@ -603,49 +666,55 @@ Suppose that the probability distribution on $S$ is uniform.
 \bigskip
 \prob Suppose that we have a random variable $X$ on the finite sample space $S = \{1,2,3,4,5\}$ with
 
-    \[\begin{array}{c|c}
-        s & X(s)  \\ \hline
-        1 & 0  \\
-        2 & \pi/2  \\
-        3 & \pi \\
-        4 & 3\pi/2 \\
-        5 & 2\pi
-    \end{array}\]
+	\[
+	\begin{array}{c|c}
+	s & X(s)  \\ \hline
+	1 & 0  \\
+	2 & \pi/2  \\
+	3 & \pi \\
+	4 & 3\pi/2 \\
+	5 & 2\pi
+	\end{array}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Compute the random variable $\sin{(X)}$.
+\item Compute the random variable $\sin{(X)}$.
     
-    \bigskip
-    \textcolor{red}{We have:
-        \[\begin{array}{c|cc}
-        s & X(s) & \sin(X)(s)  \\ \hline
-        1 & 0 & 0  \\
-        2 & \pi/2 & 1  \\
-        3 & \pi & 0 \\
-        4 & 3\pi/2 & -1 \\
-        5 & 2\pi & 0
-    \end{array}\]}
-    \bigskip
+\bigskip
+\textcolor{red}{We have:
+    	\[
+	\begin{array}{c|cc}
+	s & X(s) & \sin(X)(s)  \\ \hline
+	1 & 0 & 0  \\
+	2 & \pi/2 & 1  \\
+	3 & \pi & 0 \\
+	4 & 3\pi/2 & -1 \\
+	5 & 2\pi & 0
+	\end{array}
+	\]}
+\bigskip
 
-    \item Assume that the (discrete) probability distribution on $S$ has probability function $p(s)$ with
-        \[\begin{array}{c|c}
-            s & p(s)  \\ \hline
-            1 & 0  \\
-            2 & 1/8  \\
-            3 & 1/2 \\
-            4 & 1/4 \\
-            5 & 1/8
-        \end{array}\]
-    Compute the probability distribution of $\sin(X)$.
+\item Assume that the (discrete) probability distribution on $S$ has probability function $p(s)$ with
+    	\[
+	\begin{array}{c|c}
+	s & p(s)  \\ \hline
+	1 & 0  \\
+	2 & 1/8  \\
+	3 & 1/2 \\
+	4 & 1/4 \\
+	5 & 1/8
+	\end{array}
+	\]
+Compute the probability distribution of $\sin(X)$.
 
-    \bigskip
-    \textcolor{red}{We have:
-    \begin{align*}
-    P(\sin(X) = -1) &= 1/4, \\
-    P(\sin(X) = 0) &= 5/8, \\
-    P(\sin(X) = 1) &= 1/8. \\
-    \end{align*}}
+\bigskip
+\textcolor{red}{We have:
+	\begin{align*}
+	P(\sin(X) = -1) &= 1/4, \\
+	P(\sin(X) = 0) &= 5/8, \\
+	P(\sin(X) = 1) &= 1/8. \\
+	\end{align*}}
 \end{enumerate}
 
 
@@ -668,7 +737,9 @@ Suppose that the probability distribution on $S$ is uniform.
 
 \bigskip
 \textcolor{red}{By the LotUS with $g(x) = \sin(x)$, we have
-    \[E(\sin(X)) = 1 \cdot( 1/8) -1 \cdot (1/4) = -1/8.\]}
+	\[
+	E(\sin(X)) = 1 \cdot( 1/8) -1 \cdot (1/4) = -1/8.
+	\]}
 
 
 
@@ -682,16 +753,20 @@ Suppose that the probability distribution on $S$ is uniform.
 
 \bigskip
 \prob Let $X$ be a continuous random variable with density function
-\[f(x) = \begin{cases}
-    (3/8)x^2 & : 0 \leq x \leq 2, \\
-    0 & : \text{otherwise}.
-\end{cases}\]
+	\[
+	f(x) = \begin{cases}
+	(3/8)x^2 & : 0 \leq x \leq 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the mean value of $2X^2+1$.
 
 \bigskip
 \textcolor{red}{By the LotUS with $g(x) = 2x^2+1$, we have
-    \[E(2X^2+1) = \int_{-\infty}^\infty(2x^2+1)f(x) \ \text{d} x = \frac{3}{8} \int_0^2 (2x^2+1)x^2 \ \text{d} x = 5.8.\]}
+	\[
+	E(2X^2+1) = \int_{-\infty}^\infty(2x^2+1)f(x) \ \text{d} x = \frac{3}{8} \int_0^2 (2x^2+1)x^2 \ \text{d} x = 5.8.
+	\]}
 
 
 
@@ -708,51 +783,67 @@ Compute the mean value of $2X^2+1$.
 \bigskip
 \prob Let $X$ be a random variable on the same sample space $S = \{1,2,3,4\}$ with the following values:
 
-\[\begin{array}{c|c}
-    s & X(s)  \\ \hline
-    1 & 0  \\
-    2 & 1  \\
-    3 & 0 \\
-    4 & 3
-\end{array}\]
+	\[
+	\begin{array}{c|c}
+	s & X(s)  \\ \hline
+	1 & 0  \\
+	2 & 1  \\
+	3 & 0 \\
+	4 & 3
+	\end{array}
+	\]
 
 Supposing that the probability distribution on $S$ has probability function given by
 
-\[\begin{array}{c|c}
-    s & p(s)  \\ \hline
-    1 & 1/3  \\
-    2 & 1/9  \\
-    3 & 1/3 \\
-    4 & 2/9
-\end{array}\]
+	\[
+	\begin{array}{c|c}
+	s & p(s)  \\ \hline
+	1 & 1/3  \\
+	2 & 1/9  \\
+	3 & 1/3 \\
+	4 & 2/9
+	\end{array}
+	\]
 
 compute the expectation of the random variable $X^2 + X + 2$.
 
 \bigskip
 \textcolor{red}{We will do this in two ways: First, I want to use ``weak'' linearity of expectations to compute the desired expectation like this:
-    \[E(X^2 + X + 2) = E(X^2) + E(X) + E(2).\]
+	\[
+	E(X^2 + X + 2) = E(X^2) + E(X) + E(2).
+	\]
 Of course, we know that $E(2)=2$ since $2$ is a \textit{constant} random variable. As for the other two expectations $E(X)$ and $E(X^2)$, we first compute:
-    \[\begin{array}{c|cc}
-        s & X(s) & X^2(s)  \\ \hline
-        1 & 0 & 0  \\
-        2 & 1 & 1  \\
-        3 & 0 & 0 \\
-        4 & 3 & 9
-    \end{array}\]
+	\[
+	\begin{array}{c|cc}
+	s & X(s) & X^2(s)  \\ \hline
+	1 & 0 & 0  \\
+	2 & 1 & 1  \\
+	3 & 0 & 0 \\
+	4 & 3 & 9
+	\end{array}
+	\]
 Then we have
-    \[E(X) = 1\cdot (1/9) + 3\cdot(2/9) \quad \text{and} \quad E(X^2) = 1 \cdot (1/9) + 9 \cdot (2/9),\]
+	\[
+	E(X) = 1\cdot (1/9) + 3\cdot(2/9) \quad \text{and} \quad E(X^2) = 1 \cdot (1/9) + 9 \cdot (2/9),
+	\]
 so
-    \[E(X^2 + X +2) = \frac{44}{9} \approx 4.89.\]
+	\[
+	E(X^2 + X +2) = \frac{44}{9} \approx 4.89.
+	\]
 However, we could have also computed the expectation by using the LotUS with the function $g(x) = x^2 + x + 2$. In this case, we would compute:
-    \[\begin{array}{c|cc}
-        s & X(s) & (X^2 + X +2)(s)  \\ \hline
-        1 & 0 & 2  \\
-        2 & 1 & 4  \\
-        3 & 0 & 2 \\
-        4 & 3 & 14
-    \end{array}\]
+	\[
+	\begin{array}{c|cc}
+	s & X(s) & (X^2 + X +2)(s)  \\ \hline
+	1 & 0 & 2  \\
+	2 & 1 & 4  \\
+	3 & 0 & 2 \\
+	4 & 3 & 14
+	\end{array}
+	\]
 Then, the LotUS gives us
-    \[E(X^2 + X + 2) = 2\cdot (1/3 + 1/3) + 4\cdot (1/9) + 14\cdot (2/9) = \frac{44}{9} \approx 4.89,\]
+	\[
+	E(X^2 + X + 2) = 2\cdot (1/3 + 1/3) + 4\cdot (1/9) + 14\cdot (2/9) = \frac{44}{9} \approx 4.89,
+	\]
 which matches our first answer.}
 
 
@@ -772,23 +863,31 @@ which matches our first answer.}
 \bigskip
 \prob Suppose that $X$ is a discrete random variable with probability distribution
 
-    \[\begin{array}{c|c}
-        y & p(x) \\ \hline
-        0 & 1/8   \\
-        1 & 1/4   \\
-        2 & 3/8  \\
-        3 & 1/4 
-    \end{array}\]
+	\[
+	\begin{array}{c|c}
+	y & p(x) \\ \hline
+	0 & 1/8   \\
+	1 & 1/4   \\
+	2 & 3/8  \\
+	3 & 1/4 
+	\end{array}
+	\]
 
 Compute the expectation, variance, and standard deviation of $X$.
 
 \bigskip
 \textcolor{red}{We compute:
-    \[\mu = 0\cdot(1/8) + 1 \cdot(1/4) + 2\cdot(3/8) + 3\cdot(1/4) = 7/4 = 1.75,\]
+	\[
+	\mu = 0\cdot(1/8) + 1 \cdot(1/4) + 2\cdot(3/8) + 3\cdot(1/4) = 7/4 = 1.75,
+	\]
 and
-    \[\sigma^2 = (0-1.75)^2(1/8) + (1-1.75)^2(1/4) + (2-1.75)^2(3/8) + (3-1.75)^2(1/4) = 15/16 = 0.9375,\]
+	\[
+	\sigma^2 = (0-1.75)^2(1/8) + (1-1.75)^2(1/4) + (2-1.75)^2(3/8) + (3-1.75)^2(1/4) = 15/16 = 0.9375,
+	\]
 and
-    \[\sigma = \sqrt{15/16} \approx 0.97.\]}
+	\[
+	\sigma = \sqrt{15/16} \approx 0.97.
+	\]}
 
 
 
@@ -813,11 +912,17 @@ and
 
 \bigskip
 \textcolor{red}{The random variable $X$ is distributed uniformly on its range with $p(x) = 1/6$ for all $x=1,2,3,4,5,6$. Then
-    \[E(X) = \frac{1}{6} \cdot (1+2+3+4+5+6) = 3.5,\]
+	\[
+	E(X) = \frac{1}{6} \cdot (1+2+3+4+5+6) = 3.5,
+	\]
 and
-    \[V(X) = \frac{1}{6}\cdot \left[ (1-3.5)^2 + (2-3.5)^2 + (3-3.5)^2 + (4-3.5)^2 + (5-3.5)^2 + (6-3.5)^2\right] \approx 2.92, \]
+	\[
+	V(X) = \frac{1}{6}\cdot \left[ (1-3.5)^2 + (2-3.5)^2 + (3-3.5)^2 + (4-3.5)^2 + (5-3.5)^2 + (6-3.5)^2\right] \approx 2.92,
+	\]
 and
-    \[\sigma \approx \sqrt{2.92} \approx 1.71.\]}
+	\[
+	\sigma \approx \sqrt{2.92} \approx 1.71.
+	\]}
 
 
 
@@ -839,20 +944,29 @@ and
 
 \bigskip
 \prob Suppose that $X$ is a continuous random variable with density function
-    \[f(x) = \begin{cases}
-        (3/2)x^2 + x & : 0\leq x \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	
+	\[
+	f(x) = \begin{cases}
+	(3/2)x^2 + x & : 0\leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the expectation, variance, and standard deviation of $X$.
 
 \bigskip
 \textcolor{red}{We compute:
-    \[\mu = \int_{-\infty}^\infty x\cdot f(x) \ \text{d} x = \int_0^1 x\big((3/2)x^2+x \big) \ \text{d} x = 17/24 \approx 0.71, \]
+	\[
+	\mu = \int_{-\infty}^\infty x\cdot f(x) \ \text{d} x = \int_0^1 x\big((3/2)x^2+x \big) \ \text{d} x = 17/24 \approx 0.71,
+	\]
 and
-    \[V(X) = \int_{-\infty}^\infty (x-\mu)^2f(x) \ \text{d} x = \int_0^1 (x-17/24)^2 \big( (3/2)x^2+x\big) \ \text{d}x \approx 0.05, \]
+	\[
+	V(X) = \int_{-\infty}^\infty (x-\mu)^2f(x) \ \text{d} x = \int_0^1 (x-17/24)^2 \big( (3/2)x^2+x\big) \ \text{d}x \approx 0.05,
+	\]
 and
-    \[\sigma \approx \sqrt{0.05} \approx 0.22.\]}
+	\[
+	\sigma \approx \sqrt{0.05} \approx 0.22.
+	\]}
 
 
 
@@ -869,22 +983,27 @@ and
 \prob
 
 \begin{enumerate}
-    \item For a certain random variable $X$ it is known that $E(X)=2$ and $V(X) = 3$. What is $E(X^2)$?
+\item For a certain random variable $X$ it is known that $E(X)=2$ and $V(X) = 3$. What is $E(X^2)$?
     
-    \bigskip
-    \textcolor{red}{From the shortcut formula for variance, we get:
-        \[E(X^2) = V(X) + E(X)^2 = 3 + 2^2 = 7.\]}
-    \bigskip
+\bigskip
+\textcolor{red}{From the shortcut formula for variance, we get:
+    	\[
+	E(X^2) = V(X) + E(X)^2 = 3 + 2^2 = 7.
+	\]}
+\bigskip
 
 
-    \item Let $X$ be a random variable with $E(X)=2$ and $V(X)=4$. Compute the expectation and variance of $3-2X$.
+\item Let $X$ be a random variable with $E(X)=2$ and $V(X)=4$. Compute the expectation and variance of $3-2X$.
     
-    \bigskip
-    \textcolor{red}{Using ``weak'' linearity of expectations, we get
-        \[E(3-2X) = E(3) -2 E(X) = 3 - 2\cdot 2 = -1.\]
+\bigskip
+\textcolor{red}{Using ``weak'' linearity of expectations, we get
+    	\[
+	E(3-2X) = E(3) -2 E(X) = 3 - 2\cdot 2 = -1.
+	\]
     For the variance, notice that $3-2X$ is an affine transformation of $X$. Then:
-        \[V(3-2X) = (-2)^2 V(X) = 4\cdot 4 = 16.\]}
-    
+    	\[
+	V(3-2X) = (-2)^2 V(X) = 4\cdot 4 = 16.
+	\]}
 \end{enumerate}
 
 
@@ -906,18 +1025,26 @@ and
 
 \bigskip
 \textcolor{red}{Let $X$ be the number of bottles that have serious flaws. The probability mass function of $X$ is
-    \[\begin{array}{c|c}
-        y & p(x) \\ \hline
-        0 & (0.9)^2 = 0.81   \\
-        1 & 2(0.1)(0.9) = 0.18   \\
-        2 & (0.1)^2 = 0.01
-    \end{array}\]
+	\[
+	\begin{array}{c|c}
+	y & p(x) \\ \hline
+	0 & (0.9)^2 = 0.81   \\
+	1 & 2(0.1)(0.9) = 0.18   \\
+	2 & (0.1)^2 = 0.01
+	\end{array}
+	\]
 Given this, we compute
-    \[\mu_X = 0\cdot(0.81) + 1\cdot(0.18) + 2\cdot(0.01) = 0.2,\]
+	\[
+	\mu_X = 0\cdot(0.81) + 1\cdot(0.18) + 2\cdot(0.01) = 0.2,
+	\]
 and
-    \[\sigma^2_X = E(X)^2 - \mu^2_X = 0^2 \cdot(0.81)+ 1^2\cdot (0.18) + 2^2 \cdot(0.01) - (0.2)^2 = 0.18, \]
+	\[
+	\sigma^2_X = E(X)^2 - \mu^2_X = 0^2 \cdot(0.81)+ 1^2\cdot (0.18) + 2^2 \cdot(0.01) - (0.2)^2 = 0.18,
+	\]
 and
-    \[\sigma_X = \sqrt{0.18} \approx 0.42.\]}
+	\[
+	\sigma_X = \sqrt{0.18} \approx 0.42.
+	\]}
 \bigskip
 
 
