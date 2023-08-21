@@ -1,4 +1,4 @@
-These are the worksheets and Jupyter notebooks (so far) for my online textbook <a href="https://mml.johnmyersmath.com/stats-book/intro.html">"A Course in Mathematical Statistics with Python."</a>
+These are the worksheets and Jupyter notebooks (so far) for my online textbook <a href="https://mml.johnmyersmath.com/stats-book/intro.html">"A Course in Mathematical Statistics with Python"</a>.
 
 # Worksheets
 
