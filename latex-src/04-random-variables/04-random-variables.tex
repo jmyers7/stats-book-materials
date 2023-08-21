@@ -1,0 +1,720 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
+\usepackage{caption}
+
+\hdr{Mathematical Statistics}{Chapter 4: Random variables, \textit{etc}.}
+
+\begin{document}
+
+\bigskip
+
+\prob Suppose that we continue from lecture with our sample space $S$ representing the current population of the United States. Suppose also that to every individual $s\in S$ we assign the state $X(s)$ in which they currently reside. So, for example, I would write
+    \[X(\text{John}) = \text{New York}.\]
+Does this function
+    \[X: S \to \{\text{Alabama}, \text{Alaska},\ldots,\text{Wyoming}\} \]
+qualify as a random variable on $S$? If not, how could you make it fit the template of a random variable?\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Suppose that we flip a fair coin twice. As usual, we model the situation using a uniform probability space with sample space
+
+    \[S = \{ HH, HT, TH, TT\}.\]
+
+Describe some random variables on $S$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+
+\prob Suppose that we toss a pair of fair six-sided dice. As usual, we model the situation using a uniform probability space with sample space
+
+    \[S = \{(1,1),(1,2),\ldots,(5,6),(6,6)\}.\]
+
+Describe some random variables on $S$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Let
+
+    \[S = \{ (x,y) \in \bbr^2 : x^2+y^2 \leq 1\}\]
+
+be the solid unit disk in $\bbr^2$. Consider drawing a point at random from $S$. Supposing for the moment that there is a way to model such a situation with an appropriate probability space with sample space $S$ (we'll talk about this later!), describe some random variables on $S$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob You and a friend play a game where you each toss a fair coin. If both coins land tails, you win $\$1$; if they both land heads, you win $\$2$; if the coins do not match (one lands a head, the other a tail), you lose $\$1$ (win $-\$1$).
+
+\medskip
+\begin{enumerate}
+    \item Describe an appropriate probability space that models the situation.\vfill
+    
+    
+
+    \item Let $X$ be the random variable which gives your winnings on a single play of the game. Describe the probability distribution of $X$.\vfill
+    
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Five balls, numbered $1$, $2$, $3$, $4$, and $5$, are placed in an urn. Two balls are randomly selected from the five, and their numbers noted. (The order of the selected balls does not matter.)
+
+\medskip
+\begin{enumerate}
+    \item Describe an appropriate probability space that models the situation.\vfill
+    
+    
+
+    \item Let $X = $ the largest of the two numbers. Describe the probability distribution of $X$.\vfill
+    
+    
+
+    \item Let $Y = $ the sum of the two numbers. Describe the probability distribution of $Y$.\vfill
+    
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Let $S$ be the discrete probability space $S = \{1,2,3,4\}$ with probability function
+
+    \[
+    \begin{array}{c|c}
+    s & p(s) \\ \hline
+    1 & 1/3\\
+    2 & 1/3\\
+    3 & 1/6\\
+    4 & 1/6
+    \end{array}
+    \]
+
+Define the random variable $X:S\to \bbr$ by
+
+    \[X(s) = \begin{cases}
+    0 & : s = 1, 4, \\
+    1 & : s=2, \\
+    2 & : s=3.
+    \end{cases}\]
+
+Describe the probability distribution of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Which of the random variables in problems 5-7 are discrete? Which are continuous?\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob A gas station operates two pumps, each of which can pump up to 10,000 gallons of gas in a month. The total amount of gas pumped at the station in a month is a continuous random variable $X$ (measured in 10,000 gallons) with a probability density function given by
+
+    \[f(x) = \begin{cases}
+        x & : 0 < x < 1, \\
+        2-x & : 1 \leq x < 2, \\
+        0 & : \text{otherwise}.
+    \end{cases}\]
+
+\medskip
+\begin{enumerate}
+    \item Find the probability that the station will pump between 8000 and 12,000 gallons in a particular month.\vfill
+    
+    
+
+    \item Given that the station pumped more than 10,000 gallons in a particular month, find the probability that the station pumped more than 15,000 gallons during a month.\vfill
+    
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+\newpage
+\prob The length of time to failure (in hundreds of hours) for a transistor is a random variable $X$ with
+distribution function given by
+
+    \[F(x) = \begin{cases}
+        1 - e^{-x^2} & : x\geq 0, \\
+        0 & : \text{otherwise}.
+    \end{cases}\]
+
+\medskip
+\begin{enumerate}
+    \item Compute the quantile $Q(0.3)$.\vfill
+    
+    
+
+    \item Compute the density $f(x)$ of $X$.\vfill
+    
+    
+
+    \item Find the probability that the transistor operates for at least 200 hours.\vfill
+    
+    
+
+    \item Compute the conditional probability $P(X>1 \mid X\leq 2)$.\vfill
+    
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Compute the expected value $E(X)$ of the random variable $X$ in problem 5.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Suppose $X$ is a discrete random variable distributed uniformly on its range
+    
+\[\{1,2,\ldots,n\},\]
+
+for some integer $n\geq 1$. Compute the mean value of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Let $X$ be the number of interviews that a student has prior to getting a job. Suppose that the probability function of $X$ is given by
+
+    \[p(x) = \begin{cases}
+    k/x^2 & : x=1,2,\ldots, \\
+    0 & : \text{otherwise,}
+    \end{cases}\]
+
+where $k$ is a constant such that $\sum_{x=1}^\infty k/x^2 = 1$. Compute the mean $\mu_X$ (if it exists).\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Let $X$ be a continuous random variable with density function
+    \[f(x) = \begin{cases}
+        (3/8)x^2 & : 0 \leq x \leq 2, \\
+        0 & : \text{otherwise}.
+    \end{cases}\]
+
+Compute the mean value of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob The proportion of time per day that all checkout counters in a supermarket are busy is a random variable $X$ with density function
+
+    \[f(x) = \begin{cases}
+        cx^2(1-x)^4 & : 0 \leq x \leq 1, \\
+        0 & : \text{otherwise}.
+    \end{cases}\]
+
+\medskip
+\begin{enumerate}
+    \item Find the value of $c$ that makes $f(x)$ a valid density function.\vfill
+    
+    
+
+    \item Compute the expected value $E(X)$.\vfill
+    
+
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Consider the random variables $X$ and $Y$ defined in lecture via the table:
+
+    \[
+    \begin{array}{c|ccc}
+    s & X(s) & Y(s) & (X+Y)(s) \\ \hline
+    1 & -1 & 0 & -1 \\
+    2 & 1 & 2 & 3 \\
+    3 & 3 & -1 & 2 \\
+    4 & 0 & 3 & 3
+    \end{array}
+    \]
+
+Suppose that the probability distribution on $S$ is uniform.
+
+\medskip
+\begin{enumerate}
+    \item Compute the probability distributions of $X$, $Y$, and $X+Y$.\vfill
+
+    
+
+    \item Without me even telling you, I bet you can guess the definition of the pointwise product $XY$. List the outputs of $XY$, and compute its probability distribution.\vfill
+    
+    
+\end{enumerate}
+    
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Suppose that we have a random variable $X$ on the finite sample space $S = \{1,2,3,4,5\}$ with
+
+    \[\begin{array}{c|c}
+        s & X(s)  \\ \hline
+        1 & 0  \\
+        2 & \pi/2  \\
+        3 & \pi \\
+        4 & 3\pi/2 \\
+        5 & 2\pi
+    \end{array}\]
+
+\medskip
+\begin{enumerate}
+    \item Compute the random variable $\sin{(X)}$.\vfill
+    
+    
+
+    \item Assume that the (discrete) probability distribution on $S$ has probability function $p(s)$ with
+        \[\begin{array}{c|c}
+            s & p(s)  \\ \hline
+            1 & 0  \\
+            2 & 1/8  \\
+            3 & 1/2 \\
+            4 & 1/4 \\
+            5 & 1/8
+        \end{array}\]
+    Compute the probability distribution of $\sin(X)$.\vfill
+
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Compute the expectation of the random variable $\sin(X)$ in the previous problem.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Let $X$ be a continuous random variable with density function
+\[f(x) = \begin{cases}
+    (3/8)x^2 & : 0 \leq x \leq 2, \\
+    0 & : \text{otherwise}.
+\end{cases}\]
+
+Compute the mean value of $2X^2+1$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Let $X$ be a random variable on the same sample space $S = \{1,2,3,4\}$ with the following values:
+
+\[\begin{array}{c|c}
+    s & X(s)  \\ \hline
+    1 & 0  \\
+    2 & 1  \\
+    3 & 0 \\
+    4 & 3
+\end{array}\]
+
+Supposing that the probability distribution on $S$ has probability function given by
+
+\[\begin{array}{c|c}
+    s & p(s)  \\ \hline
+    1 & 1/3  \\
+    2 & 1/9  \\
+    3 & 1/3 \\
+    4 & 2/9
+\end{array}\]
+
+compute the expectation of the random variable $X^2 + X + 2$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob Suppose that $X$ is a discrete random variable with probability distribution
+
+    \[\begin{array}{c|c}
+        y & p(x) \\ \hline
+        0 & 1/8   \\
+        1 & 1/4   \\
+        2 & 3/8  \\
+        3 & 1/4 
+    \end{array}\]
+
+Compute the expectation, variance, and standard deviation of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob A single fair six-sided die is tossed once and let $X$ be the number facing up. Find the expected value, variance, and standard deviation of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Suppose that $X$ is a continuous random variable with density function
+    \[f(x) = \begin{cases}
+        (3/2)x^2 + x & : 0\leq x \leq 1, \\
+        0 & : \text{otherwise}.
+    \end{cases}\]
+
+Compute the expectation, variance, and standard deviation of $X$.\vfill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\prob
+
+\begin{enumerate}
+    \item For a certain random variable $X$ it is known that $E(X)=2$ and $V(X) = 3$. What is $E(X^2)$?\vfill
+    
+   
+
+
+    \item Let $X$ be a random variable with $E(X)=2$ and $V(X)=4$. Compute the expectation and variance of $3-2X$.\vfill
+    
+
+    
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Approximately $10\%$ of the glass bottles coming off a production line have serious flaws in the glass. If two bottles are randomly selected, find the mean, variance, and standard deviation of the number of bottles that have serious flaws.\vfill
+
+
+
+
+\end{document}
