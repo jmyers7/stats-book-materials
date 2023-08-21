@@ -1,5 +1,4 @@
 .DS_store
-/latex-src/*.pdf
 *.aux
 *.log
 *.gz
