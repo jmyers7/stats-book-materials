@@ -19,4 +19,5 @@ These are the worksheets and Jupyter notebooks (so far) for my online textbook <
 # Jupyter notebooks
 
 1. [Python Libraries: NumPy, Pandas and Matplotlib](assignment-01.ipynb). Covers prerequisite Python knowledge.
+   
 2. [Random Variables in SciPy](assignment-02.ipynb). Covers [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html).
