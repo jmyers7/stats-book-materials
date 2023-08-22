@@ -1,6 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
-\usepackage{caption}
+\usepackage{../header, amssymb}
 
 \hdr{Mathematical Statistics}{Chapter 7: Random vectors, \textit{etc}.}
 
@@ -23,7 +22,6 @@
 
 
 
-    \bigskip
 \prob Let $(X,Y)$ be discrete with probability mass function $p(x,y)$ given in the following table:
 
 
@@ -37,17 +35,9 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 
 \medskip
 \begin{enumerate}
-    \item Compute $P(X\leq 2, Y\leq 2)$.\vfill
-    
-    
-
-    \item Compute $P(X=Y)$.\vfill
-    
-    
-
-    \item Compute $P(X>Y)$.\vfill
-    
-
+\item Compute $P(X\leq 2, Y\leq 2)$.\vfill
+\item Compute $P(X=Y)$.\vfill
+\item Compute $P(X>Y)$.\vfill
 \end{enumerate}
 
 
@@ -68,20 +58,17 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 \newpage
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-    \[f(x,y) = \begin{cases}
-        cx^2 y & : x^2 \leq y \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	cx^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Determine the value of $c$ that makes $f$ a valid density.\vfill
-    
-    
-
-    \item Compute $P(X\geq Y)$.\vfill
-    
-
+\item Determine the value of $c$ that makes $f$ a valid density.\vfill
+\item Compute $P(X\geq Y)$.\vfill
 \end{enumerate}
 
 
@@ -91,18 +78,13 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 
 
 
-\bigskip
+
 \prob Suppose that the continuous random vector $(X,Y)$ is uniformly distributed over the triangle in $\mathbb{R}^2$ with vertices $(-1,0)$, $(1,0)$, and $(0,1)$.
 
 \medskip
 \begin{enumerate}
-    \item Compute the density function of $(X,Y)$.\vfill
-    
-    
-
-    \item Compute $P(X \leq 3/4, Y \leq 3/4)$.\vfill
-    
-    
+\item Compute the density function of $(X,Y)$.\vfill
+\item Compute $P(X \leq 3/4, Y \leq 3/4)$.\vfill
 \end{enumerate}
 
 
@@ -124,10 +106,12 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 \bigskip
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-    \[f(x,y) = \begin{cases}
-        30xy^2 & : x-1 \leq y \leq 1-x, \ 0 \leq x \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	30xy^2 & : x-1 \leq y \leq 1-x, \ 0 \leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute $F(1/2,1/2)$.\vfill
 
@@ -149,13 +133,15 @@ Compute $F(1/2,1/2)$.\vfill
 \prob Compute the marginal probability mass function distribution $p_X(x)$ of the discrete random vector $(X,Y)$ with probability mass function
 
 
-\[\begin{tabular}{c|c|c|c|c|c}
-$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
-0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
-1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
-2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
-3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
-\end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c|c|c|c}
+	$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
+	0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
+	1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
+	2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
+	3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
+	\end{tabular}
+	\]
 
 \medskip
 Verify that your computations are correct by making sure all marginal probabilities sum to $1$. How would you compute the other marginal mass function $p_Y(y)$?\vfill
@@ -175,10 +161,12 @@ Verify that your computations are correct by making sure all marginal probabilit
 \bigskip
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-\[f(x,y) = \begin{cases}
-    \frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
-    0 & : \text{otherwise}.
-\end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	\frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the marginal density functions $f_X(x)$ and $f_Y(y)$.\vfill
 
@@ -206,12 +194,14 @@ Compute the marginal density functions $f_X(x)$ and $f_Y(y)$.\vfill
 \bigskip
 \prob Suppose the joint PMF of two discrete random variables $X$ and $Y$ is given by
 
-\[\begin{tabular}{c|c|c|c|c}
-    $x \diagdown y$ & 1 & 2 & 3 & 4 \\ \hline 
-    1 & 0.1 & 0 & 0.1 & 0\\ \hline
-    2 & 0.3 & 0 & 0.1 & 0.2 \\ \hline
-    3 & 0 & 0.2 & 0 & 0
-    \end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c|c|c}
+	$x \diagdown y$ & 1 & 2 & 3 & 4 \\ \hline 
+	1 & 0.1 & 0 & 0.1 & 0\\ \hline
+	2 & 0.3 & 0 & 0.1 & 0.2 \\ \hline
+	3 & 0 & 0.2 & 0 & 0
+	\end{tabular}
+	\]
 
 Determine the conditional mass function $p_{X|Y}(x|1)$.\vfill
 
@@ -233,10 +223,12 @@ Determine the conditional mass function $p_{X|Y}(x|1)$.\vfill
 \newpage
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-\[f(x,y) = \begin{cases}
-    \frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
-    0 & : \text{otherwise}.
-\end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	\frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the conditional density function $f_{Y|X}(y|x)$.\vfill
 
@@ -256,10 +248,12 @@ Compute the conditional density function $f_{Y|X}(y|x)$.\vfill
 \bigskip
 \prob A soft-drink machine has a random amount $Y$ in supply at the beginning of a given day and dispenses a random amount $X$ during the day (with measurements in gallons). It is not resupplied during the day, hence $X\leq Y$. It has been observed that $X$ and $Y$ have joint density given by
 
-    \[f(x,y) = \begin{cases}
-        1/2, & : 0 \leq x \leq y \leq 2, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	1/2, & : 0 \leq x \leq y \leq 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Find the conditional density $f(x|y)$ and evaluate the probability that less than $1/2$ gallon will be sold, given that the machine contains $1.5$ gallons at the start of the day.\vfill
 
@@ -279,7 +273,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \newpage
 \prob Suppose that a person’s score $X$ on a mathematics aptitude test is a number between 0 and 1, and that their score $Y$ on a music aptitude test is also a number between 0 and 1. Suppose further that in the population of all college students in the United States, the scores $X$ and $Y$ are distributed according to the following joint PDF
 
-	\[f(x,y) = \begin{cases}
+	\[
+	f(x,y) = \begin{cases}
 	\frac{2}{5} (2x+3y) & : 0\leq x,y \leq 1, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -288,16 +283,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \medskip
 \begin{enumerate}
 \item What proportion of college students obtain a score greater than 0.8 on the mathematics test?\vfill
-
 \item If a student’s score on the music test is 0.3, what is the probability that their score on the mathematics test will be greater than 0.8?\vfill
-
-
-
 \item If a student’s score on the mathematics test is 0.3, what is the probability that their score on the music test will be greater than 0.8?\vfill
-
-
-
-
 \end{enumerate}
 
 
@@ -331,7 +318,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \newpage
 \prob Suppose that three random vectors $X$, $Y$, and $Z$ are jointly continuous with density function
 
-	\[f(x,y,z) = \begin{cases}
+	\[
+	f(x,y,z) = \begin{cases}
 	c(x+2y+3z) & : 0\leq x, y, z \leq 1, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -340,16 +328,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \medskip
 \begin{enumerate}
 \item Determine the value of $c$ that makes $f(x,y,z)$ a valid density function.\vfill
-
-
-
 \item Compute the marginal density $f_{XY}(x,y)$.\vfill
-
-
-
 \item Compute the probability $P\left( Z < 1/2 \mid X = 1/4,  Y = 3/4 \right)$.\vfill
-
-
 \end{enumerate}
 
 
@@ -363,7 +343,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \bigskip
 \prob Suppose that $X$, $Y$, and $Z$ have joint ``mixed density'' function
 
-	\[f(x,y,z) = \begin{cases}
+	\[
+	f(x,y,z) = \begin{cases}
 	c x^{1+y+z} ( 1-x)^{3-y-z} & : 0 < x< 1, \ y,z\in \{0,1\}, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -372,18 +353,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \medskip
 \begin{enumerate}
 \item Determine the value of $c$.\vfill
-
-
-
 \item Compute the marginal ``density'' $f_{XY}(x,y)$.\vfill
-
-
-
-
 \item Compute the conditional ``density'' $f_{Z|XY}(z|1/4, 1)$.\vfill
-
-
-
 \end{enumerate}
 
 
@@ -401,7 +372,8 @@ Find the conditional density $f(x|y)$ and evaluate the probability that less tha
 \newpage
 \prob Suppose that two measurements $X$ and $Y$ are made of the rainfall at a certain location on May 1 of two consecutive years. Supposing that $X$ and $Y$ are independent and that their marginal density functions are each given by
 
-	\[f_X(x) = \begin{cases}
+	\[
+	f_X(x) = \begin{cases}
 	2x & : 0 \leq x \leq 1, \\
 	0 & : \text{otherwise},
 	\end{cases} \quad \text{and} \quad
@@ -438,7 +410,8 @@ determine their joint density and compute the probability $P(X + Y \leq 1)$.\vfi
 \bigskip
 \prob Suppose that the joint density function of two continuous random variables $X$ and $Y$ is given by
 
-	\[f(x,y) = \begin{cases}
+	\[
+	f(x,y) = \begin{cases}
 	k x^2y^2 & : x^2+y^2 \leq 1, \\
 	0 & : \text{otherwise},
 	\end{cases}
@@ -462,19 +435,14 @@ for some constant $k$. Prove that $X$ and $Y$ are dependent.\vfill
 \bigskip
 \prob Suppose that a point $(X, Y )$ is chosen at random from the rectangle $R$ defined as follows:
 
-	\[R=\{(x,y) : 0\leq x \leq 2, \ 1\leq y\leq 4\}.
+	\[
+	R=\{(x,y) : 0\leq x \leq 2, \ 1\leq y\leq 4\}.
 	\]
 
 \medskip
 \begin{enumerate}
 \item Determine the joint density of $X$ and $Y$, the marginal density of $X$, and the marginal density of $Y$.\vfill
-
-
-
-
 \item Are $X$ and $Y$ independent?\vfill
-
-
 \end{enumerate}
 
 
@@ -485,7 +453,8 @@ for some constant $k$. Prove that $X$ and $Y$ are dependent.\vfill
 \newpage
 \prob Let $n\geq 1$ be an integer and suppose $X\sim \Gamma(n+1,1)$. Suppose that $Y_1,Y_2,\ldots,Y_n$ is an IID random sample such that the conditional distributions of each $Y_i$ given $X$ have densities
 
-	\[f(y_i|x) = \begin{cases}
+	\[
+	f(y_i|x) = \begin{cases}
 	\frac{1}{x} & : 0 < y_i < x, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -494,12 +463,8 @@ for some constant $k$. Prove that $X$ and $Y$ are dependent.\vfill
 \medskip
 \begin{enumerate}
 \item Determine the joint density of the random sample.\vfill
-
-
-
 \item Determine the conditional density of $X$ for any given observed values of the random sample.\vfill
-
-
-
 \end{enumerate}
+
+
 \end{document}

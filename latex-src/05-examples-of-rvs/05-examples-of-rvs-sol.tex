@@ -1,6 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
-\usepackage{caption}
+\usepackage{../header}
 
 \hdr{Mathematical Statistics}{Chapter 5: Examples of random variables}
 
@@ -96,7 +95,7 @@
 
 
 
-
+\bigskip
 \prob Suppose that 30\% of the applicants for a certain industrial job possess advanced training in computer programming. Applicants are interviewed sequentially and are selected at random from the pool.
 
 \medskip
@@ -157,17 +156,20 @@ On the other hand, since the tosses are all independent of each other, the fact 
 	\[P(X\geq 2) = 1 - P(X=1) = 1/2,
 	\]
 which confirms our computation above.}
+
+
+
+
+
+
+
+
+
+
+
+
+
 \bigskip
-
-
-
-
-
-
-
-
-
-
 \prob Five individuals from an animal population thought to be near extinction in a region have been caught, tagged, and released to mix into the population. After they have had an opportunity to mix, a random sample of ten of these animals is selected. Let $X =$ the number of tagged animals in the second sample. If there are actually 25 animals of this type in the region, what is the probability that
 
 \medskip
@@ -233,7 +235,6 @@ Then, $X$ will be within one standard deviation of its mean if it falls in the i
 But $X$ can only take integer values, so this translates to $X$ being in the interval $[7,8]$. Therefore, the probability that we must compute is
 	\[P(7 \leq X \leq 8) = P(X \leq 8) - P(X \leq 6) \approx 0.697.
 	\]}
-
 \end{enumerate}
 
 
@@ -508,7 +509,6 @@ where $F$ is the distribution function of $T$. Thus, the median lifetime is less
 for $t$. But:
 	\[t = F^{-1}(1-0.005) \approx 65.865.
 	\]}
-
 \end{enumerate}
 
 

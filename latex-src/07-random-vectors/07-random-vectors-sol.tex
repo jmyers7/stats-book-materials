@@ -1,6 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{/Users/johnmyers/myDrive/tex/handout,/Users/johnmyers/myDrive/tex/customcommands,polynom}
-\usepackage{caption}
+\usepackage{../header, amssymb}
 
 \hdr{Mathematical Statistics}{Chapter 7: Random vectors, \textit{etc}.}
 
@@ -12,21 +11,30 @@
 
 \bigskip
 \textcolor{red}{We may specify the joint distribution by computing the four probabilities
-    \[P(X=0, Y=0),\ P(X=1, Y=0),\ P(X=0, Y=1), \ P(X=1, Y=1).\]
+	\[
+	P(X=0, Y=0),\ P(X=1, Y=0),\ P(X=0, Y=1), \ P(X=1, Y=1).
+	\]
 It will be convenient to display these in a table:
-\[\begin{tabular}{c|c|c}
-$X \diagdown Y$ & 0 & 1  \\ \hline
-0 & \\
-1 & 
-\end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c}
+	$X \diagdown Y$ & 0 & 1  \\ \hline
+	0 & \\
+	1 & 
+	\end{tabular}
+	\]
 However, since the two events are independent (the first flip and the second), we may compute the probabilities by multiplying the probabilities of $X$ and $Y$. But since $X,Y\sim \mathcal{B}er(p)$, we have
-\[\begin{tabular}{c|c|c}
-$X \diagdown Y$ & 0 & 1  \\ \hline
-0 & $(1-p)^2$ & $p(1-p)$ \\
-1 & $p(1-p)$ & $p^2$
-\end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c}
+	$X \diagdown Y$ & 0 & 1  \\ \hline
+	0 & $(1-p)^2$ & $p(1-p)$ \\
+	1 & $p(1-p)$ & $p^2$
+	\end{tabular}
+	\]
 To verify that our probabilities are correct, we sum them to obtain:
-    \[(1-p)^2 + 2p(1-p) + p^2 = 1 - 2p + p^2 + 2p - 2p^2 + p^2 = 1.\]}
+	\[
+	(1-p)^2 + 2p(1-p) + p^2 = 1 - 2p + p^2 + 2p - 2p^2 + p^2 = 1.
+	\]}
+\bigskip
 
 
 
@@ -38,44 +46,50 @@ To verify that our probabilities are correct, we sum them to obtain:
 
 
 
-
-    \bigskip
+    
 \prob Let $(X,Y)$ be discrete with probability mass function $p(x,y)$ given in the following table:
 
 
-\[\begin{tabular}{c|c|c|c|c|c}
-$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
-0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
-1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
-2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
-3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
-\end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c|c|c|c}
+	$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
+	0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
+	1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
+	2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
+	3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
+	\end{tabular}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Compute $P(X\leq 2, Y\leq 2)$.
+\item Compute $P(X\leq 2, Y\leq 2)$.
     
-    \bigskip
-    \textcolor{red}{We have
-        \begin{align*}
-            P(X\leq 2, Y\leq 2) &= \sum_{x\leq 2, y\leq 2}p(x,y) \\
-            &= 0.08 + 0.07 + 0.06 + 0.06 + 0.10 + 0.12 + 0.05 + 0.06 + 0.09 \\
-            &= 0.69.
-        \end{align*}}
-    \bigskip
+\bigskip
+\textcolor{red}{We have
+	\begin{align*}
+	P(X\leq 2, Y\leq 2) &= \sum_{x\leq 2, y\leq 2}p(x,y) \\
+	&= 0.08 + 0.07 + 0.06 + 0.06 + 0.10 + 0.12 + 0.05 + 0.06 + 0.09 \\
+	&= 0.69.
+	\end{align*}}
+\bigskip
 
-    \item Compute $P(X=Y)$.
-    
-    \bigskip
-    \textcolor{red}{We have
-        \[P(X=Y) = \sum_{x=y} p(x,y) = 0.08 + 0.10 + 0.09 + 0.03 = 0.3.\]}
-    \bigskip
+\item Compute $P(X=Y)$.
 
-    \item Compute $P(X>Y)$.
+\bigskip
+\textcolor{red}{We have
+	\[
+	P(X=Y) = \sum_{x=y} p(x,y) = 0.08 + 0.10 + 0.09 + 0.03 = 0.3.
+	\]}
+\bigskip
+
+\item Compute $P(X>Y)$.
     
-    \bigskip
-    \textcolor{red}{We have
-        \[P(X>Y) = \sum_{x>y} p(x,y) = 0.06 + 0.05 + 0.06 + 0.02 + 0.03 + 0.03 = 0.25.\]}
+\bigskip
+\textcolor{red}{We have
+	\[
+	P(X>Y) = \sum_{x>y} p(x,y) = 0.06 + 0.05 + 0.06 + 0.02 + 0.03 + 0.03 = 0.25.
+	\]}
+\bigskip
 \end{enumerate}
 
 
@@ -93,30 +107,36 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 
 
 
-\bigskip
+
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-    \[f(x,y) = \begin{cases}
-        cx^2 y & : x^2 \leq y \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	cx^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 \medskip
 \begin{enumerate}
-    \item Determine the value of $c$ that makes $f$ a valid density.
+\item Determine the value of $c$ that makes $f$ a valid density.
     
-    \bigskip
-    \textcolor{red}{We have
-        \[\iint_{\mathbb{R}^2} f(x,y) \ \text{d}y\text{d}x = \int_{-1}^1 \int_{x^2}^1 cx^2y \ \text{d}y\text{d}x = \frac{4}{21}c, \]
-    so that we must have $c = 21/4$.}
-    \bigskip
+\bigskip
+\textcolor{red}{We have
+	\[
+	\iint_{\mathbb{R}^2} f(x,y) \ \text{d}y\text{d}x = \int_{-1}^1 \int_{x^2}^1 cx^2y \ \text{d}y\text{d}x = \frac{4}{21}c, 
+	\]
+so that we must have $c = 21/4$.}
+\bigskip
 
-    \item Compute $P(X\geq Y)$.
+\item Compute $P(X\geq Y)$.
     
-    \bigskip
-    \textcolor{red}{We have
-        \[P(X\geq Y) = \iint_{\{x\geq y\}} f(x,y) \ \text{d}y\text{d}x = \frac{21}{4}\int_0^1 \int_{x^2}^x  x^2y \ \text{d}y \text{d}x = \frac{3}{20}.\]
-        }
+\bigskip
+\textcolor{red}{We have
+	\[
+	P(X\geq Y) = \iint_{\{x\geq y\}} f(x,y) \ \text{d}y\text{d}x = \frac{21}{4}\int_0^1 \int_{x^2}^x  x^2y \ \text{d}y \text{d}x = \frac{3}{20}.
+	\]}
+\bigskip
 \end{enumerate}
 
 
@@ -126,25 +146,28 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 
 
 
-\bigskip
+
 \prob Suppose that the continuous random vector $(X,Y)$ is uniformly distributed over the triangle in $\mathbb{R}^2$ with vertices $(-1,0)$, $(1,0)$, and $(0,1)$.
 
 \medskip
 \begin{enumerate}
-    \item Compute the density function of $(X,Y)$.
+\item Compute the density function of $(X,Y)$.
     
-    \bigskip
-    \textcolor{red}{The area of the triangle is $\frac{1}{2} \times 2 \times 1 = 1$. Since the volume under the density surface and above this triangle must be $1$, we must have
-        \[f(x,y) = \begin{cases}
-            1 & : (x,y) \text{ is in the triangle}, \\
-            0 & : \text{otherwise}.
-        \end{cases}\]}
-    \bigskip
+\bigskip
+\textcolor{red}{The area of the triangle is $\frac{1}{2} \times 2 \times 1 = 1$. Since the volume under the density surface and above this triangle must be $1$, we must have
+	\[
+	f(x,y) = \begin{cases}
+	1 & : (x,y) \text{ is in the triangle}, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]}
+\bigskip
 
-    \item Compute $P(X \leq 3/4, Y \leq 3/4)$.
+\item Compute $P(X \leq 3/4, Y \leq 3/4)$.
     
-    \bigskip
-    \textcolor{red}{This problem is best solved by drawing a picture. See class notes. We may compute the probability by removing two triangles from the triangle of area $1$, of areas $1/16$ and $1/32$. The answer is therefore $29/32$.}
+\bigskip
+\textcolor{red}{This problem is best solved by drawing a picture. See class notes. We may compute the probability by removing two triangles from the triangle of area $1$, of areas $1/16$ and $1/32$. The answer is therefore $29/32$.}
+\bigskip
 \end{enumerate}
 
 
@@ -163,58 +186,68 @@ $x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
 
 
 
-\bigskip
+
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-    \[f(x,y) = \begin{cases}
-        30xy^2 & : x-1 \leq y \leq 1-x, \ 0 \leq x \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	30xy^2 & : x-1 \leq y \leq 1-x, \ 0 \leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute $F(1/2,1/2)$.
 
 \bigskip
 \textcolor{red}{We have
-    \[F(1/2,1/2) = \int_{-\infty}^{1/2} \int_{-\infty}^{1/2} f(x,y) \ \text{d}y \text{d}x = 30\int_{0}^{1/2} \int_{x-1}^{1/2} xy^2 \ \text{d}y\text{d}x = \frac{9}{16}.  \]}
-
-
-
-
-
-
-
-
-
-
-
-
-
+	\[
+	F(1/2,1/2) = \int_{-\infty}^{1/2} \int_{-\infty}^{1/2} f(x,y) \ \text{d}y \text{d}x = 30\int_{0}^{1/2} \int_{x-1}^{1/2} xy^2 \ \text{d}y\text{d}x = \frac{9}{16}.
+	\]}
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Compute the marginal probability mass function distribution $p_X(x)$ of the discrete random vector $(X,Y)$ with probability mass function
 
 
-\[\begin{tabular}{c|c|c|c|c|c}
-$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
-0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
-1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
-2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
-3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
-\end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c|c|c|c}
+	$x \diagdown y$ & 0 & 1 & 2 & 3 & 4  \\ \hline
+	0 & 0.08 & 0.07 & 0.06 & 0.01 & 0.01 \\ \hline
+	1 & 0.06 & 0.10 & 0.12 & 0.05 & 0.02 \\ \hline
+	2 & 0.05 & 0.06 & 0.09 & 0.04 & 0.03 \\ \hline
+	3 & 0.02 & 0.03 & 0.03 & 0.03 & 0.04 
+	\end{tabular}
+	\]
 
 \medskip
 Verify that your computations are correct by making sure all marginal probabilities sum to $1$. How would you compute the other marginal mass function $p_Y(y)$?
 
 \bigskip
 \textcolor{red}{To compute $p_X(x)$, we simply sum across all $y$-values (i.e., rows):
-    \[p_X(0) = \sum_{y=0}^4 p(0,y) = 0.08 + 0.07 + 0.06 + 0.01 + 0.01 = 0.23.\]
+	\[
+	p_X(0) = \sum_{y=0}^4 p(0,y) = 0.08 + 0.07 + 0.06 + 0.01 + 0.01 = 0.23.
+	\]
 Similarly:
-    \begin{align*}
-        p_X(1) &= 0.35, \\
-        p_X(2) &= 0.27, \\
-        p_X(3) &= 0.15.
-    \end{align*}
+	\begin{align*}
+	p_X(1) &= 0.35, \\
+	p_X(2) &= 0.27, \\
+	p_X(3) &= 0.15.
+	\end{align*}
 To check our work, we verify that these probabilities sum to $1$:
-    \[p_X(0)+p_X(1)+p_X(2)+p_X(3) = 0.23+0.35+0.27+0.15 = 1.\]
+	\[
+	p_X(0)+p_X(1)+p_X(2)+p_X(3) = 0.23+0.35+0.27+0.15 = 1.
+	\]
 To compute $p_Y(y)$, we would sum instead over all $x$-values (i.e., columns).}
 \bigskip
 
@@ -228,146 +261,171 @@ To compute $p_Y(y)$, we would sum instead over all $x$-values (i.e., columns).}
 
 
 
-\bigskip
+
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-\[f(x,y) = \begin{cases}
-    \frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
-    0 & : \text{otherwise}.
-\end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	\frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the marginal density functions $f_X(x)$ and $f_Y(y)$.
 
 \bigskip
 \textcolor{red}{By ``integrating out'' the dependence on $y$, we compute
-    \[f_X(x) = \int_{-\infty}^\infty f(x,y) \ \text{d}y = \frac{21}{4}\int_{x^2}^1 x^2y \ \text{d}y = \frac{21}{8}x^2(1-x^4). \]
+	\[
+	f_X(x) = \int_{-\infty}^\infty f(x,y) \ \text{d}y = \frac{21}{4}\int_{x^2}^1 x^2y \ \text{d}y = \frac{21}{8}x^2(1-x^4).
+	\]
 Note that this is valid as long as $-1 \leq x \leq 1$; otherwise, we have $f_X(x)=0$. Then, by ``integrating out'' the dependence on $x$, we compute
-    \[f_Y(y) = \int_{-\infty}^\infty f(x,y) \ \text{d} x = \frac{21}{4} \int_{-\sqrt{y}}^{\sqrt{y}}x^2y \ \text{d} x = \frac{7}{2}y^{5/2}.\]
+	\[
+	f_Y(y) = \int_{-\infty}^\infty f(x,y) \ \text{d} x = \frac{21}{4} \int_{-\sqrt{y}}^{\sqrt{y}}x^2y \ \text{d} x = \frac{7}{2}y^{5/2}.
+	\]
 Note that this is valid as long as $0\leq y \leq 1$; otherwise, we have $f_Y(y)=0$.}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose the joint PMF of two discrete random variables $X$ and $Y$ is given by
 
-\[\begin{tabular}{c|c|c|c|c}
-    $x \diagdown y$ & 1 & 2 & 3 & 4 \\ \hline 
-    1 & 0.1 & 0 & 0.1 & 0\\ \hline
-    2 & 0.3 & 0 & 0.1 & 0.2 \\ \hline
-    3 & 0 & 0.2 & 0 & 0
-    \end{tabular}\]
+	\[
+	\begin{tabular}{c|c|c|c|c}
+	$x \diagdown y$ & 1 & 2 & 3 & 4 \\ \hline 
+	1 & 0.1 & 0 & 0.1 & 0\\ \hline
+	2 & 0.3 & 0 & 0.1 & 0.2 \\ \hline
+	3 & 0 & 0.2 & 0 & 0
+	\end{tabular}
+	\]
 
 Determine the conditional mass function $p_{X|Y}(x|1)$.
 
 \bigskip
 \textcolor{red}{We have
-\begin{align*}
-    p_{X|Y}(1|1) &= \frac{p_{XY}(1,1)}{p_Y(1)} = \frac{0.1}{0.1+0.3+0} = 0.25 \\
-    p_{X|Y}(2|1) &= \frac{p_{XY}(2,1)}{p_Y(1)} = \frac{0.3}{0.1+0.3+0} = 0.75 \\
-    p_{X|Y}(3|1) &= \frac{p_{XY}(3,1)}{p_Y(1)} = \frac{0}{0.1+0.3+0} = 0.
-\end{align*}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	\begin{align*}
+	p_{X|Y}(1|1) &= \frac{p_{XY}(1,1)}{p_Y(1)} = \frac{0.1}{0.1+0.3+0} = 0.25 \\
+	p_{X|Y}(2|1) &= \frac{p_{XY}(2,1)}{p_Y(1)} = \frac{0.3}{0.1+0.3+0} = 0.75 \\
+	p_{X|Y}(3|1) &= \frac{p_{XY}(3,1)}{p_Y(1)} = \frac{0}{0.1+0.3+0} = 0.
+	\end{align*}}
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose that $(X,Y)$ is continuous with probability density function
 
-\[f(x,y) = \begin{cases}
-    \frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
-    0 & : \text{otherwise}.
-\end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	\frac{21}{4}x^2 y & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Compute the conditional density function $f_{Y|X}(y|x)$.
 
 \bigskip
 \textcolor{red}{We have that
-    \[f_{Y|X}(y|x) = \frac{f_{XY}(x,y)}{f_X(x)}.\]
+	\[
+	f_{Y|X}(y|x) = \frac{f_{XY}(x,y)}{f_X(x)}.
+	\]
 But from a previous problem above we computed
-    \[f_X(x) = \begin{cases}
-        \frac{21}{8}x^2(1-x^4) & : -1\leq x \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f_X(x) = \begin{cases}
+	\frac{21}{8}x^2(1-x^4) & : -1\leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 Thus, we have $f_X(x)\neq 0$ only when $-1 < x < 1$ and $x\neq 0$. For these $x$-values, we have
-    \[f_{Y|X}(y|x) = \begin{cases}
-        \frac{2y}{1-x^4} & : x^2 \leq y \leq 1, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]}
-
-
-
-
-
-
-
-
-
-
-
-
+	\[
+	f_{Y|X}(y|x) = \begin{cases}
+	\frac{2y}{1-x^4} & : x^2 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]}
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
 \prob A soft-drink machine has a random amount $Y$ in supply at the beginning of a given day and dispenses a random amount $X$ during the day (with measurements in gallons). It is not resupplied during the day, hence $X\leq Y$. It has been observed that $X$ and $Y$ have joint density given by
 
-    \[f(x,y) = \begin{cases}
-        1/2, & : 0 \leq x \leq y \leq 2, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x,y) = \begin{cases}
+	1/2, & : 0 \leq x \leq y \leq 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 
 Find the conditional density $f(x|y)$ and evaluate the probability that less than $1/2$ gallon will be sold, given that the machine contains $1.5$ gallons at the start of the day.
 
 \bigskip
 \textcolor{red}{We first need to compute the marginal density of $Y$:
-    \[f(y) = \int_{-\infty}^\infty f(x,y) \ \text{d}x = \int_0^y \frac{1}{2} \ \text{d}x = \frac{1}{2}y. \]
+	\[
+	f(y) = \int_{-\infty}^\infty f(x,y) \ \text{d}x = \int_0^y \frac{1}{2} \ \text{d}x = \frac{1}{2}y.
+	\]
 Notice that this is only valid if $0\leq y \leq 2$; otherwise, we have $f(y) = 0$. In particular, we have $f(y)\neq 0$ only when $0 < y \leq 2$. For these $y$-values, we thus have
-    \[f(x|y) = \frac{f(x,y)}{f(y)} = \begin{cases}
-        \frac{1}{y} & : 0 \leq x \leq y \leq 2, \\
-        0 & : \text{otherwise}.
-    \end{cases}\]
+	\[
+	f(x|y) = \frac{f(x,y)}{f(y)} = \begin{cases}
+	\frac{1}{y} & : 0 \leq x \leq y \leq 2, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
 Then:
-    \[P(X\leq 1/2 | Y = 1.5 ) = \int_{-\infty}^{1/2} f(x|1.5) \ \text{d} x = \frac{2}{3} \int_{0}^{1/2} \text{d}x = \frac{1}{3}. \]}
-
-
-
-
-
-
-
-
-
-
-
-
+	\[
+	P(X\leq 1/2 | Y = 1.5 ) = \int_{-\infty}^{1/2} f(x|1.5) \ \text{d} x = \frac{2}{3} \int_{0}^{1/2} \text{d}x = \frac{1}{3}.
+	\]}
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose that a person’s score $X$ on a mathematics aptitude test is a number between 0 and 1, and that their score $Y$ on a music aptitude test is also a number between 0 and 1. Suppose further that in the population of all college students in the United States, the scores $X$ and $Y$ are distributed according to the following joint PDF
 
-	\[f(x,y) = \begin{cases}
+	\[
+	f(x,y) = \begin{cases}
 	\frac{2}{5} (2x+3y) & : 0\leq x,y \leq 1, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -379,10 +437,12 @@ Then:
 
 \bigskip
 \textcolor{red}{It will be convenient to first get the marginal densities for both $X$ and $Y$:
-	\[f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d} y = \frac{2}{5} \int_0^1 (2x+3y) \ \text{d} y = \frac{1}{5}(4x+3), \quad 0 \leq x \leq 1,
+	\[
+	f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d} y = \frac{2}{5} \int_0^1 (2x+3y) \ \text{d} y = \frac{1}{5}(4x+3), \quad 0 \leq x \leq 1,
 	\]
 and
-	\[f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{2}{5} \int_0^1 (2x+3y) \ \text{d} x = \frac{1}{5}(6y+2), \quad 0 \leq y \leq1.
+	\[
+	f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{2}{5} \int_0^1 (2x+3y) \ \text{d} x = \frac{1}{5}(6y+2), \quad 0 \leq y \leq1.
 	\]
 Then, to answer this part of the problem, we compute:
 	\[
@@ -413,8 +473,6 @@ Then, to answer this part of the problem, we compute:
 	&\approx 0.314. 
 	\end{align*}}
 \bigskip
-
-
 \end{enumerate}
 
 
@@ -430,7 +488,6 @@ Then, to answer this part of the problem, we compute:
 
 
 
-\bigskip
 \prob Let $X$ be the number of heads obtained from a single flip of a coin, so that $X\sim \mathcal{B}er(\theta)$ for some unknown probability $\theta$. Suppose further that $\theta$ is an observed value of a $\mathcal{B}eta(2,2)$ random variable. If we flip the coin and obtain $x=1$, how should we ``update'' the distribution of $\theta$?
 
 \bigskip
@@ -438,33 +495,38 @@ Then, to answer this part of the problem, we compute:
 
 \bigskip
 \textcolor{red}{Let's begin. We are told that
-	\[p(x|\theta) = \theta^x (1-\theta)^x, \quad x=0,1,
+	\[
+	p(x|\theta) = \theta^x (1-\theta)^x, \quad x=0,1,
 	\]
 and
-	\[f(\theta) \propto \theta(1-\theta), \quad 0 < \theta < 1.
+	\[
+	f(\theta) \propto \theta(1-\theta), \quad 0 < \theta < 1.
 	\]
 The density function of the posterior distribution is (by definition) the conditional density $f(\theta|x)$. According to Bayes' Theorem, it is obtained via the formula
-	\[f(\theta|x) = \frac{p(x|\theta)f(\theta)}{p(x)}.
+	\[
+	f(\theta|x) = \frac{p(x|\theta)f(\theta)}{p(x)}.
 	\]
 But we observed $x=1$, so in fact we have
-	\[f(\theta|1) = \frac{p(1|\theta)f(\theta)}{p(1)} \propto \theta^2 ( 1-\theta), \quad 0 < \theta < 1.
+	\[
+	f(\theta|1) = \frac{p(1|\theta)f(\theta)}{p(1)} \propto \theta^2 ( 1-\theta), \quad 0 < \theta < 1.
 	\]
 Now, technically we don't know the posterior density $f(\theta|1)$ \textit{exactly}, we only know it up to some proportionality constant. But here's a trick that is often used in Bayesian statistics: The variable part of the density $\theta^2(1-\theta)$ is recognizable as the variable part of a $\mathcal{B}eta(3,2)$ density. So, whatever the proportionality constant of $f(\theta|1)$ is, it must be the same one as a $\mathcal{B}eta(3,2)$ density since both densities must integrate to $1$ over $[0,1]$. Thus, the posterior distribution must be a $\mathcal{B}eta(3,2)$ distribution! In particular, the posterior expected value of $\theta$ increases to $3/(3+2) = 0.6$.}
-
-
-
-
-
-
-
-
-
-
-
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose that three random vectors $X$, $Y$, and $Z$ are jointly continuous with density function
 
-	\[f(x,y,z) = \begin{cases}
+	\[
+	f(x,y,z) = \begin{cases}
 	c(x+2y+3z) & : 0\leq x, y, z \leq 1, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -476,10 +538,12 @@ Now, technically we don't know the posterior density $f(\theta|1)$ \textit{exact
 
 \bigskip
 \textcolor{red}{As usual, we solve
-	\[\iiint_{\mathbb{R}^3} f(x,y,z) \ \text{d}x\text{d}y\text{d}z = 1
+	\[
+	\iiint_{\mathbb{R}^3} f(x,y,z) \ \text{d}x\text{d}y\text{d}z = 1
 	\]
 for $c$. But the integral on the left-hand side is
-	\[\int_0^1 \int_0^1 \int_0^1 c (x+2y+3z)\ \text{d}x\text{d}y\text{d}z = 3c,
+	\[
+	\int_0^1 \int_0^1 \int_0^1 c (x+2y+3z)\ \text{d}x\text{d}y\text{d}z = 3c,
 	\]
 so we must have $c = 1/3$.}
 \bigskip
@@ -488,7 +552,8 @@ so we must have $c = 1/3$.}
 
 \bigskip
 \textcolor{red}{The marginal density is obtained from the joint one by ``integrating out'' the variable $z$. So:
-	\[f_{XY}(x,y) = \int_{\mathbb{R}} f(x,y,z) \ \text{d} z = \frac{1}{3} \int_0^1(x+2y+3z) \ \text{d} z = \frac{1}{3}\left( x+2y + 3/2 \right),
+	\[
+	f_{XY}(x,y) = \int_{\mathbb{R}} f(x,y,z) \ \text{d} z = \frac{1}{3} \int_0^1(x+2y+3z) \ \text{d} z = \frac{1}{3}\left( x+2y + 3/2 \right),
 	\]
 for $0\leq x, y \leq 1$, and $f_{XY}(x,y)=0$ otherwise.}
 \bigskip
@@ -504,6 +569,7 @@ for $0\leq x, y \leq 1$, and $f_{XY}(x,y)=0$ otherwise.}
 	&= \frac{5}{13} \\
 	&\approx 0.385.
 	\end{align*}}
+\bigskip
 \end{enumerate}
 
 
@@ -514,10 +580,14 @@ for $0\leq x, y \leq 1$, and $f_{XY}(x,y)=0$ otherwise.}
 
 
 
-\bigskip
+
+
+
+
 \prob Suppose that $X$, $Y$, and $Z$ have joint ``mixed density'' function
 
-	\[f(x,y,z) = \begin{cases}
+	\[
+	f(x,y,z) = \begin{cases}
 	c x^{1+y+z} ( 1-x)^{3-y-z} & : 0 < x< 1, \ y,z\in \{0,1\}, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -529,10 +599,12 @@ for $0\leq x, y \leq 1$, and $f_{XY}(x,y)=0$ otherwise.}
 
 \bigskip
 \textcolor{red}{We solve
-	\[\sum_{y,z\in \{0,1\}} \int_\mathbb{R} f(x,y,x) \ \text{d}x = 1
+	\[
+	\sum_{y,z\in \{0,1\}} \int_\mathbb{R} f(x,y,x) \ \text{d}x = 1
 	\]
 for $c$. But the expression on the left-hand side is
-	\[\sum_{y,z\in \{0,1\}} \int_0^1 c x^{1+y+z}( 1-x)^{3-y-z} \ \text{d}x = \frac{1}{6}c,
+	\[
+	\sum_{y,z\in \{0,1\}} \int_0^1 c x^{1+y+z}( 1-x)^{3-y-z} \ \text{d}x = \frac{1}{6}c,
 	\]
 so we must have $c = 6$.}
 \bigskip
@@ -541,9 +613,10 @@ so we must have $c = 6$.}
 
 \bigskip
 \textcolor{red}{We have
-	\[f_{XY}(x,y) = \sum_{z\in\{0,1\}} f(x,y,z) = 6x^{1+y}(1-x)^{3-y} + 6x^{2+y}(1-x)^{2-y}
-	\]}
-for $y\in \{0,1\}$ and $0 < x < 1$, and $f_{XY}(x,y)=0$ otherwise.
+	\[
+	f_{XY}(x,y) = \sum_{z\in\{0,1\}} f(x,y,z) = 6x^{1+y}(1-x)^{3-y} + 6x^{2+y}(1-x)^{2-y}
+	\]
+for $y\in \{0,1\}$ and $0 < x < 1$, and $f_{XY}(x,y)=0$ otherwise.}
 \bigskip
 
 
@@ -551,16 +624,18 @@ for $y\in \{0,1\}$ and $0 < x < 1$, and $f_{XY}(x,y)=0$ otherwise.
 
 \bigskip
 \textcolor{red}{We have
-	\[f_{Z|XY}(z|1/4,1) = \frac{f(1/4,1,z)}{f_{XY}(1/4,1)} = \frac{3^{3-z}/128}{9/32} = \frac{3^{1-z}}{4},
+	\[
+	f_{Z|XY}(z|1/4,1) = \frac{f(1/4,1,z)}{f_{XY}(1/4,1)} = \frac{3^{3-z}/128}{9/32} = \frac{3^{1-z}}{4},
 	\]
 and so
-	\[f_{Z|XY}(z|1/4,1) = \begin{cases}
+	\[
+	f_{Z|XY}(z|1/4,1) = \begin{cases}
 	3/4 & : z=0, \\
 	1/4 & : z=1, \\
 	0 & : \text{otherwise}.
 	\end{cases}
 	\]}
-
+\bigskip
 \end{enumerate}
 
 
@@ -575,10 +650,11 @@ and so
 
 
 
-\bigskip
+
 \prob Suppose that two measurements $X$ and $Y$ are made of the rainfall at a certain location on May 1 of two consecutive years. Supposing that $X$ and $Y$ are independent and that their marginal density functions are each given by
 
-	\[f_X(x) = \begin{cases}
+	\[
+	f_X(x) = \begin{cases}
 	2x & : 0 \leq x \leq 1, \\
 	0 & : \text{otherwise},
 	\end{cases} \quad \text{and} \quad
@@ -600,31 +676,32 @@ determine their joint density and compute the probability $P(X + Y \leq 1)$.
 Then
 	\[P(X+Y \leq 1) = \iint_{\{x+y\leq 1\}} f(x,y) \ \text{d}x\text{d}y = 4\int_0^1 \int_{0}^{-x+1} xy \ \text{d}y\text{d}x = \frac{1}{6}.
 	\]}
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \bigskip
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose that the joint density function of two continuous random variables $X$ and $Y$ is given by
 
-	\[f(x,y) = \begin{cases}
+	\[
+	f(x,y) = \begin{cases}
 	k x^2y^2 & : x^2+y^2 \leq 1, \\
 	0 & : \text{otherwise},
 	\end{cases}
@@ -634,47 +711,53 @@ for some constant $k$. Prove that $X$ and $Y$ are dependent.
 
 \bigskip
 \textcolor{red}{We will show that the joint density \textit{cannot} be factored into the marginal densities. For this, we first compute
-	\[f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d}y = \frac{2}{3} k x^2 \left(1-x^2\right)^{3/2}
+	\[
+	f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d}y = \frac{2}{3} k x^2 \left(1-x^2\right)^{3/2}
 	\]
 for $-1\leq x \leq 1$, and $f_X(x) = 0$ otherwise. Likewise, we have
-	\[f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{2}{3} k y^2 \left(1-y^2\right)^{3/2}
+	\[
+	f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{2}{3} k y^2 \left(1-y^2\right)^{3/2}
 	\]
 for $-1 \leq y \leq 1$ and $f_Y(y)=0$ otherwise. But notice that
-	\[f(0.9, 0.9) = 0
+	\[
+	f(0.9, 0.9) = 0
 	\]
 since the point $(0.9,0.9)$ lies outside the unit circle, while
-	\[f_X(0.9)\neq 0 \quad \text{and} \quad f_Y(0.9) \neq 0.
+	\[
+	f_X(0.9)\neq 0 \quad \text{and} \quad f_Y(0.9) \neq 0.
 	\]
 Thus, we have $f(0.9,0.9) \neq f_X(0.9) f_Y(0.9)$, which proves the variables are dependent.}
-
-
-
-
-
-
-
-
-
-
-
-
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
+
 \prob Suppose that a point $(X, Y )$ is chosen at random from the rectangle $R$ defined as follows:
 
-	\[R=\{(x,y) : 0\leq x \leq 2, \ 1\leq y\leq 4\}.
+	\[
+	R=\{(x,y) : 0\leq x \leq 2, \ 1\leq y\leq 4\}.
 	\]
 
 \medskip
 \begin{enumerate}
 \item Determine the joint density of $X$ and $Y$, the marginal density of $X$, and the marginal density of $Y$.
 
-
 \bigskip
 \textcolor{red}{The joint distribution must be uniform over the rectangle, thus the density surface is a horizontal plane over $R$. Since the volume underneath it must be $1$ and the rectangle $R$ has area $6$, we must have $f(x,y) = 1/6$ for all $(x,y)\in R$, and $f(x,y) =0$ otherwise. Then, we have
-	\[f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d} y = \frac{1}{6} \int_1^4 \text{d} y = \frac{1}{2}
+	\[
+	f_X(x) = \int_{\mathbb{R}} f(x,y) \ \text{d} y = \frac{1}{6} \int_1^4 \text{d} y = \frac{1}{2}
 	\]
 for $0 \leq x \leq 2$ and $f_X(x) =0$ otherwise, as well as
-	\[f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{1}{6} \int_0^2 \text{d} x = \frac{1}{3}
+	\[
+	f_Y(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \frac{1}{6} \int_0^2 \text{d} x = \frac{1}{3}
 	\]
 for $1 \leq y \leq 4$ and $f_Y(y)=0$ otherwise.}
 \bigskip
@@ -683,23 +766,30 @@ for $1 \leq y \leq 4$ and $f_Y(y)=0$ otherwise.}
 
 \bigskip
 \textcolor{red}{\textit{Yes}. For proof, notice that from part (a) we have
-	\[f_X(x) f_Y(y) = \begin{cases}
+	\[
+	f_X(x) f_Y(y) = \begin{cases}
 	\frac{1}{6} & : (x,y) \in R, \\
 	0 & : (x,y) \notin R,
 	\end{cases}
 	\]
 which is exactly the formula for the joint density $f(x,y)$.}
 \end{enumerate}
-
-
-
-
-
-
 \bigskip
+
+
+
+
+
+
+
+
+
+
+
 \prob Let $n\geq 1$ be an integer and suppose $X\sim \Gamma(n+1,1)$. Suppose that $Y_1,Y_2,\ldots,Y_n$ is an IID random sample such that the conditional distributions of each $Y_i$ given $X$ have densities
 
-	\[f(y_i|x) = \begin{cases}
+	\[
+	f(y_i|x) = \begin{cases}
 	\frac{1}{x} & : 0 < y_i < x, \\
 	0 & : \text{otherwise}.
 	\end{cases}
@@ -711,16 +801,19 @@ which is exactly the formula for the joint density $f(x,y)$.}
 
 \bigskip
 \textcolor{red}{Note that
-	\[f(x) = \begin{cases}
+	\[
+	f(x) = \begin{cases}
 	\frac{1}{n!} x^n e^{-x} & : x>0\\
 	0 & : \text{otherwise}.
 	\end{cases}
 	\]
 We are asked to compute $f(y_1,\ldots,y_n)$. To do this, we ``integrate out'' the dependence on $x$ of the joint density $f(x,y_1,\ldots,y_n)$. But, by independence of the random sample, we have
-	\[f(x,y_1,\ldots,y_n) = f(y_1,\ldots,y_n|x)f(x) = \prod_{i=1}^n f(y_i|x)f(x) = \frac{1}{n! } e^{-x}
+	\[
+	f(x,y_1,\ldots,y_n) = f(y_1,\ldots,y_n|x)f(x) = \prod_{i=1}^n f(y_i|x)f(x) = \frac{1}{n! } e^{-x}
 	\]
 for $0<y_1,\ldots,y_n<x$ and $x>0$, and $f(x,y_1,\ldots,y_n)=0$ otherwise. Thus, for $y_1,\ldots,y_n>0$ we must have
-	\[f(y_1,\ldots,y_n) = \int_{\mathbb{R}} f(x,y_1,\ldots,y_n)  \ \text{d}x = \frac{1}{n!} \int_{M}^\infty e^{-x} \ \text{d}x = \frac{1}{n!}e^{-M}
+	\[
+	f(y_1,\ldots,y_n) = \int_{\mathbb{R}} f(x,y_1,\ldots,y_n)  \ \text{d}x = \frac{1}{n!} \int_{M}^\infty e^{-x} \ \text{d}x = \frac{1}{n!}e^{-M}
 	\]
 where $M$ is the maximum of the $y_i$'s, and $f(y_1,\ldots,y_n)=0$ otherwise.}
 \bigskip
@@ -729,13 +822,17 @@ where $M$ is the maximum of the $y_i$'s, and $f(y_1,\ldots,y_n)=0$ otherwise.}
 
 \bigskip
 \textcolor{red}{We have
-	\[f(x|y_1,\ldots,y_n) = \frac{f(x,y_1,\ldots,y_n)}{f(y_1,\ldots,y_n)}
+	\[
+	f(x|y_1,\ldots,y_n) = \frac{f(x,y_1,\ldots,y_n)}{f(y_1,\ldots,y_n)}
 	\]
 for those $y_i$'s such that the denominator is not zero. But from (a), we have $f(y_1,\ldots,y_n)\neq 0$ if $y_1,\ldots,y_n>0$, and for these $y_i$'s we have
-	\[f(x|y_1,\ldots,y_n) = \frac{\frac{1}{n!}e^{-x}}{\frac{1}{n!}e^{-M}} = e^{-x+M}
+	\[
+	f(x|y_1,\ldots,y_n) = \frac{\frac{1}{n!}e^{-x}}{\frac{1}{n!}e^{-M}} = e^{-x+M}
 	\]
 for $x>0$ and $f(x|y_1,\ldots,y_n)=0$ otherwise.}
-\bigskip
-
 \end{enumerate}
+
+
+
+
 \end{document}
