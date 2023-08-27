@@ -1,6 +1,12 @@
-These are the worksheets and Jupyter notebooks (so far) for my online textbook <a href="https://mml.johnmyersmath.com/stats-book/intro.html">"A Course in Mathematical Statistics with Python"</a>.
+# Materials for "A Course in Mathematical Statistics with Python"
 
-# Worksheets
+## Schedule
+
+| Date | Topic | Worksheet | Suggested Problems | Programming Assignment |
+| --- | --- | --- | --- | --- |
+| 28 Aug | Introduction to course | | | |
+
+## List of worksheets
 
 1. [Introduction](https://mml.johnmyersmath.com/stats-book/chapters/introduction.html) --- no worksheet
 
@@ -16,7 +22,7 @@ These are the worksheets and Jupyter notebooks (so far) for my online textbook <
 
 7. [Random vectors; joint, marginal and conditional distributions; independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
 
-# Jupyter notebooks
+## List of programming assignments
 
 1. [Python Libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment-01.ipynb). Covers prerequisite Python knowledge.
    
