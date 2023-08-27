@@ -1,4 +1,4 @@
-# Materials for "A Course in Mathematical Statistics with Python"
+# Materials for "A Course in Mathematical Statistics with Python", by John Myers
 
 &nbsp;
 <p align="center">
