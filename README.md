@@ -4,7 +4,7 @@ These are the worksheets and Jupyter notebooks (so far) for my online textbook <
 
 1. [Introduction](https://mml.johnmyersmath.com/stats-book/chapters/introduction.html) --- no worksheet
 
-2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](02-prob-spaces.pdf), [solutions](02-prob-spaces-sol.pdf)
+2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](02-prob-spaces-sol.pdf)
 
 3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](03-rules-of-prob.pdf), [solutions](03-rules-of-prob-sol.pdf)
 
