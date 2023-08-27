@@ -1,5 +1,7 @@
 # Materials for "A Course in Mathematical Statistics with Python", by John Myers
 
+This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
+
 &nbsp;
 <p align="center">
   <img src="./img/header.png" width="100%">
