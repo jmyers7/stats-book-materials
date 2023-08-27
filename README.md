@@ -1,5 +1,11 @@
 # Materials for "A Course in Mathematical Statistics with Python"
 
+&nbsp;
+<p align="center">
+  <img src="./img/header.png" width="100%">
+</p>
+&nbsp;
+
 ## Schedule
 
 | Date | Topic | Worksheet | Suggested Problems | Programming Assignment |
