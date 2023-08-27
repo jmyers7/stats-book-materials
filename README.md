@@ -4,11 +4,12 @@
 
 | Date | Topic | Worksheet | Suggested Problems | Programming Assignment |
 | --- | --- | --- | --- | --- |
-| 28 Aug | Introduction to course | | | |
+| Mon 08-28 | [Preview of course](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) | | | |
+| Wed 08-30 | [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) | [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
 
 ## List of worksheets
 
-1. [Introduction](https://mml.johnmyersmath.com/stats-book/chapters/introduction.html) --- no worksheet
+1. [Introduction](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet
 
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
 
