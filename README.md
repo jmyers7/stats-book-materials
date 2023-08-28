@@ -23,6 +23,8 @@ Important links: [syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 
 ## List of chapters and worksheets
 
+0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) --- no worksheet
+
 1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet
 
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
