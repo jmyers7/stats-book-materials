@@ -10,6 +10,8 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 ## Schedule
 
+Supplementary textbooks for suggested problems: [link](https://drive.google.com/drive/folders/1PXnw3QA-gwnuHlvVVTEJ24RzXrwQ8yKZ?usp=sharing).
+
 | Date | Topic | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: 
 | Mon 08-28 | [1. Preview of course](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
