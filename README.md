@@ -8,9 +8,11 @@ This is the repository containing all supporting materials for the [textbook](ht
 </p>
 &nbsp;
 
-## Schedule
+## Class stuff
 
-| Date | Topic | Worksheet | Suggested Problems ([texts](https://drive.google.com/drive/folders/1PXnw3QA-gwnuHlvVVTEJ24RzXrwQ8yKZ?usp=sharing)) | Other Stuff |
+Important links: [syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [supplementary texts](https://drive.google.com/drive/folders/1PXnw3QA-gwnuHlvVVTEJ24RzXrwQ8yKZ?usp=sharing).
+
+| Date | Topic | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: 
 | Mon 08-28 | [1. Preview of course](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
 | Wed 08-30 | [2. Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) | [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
