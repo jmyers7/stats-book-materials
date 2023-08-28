@@ -17,7 +17,7 @@ This is the repository containing all supporting materials for the [textbook](ht
 | Fri 09-01
 | Wed 09-06
 | Fri 09-08
-| Mon 09-11 ||||DataCamp deadline @ 9:10am
+| Mon 09-11 |||| DataCamp deadline @ 9:10am
 
 ## List of worksheets
 
