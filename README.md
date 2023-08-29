@@ -16,7 +16,7 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | :---: | :---: | :---: | :---: | :---: 
 | Mon 08-28 | [Chapter 1. Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
 | Wed 08-30 | Finish chapter 1, begin [sections 2.1-2.3](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) | [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
-| Fri 09-01 | :arrow_up: | :arrow_up:
+| Fri 09-01 | 
 | Wed 09-06
 | Fri 09-08
 | Mon 09-11 |||| DataCamp assignment deadline @ 9:10am
