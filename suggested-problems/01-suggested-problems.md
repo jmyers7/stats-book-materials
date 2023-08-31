@@ -2,4 +2,6 @@
 
 **Suggested problems for [Section 2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1):**
 
-* Problems 2.1, 2.7, 2.9, and 2.13 in the Wackerly textbook, the official textbook for the class. Note that the authors use an overline $\overline{A}$ to represent a complement $A^c$.
+* Problems 2.9 and 2.13 in the Wackerly textbook. (The official textbook for the class.)
+
+* [Problems 7](https://drive.google.com/file/d/1PaHkPOO85ahAPbOv-ilwrTHF0xRAoB1m/edit?disco=AAAA4FM_gEs) and [11](https://drive.google.com/file/d/1PaHkPOO85ahAPbOv-ilwrTHF0xRAoB1m/edit?disco=AAAA4FM_gEw) in the DeGroot textbook.
