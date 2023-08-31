@@ -1,5 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{../header, amssymb}
+\usepackage{./header, amssymb}
 
 \hdr{Mathematical Statistics}{Chapter 2: Probability spaces}
 
@@ -356,7 +356,7 @@ since $A$ contains $n=1,2,3,4$.}
 \bigskip
 \textcolor{red}{We have
         \[
-        P(A) = \sum_{s=1}^\infty (0.25)(0.75)^{s-1} = \frac{0.25}{0.75} \cdot \frac{0.75}{1-0.75} = 1,
+        P(A) = \sum_{s=1}^\infty (0.25)(0.75)^{s-1} = \frac{0.25}{1-0.75} = 1,
         \]
     since $A$ contains all positive integers.}
 \bigskip
@@ -452,7 +452,7 @@ The collection of events is \textit{all} subsets. The probability measure is dis
 	\]
 But is this \textit{really} a valid probability measure? If you remember your rules for infinite series from calculus, you'll notice that:
 	\[
-	\sum_{n=1}^\infty (0.25)(0.75)^{n-1} = \frac{0.25}{0.75} \cdot \frac{0.75}{1-0.75} = 1,
+	\sum_{n=1}^\infty (0.25)(0.75)^{n-1} = \frac{0.25}{1-0.75} = 1,
 	\]
 so indeed the Construction Lemma guarantees that we obtain a valid probability measure. The probability that we flip an odd number of tails before we see a head is
 	\[
