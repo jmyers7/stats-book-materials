@@ -10,7 +10,7 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 ## Class stuff
 
-Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [supplementary texts](https://drive.google.com/drive/folders/1PXnw3QA-gwnuHlvVVTEJ24RzXrwQ8yKZ?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/), [DataCamp](https://www.datacamp.com/).
+Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/), [DataCamp](https://www.datacamp.com/).
 
 | Date | Topic | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: 
