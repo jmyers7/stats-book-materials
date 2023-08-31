@@ -16,7 +16,7 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | :---: | :---: | :---: | :---: | :---: 
 | Mon 08-28 | [Chapter 1. Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
 | Wed 08-30 | Finish chapter 1, begin Section [2.1](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#what-is-probability) | [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
-| Fri 09-01 | Finish section 2.1, do Section [2.2](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-first-look-at-the-axiomatic-framework) and [2.3](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-crash-course-in-set-theory), begin Section [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1) | :up-arrow: | [link](./suggested-problems/01-suggested-problems.md)
+| Fri 09-01 | Finish section 2.1, do Section [2.2](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-first-look-at-the-axiomatic-framework) and [2.3](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-crash-course-in-set-theory), begin Section [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1) | :arrow_up: | [link](./suggested-problems/01-suggested-problems.md)
 | Wed 09-06
 | Fri 09-08 |||| Quiz 1 over Sections [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1) and [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures)
 | Mon 09-11 |||| DataCamp assignment deadline @ 9:10am
