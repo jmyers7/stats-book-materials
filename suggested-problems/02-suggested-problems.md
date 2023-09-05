@@ -18,7 +18,7 @@ Compute the probabilities $P(A)$ of the following events.
 
 **(a)** $A = (-\infty,1)$
 
-**(b)** $A = \{0\} \cup [1,4)$
+**(b)** $A = \\{0\\} \cup [1,4)$
 
 **(c)** $A = [-10, 1] \cap [1, 4)$
 
@@ -37,7 +37,7 @@ Compute the probabilities $P(A)$ of the following events.
 
 **(a)** $A = [-5, 2]$
 
-**(b)** $A = \{\text{all nonnegative even integers}\}$ (_Hint_: The formula for hyperbolic cosine [here](https://en.wikipedia.org/wiki/Hyperbolic_functions#Taylor_series_expressions) might be helpful.)
+**(b)** $A = \\{\text{all nonnegative even integers}\\}$ (_Hint_: The formula for hyperbolic cosine [here](https://en.wikipedia.org/wiki/Hyperbolic_functions#Taylor_series_expressions) might be helpful.)
 
 ---
 
