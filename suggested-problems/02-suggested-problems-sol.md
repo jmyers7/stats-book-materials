@@ -33,7 +33,7 @@ $$
 **(a)** The sample space is
 
 $$
-S = \{TTT,TTH,THT,THH,HTT,HTH,HHT,HHH \}.
+S = \\{TTT,TTH,THT,THH,HTT,HTH,HHT,HHH \\}.
 $$
 
 The probability measure is discrete with mass function given by
@@ -53,7 +53,7 @@ according to the [Binomial Theorem](https://en.wikipedia.org/wiki/Binomial_theor
 **(b)** The sample space is
 
 $$
-S = \{2,3,\ldots,12\}.
+S = \\{2,3,\ldots,12\\}.
 $$
 
 For the probability measure, observe that:
@@ -66,19 +66,28 @@ Do you see the pattern? The ascending pattern continues till we reach $7\in S$, 
 
 Since the probability of rolling a particular pair of numbers is the same as any other, we have a chance of $1/36$ of rolling any particular pair of numbers. Therefore, combined with what we observed above, we see that:
 
-$$
-p(2) = 1/36, \\
-p(3) = 2/36, \\
-p(4) = 3/36, \\
-p(5) = 4/36, \\
-p(6) = 5/36, \\
-p(7) = 6/36, \\
-p(8) = 5/36, \\
-p(9) = 4/36, \\
-p(10) = 3/36, \\
-p(11) = 2/36, \\
-p(12) = 1/36.
-$$
+
+$$p(2) = 1/36,$$
+
+$$p(3) = 2/36,$$
+
+$$p(4) = 3/36,$$
+
+$$p(5) = 4/36,$$
+
+$$p(6) = 5/36,$$
+
+$$p(7) = 6/36,$$
+
+$$p(8) = 5/36,$$
+
+$$p(9) = 4/36,$$
+
+$$p(10) = 3/36,$$
+
+$$p(11) = 2/36,$$
+
+$$p(12) = 1/36.$$
 
 We note that this is a valid probability mass function, since
 
