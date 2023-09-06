@@ -10,7 +10,11 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 ## Class stuff
 
-Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/).
+Office: MCC 175
+
+Office hours: 10:10-11:10 on Monday and Friday;  3-4 on Wednesday; and by appointment
+
+Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/)
 
 | Date | Topic | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: 
