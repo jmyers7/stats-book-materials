@@ -40,4 +40,50 @@ Now, if you look at the joint density function, you'll notice that it is symmetr
 	\end{align*}}
 
 
+
+
+
+
+
+
+
+
+
+
+
+\bigskip
+\prob Suppose that $X$ and $Y$ are random variables with the joint density function
+
+	\[
+	f(x,y) = \begin{cases}
+	3x & : 0 \leq y\leq x \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+	
+Compute the covariance of $X$ and $Y$.
+
+
+\bigskip
+\textcolor{red}{We follow the same strategy as the previous problem. First, we get the marginal densities:
+	\[f(x) = \int_{\mathbb{R}} f(x,y) \ \text{d}y = \int_0^x 3x \ \text{d}y = 3x^2
+	\]
+for $0\leq x \leq 1$ and $f(x)=0$ otherwise; also:
+	\[f(y) = \int_{\mathbb{R}} f(x,y) \ \text{d} x = \int_y^1 3x \ \text{d}x = \frac{3}{2}(1-y^2)
+	\]
+for $0\leq y \leq 1$. Then, we compute:
+	\[E(X) = \int_{\mathbb{R}} x f(x) \ \text{d}x = \int_0^1 3x^3 \ \text{d}x = \frac{3}{4}
+	\]
+and
+	\[E(Y) = \int_{\mathbb{R}} y f(y) \ \text{d}y = \frac{3}{2} \int_0^1 y (1-y^2) \ \text{d}y = \frac{3}{8}.
+	\]
+Finally, we compute
+	\[E(XY) = \iint_{\mathbb{R}^2} xy f(x,y) \ \text{d}y\text{d}x = \int_0^1 \int_0^x 3x^2y \ \text{d}y\text{d}x = \frac{3}{10}
+	\]
+and hence
+	\[\operatorname{Cov}(X,Y) = E(XY) - E(X) E(Y) = \frac{3}{10} - \frac{3}{4} \cdot \frac{3}{8} = \frac{3}{160} \approx 0.019.
+	\]}
+	
+
+
 \end{document}
