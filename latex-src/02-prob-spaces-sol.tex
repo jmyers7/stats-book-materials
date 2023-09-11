@@ -444,19 +444,19 @@ the Construction Lemma guarantees that we have a valid probability measure. The 
 \bigskip
 \textcolor{red}{The probability space has sample space
 	\[
-	S = \{ H, TH, TTH, TTTH, \ldots\}.
+	S = \{ 1, 2, 3,\ldots\}
 	\]
-The collection of events is \textit{all} subsets. The probability measure is discrete with probability function given by
+where $s\in S$ represents the number of flips before we see a head. The collection of events is \textit{all} subsets. The probability measure is discrete with probability mass function given by
 	\[
-	p(\underbrace{T\cdots TH}_{\text{$n$ flips}}) = (0.25)(0.75)^{n-1}.
+	p(s) = (0.25)(0.75)^{s-1}.
 	\]
 But is this \textit{really} a valid probability measure? If you remember your rules for infinite series from calculus, you'll notice that:
 	\[
-	\sum_{n=1}^\infty (0.25)(0.75)^{n-1} = \frac{0.25}{1-0.75} = 1,
+	\sum_{s=1}^\infty (0.25)(0.75)^{s-1} = \frac{0.25}{1-0.75} = 1,
 	\]
 so indeed the Construction Lemma guarantees that we obtain a valid probability measure. The probability that we flip an odd number of tails before we see a head is
 	\[
-	\sum_{n=1}^\infty (0.25)(0.75)^{2n-1} = \frac{0.25}{0.75} \cdot \frac{(0.75)^2}{1-(0.75)^2} \approx 0.43.
+	\sum_{s=1}^\infty (0.25)(0.75)^{2s-1} = \frac{0.25}{0.75} \cdot \frac{(0.75)^2}{1-(0.75)^2} \approx 0.43.
 	\]}
 \end{enumerate}
 
@@ -486,9 +486,9 @@ so indeed the Construction Lemma guarantees that we obtain a valid probability m
 \bigskip
 \textcolor{red}{We know that the total probability must sum to $1$, so
 	\[
-	1 = \sum_{i=1}^5P(E_i) = 0.15 + 0.15 + 0.4 + P(E_4) + 2P(E_4).
+	1 = \sum_{i=1}^5P(E_i) = 0.15 + 0.15 + 0.4 + 2P(E_5) + P(E_5).
 	\]
-Solving this equation for $P(E_4)$ gives $0.1$, from which it follows that $P(E_5)=0.2$.}
+Solving this equation for $P(E_5)$ gives $0.1$, from which it follows that $P(E_4)=0.2$.}
 \bigskip
 
 \item If $P(E_1) = 3P(E_2) = 0.3$, find the probabilities of the remaining simple events if you know that the remaining simple events are equally probable.
