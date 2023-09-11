@@ -24,6 +24,8 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Wed 09-06 | Finish Section [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1), begin Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures) | :arrow_up: | :arrow_up: | [Problems](./suggested-problems/02-suggested-problems.md) for Section 2.6, [solutions](./suggested-problems/02-suggested-problems-sol.md)
 | Fri 09-08 | Continue Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures) | :arrow_up: | :arrow_up: | :arrow_up: | Quiz 1 over Section [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1)
 | Mon 09-11 | Finish Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures), do Section [2.7](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-histograms), begin Section [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) | [Slides](./slides/02-prob-spaces-03.pdf) for Sections 2.7 and 2.8 | :arrow_up: | [Problems](./suggested-problems/03-suggested-problems.md) for Section 2.8, [solutions](./suggested-problems/03-suggested-problems-sol.md) | [DataCamp assignment](https://www.datacamp.com/) deadline @ 9:10am
+| Wed 09-13 
+| Fri 09-15 ||||| Quiz 2 over Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures)
 
 
 ## List of chapters and worksheets
