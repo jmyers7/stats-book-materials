@@ -59,7 +59,7 @@ Find and sketch the CDF of the measure $P$.
 
 **Problem 5**: A box contains five keys, only one of which will open a lock. Keys are randomly selected and tried, one at a time, until the lock is opened (keys that do not work are discarded before another is tried). Let $s\in \mathbb{R}$ be the number of the trial on which the lock is opened.
 
-**(a)** Assuming the probability measure $P$ on $S$ is uniform, find the mass function of $P$. (*Hint*: It has support $\{1,2,3,4,5\}$.)
+**(a)** Assuming the probability measure $P$ on $S$ is uniform, find the mass function of $P$. (*Hint*: It has support $\\{1,2,3,4,5\\}$.)
 
 **(b)** Give the corresponding distribution function.
 
@@ -67,19 +67,19 @@ Find and sketch the CDF of the measure $P$.
 
 **(d)** What is $F(3)$?
 
-**(e)** What is $P\big(\{3\}\big)$?
+**(e)** What is $P\big(\\{3\\}\big)$?
 
 ---
 
 **Problem 6**: Suppose that a probability measure $P$ on $S = \mathbb{R}$ has a CDF $F(s)$ whose graph is shown [here](../img/cdf.png). (Replace the $x$ with an $s$.) Compute the following probabilities:
 
-**(a)** $P(\{-1\})$
+**(a)** $P(\\{-1\\})$
 
 **(b)** $P\big( (-\infty,0) \big)$
 
 **(c)** $P \big( (-\infty,0] \big)$
 
-**(d)** $P(\{1\})$
+**(d)** $P(\\{1\\})$
 
 **(e)** $P \big( (0,3] \big)$
 
