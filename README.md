@@ -26,6 +26,10 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Mon 09-11 | Finish Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures), do Section [2.7](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-histograms), begin Section [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) | [Slides](./slides/02-prob-spaces-03.pdf) for Sections 2.7-2.9 | :arrow_up: | [Problems](./suggested-problems/03-suggested-problems.md) for Section 2.8, [solutions](./suggested-problems/03-suggested-problems-sol.md) | [DataCamp assignment](https://www.datacamp.com/) deadline @ 9:10am
 | Wed 09-13 | Finish Section [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures), do Section [2.9](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-density-graphs-univariate-versions), begin Section [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) | [Slides](./slides/02-prob-spaces-04.pdf) for Section 2.10 | :arrow_up:
 | Fri 09-15 | Continue Section [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) || :arrow_up: || Quiz 2 over Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures)
+| Mon 09-18
+| Wed 09-20
+| Fri 09-22
+| Mon 09-25 ||||| [Programming assignment 1](./programming-assignments/assignment_01.ipynb) due @ 9:10am, [submission link](https://forms.gle/9HHZCHMr6WidyC4Y8)
 
 
 ## List of chapters and worksheets
@@ -48,6 +52,4 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 
 ## List of programming assignments
 
-1. [Python Libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment-01.ipynb). Covers prerequisite Python knowledge.
-   
-2. [Random Variables in SciPy](programming-assignments/assignment-02.ipynb). Covers [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html).
+1. [Python Libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment_01.ipynb). Covers prerequisite Python knowledge.
