@@ -76,7 +76,7 @@ I will let you produce the sketch of the graph on your own.
 
 $$
 p(s) = \begin{cases}
-0.2 & : s\in \{1,2,3,4,5\}, \\
+0.2 & : s\in \\{1,2,3,4,5\\}, \\
 0 & : \text{otherwise}.
 \end{cases}
 $$
@@ -98,19 +98,19 @@ $$
 
 **(d)** $F(3) = 0.6$
 
-**(e)** $P\big(\{3\}\big) = 0.2$
+**(e)** $P\big(\\{3\\}\big) = 0.2$
 
 ---
 
 **Problem 6**: 
 
-**(a)** $P(\{-1\}) = 0.1$
+**(a)** $P(\\{-1\\}) = 0.1$
 
 **(b)** $P\big( (-\infty,0) \big) = 0.1$
 
 **(c)** $P \big( (-\infty,0] \big) = F(0) = 0.2$
 
-**(d)** $P(\{1\}) = 0$
+**(d)** $P(\\{1\\}) = 0$
 
 **(e)** $P \big( (0,3] \big) = F(3) - F(0) = 0.6$
 
@@ -136,7 +136,7 @@ $$
 p = \frac{1}{9}s^2 \quad \Rightarrow \quad s = 3 \sqrt{p},
 $$
 
-which shows $Q(p) = 3 \sqrt{p}$ for $0<p\leq 1$.
+which shows $Q(p) = 3 \sqrt{p}$ for $0 < p \leq 1$.
 
 ---
 
@@ -170,5 +170,5 @@ $$
 **(c)** The median is
 
 $$
-Q(0.5) = \min\{ s\in \mathbb{R} : 0.5 \leq F(s)\} = 5.5.
+Q(0.5) = \min\\{ s\in \mathbb{R} : 0.5 \leq F(s)\\} = 5.5.
 $$
