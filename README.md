@@ -29,7 +29,7 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Mon 09-18
 | Wed 09-20
 | Fri 09-22
-| Mon 09-25 ||||| [Programming assignment 1](./programming-assignments/assignment_01.ipynb) due @ 9:10am, [submission link](https://forms.gle/9HHZCHMr6WidyC4Y8)
+| Mon 09-25 ||||| [Programming assignment 1](./programming-assignments/assignment_01_instructions.md) due @ 9:10am, [submission link](https://forms.gle/9HHZCHMr6WidyC4Y8)
 
 
 ## List of chapters and worksheets
