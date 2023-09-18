@@ -28,7 +28,7 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Fri 09-15 | Introduce first programming assignment (see link below on 09-25) |||| Quiz 2 over Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures)
 | Mon 09-18 | Finish Section [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) | :arrow_up: | :arrow_up: | [Problems](./suggested-problems/04-suggested-problems.md) for Section 2.10, [solutions](./suggested-problems/04-suggested-problems-sol.md)
 | Wed 09-20
-| Fri 09-22
+| Fri 09-22 ||||| Quiz 3 over Sections [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) and [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions)
 | Mon 09-25 ||||| [Programming assignment 1](./programming-assignments/assignment_01_instructions.md) due @ 9:10am, [submission link](https://forms.gle/9HHZCHMr6WidyC4Y8)
 
 
