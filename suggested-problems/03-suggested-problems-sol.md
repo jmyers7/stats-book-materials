@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Section [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures).**
+**Solutions for suggested problems for Section [2.8](./03-suggested-problems.md).**
 
 ---
 

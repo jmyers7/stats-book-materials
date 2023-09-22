@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures).**
+**Solutions for suggested problems for Section [2.6](./02-suggested-problems.md).**
 
 ---
 
