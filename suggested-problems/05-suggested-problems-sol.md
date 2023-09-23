@@ -149,7 +149,7 @@ where, as in the previous part, $0.1$, $0.4$, and $0.2$ are the probability mass
 **Problem 5**: We are asked to compute $P(C)$, where
 
 $$
-C = \{ (s,t) : 0 \leq s, t\leq 1/4\}.
+C = \\{ (s,t) : 0 \leq s, t\leq 1/4\\}.
 $$
 
 Then, we have
