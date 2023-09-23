@@ -15,13 +15,13 @@ $$
 
 **(b)** Determine the probabilities $P(C_k)$ ($k=1,2,3,4$) for the following events:
 
-* $C_1 = \{(s,t) : s+t > 2\}$
+* $C_1 = \\{(s,t) : s+t > 2\\}$
 
-* $C_2 = \{(s,t) : t < 1/2\}$
+* $C_2 = \\{(s,t) : t < 1/2\\}$
 
-* $C_3 = \{(s,t) : s\leq 1 \}$
+* $C_3 = \\{(s,t) : s\leq 1 \\}$
 
-* $C_4 = \{(s,t) : s=3t\}$
+* $C_4 = \\{(s,t) : s=3t\\}$
 
 ---
 
@@ -38,11 +38,11 @@ $$
 
 **(b)** Determine the probabilities $P(C_k)$ ($k=1,2,3$) for the following events:
 
-* $C_1 = \{ (s,t) : 0 \leq s \leq 1/2\}$
+* $C_1 = \\{ (s,t) : 0 \leq s \leq 1/2\\}$
 
-* $C_2 = \{ (s,t) : t \leq s + 1\}$
+* $C_2 = \\{ (s,t) : t \leq s + 1\\}$
 
-* $C_3 = \{ (s,t) : t=s^2\}$
+* $C_3 = \\{ (s,t) : t=s^2\\}$
 
 ---
 
@@ -52,7 +52,7 @@ Suppose that $P$ is a bivariate discrete probability measure on $S= \mathbb{R}^2
 
 $$
 p(s,t) = \begin{cases}
-c|s+t|  & : s,t \in \{ -2, -1, 0, 1, 2\}, \\
+c|s+t|  & : s,t \in \\{ -2, -1, 0, 1, 2\\}, \\
 0 & : \text{otherwise}.
 \end{cases}
 $$
@@ -61,11 +61,11 @@ $$
 
 **(b)** Determine the probabilities $P(C_k)$ ($k=1,2,3$) for the following events:
 
-* $C_1 = \{ (0,-2)\}$
+* $C_1 = \\{ (0,-2)\\}$
 
-* $C_2 = \{ (s,t) : s=1 \}$
+* $C_2 = \\{ (s,t) : s=1 \\}$
 
-* $C_3 = \{ (s,t) : |s-t| \leq 1 \}$
+* $C_3 = \\{ (s,t) : |s-t| \leq 1 \\}$
 
 ---
 
@@ -86,9 +86,9 @@ Suppose that:
 
 Suppose also that if the chosen point is not one of the four corners of the square, then it will be an interior point in the square and it will chosen according to a constant density function over the interior of the square.
 
-**(a)** Compute $P(C_1)$, where $C_1 = \{ (s,t) : s\leq 1/4\}$.
+**(a)** Compute $P(C_1)$, where $C_1 = \\{ (s,t) : s\leq 1/4\\}$.
 
-**(b)** Compute $P(C_2)$, where $C_2 = \{(s,t) : s+t \leq 1\}$.
+**(b)** Compute $P(C_2)$, where $C_2 = \\{(s,t) : s+t \leq 1\\}$.
 
 ---
 
