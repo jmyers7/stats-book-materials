@@ -1,5 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{../header, amssymb}
+\usepackage{./header, amssymb}
 
 \hdr{Mathematical Statistics}{Chapter 3: Rules of probability}
 
@@ -36,7 +36,7 @@
 \bigskip
 \textcolor{red}{When selecting the three people who win a medal, the order matters. Hence we are looking for the number of $3$-permutations from a set of $8$ elements. The answer is then
 	\[
-	P(8,3) = \frac{8!}{5!} = 336.
+	P^8_3 = \frac{8!}{5!} = 336.
 	\]}
 \bigskip
 
@@ -51,7 +51,7 @@
 \bigskip
 \textcolor{red}{We are asked to compute how many ways there are to select five cards from a set of 52 cards. Since order does not matter, these are combinations, not permutations. Thus there are
 	\[
-	C(52,5) = \frac{52!}{5!47!} = 2,598,960
+	\binom{52}{5} = \frac{52!}{5!47!} = 2,598,960
 	\]
 many poker hands.}
 \bigskip
