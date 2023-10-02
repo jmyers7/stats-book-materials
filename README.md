@@ -35,6 +35,8 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Mon 10-02 | Finish Section [3.5](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence), do Section [3.7](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem), begin Section [4.1](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#id1) | Slides for Sections [3.7](./slides/03-rules-of-prob-04.pdf) and [4.1](./slides/04-rules-of-prob-01.pdf) | [Worksheet](./worksheets/04-random-variables.pdf) for Chapter 4, [solutions](./worksheets/04-random-variables-sol.pdf) | [Problems](./suggested-problems/09-suggested-problems.md) for Section 3.7
 | Wed 10-04
 | Fri 10-06 ||||| Quiz 5 over Sections [3.5](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence) and [3.7](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem)
+| Mon 10-09 
+| Wed 10-11 ||||| [Programming assignment 2](./programming-assignments/assignment_02_instructions.md) due @ 9:10am, [submission link](https://forms.gle/aiZUKigNaCtw6zJKA)
 
 
 ## List of chapters and worksheets
