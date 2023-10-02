@@ -1,5 +1,5 @@
 \documentclass[12pt,reqno]{amsart}
-\usepackage{../header}
+\usepackage{./header}
 
 \hdr{Mathematical Statistics}{Chapter 4: Random variables, \textit{etc}.}
 
@@ -112,12 +112,29 @@ Describe some random variables on $S$.
 	S = \{ (x,y) \in \mathbb{R}^2 : x^2+y^2 \leq 1\}
 	\]
 
-be the solid unit disk in $\mathbb{R}^2$. Consider drawing a point at random from $S$. Supposing for the moment that there is a way to model such a situation with an appropriate probability space with sample space $S$ (we'll talk about this later!), describe some random variables on $S$.
+be the solid unit disk in $\mathbb{R}^2$. Consider drawing a point uniformly at random from $S$.
 
+\medskip
+\begin{enumerate}
+\item Define an appropriate probability space that models this scenario.
+
+\bigskip
+\textcolor{red}{The sample space is the disk $S$. The probability measure is continuous and uniform, with density function given by
+	\[
+	f(x,y) = \frac{1}{\pi}
+	\]
+for all $(x,y)\in S$.}
+\bigskip
+
+\item Describe some random variables in this scenario.
 
 \bigskip
 \textcolor{red}{This is similar to the previous problem. We could let $X$ be a random variable that represents the $x$-value that we obtain. Or, it could represent the $y$-value. Or, it could be the \textit{sum} of the $x$- and $y$-values.}
 \bigskip
+\end{enumerate}
+
+
+
 
 
 
