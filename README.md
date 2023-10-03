@@ -36,7 +36,8 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Wed 10-04 | Do Section [4.1](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#id1), begin Section [4.2](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables) | [Slides](./slides/04-rules-of-prob-01.pdf) for Sections 4.1-4.2 | [Worksheet](./worksheets/04-random-variables.pdf) for Chapter 4, [solutions](./worksheets/04-random-variables-sol.pdf) | [Problems](./suggested-problems/10-suggested-problems.md) for Section 4.2
 | Fri 10-06 ||||| Quiz 5 over Sections [3.5](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence) and [3.7](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem)
 | Mon 10-09 
-| Wed 10-11 ||||| [Programming assignment 2](./programming-assignments/assignment_02_instructions.md) due @ 9:10am, [submission link](https://forms.gle/aiZUKigNaCtw6zJKA)
+| Wed 10-11
+| Mon 10-16 ||||| [Programming assignment 2](./programming-assignments/assignment_02_instructions.md) due @ 9:10am, [submission link](https://forms.gle/aiZUKigNaCtw6zJKA)
 
 
 ## List of chapters and worksheets
