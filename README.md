@@ -14,7 +14,7 @@ Office: MCC 175
 
 Office hours: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
 
-Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/)
+Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/), [quiz solutions](https://drive.google.com/drive/folders/1Ruq8mGgeGG4evW9DAIMKMLPznSz8g2UL?usp=drive_link)
 
 | Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: | :---: 
