@@ -65,7 +65,7 @@ $$
 For the second event,
 
 $$
-P(C_2) = \iint_{C_1} f(s,t) \ \text{d}t \text{d}s = \frac{5}{4} \int_0^1 \int_{t-1}^{\sqrt{1-t}} (s^2 + t) \ \text{d}s \text{d}t = \frac{13}{16}.
+P(C_2) = \iint_{C_2} f(s,t) \ \text{d}t \text{d}s = \frac{5}{4} \int_0^1 \int_{t-1}^{\sqrt{1-t}} (s^2 + t) \ \text{d}s \text{d}t = \frac{13}{16}.
 $$
 
 For the third event, we note that $C_3$ is a parabola in the $(s,t)$-plane. We then have $P(C_3)=0$, since the volume underneath a surface and above a curve must always be zero.
