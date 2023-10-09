@@ -1,0 +1,7 @@
+**Suggested problems for Sections [4.3](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#discrete-and-continuous-random-variables) and [4.4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#distribution-and-quantile-functions).**
+
+* Problems 11, 13, 15, and 23 in [chapter 3](https://drive.google.com/file/d/1S3-JeIbReADxBhSBrd_Lxe_n_azo12NI/view?usp=drive_link) ([solutions](https://drive.google.com/file/d/1S2uRDDC2taFJdRA6NrjPKtfGFn4y8Jh1/view?usp=drive_link)) of the Devore textbook, and also 1, 3, 5, 11, 13, and 17 in [chapter 4](https://drive.google.com/file/d/1S52tkodAATAipjSN4YBEkNjzFKxzN5Rz/view?usp=drive_link) ([solutions](https://drive.google.com/file/d/1S5ZT-fsKePJhexiw-D04IC-4KuiXFBxq/view?usp=drive_link)). (_Note_: A _percentile function_ is the same thing as a _quantile function_. For example, the 90th percentile of a distribution is the same as the 0.9 quantile.)
+
+* Problems 3, 5, 7, and 9 in [section 3.2](https://drive.google.com/file/d/1S4ItmZQ8upAPTsd51oa6ZLXO9jk8xT_9/view?usp=drive_link) of the DeGroot textbook, and also 3, 5, 11, and 15 in [section 3.3](https://drive.google.com/file/d/1S4LU6Ece_kJF5X19Ec3NkjIpuxnhhrFr/view?usp=drive_link). Solutions for both sections are [here](https://drive.google.com/file/d/1S31ngPbiBSRXimzE-_9rBZX9nCaX3lTD/view?usp=drive_link).
+
+* Problem 3.7 in the Wackerly textbook, as well as problems 4.1, 4.5, 4.11, 4.13, 4.17, and 4.19. (The "official" textbook of the course.)
