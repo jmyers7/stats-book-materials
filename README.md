@@ -38,6 +38,8 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Mon 10-09 | Finish Section [4.2](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables), begin Sections [4.3](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#discrete-and-continuous-random-variables) and [4.4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#distribution-and-quantile-functions) | [Slides](./slides/04-rules-of-prob-02.pdf) for Sections 4.3 and 4.4 | :arrow_up: | [Problems](./suggested-problems/11-suggested-problems.md) for Sections 4.3 and 4.4
 | Wed 10-11 | Finish Section [4.4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#distribution-and-quantile-functions), begin Section [4.5](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expected-values) | [Slides](./slides/04-rules-of-prob-03.pdf) for Section 4.5 | :arrow_up: | [Problems](./suggested-problems/12-suggested-problems.md) for Section 4.5
 | Mon 10-16 ||||| [Programming assignment 2](./programming-assignments/assignment_02_instructions.md) due @ 9:10am, [submission link](https://forms.gle/aiZUKigNaCtw6zJKA)
+| Wed 10-18
+| Fri 10-20 ||||| Midterm exam
 
 
 ## List of chapters and worksheets
