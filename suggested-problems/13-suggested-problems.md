@@ -80,7 +80,7 @@ $$
 and define the function
 
 $$
-g: \mathbb{R} \to \mathbb{R}, \quad g(x) = x^3.
+g: \mathbb{R} \to \mathbb{R}, \quad g(z) = z^3.
 $$
 
 Similar to the previous problem, compute the following probabilities:
