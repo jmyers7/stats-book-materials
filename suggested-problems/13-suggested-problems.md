@@ -61,7 +61,7 @@ $$
 Y: \mathbb{R} \to \mathbb{R}, \quad Y(s) = 1.
 $$
 
-If the copies of $\mathbb{R}$ in the domains of $X$ and $Y$ are equipped with the measure $P$, and if $P_{X+Y}$ is the probability measure induced by $X+Y$ on the copies of $\mathbb{R}$ in the codomains, compute the following probabilities:
+If the copies of $\mathbb{R}$ in the domains of $X$ and $Y$ are equipped with the measure $P$, and if $P_{X+Y}$ is the probability measure induced by the random variable $X+Y$ on the copy of $\mathbb{R}$ in its codomain, compute the following probabilities:
 
 **(a)** $P\big(X+Y\in [1,2] \big)$
 
