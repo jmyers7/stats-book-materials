@@ -8,7 +8,7 @@
 
 $$
 \begin{array}{c|cc}
-s & X(s) & Y(s) & (X+Y)(s) & (X-Y)(s) & (3XY)(s) & (4X-5Y)(s) \\ \hline
+s & X(s) & Y(s) & (X+Y)(s) & (X-Y)(s) & (3XY)(s) & (4X-5Y)(s) \\\ \hline
 1 & 0 & -1 & -1 & 1 & 0 & 5\\
 2 & 0 & -2 & -2 & 2 & 0 & 10\\
 3 & 2 & -2 & 0 & 4 & -12 & 18\\
@@ -69,7 +69,7 @@ $$
 **(a)** Recall (by definition!) that
 
 $$
-P(X+Y\in [1,2]) = P_{X+Y}\big( [1,2] \big) = P\big( \{s\in \mathbb{R} : (X+Y)(s) \in [1,2]\} \big).
+P(X+Y\in [1,2]) = P_{X+Y}\big( [1,2] \big) = P\big( \\{s\in \mathbb{R} : (X+Y)(s) \in [1,2]\\} \big).
 $$
 
 But $(X+Y)(s) = X(s) + Y(s) = s^2 +1$, so we may rewrite the condition
@@ -111,7 +111,7 @@ $$
 when $s \in [-2,-1]\cup[1,2]$, we have
 
 $$
-P(2\leq X+Y \leq 5) = P\big([-2,-1] \big) + P\big([1,2]\big) = \frac{1}{2} \int_1^2\text{d}s = \frac{1}{2}.
+P(2\leq X+Y \leq 5) = P\big([-2,-1] \big) + P\big([1,2]\big) = \int_{-2}^{-1}f(s) \ \text{d}s + \int_1^2 f(s) \ \text{d}s = \frac{1}{2} \int_1^2\text{d}s = \frac{1}{2}.
 $$
 
 ---
@@ -121,7 +121,7 @@ $$
 **(a)** Just like the previous problem, we have
 
 $$
-P\big(0\leq g(Z) \leq 1 \big) = P_{g(Z)}\big([0,1] \big) = P \big( \{ s\in \mathbb{R} : g(Z) \in [0,1] \} \big).
+P\big(0\leq g(Z) \leq 1 \big) = P_{g(Z)}\big([0,1] \big) = P \big( \\{ s\in \mathbb{R} : g(Z) \in [0,1] \\} \big).
 $$
 
 But $\big(g(Z)\big)(s) = (s-1)^3$, so we may rewrite the condition
@@ -151,13 +151,13 @@ $$
 But
 
 $$
-P_{g(Z)} \big( (-\infty,0] \big) = P\big(\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\} \big).
+P_{g(Z)} \big( (-\infty,0] \big) = P\big(\\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\\} \big).
 $$
 
 But using the same methods as above, we determine
 
 $$
-\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\} = (-\infty,1],
+\\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\\} = (-\infty,1],
 $$
 
 and so
