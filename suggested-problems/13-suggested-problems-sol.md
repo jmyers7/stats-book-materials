@@ -154,7 +154,7 @@ $$
 P_{g(Z)} \big( (-\infty,0] \big) = P\big(\\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\\} \big).
 $$
 
-But using the same methods as above, we determine
+Using the same methods as above, we determine
 
 $$
 \\{s\in \mathbb{R} : g(Z) \in (-\infty,0]\\} = (-\infty,1],
