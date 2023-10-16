@@ -5,14 +5,14 @@
 **Problem 1**: Suppose that we have random variables $X$ and $Y$ defined on the probability space
 
 $$
-S = \{1, 2, 3, 4, 5\}
+S = \\{1, 2, 3, 4, 5\\}
 $$
 
 as in the table
 
 $$
 \begin{array}{c|cc}
-s & X(s) & Y(s) \\ \hline
+s & X(s) & Y(s) \\\ \hline
 1 & 0 & -1\\
 2 & 0 & -2\\
 3 & 2 & -2\\
@@ -24,9 +24,8 @@ $$
 Suppose also that the probability measure on $S$ has mass function given by
 
 $$
-
 \begin{array}{c|c}
-s & p(s) \\ \hline
+s & p(s) \\\ \hline
 1 & 0.1\\
 2 & 0.3\\
 3 & 0.1\\
@@ -62,7 +61,7 @@ $$
 Y: \mathbb{R} \to \mathbb{R}, \quad Y(s) = 1.
 $$
 
-If the copy of $\mathbb{R}$ in the domains of $X$ and $Y$ is equipped with the measure $P$, and if $P_{X+Y}$ is the probability measure induced by $X+Y$ on the copy of $\mathbb{R}$ in the codomains, compute the following probabilities:
+If the copies of $\mathbb{R}$ in the domains of $X$ and $Y$ are equipped with the measure $P$, and if $P_{X+Y}$ is the probability measure induced by $X+Y$ on the copies of $\mathbb{R}$ in the codomains, compute the following probabilities:
 
 **(a)** $P\big(X+Y\in [1,2] \big)$
 
