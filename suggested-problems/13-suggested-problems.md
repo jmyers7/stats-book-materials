@@ -40,7 +40,7 @@ $$
 
 ---
 
-**Problem 2**: Let $P$ be the uniform probability measure on $\mathbb{R}$ with support $[0,2]$. Thus, $P$ has density function
+**Problem 2**: Let $P$ be the (continuous) uniform probability measure on $\mathbb{R}$ with support $[0,2]$. Thus, $P$ has density function
 
 $$
 f(s) = \begin{cases}
