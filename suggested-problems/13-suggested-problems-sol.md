@@ -69,7 +69,7 @@ $$
 **(a)** Recall (by definition!) that
 
 $$
-P(X+Y\in [1,2]) = P_{X+Y}\big( [1,2] \big) = P\big( \\{s\in \mathbb{R} : (X+Y)(s) \in [1,2]\\} \big).
+P(X+Y\in [1,2]) \stackrel{\text{def}}{=} P_{X+Y}\big( [1,2] \big) \stackrel{\text{def}}{=} P\big( \\{s\in \mathbb{R} : (X+Y)(s) \in [1,2]\\} \big).
 $$
 
 But $(X+Y)(s) = X(s) + Y(s) = s^2 +1$, so we may rewrite the condition
