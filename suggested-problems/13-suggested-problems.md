@@ -67,7 +67,7 @@ $$
 X+Y: \mathbb{R} \to \mathbb{R}
 $$
 
-is equipped with the measure $P$ and if $P_{X+Y}$ is the probability measure induced on its codomain, compute the following probabilities:
+is equipped with the measure $P$, compute the following probabilities:
 
 **(a)** $P\big(X+Y\in [1,2] \big)$
 
