@@ -99,7 +99,7 @@ $$
 for all $s\in \mathbb{R}$, we have
 
 $$
-P(X+Y\in [0,1])=P_{X+Y}\big([0,1] \big) = P_{X+Y} (\emptyset) = 0.
+P(X+Y\in [0,1])=P_{X+Y}\big([0,1) \big) = P_{X+Y} (\emptyset) = 0.
 $$
 
 **(c)** Since
