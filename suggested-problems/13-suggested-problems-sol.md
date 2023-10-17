@@ -93,7 +93,7 @@ $$
 **(b)** Since
 
 $$
-s^2 + 1 \notin [0,1]
+s^2 + 1 \notin [0,1)
 $$
 
 for all $s\in \mathbb{R}$, we have
