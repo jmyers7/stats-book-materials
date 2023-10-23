@@ -67,7 +67,7 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 
 ## List of programming assignments
 
-1. [Python Libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment_01.ipynb). Covers prerequisite Python knowledge.
+1. [Python libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment_01.ipynb). Covers prerequisite Python knowledge.
 
 2. [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_02.ipynb). Covers [Chapter 3](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html).
 
