@@ -753,10 +753,34 @@ Compute the probability distribution of $\sin(X)$.
 \prob Compute the expectation of the random variable $\sin(X)$ in the previous problem.
 
 \bigskip
-\textcolor{red}{By the LotUS with $g(x) = \sin(x)$, we have
+\textcolor{red}{Let's do this two ways. First, by using the definition of the expectation,
+	\[
+	E(\sin{X}) = \sum_{y\in \mathbb{R}} y\cdot  p_{\sin{X}}(y),
+	\]
+where $p_{\sin{X}}(y)$ is the mass function of the random variable $Y=\sin{X}$. Using the results of the previous problem, we get:
 	\[
 	E(\sin(X)) = 1 \cdot( 1/8) -1 \cdot (1/4) = -1/8.
-	\]}
+	\]
+On the other hand, we can also use the LotUS:
+	\[E(\sin{X}) = \sum_{x\in \mathbb{R}} \sin{(x)}  \cdot p_X(x).
+	\]
+Now, we compute:
+	\[
+	\begin{array}{c|c}
+	x & p_X(x)  \\ \hline
+	0 & 0  \\
+	\pi/2 & 1/8  \\
+	\pi & 1/2 \\
+	3\pi/2 & 1/4 \\
+	2\pi & 1/8
+	\end{array}
+	\]
+Then, using the previously displayed formula, we get:
+	\begin{align*}
+	E(\sin{X}) &= \sin(0) \cdot 0 + \sin(\pi/2) \cdot (1/8) + \sin(\pi) \cdot (1/2) + \sin(3\pi/2) \cdot (1/4) + \sin(2\pi) \cdot (1/8) \\
+	&= 1/8 - 1/4 \\
+	&= -1/8.
+	\end{align*}}
 
 
 
@@ -882,7 +906,7 @@ which matches our first answer.}
 
 	\[
 	\begin{array}{c|c}
-	y & p(x) \\ \hline
+	x & p(x) \\ \hline
 	0 & 1/8   \\
 	1 & 1/4   \\
 	2 & 3/8  \\
@@ -1044,7 +1068,7 @@ and
 \textcolor{red}{Let $X$ be the number of bottles that have serious flaws. The probability mass function of $X$ is
 	\[
 	\begin{array}{c|c}
-	y & p(x) \\ \hline
+	x & p(x) \\ \hline
 	0 & (0.9)^2 = 0.81   \\
 	1 & 2(0.1)(0.9) = 0.18   \\
 	2 & (0.1)^2 = 0.01
