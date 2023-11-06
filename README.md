@@ -2,8 +2,6 @@
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
-<a href="https://github.com/jmyers7/stats-book-materials/edit/main/README.md#class-stuff">Test link</a>
-
 &nbsp;
 <p align="center">
   <img src="./img/header.png" width="100%">
