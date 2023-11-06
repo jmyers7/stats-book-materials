@@ -46,9 +46,9 @@ Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqF
 | Mon 10-30 | Finish Section [5.2](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions), begin Section [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) | [Slides](./slides/05-examples-of-rvs-02.pdf) for Section 5.5 | :arrow_up: | [Problems](./suggested-problems/15-suggested-problems.md) for Sections 5.2 and 5.5
 | Wed 11-01 | Continue Section [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) | :arrow_up: | :arrow_up: | :arrow_up: | [Programming assignment 3](./programming-assignments/assignment_03_instructions.md) due @ 9:10am, [submission link](https://forms.gle/fYuabGFhZZmkvRfN6)
 | Fri 11-03 | Finish Section [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions), begin Section [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) | [Slides](./slides/05-examples-of-rvs-03.pdf) for Section 5.6 | :arrow_up: | [Problems](./suggested-problems/16-suggested-problems.md) for Section 5.6|
-| Mon 11-06 ||||| Quiz 7 over Sections [5.2](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) and [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions)
+| Mon 11-06 | Finish Section [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) | :arrow_up: | :arrow_up: | :arrow_up: | Quiz 7 over Sections [5.2](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) and [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions)
 | Wed 11-08
-| Fri 11-10
+| Fri 11-10 ||||| Quiz 8 over Sections [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) and [5.7](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions)
 | Mon 11-13 ||||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
 
 
