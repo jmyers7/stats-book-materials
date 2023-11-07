@@ -2,13 +2,15 @@
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
+1. [Schedule](#schedule-and-other-information)
+
 &nbsp;
 <p align="center">
   <img src="./img/header.png" width="100%">
 </p>
 &nbsp;
 
-## Class stuff
+# Schedule and other information
 
 Office: MCC 175
 
