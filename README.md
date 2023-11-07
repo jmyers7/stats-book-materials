@@ -3,6 +3,8 @@
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
 1. [Schedule](#schedule-and-other-information)
+2. [Worksheets](#list-of-chapters-and-worksheets)
+3. [Programming assignments](#list-of-programming-assignments)
 
 &nbsp;
 <p align="center">
