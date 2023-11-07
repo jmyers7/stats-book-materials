@@ -10,7 +10,7 @@ This is the repository containing all supporting materials for the [textbook](ht
 </p>
 &nbsp;
 
-# Schedule and other information
+## Schedule and other information
 
 Office: MCC 175
 
