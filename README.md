@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./img/header.png" width="100%">
+</p>
+
 # Materials for "A Course in Mathematical Statistics with Python", by John Myers
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
@@ -5,12 +9,6 @@ This is the repository containing all supporting materials for the [textbook](ht
 1. [Schedule](#schedule-and-other-information)
 2. [Worksheets](#list-of-chapters-and-worksheets)
 3. [Programming assignments](#list-of-programming-assignments)
-
-&nbsp;
-<p align="center">
-  <img src="./img/header.png" width="100%">
-</p>
-&nbsp;
 
 ## Schedule and other information
 
