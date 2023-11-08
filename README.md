@@ -91,3 +91,5 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 3. [Random variables and empirical distributions](./programming-assignments/assignment_03.ipynb). Covers [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#).
 
 4. [Random variables in SciPy](./programming-assignments/assignment_04.ipynb). Covers [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html).
+
+5. A first look at probabilistic models. Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
