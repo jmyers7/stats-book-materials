@@ -61,7 +61,7 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 36: <br> Mon 12-04
 | Class 37: <br> Wed 12-06
 | Class 38: <br> Fri 12-08
-| Wed 12-13 | Final exam
+| Wed 12-13 | Final exam (material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to ?)
 
 
 ## List of chapters and worksheets
