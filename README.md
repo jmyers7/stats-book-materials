@@ -55,12 +55,12 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 30: <br> Mon 11-13 ||||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
 | Class 31: <br> Wed 11-15
 | Class 32: <br> Fri 11-17
-| Class 33: <br> 11-27
-| Class 34: <br> 11-29
-| Class 35: <br> 12-01
-| Class 36: <br> 12-04
-| Class 37: <br> 12-06
-| Class 38: <br> 12-08
+| Class 33: <br> Mon 11-27
+| Class 34: <br> Wed 11-29
+| Class 35: <br> Fri 12-01
+| Class 36: <br> Mon 12-04
+| Class 37: <br> Wed 12-06
+| Class 38: <br> Fri 12-08
 
 
 ## List of chapters and worksheets
