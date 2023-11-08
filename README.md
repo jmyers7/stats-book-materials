@@ -53,6 +53,14 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 28: <br> Wed 11-08 | Finish [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) <br> Do [5.7: Exponential distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions) | [Slides](./slides/05-examples-of-rvs-04.pdf) for 5.7, 5.8, and 5.9 | :arrow_up: | Later!
 | Class 29: <br> Fri 11-10 ||||| Quiz 8 over [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) and [5.7](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions)
 | Class 30: <br> Mon 11-13 ||||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
+| Class 31: <br> Wed 11-15
+| Class 32: <br> Fri 11-17
+| Class 33: <br> 11-27
+| Class 34: <br> 11-29
+| Class 35: <br> 12-01
+| Class 36: <br> 12-04
+| Class 37: <br> 12-06
+| Class 38: <br> 12-08
 
 
 ## List of chapters and worksheets
