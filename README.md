@@ -11,6 +11,13 @@ This is the repository containing all supporting materials for the [textbook](ht
 3. [Worksheets](#list-of-chapters-and-worksheets)
 4. [Programming assignments](#list-of-programming-assignments)
 
+## Videos
+
+These videos are _not_ public yet. They are only available to students taking the course in person.
+
+* [Section 5.6: Normal distributions](https://youtu.be/T0DSrbY0pmY)
+* [Section 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
+
 ## Schedule and other information
 
 Office: MCC 175
