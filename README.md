@@ -6,7 +6,7 @@
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
-1. [Videos]() (coming soon!)
+1. [Videos](#videos)
 2. [Schedule](#schedule-and-other-information)
 3. [Worksheets](#list-of-chapters-and-worksheets)
 4. [Programming assignments](#list-of-programming-assignments)
