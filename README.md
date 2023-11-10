@@ -6,17 +6,9 @@
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
-1. [Videos](#videos)
-2. [Schedule](#schedule-and-other-information)
-3. [Worksheets](#list-of-chapters-and-worksheets)
-4. [Programming assignments](#list-of-programming-assignments)
-
-## Videos
-
-These videos are _not_ public yet. They are only available to students taking the course in person.
-
-* [Section 5.6: Normal distributions](https://youtu.be/T0DSrbY0pmY)
-* [Section 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
+1. [Schedule](#schedule-and-other-information)
+2. [Videos and worksheets](#list-of-chapters-worksheets-and-videos)
+3. [Programming assignments](#list-of-programming-assignments)
 
 ## Schedule and other information
 
@@ -71,32 +63,25 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Wed 12-13 | Final exam <br> Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to ? <br> Shineman 130, 8-10am
 
 
-## List of chapters and worksheets
+## List of chapters, worksheets, and videos
+
+The videos are _not_ public yet. They are only available to students taking the course in person.
 
 0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) --- no worksheet
-
 1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet
-
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
-
 3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf)
-
 4. [Random variables, expected values, variances](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
-
 5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf)
-
-6. [Connecting theory to practice: data and samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet.
-
-7. [Random vectors; joint, marginal and conditional distributions; independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
+    * [Video for 5.6: Normal distributions](https://youtu.be/T0DSrbY0pmY)
+    * [Video for 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
+7. [Connecting theory to practice: data and samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet.
+8. [Random vectors; joint, marginal and conditional distributions; independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
 
 ## List of programming assignments
 
 1. [Python libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment_01.ipynb). Covers prerequisite Python knowledge.
-
 2. [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_02.ipynb). Covers [Chapter 3](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html).
-
 3. [Random variables and empirical distributions](./programming-assignments/assignment_03.ipynb). Covers [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#).
-
 4. [Random variables in SciPy](./programming-assignments/assignment_04.ipynb). Covers [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html).
-
 5. A first look at probabilistic models. Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
