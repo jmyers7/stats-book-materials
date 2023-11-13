@@ -54,7 +54,7 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 30: <br> Mon 11-13 | Do [Chapter 6, part 1](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) |||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
 | Class 31: <br> Wed 11-15 | Do [Chapter 6, part 2](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html)
 | Class 32: <br> Fri 11-17
-| Class 33: <br> Mon 11-27 ||||| Programming assignment 5 due @ 9:10am, submission link
+| Class 33: <br> Mon 11-27 ||||| [Programming assignment 5](./programming-assignments/assignment_05_instructions.md) due @ 9:10am, [submission link](https://forms.gle/Yi49pr7Mrr88qkHz9)
 | Class 34: <br> Wed 11-29
 | Class 35: <br> Fri 12-01
 | Class 36: <br> Mon 12-04
