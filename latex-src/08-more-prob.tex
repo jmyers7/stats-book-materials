@@ -1,7 +1,7 @@
 \documentclass[12pt,reqno]{amsart}
 \usepackage{./header, amssymb}
 
-\hdr{Mathematical Statistics}{Chapter 8: Covariance and correlation}
+\hdr{Mathematical Statistics}{Chapter 8: More probability theory}
 
 \begin{document}
 
@@ -21,7 +21,7 @@ Compute the covariance of $X$ and $Y$.
 \bigskip
 \textcolor{red}{Using the Shortcut Formula for Covariance, we compute:
 	\[
-	\operatorname{Cov}(X,Y) = E(XY) - E(X) E(Y).
+	\sigma_{XY} = E(XY) - E(X) E(Y).
 	\]
 But first, let's grab the expectations of $X$ and $Y$. To do this, we integrate out $y$ to get the density of $x$:
 	\[f(x) = \int_{\mathbb{R}} f(x,y) \ \text{d} y = \int_0^1 \left( 2xy+0.5\right) \ \text{d}y = x + 0.5
@@ -31,7 +31,7 @@ for $0\leq x\leq 1$, and $f(x)=0$ otherwise. Then, we compute:
 	\]
 Now, if you look at the joint density function, you'll notice that it is symmetric in $x$ and $y$. This means that $E(Y) = 7/12$, as well. Finally, we compute the covariance from the shortcut formula:
 	\begin{align*}
-	\operatorname{Cov}(X,Y) &= E(XY) - \frac{7^2}{12^2} \\
+	\sigma_{XY} &= E(XY) - \frac{7^2}{12^2} \\
 	&= \iint_{\mathbb{R}^2} xy f(x,y) \ \text{d}y \text{d}x - \frac{7^2}{12^2} \\
 	&= \int_0^1 \int_0^1 (2x^2y^2 + 0.5xy) \ \text{d}y \text{d}x - \frac{7^2}{12^2} \\
 	&= \frac{25}{72} - \frac{7^2}{12^2} \\
@@ -81,7 +81,7 @@ Finally, we compute
 	\[E(XY) = \iint_{\mathbb{R}^2} xy f(x,y) \ \text{d}y\text{d}x = \int_0^1 \int_0^x 3x^2y \ \text{d}y\text{d}x = \frac{3}{10}
 	\]
 and hence
-	\[\operatorname{Cov}(X,Y) = E(XY) - E(X) E(Y) = \frac{3}{10} - \frac{3}{4} \cdot \frac{3}{8} = \frac{3}{160} \approx 0.019.
+	\[\sigma_{XY} = E(XY) - E(X) E(Y) = \frac{3}{10} - \frac{3}{4} \cdot \frac{3}{8} = \frac{3}{160} \approx 0.019.
 	\]}
 	
 
