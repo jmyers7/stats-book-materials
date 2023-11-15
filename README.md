@@ -92,4 +92,4 @@ The videos are _not_ public yet. They are only available to students taking the 
 2. [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_02.ipynb). Covers [Chapter 3](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html).
 3. [Random variables and empirical distributions](./programming-assignments/assignment_03.ipynb). Covers [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#).
 4. [Random variables in SciPy](./programming-assignments/assignment_04.ipynb). Covers [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html).
-5. A first look at probabilistic models. Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
+5. [A first look at probabilistic models](./programming-assignments/assignment_05.ipynb). Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
