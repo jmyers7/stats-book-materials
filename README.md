@@ -82,9 +82,14 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 5.8: Gamma distributions](https://youtu.be/c3761wTmeXo)
     * [Video for 5.9: Beta distributions](https://youtu.be/WvsuQFN8Qdg)
 6. [Connecting theory to practice: data and samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet
+    * [Video for Chapter 6 Introduction]()
     * [Video for 6.1: Data and random samples](https://youtu.be/dwZOCPRYZP0)
     * [Video for 6.2: Probabilistic models and empirical distributions](https://youtu.be/vBeSU-183uU)
     * [Video for 6.3: Histograms](https://youtu.be/9krOI3G52x8)
+    * [Video for 6.4: Kernel density estimation]()
+    * [Video for 6.5: Empirical statistics]()
+    * [Video for 6.6: QQ-plots]()
+    * [Video for 6.7: Box and violin plots]()
 8. [Random vectors; joint, marginal and conditional distributions; independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
 
 ## List of programming assignments
