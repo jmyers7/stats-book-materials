@@ -71,7 +71,7 @@ The videos are _not_ public yet. They are only available to students taking the 
 1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
 3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf)
-4. [Random variables, expected values, variances](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
+4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
 5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf)
     * [Video for Chapter 5 Introduction](https://youtu.be/T0U98EPRgHk)
     * [Video for 5.1: Bernoulli distributions](https://youtu.be/XIcIZnQqV4U)
