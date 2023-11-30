@@ -90,7 +90,8 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 6.5: Empirical statistics](https://youtu.be/NSKzQToAQbo)
     * [Video for 6.6: QQ-plots](https://youtu.be/xmus_up80ic)
     * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
-8. [Random vectors; joint, marginal and conditional distributions; independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
+7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
+    * [Video for 7.4: Marginal distributions](https://youtu.be/N2IVULTDf40)
 
 ## List of programming assignments
 
