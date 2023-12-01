@@ -92,6 +92,8 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
 7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
     * [Video for Chapter 7 Introduction](https://youtu.be/y8NlbEs4V8k)
+    * [Video for 7.2: 2-dimensional random vectors](https://youtu.be/WTE25nt8DG8)
+    * [Video for 7.3: Bivariate distribution functions](https://youtu.be/Yc37Im5asnU)
     * [Video for 7.4: Marginal distributions](https://youtu.be/N2IVULTDf40)
 
 ## List of programming assignments
