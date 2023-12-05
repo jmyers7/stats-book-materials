@@ -1,3 +1,9 @@
+**Solutions for suggested problems for Chapter [11](https://mml.johnmyersmath.com/stats-book/chapters/models.html).** ([Problems](./x-suggested-problems.md))
+
+---
+
+**Problem 1**:
+
 ```python
 
 import pandas as pd
@@ -30,3 +36,5 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.tight_layout()
 ```
+
+---
