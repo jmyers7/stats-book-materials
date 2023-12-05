@@ -95,6 +95,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 7.2: 2-dimensional random vectors](https://youtu.be/WTE25nt8DG8)
     * [Video for 7.3: Bivariate distribution functions](https://youtu.be/Yc37Im5asnU)
     * [Video for 7.4: Marginal distributions](https://youtu.be/N2IVULTDf40)
+    * [Video for 7.6: Conditional distributions](https://youtu.be/jtxeRHP6NGM)
 
 ## List of programming assignments
 
