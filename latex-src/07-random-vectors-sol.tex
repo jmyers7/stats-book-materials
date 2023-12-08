@@ -786,11 +786,11 @@ which is exactly the formula for the joint density $f(x,y)$.}
 
 
 
-\prob Let $n\geq 1$ be an integer and suppose $X\sim \Gamma(n+1,1)$. Suppose that $Y_1,Y_2,\ldots,Y_n$ is an IID random sample such that the conditional distributions of each $Y_i$ given $X$ have densities
+\prob Let $n\geq 1$ be an integer and suppose $X \sim \mathcal{G}am(n+1,1)$. Suppose that $Y_1,Y_2,\ldots,Y_n$ is an identically distributed random sample that is independent given $X$ with density
 
 	\[
-	f(y_i|x) = \begin{cases}
-	\frac{1}{x} & : 0 < y_i < x, \\
+	f(y|x) = \begin{cases}
+	\frac{1}{x} & : 0 < y < x, \\
 	0 & : \text{otherwise}.
 	\end{cases}
 	\]
@@ -807,7 +807,7 @@ which is exactly the formula for the joint density $f(x,y)$.}
 	0 & : \text{otherwise}.
 	\end{cases}
 	\]
-We are asked to compute $f(y_1,\ldots,y_n)$. To do this, we ``integrate out'' the dependence on $x$ of the joint density $f(x,y_1,\ldots,y_n)$. But, by independence of the random sample, we have
+We are asked to compute $f(y_1,\ldots,y_n)$. To do this, we ``integrate out'' the dependence on $x$ of the joint density $f(x,y_1,\ldots,y_n)$. But, by conditional independence of the random sample, we have
 	\[
 	f(x,y_1,\ldots,y_n) = f(y_1,\ldots,y_n|x)f(x) = \prod_{i=1}^n f(y_i|x)f(x) = \frac{1}{n! } e^{-x}
 	\]
@@ -829,7 +829,7 @@ for those $y_i$'s such that the denominator is not zero. But from (a), we have $
 	\[
 	f(x|y_1,\ldots,y_n) = \frac{\frac{1}{n!}e^{-x}}{\frac{1}{n!}e^{-M}} = e^{-x+M}
 	\]
-for $x>0$ and $f(x|y_1,\ldots,y_n)=0$ otherwise.}
+for $x>M$ and $f(x|y_1,\ldots,y_n)=0$ otherwise.}
 \end{enumerate}
 
 
