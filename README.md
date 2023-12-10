@@ -60,7 +60,7 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 36: <br> Mon 12-04 | Finish [7.6: Conditional distributions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#conditional-distributions) | :arrow_up: | :arrow_up: | :arrow_up:
 | Class 37: <br> Wed 12-06 | Do [7.7: Law of Total Probability and Bayes' Theorem](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables) <br> Begin [7.8: Random vectors in arbitrary dimensions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#random-vectors-in-arbitrary-dimensions) <br> Begin [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) | :arrow_up: | :arrow_up: | [Problems](./suggested-problems/21-suggested-problems.md) for 7.7-7.9
 | Class 38: <br> Fri 12-08 | Finish [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) | :arrow_up: | :arrow_up: | :arrow_up:
-| Wed 12-13 | Final exam <br> Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to ? <br> Shineman 130, 8-10am
+| Wed 12-13 | Final exam <br> Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to 7.9 <br> Shineman 130, 8-10am
 
 
 ## List of chapters, worksheets, and videos
