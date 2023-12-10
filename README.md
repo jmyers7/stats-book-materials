@@ -98,6 +98,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 7.6: Conditional distributions](https://youtu.be/t2rqQN0rk4I)
     * [Video for 7.7: Law of Total Probability and Bayes' Theorem](https://youtu.be/ZPZAWOKATv0)
     * [Video for 7.8: Random vectors in arbitrary dimensions](https://youtu.be/AcOXDgtwmKs)
+    * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
 
 ## List of programming assignments
 
