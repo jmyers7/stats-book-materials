@@ -1,6 +1,6 @@
 **Suggested problems for Section [7.7](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables).** ([Solutions](./21-suggested-problems-sol.md))
 
-**Problem 1**: Suppose that $X\mid N \sim \mathcal{B}in(N,\theta)$, while $N \sim \mathcal{B}in(m,\phi)$. Show that the marginal distribution of $X$ is $\mathcal{B}in(m,\theta\phi)$. _Hint_: The identity
+**Problem 1**: Suppose that $X\mid N \sim \mathcal{B}in(n,\theta)$, where $n$ is an observed value of $N \sim \mathcal{B}in(m,\phi)$. Show that the marginal distribution of $X$ is $\mathcal{B}in(m,\theta\phi)$. _Hint_: The identity
 
 $$
 \binom{m}{n} \binom{n}{x} = \binom{m}{x}\binom{m-x}{n-x}
