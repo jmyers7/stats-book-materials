@@ -70,9 +70,12 @@ The videos are _not_ public yet. They are only available to students taking the 
 0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) --- no worksheet
 1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf)
-3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf)
-4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
-5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf)
+    * [Video for 2.1: What is probability?](https://youtu.be/2THPpgZXj3s)
+    * [Video for 2.2: A first look at the axiomatic framework](https://youtu.be/bOg-YGcOSy4)
+    * [Video for 2.4: Probability spaces](https://youtu.be/wqyfo2i_rKk)
+4. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf)
+5. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
+6. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf)
     * [Video for Chapter 5 Introduction](https://youtu.be/T0U98EPRgHk)
     * [Video for 5.1: Bernoulli distributions](https://youtu.be/XIcIZnQqV4U)
     * [Video for 5.2: Binomial distributions](https://youtu.be/0Yik-Imm8eU)
@@ -81,7 +84,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
     * [Video for 5.8: Gamma distributions](https://youtu.be/c3761wTmeXo)
     * [Video for 5.9: Beta distributions](https://youtu.be/WvsuQFN8Qdg)
-6. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet
+7. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet
     * [Video for Chapter 6 Introduction](https://youtu.be/_KgjM1n-k2M)
     * [Video for 6.1: Data and random samples](https://youtu.be/dwZOCPRYZP0)
     * [Video for 6.2: Probabilistic models and empirical distributions](https://youtu.be/vBeSU-183uU)
@@ -90,7 +93,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 6.5: Empirical statistics](https://youtu.be/NSKzQToAQbo)
     * [Video for 6.6: QQ-plots](https://youtu.be/xmus_up80ic)
     * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
-7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
+8. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf)
     * [Video for Chapter 7 Introduction](https://youtu.be/y8NlbEs4V8k)
     * [Video for 7.2: 2-dimensional random vectors](https://youtu.be/WTE25nt8DG8)
     * [Video for 7.3: Bivariate distribution functions](https://youtu.be/Yc37Im5asnU)
