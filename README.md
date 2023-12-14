@@ -73,7 +73,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 2.1: What is probability?](https://youtu.be/2THPpgZXj3s)
     * [Video for 2.2: A first look at the axiomatic framework](https://youtu.be/bOg-YGcOSy4)
     * [Video for 2.4: Probability spaces](https://youtu.be/wqyfo2i_rKk)
-    * [Video for 2.6: Discrete and uniform probability measures](https://youtu.be/c4nJRSCvqW8)
+    * [Video for 2.6: Discrete and uniform probability measures](https://youtu.be/7G51NpDzfb8)
 4. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf)
 5. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf)
 6. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf)
