@@ -29,9 +29,9 @@ $$
 \nabla \left(\mathbf{v}(\mathbf{x})^T \mathbf{v}(\mathbf{x}) \right) = 2 \mathbf{v}(\mathbf{x})^T J(\mathbf{v}(\mathbf{x})).
 $$
 
----
+# Problem 2
 
-**Problem 2**: Let
+Let
 
 $$
 f: \mathbb{R}^n \to \mathbb{R}
