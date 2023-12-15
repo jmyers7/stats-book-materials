@@ -42,7 +42,7 @@ $$
 
 Indeed:
 
-> **Theorem 1**. Provided that the second-order partial derivatives of $f$ are all continuous (so that the Hessian matrix is symmetric), $f$ is concave if and only if the Hessian matrix is _negative semidefinite_, which means that $$ \mathbf{z}^T H(f(\mathbf{x})) \mathbf{z} \leq 0 $$ for all column vectors $\mathbf{z}\in \mathbb{R}^{1\times n}$.
+> **Theorem 1**. Provided that the second-order partial derivatives of $f$ are all continuous (so that the Hessian matrix is symmetric), $f$ is concave if and only if the Hessian matrix is _negative semidefinite_, which means that $\mathbf{z}^T H(f(\mathbf{x})) \mathbf{z} \leq 0$ for all column vectors $\mathbf{z}\in \mathbb{R}^{1\times n}$.
 
 This criterion is the natural generalization to multiple variables of the familiar fact from single-variable calculus that a function is concave if and only if its second derivative is negative.
 
