@@ -47,7 +47,7 @@ $$
 where we've set $y = y^{(1)}$ and $x = x^{(1)}$ for simplicity. Then, it is easy to compute
 
 $$
-H\left( \text{NRSS}(\beta_0,\beta_1)\right) = \begin{bmatrix} -2 & -2x \\ -2x & -2x^2 \end{bmatrix}.
+H\left( \text{NRSS}(\beta_0,\beta_1)\right) = \begin{bmatrix} -2 & -2x \\\ -2x & -2x^2 \end{bmatrix}.
 $$
 
 The eignevalues $\lambda$ of the Hessian matrix are the solutions to the characteristic equation
