@@ -2,6 +2,7 @@
 
 ---
 
+(grad-power)=
 **Problem 1**: Let
 
 $$
