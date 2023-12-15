@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Section [11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models).** ([Problems](./y-suggested-problems.md))
+**Solutions for suggested problems for Section [11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models).** ([Problems](./11-2-suggested-problems.md))
 
 ---
 
