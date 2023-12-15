@@ -2,7 +2,9 @@
 
 ---
 
-**Problem 1**: For simplicity, set $\mathbf{v} = \mathbf{v}(\mathbf{x})$. We first compute the $j$-th partial derivative:
+# Problem 1
+
+For simplicity, set $\mathbf{v} = \mathbf{v}(\mathbf{x})$. We first compute the $j$-th partial derivative:
 
 $$
 \frac{\partial}{\partial x_j} (\mathbf{v}^T \mathbf{v}) = \frac{\partial }{\partial x_j} \left( \sum_{k=1}^m v_k^2 \right) = 2 \sum_{k=1}^m v_k \frac{\partial v_k}{\partial x_j} = 2 \mathbf{v}^T J_{\ast, j},
@@ -18,9 +20,9 @@ $$
 
 as desired.
 
----
+# Problem 2
 
-**Problem 2**: Since partial derivatives are additive, so too is the Hessian matrix, in the sense that
+Since partial derivatives are additive, so too is the Hessian matrix, in the sense that
 
 $$
 H\left( \sum_{i=1}^m f^{(i)}(\mathbf{x}) \right) = \sum_{i=1}^m H\left(f^{(i)}(\mathbf{x})\right)
