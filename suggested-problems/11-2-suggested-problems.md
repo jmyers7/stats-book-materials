@@ -2,8 +2,10 @@
 
 ---
 
-(grad-power)=
-**Problem 1**: Let
+
+# Problem 1
+
+Let
 
 $$
 \mathbf{v}:\mathbb{R}^n \to \mathbb{R}^m, \quad \mathbf{v}(\mathbf{x}) = (v_1(\mathbf{x}),\ldots,v_m(\mathbf{x}))
