@@ -58,3 +58,13 @@ $$
 $$
 
 associated with a simple linear regression model is concave.
+
+## Problem 3
+
+In the book and during lecture, we assumed that the variance $\sigma^2$ in our linear regression model was known. However, in this problem, you will assume that $\sigma^2$ is unknown and must be learned from data. By taking the partial derivative of the data log-likelihood function with respect to $\sigma^2$ and setting it to $0$, prove that the MLE for the variance is given by the formula
+
+$$
+\sigma^2 = \frac{1}{m} \sum_{i=1}^m \left( y^{(i)} - \mu^{(i)}\right)^2
+$$
+
+where, as always, we have $\mu^{(i)} = \mathbf{x}^{(i)} \boldsymbol\beta + \beta_0$ for each $i=1,\ldots,m$.
