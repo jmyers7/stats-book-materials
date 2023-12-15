@@ -56,4 +56,4 @@ $$
 (-2 - \lambda)(-2x^2 - \lambda ) - 4x^2 = 0.
 $$
 
-But the solutions are easily computed to be $\lambda =0$ and $\lambda = -2(1+x^2)$, both of which are nonpositive.
+But the solutions are easily computed to be $\lambda =0$ and $\lambda = -2(1+x^2)$, both of which are non-positive.
