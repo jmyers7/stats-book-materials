@@ -1,9 +1,7 @@
-**Suggested problems for Section [11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models).** ([Solutions](./11-2-suggested-problems-sol.md))
-
----
+# Suggested problems for [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models)
 
 
-# Problem 1
+## Problem 1 ([solution](./11-2-suggested-problems-sol.md#problem-1-problem-statement))
 
 Let
 
@@ -29,7 +27,7 @@ $$
 \nabla \left(\mathbf{v}(\mathbf{x})^T \mathbf{v}(\mathbf{x}) \right) = 2 \mathbf{v}(\mathbf{x})^T J(\mathbf{v}(\mathbf{x})).
 $$
 
-# Problem 2
+## Problem 2 ([solution](./11-2-suggested-problems-sol.md#problem-2-problem-statement))
 
 Let
 

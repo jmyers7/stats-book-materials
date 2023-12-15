@@ -1,8 +1,6 @@
-**Solutions for suggested problems for Section [11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models).** ([Problems](./11-2-suggested-problems.md))
+# Solutions for suggested problems for [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models)
 
----
-
-# Problem 1
+## Problem 1 ([problem statement](./11-2-suggested-problems.md#problem-1-solution))
 
 For simplicity, set $\mathbf{v} = \mathbf{v}(\mathbf{x})$. We first compute the $j$-th partial derivative:
 
@@ -20,7 +18,7 @@ $$
 
 as desired.
 
-# Problem 2
+## Problem 2 ([problem statement](./11-2-suggested-problems.md#problem-2-solution))
 
 Since partial derivatives are additive, so too is the Hessian matrix, in the sense that
 
