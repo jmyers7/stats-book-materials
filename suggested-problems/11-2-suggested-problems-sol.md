@@ -68,7 +68,7 @@ $$
 for all $\boldsymbol\theta$. Then, given $\mathbf{z} \in \mathbb{R}^{1\times (n+1)}$, we have
 
 $$
-\mathbf{z}^T \text{Hess}(J(\boldsymbol\theta))\mathbf{z} = -\mathbf{z}^T \mathcal{X}^T \mathcal{X} \mathbf{z} = -(\mathcal{X}\mathbf{z})^T \mathcal{X}\mathcal{z} = - \left \lVert \mathcal{X}\mathbf{z} \right \rVert \leq 0,
+\mathbf{z}^T \text{Hess}(J(\boldsymbol\theta))\mathbf{z} = -\mathbf{z}^T \mathcal{X}^T \mathcal{X} \mathbf{z} = -(\mathcal{X}\mathbf{z})^T \mathcal{X}\mathcal{z} = - \left \lVert \mathcal{X}\mathbf{z} \right \rVert ^2 \leq 0,
 $$
 
 where the double vertical bars denote the standard Euclidean norm.
