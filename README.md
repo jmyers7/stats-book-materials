@@ -8,7 +8,8 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 1. [Chapters, worksheets, and videos](#list-of-chapters-worksheets-and-videos)
 2. [Programming assignments](#list-of-programming-assignments)
-3. [Schedule and other class information](#schedule-and-other-information)
+3. [Second-semester schedule and other class information]()
+4. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
 
 ## Chapters, worksheets, and videos
 
@@ -62,7 +63,11 @@ The videos are _not_ public yet. They are only available to students taking the 
 4. [Random variables in SciPy](./programming-assignments/assignment_04.ipynb). Covers [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html).
 5. [A first look at probabilistic models](./programming-assignments/assignment_05.ipynb). Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
 
-## Schedule and other class information
+## Second-semester schedule and other class information
+
+Coming soon!
+
+## First-semester schedule and other class information
 
 Office: MCC 175
 
