@@ -29,25 +29,38 @@ $$
 
 ## Problem 2 ([solution](./11-2-suggested-problems-sol.md#problem-2-problem-statement))
 
-Let
+This problem has two parts. For both, let 
 
 $$
-f: \mathbb{R}^n \to \mathbb{R}
+f: \mathbb{R}^n \to \mathbb{R}, \quad \mathbf{x} \mapsto f(\mathbf{x}),
 $$
 
-be a function. While [concavity](https://en.wikipedia.org/wiki/Concave_function) of $f$ is defined without reference to calculus, the concavity of $f$ may be measured using the _Hessian matrix_ of $f$ consisting of all second-order partial derivatives:
+be a differentiable function with continuous first- and second-order partial derivatives.
+
+(a): Define the _Hessian matrix_ of $f$ to be the $n\times n$ square matrix
 
 $$
 \text{Hess}(f(\mathbf{x})) \stackrel{\text{def}}{=} \left[ \frac{\partial^2 f}{\partial x_i \partial x_j} \right].
 $$
 
-Indeed:
+Suppose that there is a scalar $c\in \mathbb{R}$, a matrix $A\in \mathbb{R}^{n\times n}$, and a row vector $\mathbf{b} \in \mathbb{R}^{n\times 1}$ for which
 
-> **Theorem**. Provided that the second-order partial derivatives of $f$ are all continuous (so that the Hessian matrix is symmetric), $f$ is concave if and only if the Hessian matrix is _negative semidefinite_, which means that $\mathbf{z}^T \text{Hess}(f(\mathbf{x})) \mathbf{z} \leq 0$ for all column vectors $\mathbf{x},\mathbf{z}\in \mathbb{R}^{1\times n}$.
+$$
+\nabla f(\mathbf{x}) = c\mathbf{x}^T A + \mathbf{b}
+$$
 
-This criterion is the natural generalization to multiple variables of the familiar fact from single-variable calculus that a function is concave if and only if its second derivative is negative.
+for all $\mathbf{x}$. Prove that
 
-Using this theorem, prove that the objective function
+$$
+\text{Hess}(f(\mathbf{x})) = cA.
+$$
+
+
+(b): While [concavity](https://en.wikipedia.org/wiki/Concave_function) of $f$ is defined without reference to calculus, it may be measured using the _Hessian matrix_ according to the following criterion:
+
+> **Theorem**. The function $f$ is concave if and only if the Hessian matrix is _negative semidefinite_, which means that $\mathbf{z}^T \text{Hess}(f(\mathbf{x})) \mathbf{z} \leq 0$ for all column vectors $\mathbf{x},\mathbf{z}\in \mathbb{R}^{1\times n}$.
+
+This criterion is the natural generalization to multiple variables of the familiar fact from single-variable calculus that a function is concave if and only if its second derivative is negative. Using this criterion, prove that the objective function
 
 $$
 J(\boldsymbol\theta) = - \frac{1}{2}\left( \mathbf{y} - \mathcal{X}\boldsymbol\theta\right)^T \left( \mathbf{y} - \mathcal{X}\boldsymbol\theta\right)

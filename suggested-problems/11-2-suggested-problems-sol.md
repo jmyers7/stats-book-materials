@@ -13,47 +13,62 @@ where $J_{\ast, j}$ denotes the $j$-th column of the Jacobian matrix. But then
 $$
 \nabla\left(\mathbf{v}^T \mathbf{v} \right) = \begin{bmatrix}
 \frac{\partial}{\partial x_1} (\mathbf{v}^T \mathbf{v}) & \cdots & \frac{\partial}{\partial x_n} (\mathbf{v}^T \mathbf{v}) 
-\end{bmatrix} = 2 \begin{bmatrix} \mathbf{v}^TJ_{\ast,1} & \cdots & \mathbf{v}^T J_{\ast, n} \end{bmatrix} = 2 \mathbf{v}^T J(\mathbf{v}),
+\end{bmatrix} = 2 \begin{bmatrix} \mathbf{v}^TJ_{\ast,1} & \cdots & \mathbf{v}^T J_{\ast, n} \end{bmatrix} = 2 \mathbf{v}^T \text{Jac}(\mathbf{v}),
 $$
 
 as desired.
 
 ## Problem 2 ([problem statement](./11-2-suggested-problems.md#problem-2-solution))
 
-Since partial derivatives are additive, so too is the Hessian matrix, in the sense that
+(a): The assumption that
 
 $$
-H\left( \sum_{i=1}^m f^{(i)}(\mathbf{x}) \right) = \sum_{i=1}^m H\left(f^{(i)}(\mathbf{x})\right)
+\nabla f(\mathbf{x}) = c \mathbf{x}^T A + \mathbf{b}
 $$
 
-for functions $f^{(1)},\ldots,f^{(m)}$. Thus, we have
+may be rewritten in vector notation as
 
 $$
-H(\text{NRSS}(\beta_0,\beta_1)) = \sum_{i=1}^m H\left( \text{NRSS}^{(i)}(\beta_0,\beta_1)\right),
+\nabla f(\mathbf{x}) = \left[ \sum_{k=1}^n cx_k a_{kj} + b_j \right]_j.
 $$
 
-where
+Thus
 
 $$
-\text{NRSS}^{(i)}(\beta_0,\beta_1) = - \left( y^{(i)} - \beta_0 - \beta_1 x^{(i)} \right)^2
+\frac{\partial f}{\partial x_j} = \sum_{k=1}^n cx_k a_{kj} + b_j,
 $$
 
-for each $i=1,\ldots,m$. But since a sum of negative semidefinite matrices is negative semidefinite (proof?), all of this means that we can prove our desired result by reducing to the case that $m=1$, so that our objective function looks like
+and so
 
 $$
-\text{NRSS}(\beta_0, \beta_1) = - \left( y - \beta_0 - \beta_1 x \right)^2
+\frac{\partial^2 f}{\partial x_i\partial x_j} = ca_{ij}.
 $$
 
-where we've set $y = y^{(1)}$ and $x = x^{(1)}$ for simplicity. Then, it is easy to compute
+This implies
 
 $$
-H\left( \text{NRSS}(\beta_0,\beta_1)\right) = \begin{bmatrix} -2 & -2x \\\ -2x & -2x^2 \end{bmatrix}.
+\text{Hess}(f(\mathbf{x})) = \left[ c a_{ij} \right]_{ij} = c A,
 $$
 
-The eignevalues $\lambda$ of the Hessian matrix are the solutions to the characteristic equation
+as desired.
+
+
+(b): From lecture, we have
 
 $$
-(-2 - \lambda)(-2x^2 - \lambda ) - 4x^2 = 0.
+\nabla J (\boldsymbol\theta) = (\mathbf{y} - \mathcal{X} \boldsymbol\theta)^T \mathcal{X} = - \boldsymbol\theta^T \mathcal{X}^T \mathcal{X} + \mathbf{y}^T \mathcal{X}.
 $$
 
-But the solutions are easily computed to be $\lambda =0$ and $\lambda = -2(1+x^2)$, both of which are non-positive.
+But it then follows immediately from part (a) of this problem that
+
+$$
+\text{Hess}(J(\boldsymbol\theta)) = -\mathcal{X}^T \mathcal{X}
+$$
+
+for all $\boldsymbol\theta$. Then, given $\mathbf{z} \in \mathbb{R}^{1\times (n+1)}$, we have
+
+$$
+\mathbf{z}^T \text{Hess}(J(\boldsymbol\theta))\mathbf{z} = -\mathbf{z}^T \mathcal{X}^T \mathcal{X} \mathbf{z} = -(\mathcal{X}\mathbf{z})^T \mathcal{X}\mathcal{z} = - \left \lVert \mathcal{X}\mathbf{z} \right \rVert \leq 0,
+$$
+
+where the double vertical bars denote the standard Euclidean norm.
