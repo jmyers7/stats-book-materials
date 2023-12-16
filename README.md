@@ -8,7 +8,7 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 1. [Chapters, worksheets, and videos](#list-of-chapters-worksheets-and-videos)
 2. [Programming assignments](#list-of-programming-assignments)
-3. [Second-semester schedule and other class information]()
+3. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
 4. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
 
 ## Chapters, worksheets, and videos
