@@ -8,9 +8,9 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 1. [Chapters, worksheets, and videos](#list-of-chapters-worksheets-and-videos)
 2. [Programming assignments](#list-of-programming-assignments)
-3. [Schedule](#schedule-and-other-information)
+3. [Schedule and other class information](#schedule-and-other-information)
 
-## List of chapters, worksheets, and videos
+## Chapters, worksheets, and videos
 
 The videos are _not_ public yet. They are only available to students taking the course in person.
 
@@ -54,7 +54,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 7.9: Independence](https://youtu.be/IYy8EYHwYuQ)
     * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
 
-## List of programming assignments
+## Programming assignments
 
 1. [Python libraries: NumPy, Pandas and Matplotlib](programming-assignments/assignment_01.ipynb). Covers prerequisite Python knowledge.
 2. [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_02.ipynb). Covers [Chapter 3](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html).
@@ -62,7 +62,7 @@ The videos are _not_ public yet. They are only available to students taking the 
 4. [Random variables in SciPy](./programming-assignments/assignment_04.ipynb). Covers [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html).
 5. [A first look at probabilistic models](./programming-assignments/assignment_05.ipynb). Covers [Chapter 6](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html).
 
-## Schedule and other information
+## Schedule and other class information
 
 Office: MCC 175
 
