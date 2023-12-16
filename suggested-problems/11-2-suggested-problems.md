@@ -77,3 +77,7 @@ $$
 $$
 
 where, as always, we have $\mu^{(i)} = \mathbf{x}^{(i)} \boldsymbol\beta + \beta_0$ for each $i=1,\ldots,m$.
+
+## Problem 4
+
+Compute the maximum likelihood estimates for the toy dataset described at the end of [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/learning.html#maximum-likelihood-estimation-for-linear-regression-models) in the book. You may check your answer by inspecting the code used in the book to plot the regression line $y=\beta_0 + \beta_1 x$.
