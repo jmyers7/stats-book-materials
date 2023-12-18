@@ -1,4 +1,4 @@
-# Solutions for suggested problems for [Section 10.2]()
+# Solutions for suggested problems for [Section 10.2](https://mml.johnmyersmath.com/stats-book/chapters/10-models.html#linear-regression-models)
 
 ## Problem 1 ([problem statement](./10-2-suggested-problems.md#problem-1-solution))
 
