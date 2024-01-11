@@ -1,0 +1,56 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{./header, amssymb}
+
+\hdr{Mathematical Statistics}{Chapter 13: General parameter estimation}
+
+\begin{document}
+
+\bigskip
+
+\prob Suppose $X\sim \mathcal{N}(\mu, 1)$ and that we define two estimators by
+
+	\[\widehat{\mu}_1 = X \quad \text{and} \quad \widehat{\mu}_2 = 3.
+	\]
+
+Compute the mean squared errors of $\widehat{\mu}_1$ and $\widehat{\mu}_2$.
+
+\bigskip
+\textcolor{red}{Since $\widehat{\mu}_2=3$ is constant, we have
+	\[R(\mu,\widehat{\mu}_2) = E((\mu -3)^2) = (\mu-3)^2.
+	\]
+By linearity of expectation, we have
+	\[R(\mu,\widehat{\mu}_1) = E( (\mu - \widehat{\mu}_1)^2 ) = \mu^2 -2\mu E(\widehat{\mu}_1) + E(\widehat{\mu}_1^2) .
+	\]
+But we have $E(\widehat{\mu}_1) = \mu$, and from the short-cut formula for variance, we have
+	\[E(\widehat{\mu}_1^2) = 1 + E(\widehat{\mu}_1)^2 = 1 + \mu^2.
+	\]
+Thus,
+	\[R(\mu,\widehat{\mu}_1) = \mu^2 -2\mu^2 +1 + \mu^2 = 1.
+	\]}
+
+\bigskip
+\prob Suppose that the number $X$ of defects on a roll of magnetic recording tape has a Poisson distribution for which the mean $\mu$ is either $1.0$ or $1.5$. Supposing that the prior probability function on $\mu$ is given by
+
+	\[p(\mu) = \begin{cases}
+	0.4 & : \mu = 1.0, \\
+	0.6 & : \mu = 1.5, \\
+	0 & : \text{otherwise},
+	\end{cases}
+	\]
+
+and that a selected roll of tape has $X=3$ defects, what is the posterior probability function of $\mu$? What is $\widehat{\mu}_{\text{MAP}}$?
+
+\bigskip
+\textcolor{red}{From Bayes' Theorem and the Law of Total Probability, we have
+	\begin{align*}
+	p(\mu | x=3) &= \frac{p(x=3 | \mu)p(\mu)}{p(x=3|\mu = 1.0)p(\mu=1.0) + p(x=3|\mu = 1.5)p(\mu=1.5)} \\
+	&= \frac{ \frac{1}{3!} \mu^3 e^{-\mu} p(\mu)}{\frac{1}{3!} e^{-1}\cdot 0.4 + \frac{1}{3!} (1.5)^3 e^{-1.5}\cdot 0.6} \\
+	& \approx \begin{cases}
+	0.246 & : \mu =1.0, \\
+	0.754 & : \mu = 1.5, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\end{align*}
+From this, we see that $\widehat{\mu}_{\text{MAP}} = 1.5$.}
+
+\end{document}
