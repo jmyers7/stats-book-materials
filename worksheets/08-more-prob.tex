@@ -7,6 +7,226 @@
 
 \bigskip
 
+\prob Suppose that $X$ and $Y$ are jointly continuous random variables with density
+
+	\[
+	f(x,y) = \begin{cases}
+	24xy & : 0\leq x \leq 1, \ 0 \leq y \leq 1, \ x+y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+
+Compute the expectation $E(XY)$.
+
+\bigskip
+\textcolor{red}{Using the bivariate LoTUS, we get:
+	\[E(XY) = \iint_{\mathbb{R}^2} xy f(x,y) \ \text{d}y\text{d}x = 24 \int_0^1 \int_0^{1-x} x^2y^2 \ \text{d}y\text{d}x = \frac{2}{15}.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\prob Suppose $X$ and $Y$ are jointly continuous random variables with the same density from Problem 1. Compute a formula for the conditional expectation $E(Y\mid X=x)$. Take care to precisely state the domain of this function.
+
+\bigskip
+\textcolor{red}{We first get the marginal density for $X$:
+	\[f(x) = \int_\mathbb{R} f(x,y) \ \text{d}y = 24\int_0^{1-x} xy \ \text{d}y = 12x(1-x)^2,
+	\]
+where the second inequality holds for all $0\leq x \leq 1$; otherwise, we have $f(x) =0$. Note that the marginal $f(x)$ is nonzero for $0<x<1$. For these particular $x$-values, the conditional density is defined and is given by
+	\[
+	f(y|x) = \frac{f(x,y)}{f(x)} = \begin{cases}
+	\frac{2y}{(1-x)^2} & : 0\leq x \leq 1, \ 0 \leq y \leq 1, \ x+y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+Therefore, for all $x$ with $0 < x< 1$, we have
+	\[E(Y \mid X=x) = \int_\mathbb{R} y f(y|x) \ \text{d}y = \frac{2}{(1-x)^2} \int_0^{1-x} y^2 \ \text{d}y = \frac{2}{3}(1-x).
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\prob Let $X$ and $Y$ be two random variables on the probability space $S = \{a,b,c\}$. Suppose that the probability distribution $P$ on $S$ has mass function $p(s)$ and that $X$ and $Y$ are defined according to the following table:
+
+	\[
+	\begin{array}{c|ccc}
+	s & p(s) & X(s) & Y(s) \\ \hline
+	a & 0.2 & 1 & 2 \\
+	b & 0.5 & 2 & 1 \\
+	c & 0.3 & 1 & 1
+	\end{array}
+	\] 
+
+Compute the random variable $E(Y \mid X)$.
+
+\bigskip
+\textcolor{red}{Our first goal is to get the joint mass function $p(x,y)$. We compute:
+	\[
+	\begin{array}{c|cc}
+	p(x,y) & y=1 & y=2 \\ \hline
+	x=1 & 0.3 & 0.2 \\
+	x=2 & 0.5 & 0
+	\end{array}
+	\]
+By adding across the rows, we get the marginal:
+	\[\begin{array}{c|c}
+	x & p(x) \\ \hline
+	1 & 0.5 \\
+	2 & 0.5
+	\end{array}
+	\]
+Then, from the formula $p(y|x) = p(x,y)/p(x)$, we get
+	\[
+	\begin{array}{c|cc}
+	p(y|x) & y=1 & y=2 \\ \hline
+	x=1 & 0.6 & 0.4 \\
+	x=2 & 1 & 0
+	\end{array}
+	\]
+If $x\neq 1$ or $2$, then the conditional mass $p(y|x)$ is undefined. For $x=1$ or $2$, we have
+	\[E(Y \mid X=x) = \sum_{y=1}^2 y p(y|x) =  \begin{cases} 1 \cdot 0.6 + 2\cdot 0.4 = 1.4 & : x=1, \\
+	1\cdot 1 + 2 \cdot 0 = 1 & : x=2.
+	\end{cases}
+	\]
+Finally, recall that the random variable $E(Y\mid X)$ is defined as the composite $h(X) = h \circ X$, where $h(x) = E(Y \mid X=x)$ for $x=1,2$. Hence, we conclude the problem with:
+	\[
+	\begin{array}{c|c}
+	s & E(Y\mid X)(s) \\ \hline
+	a & 1.4 \\
+	b & 1 \\
+	c & 1.4
+	\end{array}
+	\] }
+\bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\prob Suppose that a point $X=x$ is chosen uniformly in the interval $(0,1)$. After $x$ has been chosen, suppose that a second point $Y=y$ is chosen uniformly in the interval $[x,1]$. Compute the expectation $E(Y)$.
+
+\bigskip
+\textcolor{red}{We will compute the expectation via the Law of Total Expectation:
+	\[E(Y) = E \big[ E(Y\mid X) \big].
+	\]
+So, we begin by noting that $E(Y\mid X=x) = (x+1)/2 = x/2 + 1/2$, since the mean of a uniform distribution over an interval is the midpoint between its boundary points. Therefore $E(Y\mid X) = X/2 + 1/2$, and so
+	\[E(Y) = E\big( X/2 + 1/2\big) = E(X) /2 + 1/2 = 1/4 + 1/2 = 3/4.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+
+\prob Suppose that $X$ is a continuous random variable with uniform distribution on $[a,b]$. Compute its moment generating function $\psi(t)$, and then find all moments $E(X^k)$, for $k\geq 1$.
+
+\bigskip
+\textcolor{red}{We have
+	\[f(x) = \frac{1}{b-a}
+	\]
+for all $x\in [a,b]$ and $f(x) = 0$ otherwise. Thus, by the LoTUS, we have
+	\[\psi(t) = E(e^{tX}) = \frac{1}{b-a} \int_a^b e^{tx} \ \text{d}x = \frac{e^{tb} - e^{ta}}{t(b-a)}.
+	\]
+If we expand the exponentials, we get
+	\begin{align*}
+	\psi(t) &= \frac{1}{t(b-a)} \left[ \sum_{k=0}^\infty \frac{t^kb^k}{k!} - \sum_{k=0}^\infty \frac{t^ka^k}{k!} \right] \\
+	&= \frac{1}{b-a} \sum_{k=0}^\infty \frac{b^{k+1} - a^{k+1}}{(k+1)!} t^k
+	\end{align*}
+for all $t\in \mathbb{R}$. Thus,
+	\[E(X^k) = \psi^{(k)}(0) = \frac{b^{k+1} - a^{k+1}}{(k+1)(b-a)} = \frac{a^k + a^{k-1}b + \cdots + ab^{k-1} + b^k}{k+1}.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+
+
+
+\prob Use moment generating functions to confirm that the mean and variance of a random variable $X \sim \mathcal{N}(\mu,\sigma^2)$ are indeed $\mu$ and $\sigma^2$.
+
+\bigskip
+\textcolor{red}{Letting $\psi(t)$ be the moment generating function of $X$, we have
+	\[\psi'(t) = \psi(t) (\mu + \sigma^2 t),
+	\]
+and so
+	\[E(X) = \psi'(0) =  \mu.
+	\]
+To compute the variance, we first compute
+	\[\psi''(t) = \psi(t) (\mu + \sigma^2 t)^2 + \psi(t) \sigma^2.
+	\]
+Then
+	\[E(X^2) = \psi''(0) = \mu^2 + \sigma^2,
+	\]
+and so
+	\[V(X) = E(X^2) - E(X)^2 = \mu^2 + \sigma^2 - \mu^2 = \sigma^2.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+\bigskip
+\prob Let $X$ be a discrete random variable with finite range whose moment generating function is given by
+
+
+
+
+
+
+
+
+
+
+
+\newpage
 \prob Suppose that $X$ and $Y$ are random variables with the joint density function
 
 	\[
