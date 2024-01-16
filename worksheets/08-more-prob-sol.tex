@@ -157,6 +157,93 @@ So, we begin by noting that $E(Y\mid X=x) = (x+1)/2 = x/2 + 1/2$, since the mean
 
 
 
+
+\prob The waiting time $X$ in minutes between calls to a 911 center is exponentially distributed with mean $\mu = 2$ minutes. Compute the distribution of the transformed random variable $Y=60X$ that measures the waiting time in seconds.
+
+\bigskip
+\textcolor{red}{Since the mean of $X\sim \mathcal{E}xp(\lambda)$ is $1/\lambda$, we see that $\lambda = 1/2$ and so
+	\[f_X(x) = \frac{1}{2} e^{-x/2}
+	\]
+for all $x>0$. Using the Density Transformation Theorem with $r(x) = 60x$ and $s(y) = x/60$, we have
+	\[f_Y(y) = \frac{1}{2} e^{-y/120} \cdot \frac{1}{60} = \frac{1}{120} e^{-y/120}
+	\]
+for all $y>0$ and $f_Y(y)=0$ otherwise. Thus, $Y \sim \mathcal{E}xp(1/120)$.}
+\bigskip
+
+
+
+
+
+
+
+
+
+
+
+
+\prob Suppose that $X$ and $Y$ are two random variables such that $Y=e^X$ and $X\sim \mathcal{N}(\mu,\sigma^2)$. Compute the density of $Y$.
+
+\bigskip
+\textcolor{red}{We use the Density Transformation Theorem with $r(x) = e^x$ and $s(y) = \log{y}$:
+	\[f_Y(y) = f_X(\log{y}) \frac{1}{y} = \frac{1}{y\sqrt{2\pi \sigma^2}} \exp \left[ - \frac{1}{2\sigma^2} \left(\log{y} - \mu  \right)^2 \right],
+	\]
+for all $y>0$ and $f_Y(y)=0$ otherwise.}
+\bigskip
+
+
+
+
+
+
+
+
+
+\prob Suppose that $\mathbf{X}=(X_1,X_2)$ is a two-dimensional continuous random vector with density
+
+	\[
+	f(x_1,x_2) = \begin{cases}
+	4x_1x_2 & : 0 < x_1 < 1, \ 0 < x_2 < 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+
+For all $(x_1,x_2) \in \mathbb{R}^2$ with $x_2 \neq 0$, define
+
+	\[(y_1,y_2) = r(x_1,x_2) = \left( \frac{x_1}{x_2}, x_1x_2 \right).
+	\]
+	
+Compute the density of the random vector $\mathbf{Y} = r(\mathbf{X})$.
+
+\bigskip
+\textcolor{red}{Notice that this is a case where the function $r$ is not defined on \textit{all} of $\mathbb{R}^2$, but rather only on an open subset of $\mathbb{R}^2$ that contains the support of the density $f(x_1,x_2)$. But, as I mentioned, the conclusions of the Density Transformation Theorem are not altered. So, we proceed with applying the theorem, restricting $r$ to the support of $f(x,y)$. Let's first compute the Jacobian matrix of $r$:
+	\[\frac{\partial(r_1,r_2)}{\partial(x_1,x_2)} = \begin{bmatrix} \frac{1}{x_2} & - \frac{x_1}{x_2^2} \\ x_2 & x_1 \end{bmatrix}.
+	\]
+Since the partial derivatives exist and are continuous at all points in the support of the density, we conclude that $r$ is continuously differentiable. Moreover, the determinant of the Jacobian matrix is easily computed to be $2x_1/x_2$, which does not vanish at any point in the support. The last hypothesis that we need to check regarding $f$ is its injectivity; but notice that the equations
+	\[y_1 = \frac{x_1}{x_2} \quad \text{and} \quad y_2 = x_1 x_2
+	\]
+can be solved uniquely for $x_1$ and $x_2$ yielding the solutions
+	\[x_1 = \sqrt{y_1y_2} \quad \text{and} \quad x_2 = \sqrt{ \frac{y_2}{y_1}}.
+	\]
+This shows $r$ is one-to-one and gives the formula for the inverse function $s$ defined on the range $A$ of $r$:
+	\[(x_1,x_2) = s(y_1,y_2) = \left( \sqrt{y_1y_2}, \sqrt{ \frac{y_2}{y_1}}\right).
+	\]
+Thus, all the hypotheses for $r$ in the statement of the theorem are true. As I will explain during class, the image $A$ of $r$ is the unbounded, open region in the $(y_1,y_2)$-plane bounded by the curves
+	\[y_1 = y_2, \quad y_2 = 0, \quad y_2 = \frac{1}{y_2}.
+	\]
+For those points $(y_1,y_2)$ in this latter region, we compute the determinant of the Jacobian matrix:
+	\[\det\frac{\partial(s_1,s_2)}{\partial (y_1,y_2)} = \det\begin{bmatrix}
+	\frac{1}{2} \sqrt{\frac{y_2}{y_1}} & \frac{1}{2} \sqrt{\frac{y_1}{y_2}} \\
+	-\frac{1}{2} \sqrt{ \frac{y_2}{y_1^3}} & \frac{1}{2} \sqrt{\frac{1}{y_1y_2}}
+	\end{bmatrix} = \frac{1}{2y_1}.
+	\]
+Thus, the desired density is defined for all $(y_1,y_2)$ in the region described above by the formula
+	\[f(y_1,y_2) = f\left( \sqrt{y_1y_2},\sqrt{\frac{y_2}{y_1}} \right) = 4\sqrt{y_1y_2}\cdot \sqrt{\frac{y_2}{y_1}}\cdot \frac{1}{2y_1} = \frac{2y_2}{y_1},
+	\]
+while $f(y_1,y_2) =0$ for all $(y_1,y_2)$ outside this region.}
+\bigskip
+
+
+
 \prob Suppose that $X$ is a continuous random variable with uniform distribution on $[a,b]$. Compute its moment generating function $\psi(t)$, and then find all moments $E(X^k)$, for $k\geq 1$.
 
 \bigskip
@@ -213,20 +300,10 @@ and so
 
 
 
-\bigskip
-\prob Let $X$ be a discrete random variable with finite range whose moment generating function is given by
 
 
 
 
-
-
-
-
-
-
-
-\newpage
 \prob Suppose that $X$ and $Y$ are random variables with the joint density function
 
 	\[
