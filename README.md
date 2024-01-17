@@ -11,8 +11,8 @@
 
 1. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
 2. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
-3. [Chapters, worksheets, and videos](#list-of-chapters-worksheets-and-videos)
-4. [Programming assignments](#list-of-programming-assignments)
+3. [Chapters, worksheets, and videos](#chapters-worksheets-and-videos)
+4. [Programming assignments](#programming-assignments)
 
 ## Second-semester schedule and other class information
 
