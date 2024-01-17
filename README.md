@@ -86,19 +86,12 @@ Class Number/Date | Description | Important information
 | Class 33: <br> Mon 11-27 | **Topics**: Do [7.1: Motivation](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#motivation) <br> Do [7.2: 2-dimensional random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#dimensional-random-vectors) <br><br> **Slides**: [Chapter 7](./slides/07-random-vectors.pdf) <br> **Worksheet**: [Chapter 7](./worksheets/07-random-vectors.pdf) <br> **Worksheet solutions**: [Chapter 7](./worksheets/07-random-vectors-sol.pdf) <br> **Suggested problems**: [7.2](./suggested-problems/18-suggested-problems.md) | [Programming assignment 5](./programming-assignments/assignment_05_instructions.md) due @ 9:10am, [submission link](https://forms.gle/Yi49pr7Mrr88qkHz9)
 
 
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 32: <br> Fri 11-17 | Do [6.6: Q-Q plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#qq-plots) <br> Do [6.7: Box and violin plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#box-plots-and-violin-plots) | :arrow_down:
 
+| Class 32: <br> Fri 11-17 | **Topics**: Do [6.6: Q-Q plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#qq-plots) <br> Do [6.7: Box and violin plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#box-plots-and-violin-plots) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) 
 
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 31: <br> Wed 11-15 | Do [6.3: Histograms](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#histograms) <br> Do [6.4: Kernel density estimation](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#kernel-density-estimation) <br> Do [6.5: Empirical statistics](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#empirical-statistics) | :arrow_down:
+| Class 31: <br> Wed 11-15 | **Topics**: Do [6.3: Histograms](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#histograms) <br> Do [6.4: Kernel density estimation](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#kernel-density-estimation) <br> Do [6.5: Empirical statistics](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#empirical-statistics) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) 
 
-
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 30: <br> Mon 11-13 | Do [6.1: Data and random samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#data-and-random-samples) <br> Do [6.2: Probabilistic models and empirical distributions](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#probabilistic-models-and-empirical-distributions) | [Slides](./slides/06-theory-to-practice.pdf) for Chapter 6 ||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
+| Class 30: <br> Mon 11-13 | **Topics**: Do [6.1: Data and random samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#data-and-random-samples) <br> Do [6.2: Probabilistic models and empirical distributions](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#probabilistic-models-and-empirical-distributions) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) | [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
 
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
