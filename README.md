@@ -2,9 +2,7 @@
   <img src="./img/header.png" width="100%">
 </p>
 
-# Materials for "Mathematical Statistics with a View Toward Machine Learning", by John Myers
-
-This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
+# Materials for ["Mathematical Statistics with a View Toward Machine Learning"](https://mml.johnmyersmath.com/stats-book/index.html), by John Myers
 
 <p align="center">
 <strong>Table of contents</strong>
