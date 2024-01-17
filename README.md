@@ -76,14 +76,10 @@ Office hours: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appoint
 Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/), [quiz solutions](https://drive.google.com/drive/folders/1Ruq8mGgeGG4evW9DAIMKMLPznSz8g2UL?usp=drive_link)
 
 Class Number/Date | Description 
-| :---: | :---: | 
+| :-: | :- | 
 | Wed 12-13 | **Final exam**: Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to 7.9 <br> Shineman 130, 8-10am
-| Class 38: <br> Fri 12-08 | Finish [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) 
-
-
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 37: <br> Wed 12-06 | Do [7.7: Law of Total Probability and Bayes' Theorem](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables) <br> Begin [7.8: Random vectors in arbitrary dimensions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#random-vectors-in-arbitrary-dimensions) <br> Begin [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) | :arrow_down: | :arrow_down: | [Problems](./suggested-problems/21-suggested-problems.md) for 7.7-7.9
+| Class 38: <br> Fri 12-08 | **Topic**: Finish [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) <br><br> **Slides**: [Chapter 7](./slides/07-random-vectors.pdf) <br> **Worksheet**: [Chapter 7](./worksheets/07-random-vectors.pdf) <br> **Worksheet solutions**: [Chapter 7](./worksheets/07-random-vectors-sol.pdf)
+| Class 37: <br> Wed 12-06 | **Topics**: Do [7.7: Law of Total Probability and Bayes' Theorem](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables) <br> Begin [7.8: Random vectors in arbitrary dimensions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#random-vectors-in-arbitrary-dimensions) <br> Begin [7.9: Independence](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) <br><br> **Slides**: [Chapter 7](./slides/07-random-vectors.pdf) <br> **Worksheet**: [Chapter 7](./worksheets/07-random-vectors.pdf) <br> **Worksheet solutions**: [Chapter 7](./worksheets/07-random-vectors-sol.pdf) <br> **Suggested problems**: [7.7-7.9](./suggested-problems/21-suggested-problems.md)
 
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
