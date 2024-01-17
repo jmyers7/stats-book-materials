@@ -2,8 +2,9 @@
 
 **List of problems:**
 
-1. [Independence and expectations](#problem-1)
-2. [Expectation of a transformation of uniform variables](#problem-2)
+1. [Independence and expectations](#problem-1-independence-and-expectations)
+2. [Expectation of a transformation of an IID random sample](#problem-2-expectation-of-a-transformation-of-an-iid-random-sample)
+3. [Expectation of a transformation of two variables](#problem-3-expectation-of-a-transformation-of-two-variables)
 
 **Due date**: TBD
 
@@ -15,7 +16,7 @@ _From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-pr
 
 Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-expect-thm) in the book.)
 
-## Problem 2: Expectation of a transformation of uniform variables
+## Problem 2: Expectation of a transformation of an IID random sample
 
 _From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.
 
@@ -25,3 +26,17 @@ $$
 E\left[ (X - 2Y + Z)^2\right].
 $$
 
+## Problem 3: Expectation of a transformation of two variables
+
+_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.
+
+Suppose that $X$ and $Y$ are jointly continuous with density
+
+$$
+f(x,y) = \begin{cases}
+2x & : 0 \leq x \leq 1, \ 0 \leq y \leq 1, \\
+0 & : \text{otherwise}.
+\end{cases}
+$$
+
+Compute $E(XY)$.
