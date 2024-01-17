@@ -74,6 +74,8 @@ The videos are _not_ public yet. They are only available to students taking the 
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
+| Class 3: <br> Fri 01-26 | Just make something up
+| Class 2: <br> Wed 01-24 | Something else
 | Class 1: <br> Mon 01-22 | Something
 
 
