@@ -21,9 +21,9 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
-| Class 3: <br> Fri 01-26 | Just make something up
+| Class 3: <br> Fri 01-26 | Something
 | Class 2: <br> Wed 01-24 | Something else
-| Class 1: <br> Mon 01-22 | Something
+| Class 1: <br> Mon 01-22 | Just make something up
 
 
 ## First-semester schedule and other class information
