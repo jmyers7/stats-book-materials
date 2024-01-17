@@ -75,7 +75,7 @@ Office hours: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appoint
 
 Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/), [quiz solutions](https://drive.google.com/drive/folders/1Ruq8mGgeGG4evW9DAIMKMLPznSz8g2UL?usp=drive_link)
 
-Class Number/Date | Description | Important information
+Class Number/Date | Description | Other information
 | :-: | :- | :-: |
 | Wed 12-13 | **Final exam** | Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to [7.9](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) <br> Shineman 130, 8-10am
 | Class 38: <br> Fri 12-08 | **Topics**: [7.9](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) <br> **Slides**: [Chapter 7](./slides/07-random-vectors.pdf) <br> **Worksheet**: [Chapter 7](./worksheets/07-random-vectors.pdf) <br> **Worksheet solutions**: [Chapter 7](./worksheets/07-random-vectors-sol.pdf) <br> **Suggested problems**: [7.7, 7.8, 7.9](./suggested-problems/21-suggested-problems.md)
