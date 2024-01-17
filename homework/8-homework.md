@@ -5,6 +5,9 @@
 1. [Expectation of a transformation of two variables](#problem-1-expectation-of-a-transformation-of-two-variables)
 2. [Independence and expectations](#problem-2-independence-and-expectations)
 3. [Expectation of a transformation of an IID random sample](#problem-3-expectation-of-a-transformation-of-an-iid-random-sample)
+4. [Conditional expectations](#problem-4-conditional-expectations)
+5. [Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
+6. [A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
 
 
 **Due date**: TBD
@@ -36,7 +39,7 @@ $$
 E\left[ (X - 2Y + Z)^2\right].
 $$
 
-## Problem 4:
+## Problem 4: Conditional expectations
 
 (_From [Section 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
@@ -53,6 +56,19 @@ $$
 
 **(c)**: Now, compute the maginal density $f(y)$ and use it to compute the expectation $E(Y)$ directly. Does this expectation agree with the one in part (b)?
 
-## Problem 5:
+## Problem 5: Average scores on a standardized exam
 
-(_From [Section 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that 20% of students in a certain district attend School A, 30% attend School B, and the remaining 50% attend School C. The average score on a standarized exam of the students at School A is 80, the average score for those students at School B is 76, and the average score for students at School C is 84. If a student is selected at random from the entire school district, what is the expected value of their score on the exam?
+(_From [Section 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that 20% of students in a certain district attend School A, 30% attend School B, and the remaining 50% attend School C. The average score on a standardized exam of the students at School A is 80, the average score for those students at School B is 76, and the average score for students at School C is 84. If a student is selected at random from the entire school district, what is the expected value of their score on the exam?
+
+## Problem 6: A transformation of a uniform variable
+
+(_From [Section 8.3](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#density-transformations)_.) Let $X$ be the continuous random variable with density
+
+$$
+f(x) = \begin{cases}
+1 & : 0 < x < 1, \\
+0 & : \text{otherwise}.
+\end{cases}
+$$
+
+Thus, $X$ is uniformly distributed on $(0,1)$. Use the Density Transformation Theorem to compute the density of the random variable $Y  = 2 \sqrt{X}$. Is $Y$ uniform?
