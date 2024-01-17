@@ -5,7 +5,7 @@
 1. [Independence and expectations](#problem-1)
 2. [Expectation of a transformation of uniform variables](#problem-2)
 
-**Due date**: TBDs
+**Due date**: TBD
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted. You must show all relevant steps in any computations, and in problems that ask for explanations or proofs, you must write in complete sentences with correct grammar and correct notation. Sloppy and confusing solutions are inappropriate for students in a class at this level, and will be penalized accordingly.
 
