@@ -4,11 +4,6 @@
 
 # Materials for ["Mathematical Statistics with a View Toward Machine Learning"](https://mml.johnmyersmath.com/stats-book/index.html), by John Myers
 
-<p align="center">
-<strong>Table of contents</strong>
-</p>
-
-
 1. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
 2. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
 3. [List of materials](#list-of-materials)
