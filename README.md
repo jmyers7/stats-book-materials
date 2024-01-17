@@ -100,79 +100,181 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 | Class 35: <br> Fri 12-01 | Do [7.5: Bivariate empirical distributions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#bivariate-empirical-distributions) <br> Begin [7.6: Conditional distributions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#conditional-distributions) | :arrow_down: | :arrow_down: | [Problems](/suggested-problems/20-suggested-problems.md) for 7.6 | Quiz 9 over [7.2](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#dimensional-random-vectors), [7.3](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#bivariate-distribution-functions), [7.4](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#marginal-distributions)
 
 
-
-
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 34: <br> Wed 11-29 | Do [7.3: Bivariate distribution functions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#bivariate-distribution-functions) <br> Do [7.4: Marginal distributions](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#marginal-distributions) | :arrow_down: | :arrow_down: | [Problems](./suggested-problems/19-suggested-problems.md) for 7.3 and 7.4
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 33: <br> Mon 11-27 | Do [7.1: Motivation](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#motivation) <br> Do [7.2: 2-dimensional random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#dimensional-random-vectors) | [Slides](./slides/07-random-vectors.pdf) for Chapter 7 | [Worksheet](./worksheets/07-random-vectors.pdf) for Chapter 7, [solutions](./worksheets/07-random-vectors-sol.pdf) | [Problems](./suggested-problems/18-suggested-problems.md) for 7.2 | [Programming assignment 5](./programming-assignments/assignment_05_instructions.md) due @ 9:10am, [submission link](https://forms.gle/Yi49pr7Mrr88qkHz9)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 32: <br> Fri 11-17 | Do [6.6: Q-Q plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#qq-plots) <br> Do [6.7: Box and violin plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#box-plots-and-violin-plots) | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 31: <br> Wed 11-15 | Do [6.3: Histograms](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#histograms) <br> Do [6.4: Kernel density estimation](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#kernel-density-estimation) <br> Do [6.5: Empirical statistics](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#empirical-statistics) | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 30: <br> Mon 11-13 | Do [6.1: Data and random samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#data-and-random-samples) <br> Do [6.2: Probabilistic models and empirical distributions](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#probabilistic-models-and-empirical-distributions) | [Slides](./slides/06-theory-to-practice.pdf) for Chapter 6 ||| [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am, [submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 29: <br> Fri 11-10 | Do [5.8: Gamma distributions]() <br> Do [5.9: Beta distributions]() | :arrow_down: | :arrow_down: || Quiz 8 over [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) and [5.7](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 28: <br> Wed 11-08 | Finish [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) <br> Do [5.7: Exponential distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions) | [Slides](./slides/05-examples-of-rvs-04.pdf) for 5.7, 5.8, and 5.9 | :arrow_down: | [Problems](./suggested-problems/17-suggested-problems.md) for 5.7
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 27: <br> Mon 11-06 | Continue [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) | :arrow_down: | :arrow_down: | :arrow_down: | Quiz 7 over [5.2](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) and [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 26: <br> Fri 11-03 | Finish [5.5: Poisson distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) <br> Begin [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) | [Slides](./slides/05-examples-of-rvs-03.pdf) for 5.6 | :arrow_down: | [Problems](./suggested-problems/16-suggested-problems.md) for 5.6 |
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 25: <br> Wed 11-01 | Continue [5.5: Poisson distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) | :arrow_down: | :arrow_down: | :arrow_down: | [Programming assignment 3](./programming-assignments/assignment_03_instructions.md) due @ 9:10am, [submission link](https://forms.gle/fYuabGFhZZmkvRfN6)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 24: <br> Mon 10-30 | Finish [5.2: Binomial distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) <br> Begin [5.5: Poisson distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) | [Slides](./slides/05-examples-of-rvs-02.pdf) for 5.5 | :arrow_down: | [Problems](./suggested-problems/15-suggested-problems.md) for 5.2 and 5.5
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 23: <br> Fri 10-27 | Do [5.1: Bernoulli distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#bernoulli-distributions) <br> Begin [5.2: Binomial distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) | [Slides](./slides/05-examples-of-rvs-01.pdf) for 5.1 and 5.2 | [Worksheet](./worksheets/05-examples-of-rvs.pdf) for Chapter 5, [solutions](./worksheets/05-examples-of-rvs-sol.pdf) | :arrow_down: | Quiz 6 over [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus), [4.9](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#linearity-of-expectation-part-1), and [4.10](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#variances-and-standard-deviations)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 22: <br> Wed 10-25 | Finish [4.10: Variances and standard deviations](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#variances-and-standard-deviations) | :arrow_down: | :arrow_down: | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 21: <br> Mon 10-23 | Do [4.9: Linearity of expectation, part 1](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#linearity-of-expectation-part-1) <br> Begin [4.10: Variances and standard deviations](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#variances-and-standard-deviations) | [Slides](./slides/04-rules-of-prob-05.pdf) for 4.9 and 4.10 | :arrow_down: | [Problems](./suggested-problems/14-suggested-problems.md) for 4.8, 4.9, and 4.10
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 20: Wed 10-18 | Do [4.8: LotUS](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) | :arrow_down: | :arrow_down: | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Fri 10-20 | Midterm exam (material runs [2.1](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#what-is-probability) to [4.7](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#functions-of-random-variables))
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 19: <br> Mon 10-16 | Do [4.6: Algebra of RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#the-algebra-of-random-variables) <br> Do [4.7: Functions of RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#functions-of-random-variables) | [Slides](./slides/04-rules-of-prob-04.pdf) for 4.6, 4.7, and 4.8 | :arrow_down: | [Problems](./suggested-problems/13-suggested-problems.md) for 4.6 and 4.7 | [Programming assignment 2](./programming-assignments/assignment_02_instructions.md) due @ 9:10am, [submission link](https://forms.gle/aiZUKigNaCtw6zJKA)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 18: <br> Wed 10-11 | Finish [4.4: Distribution and quantiles functions](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#distribution-and-quantile-functions) <br> Do [4.5: Expected values](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expected-values) | [Slides](./slides/04-rules-of-prob-03.pdf) for 4.5 | :arrow_down: | [Problems](./suggested-problems/12-suggested-problems.md) for 4.5
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 17: <br> Mon 10-09 | Finish [4.2: Probability measures of RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables) <br> Do [4.3: Discrete and continuous RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#discrete-and-continuous-random-variables) <br> Begin [4.4: Distribution and quantiles functions](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#distribution-and-quantile-functions) | [Slides](./slides/04-rules-of-prob-02.pdf) for 4.3 and 4.4 | :arrow_down: | [Problems](./suggested-problems/11-suggested-problems.md) for 4.3 and 4.4
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 16: <br> Fri 10-06 | Continue [4.2: Probability measure of RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables) | :arrow_down: | :arrow_down: | :arrow_down: | Quiz 5 over [3.5](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence) and [3.7](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 15: <br> Wed 10-04 | Do [4.1: Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#id1) <br> Begin [4.2: Probability measures of RVs](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables) | [Slides](./slides/04-rules-of-prob-01.pdf) for Sections 4.1 and 4.2 | [Worksheet](./worksheets/04-random-variables.pdf) for Chapter 4, [solutions](./worksheets/04-random-variables-sol.pdf) | [Problems](./suggested-problems/10-suggested-problems.md) for Section 4.2
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 14: <br> Mon 10-02 | Finish [3.5: Independence](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence) <br> Do [3.7: The Law of Total Probability and Bayes' Theorem](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem) | Slides for 3.7 | :arrow_down: | [Problems](./suggested-problems/09-suggested-problems.md) for 3.7
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 13: <br> Fri 09-29 | Finish [3.4: Conditional probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#conditional-probability) <br> Begin [3.5: Independence](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#independence) | [Slides](./slides/03-rules-of-prob-03.pdf) for 3.5 | :arrow_down: | [Problems](./suggested-problems/08-suggested-problems.md) for 3.5 | Quiz 4 over [2.11](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#bivariate-continuous-probability-measures)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 12: <br> Wed 09-27 | Finish [3.2: Permutations and combinations](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#permutations-and-combinations) <br> Do [3.3: The Rule for Probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-sum-rule-for-probability) <br> Begin [3.4: Conditional probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#conditional-probability) | [Slides](./slides/03-rules-of-prob-02.pdf) for 3.3 and 3.4 | :arrow_down: | [Problems](./suggested-problems/07-suggested-problems.md) for 3.3 and 3.4
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 11: <br> Mon 09-25 | Finish [2.11: Bivariate continuous probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#bivariate-continuous-probability-measures) <br> Do [2.12: Probability density graphs (bivariate)](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-density-graphs-bivariate-versions) <br> Do [3.1: The Product and Sum Rules for Counting](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-product-and-sum-rules-for-counting) <br> Begin [3.2: Permutations and combinations](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#permutations-and-combinations) | [Slides](./slides/03-rules-of-prob-01.pdf) for 3.1 and 3.2 | [Worksheet](./worksheets/03-rules-of-prob.pdf) for Chapter 3, [solutions](./worksheets/03-rules-of-prob-sol.pdf) | [Problems](./suggested-problems/06-suggested-problems.md) for 3.1 and 3.2 | [Programming assignment 1](./programming-assignments/assignment_01_instructions.md) due @ 9:10am, [submission link](https://forms.gle/9HHZCHMr6WidyC4Y8)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 10: <br> Fri 09-22 | Begin [2.11: Bivariate continuous probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#bivariate-continuous-probability-measures) | [Slides](./slides/02-prob-spaces-05.pdf) for 2.11 and 2.12 | :arrow_down: | [Problems](./suggested-problems/05-suggested-problems.md) for 2.11, [solutions](./suggested-problems/05-suggested-problems-sol.md) | Quiz 3 over [2.8](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) and [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 9: <br> Wed 09-20 | Finish [2.10: Distribution and quantile functions](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) | :arrow_down: | :arrow_down: | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 8: <br> Mon 09-18 | Continue [2.10: Distribution and quantile functions](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) | :arrow_down: | :arrow_down: | [Problems](./suggested-problems/04-suggested-problems.md) for 2.10, [solutions](./suggested-problems/04-suggested-problems-sol.md)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Fri 09-15 | Introduce first programming assignment (see link below on 09-25) |||| Quiz 2 over Section [2.6](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 7: <br> Wed 09-13 | Finish [2.8: Continuous probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) <br> Do [2.9: Probability density graphs (univariate)](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-density-graphs-univariate-versions) <br> Begin [2.10: Distribution and quantile functions](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions) | [Slides](./slides/02-prob-spaces-04.pdf) for 2.10 | :arrow_down: | :arrow_down:
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 6: <br> Mon 09-11 | Finish [2.6: Discrete and uniform probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures) <br> Do [2.7: Probability histograms](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#probability-histograms) <br> Begin [2.8: Continuous probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#continuous-probability-measures) | [Slides](./slides/02-prob-spaces-03.pdf) for 2.7 and 2.9 | :arrow_down: | [Problems](./suggested-problems/03-suggested-problems.md) for 2.8, [solutions](./suggested-problems/03-suggested-problems-sol.md) | [DataCamp assignment](https://www.datacamp.com/) deadline @ 9:10am
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 5: <br> Fri 09-08 | Continue [2.6: Discrete and uniform probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures) | :arrow_down: | :arrow_down: | :arrow_down: | Quiz 1 over [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 4: <br> Wed 09-06 | Finish [2.4: Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1) <br> Begin [2.6: Discrete and uniform probability measures](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#discrete-and-uniform-probability-measures) | :arrow_down: | :arrow_down: | [Problems](./suggested-problems/02-suggested-problems.md) for 2.6, [solutions](./suggested-problems/02-suggested-problems-sol.md)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 3: <br> Fri 09-01 | Finish [2.1: What is probability?](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#what-is-probability) <br> Do [2.2: A first look at the axiomatics](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-first-look-at-the-axiomatic-framework) <br> Do [2.3: Set theory](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#a-crash-course-in-set-theory) <br> Begin [2.4: Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1) | [Slides](./slides/02-prob-spaces-02.pdf) for 2.4 and 2.6 | :arrow_down: | [Problems](./suggested-problems/01-suggested-problems.md) for 2.4
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 2: <br> Wed 08-30 | Finish [Chapter 1](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) <br> Begin [2.1: What is probability?](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#what-is-probability) | [Slides](./slides/02-prob-spaces-01.pdf) for 2.1 and 2.3 | [Worksheet](/worksheets/02-prob-spaces.pdf) for Chapter 2, [solutions](/worksheets/02-prob-spaces-sol.pdf)
+
+
+Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
+| :---: | :---: | :---: | :---: | :---: | :---:
 | Class 1: <br> Mon 08-28 | [Chapter 1](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) | [Slides](./slides/01-preview.pdf) for Chapter 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
