@@ -65,7 +65,16 @@ The videos are _not_ public yet. They are only available to students taking the 
 
 ## Second-semester schedule and other class information
 
-Coming soon!
+Office: MCC 175
+
+Office hours: TBA
+
+Important links: [Syllabus]()
+
+Class Number/Date | Description | Other information
+| :-: | :- | :-: |
+| Class 1: <br> Mon 01-22 | Something
+
 
 ## First-semester schedule and other class information
 
@@ -73,7 +82,7 @@ Office: MCC 175
 
 Office hours: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
 
-Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), [Brightspace](https://ww1.oswego.edu/digital-learning-environment/)
+Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing)
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
