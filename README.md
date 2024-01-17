@@ -23,7 +23,7 @@ Class Number/Date | Description | Other information
 | :-: | :- | :-: |
 | Class 3: <br> Fri 01-26 | 
 | Class 2: <br> Wed 01-24 | 
-| Class 1: <br> Mon 01-22 | **Topics**: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> **Worksheet**: [Chapter 8]() <br> **Worksheet solutions**: [Chapter 8](./worksheets/08-more-prob-sol.pdf) <br> **Homework**: [Chapter 8](./homework/8-homework.md)
+| Class 1: <br> Mon 01-22 | **Topics**: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> **Worksheet**: [Chapter 8]() <br> **Worksheet solutions**: [Chapter 8](./worksheets/08-more-prob-sol.pdf) <br> **Homework**: [Chapter 8](./homework/8-homework.md) <br> **Programming assignment**: [Chapter 8](./programming-assignments/assignment_06_instructions.md)
 
 
 ## First-semester schedule and other class information
