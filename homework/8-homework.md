@@ -8,7 +8,7 @@
 4. [Conditional expectations](#problem-4-conditional-expectations)
 5. [Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
 6. [A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
-7. [Practice with covariance](#problem-7-practice-with-covariance)
+7. [Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
 8. [A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
 
 
@@ -75,18 +75,24 @@ $$
 
 Thus, $X$ is uniformly distributed on $(0,1)$. Use the Density Transformation Theorem to compute the density of the random variable $Y  = 2 \sqrt{X}$. Is $Y$ uniform?
 
-## Problem 7: Practice with covariance
+## Problem 7: Practice with covariance and correlation
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)_.) Suppose that $X$ and $Y$ are jointly continuous random variables with density function
+(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
 $$
 f(x,y) = \begin{cases}
-3x & : 0\leq y \leq x \leq 1, \\
+24xy & : 0 \leq x \leq 1, \ 0 \leq y \leq 1, \ x+y \leq 1, \\
 0 & : \text{otherwise}.
 \end{cases}
 $$
 
-Compute the covariance $\sigma_{XY}$.
+**(a)**: Compute the marginal densities $f(x)$ and $f(y)$.
+
+**(b)**: Note that $X$ and $Y$ are identically distributed. They are examples of what type of random variable from [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/05-examples-of-rvs.html)? What are the parameters?
+
+**(c)**: Compute the covariance $\sigma_{XY}$.
+
+**(d)**: Compute the correlation $\rho_{XY}$.
 
 ## Problem 8: A special case of bilinearity
 
@@ -96,4 +102,3 @@ $$
 \sigma(X_1+X_2,Y_1+Y_2) = \sigma(X_1,Y_1) + \sigma(X_1,Y_2) + \sigma(X_2,Y_1) +  \sigma(X_2,Y_2)
 $$
 
-using only the Shortcut Formula for Covariance and Linearity of Expectation. (Notice the similarity with [FOIL](https://en.wikipedia.org/wiki/FOIL_method).)
