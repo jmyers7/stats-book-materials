@@ -6,6 +6,11 @@
 
 This is the repository containing all supporting materials for the [textbook](https://mml.johnmyersmath.com/stats-book/index.html).
 
+<p align="center">
+<strong>Table of contents</strong>
+</p>
+
+
 1. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
 2. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
 3. [Chapters, worksheets, and videos](#list-of-chapters-worksheets-and-videos)
