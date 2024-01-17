@@ -19,7 +19,7 @@ Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove
 
 _From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.
 
-Let three random variables $X$, $Y$, and $Z$ form a random sample from the continuous uniform distribution on $[0,1]$. Determine the value of the expectation
+Let three random variables $X$, $Y$, and $Z$ form an IID random sample from the continuous uniform distribution on $[0,1]$. Determine the value of the expectation
 
 $$
 E\left[ (X - 2Y + Z)^2\right].
