@@ -87,20 +87,11 @@ Class Number/Date | Description | Important information
 | Class 32: <br> Fri 11-17 | **Topics**: Do [6.6: Q-Q plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#qq-plots) <br> Do [6.7: Box and violin plots](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#box-plots-and-violin-plots) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) 
 | Class 31: <br> Wed 11-15 | **Topics**: Do [6.3: Histograms](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#histograms) <br> Do [6.4: Kernel density estimation](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#kernel-density-estimation) <br> Do [6.5: Empirical statistics](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#empirical-statistics) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) 
 | Class 30: <br> Mon 11-13 | **Topics**: Do [6.1: Data and random samples](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#data-and-random-samples) <br> Do [6.2: Probabilistic models and empirical distributions](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html#probabilistic-models-and-empirical-distributions) <br><br> **Slides**: [Chapter 6](./slides/06-theory-to-practice.pdf) | [Programming assignment 4](./programming-assignments/assignment_04_instructions.md) due @ 9:10am <br> [Submission link](https://forms.gle/TT7dZr2zGdT3Vo7w8)
+| Class 29: <br> Fri 11-10 | **Topics**: Do [5.8: Gamma distributions]() <br> Do [5.9: Beta distributions]() <br><br> **Slides**: [5.7, 5.8, 5.9](./slides/05-examples-of-rvs-04.pdf) <br> **Worksheet**: [Chapter 5](./worksheets/05-examples-of-rvs.pdf) <br> **Worksheet solutions**: [Chapter 5](./worksheets/05-examples-of-rvs-sol.pdf) | Quiz 8 over [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) and [5.7](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions)
 
 
 
-
-
-
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 29: <br> Fri 11-10 | Do [5.8: Gamma distributions]() <br> Do [5.9: Beta distributions]() | :arrow_down: | :arrow_down: || Quiz 8 over [5.6](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) and [5.7](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions)
-
-
-Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
-| :---: | :---: | :---: | :---: | :---: | :---:
-| Class 28: <br> Wed 11-08 | Finish [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) <br> Do [5.7: Exponential distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions) | [Slides](./slides/05-examples-of-rvs-04.pdf) for 5.7, 5.8, and 5.9 | :arrow_down: | [Problems](./suggested-problems/17-suggested-problems.md) for 5.7
+| Class 28: <br> Wed 11-08 | **Topics**: Finish [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) <br> Do [5.7: Exponential distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#exponential-distributions) <br><br> **Slides**: [5.6](./slides/05-examples-of-rvs-03.pdf), [5.7, 5.8, 5.9](./slides/05-examples-of-rvs-04.pdf) <br> **Worksheet**: [Chapter 5](./worksheets/05-examples-of-rvs.pdf) <br> **Worksheet solutions**: [Chapter 5](./worksheets/05-examples-of-rvs-sol.pdf) <br> **Suggested problems**: [5.7](./suggested-problems/17-suggested-problems.md) for 5.7
 
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
@@ -110,7 +101,7 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: | :---:
-| Class 26: <br> Fri 11-03 | Finish [5.5: Poisson distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) <br> Begin [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) | [Slides](./slides/05-examples-of-rvs-03.pdf) for 5.6 | :arrow_down: | [Problems](./suggested-problems/16-suggested-problems.md) for 5.6 |
+| Class 26: <br> Fri 11-03 | Finish [5.5: Poisson distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions) <br> Begin [5.6: Normal distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#normal-distributions) |  | :arrow_down: | [Problems](./suggested-problems/16-suggested-problems.md) for 5.6 |
 
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
@@ -125,7 +116,22 @@ Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuf
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
 | :---: | :---: | :---: | :---: | :---: | :---:
-| Class 23: <br> Fri 10-27 | Do [5.1: Bernoulli distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#bernoulli-distributions) <br> Begin [5.2: Binomial distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) | [Slides](./slides/05-examples-of-rvs-01.pdf) for 5.1 and 5.2 | [Worksheet](./worksheets/05-examples-of-rvs.pdf) for Chapter 5, [solutions](./worksheets/05-examples-of-rvs-sol.pdf) | :arrow_down: | Quiz 6 over [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus), [4.9](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#linearity-of-expectation-part-1), and [4.10](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#variances-and-standard-deviations)
+| Class 23: <br> Fri 10-27 | Do [5.1: Bernoulli distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#bernoulli-distributions) <br> Begin [5.2: Binomial distributions](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) | [Slides](./slides/05-examples-of-rvs-01.pdf) for 5.1 and 5.2 |  | :arrow_down: | Quiz 6 over [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus), [4.9](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#linearity-of-expectation-part-1), and [4.10](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#variances-and-standard-deviations)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Class Number/Date | Topic | Slides | Worksheet | Suggested Problems | Other Stuff |
