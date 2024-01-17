@@ -21,9 +21,9 @@ This is the repository containing all supporting materials for the [textbook](ht
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
-| Class 3: <br> Fri 01-26 | Something
-| Class 2: <br> Wed 01-24 | Something else
-| Class 1: <br> Mon 01-22 | Just make something up
+| Class 3: <br> Fri 01-26 | 
+| Class 2: <br> Wed 01-24 | 
+| Class 1: <br> Mon 01-22 | **Topics**: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> **Worksheet**: [Chapter 8]() <br> **Worksheet solutions**: [Chapter 8](./worksheets/08-more-prob-sol.pdf) <br> **Homework**: [8.1]()
 
 
 ## First-semester schedule and other class information
