@@ -65,11 +65,11 @@ The videos are _not_ public yet. They are only available to students taking the 
 
 ## Second-semester schedule and other class information
 
-Office: MCC 175
+**Office**: MCC 175
 
-Office hours: TBA
+**Office hours**: TBA
 
-Important links: [Syllabus]()
+**Important links**: [Syllabus]()
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
@@ -78,11 +78,11 @@ Class Number/Date | Description | Other information
 
 ## First-semester schedule and other class information
 
-Office: MCC 175
+**Office**: MCC 175
 
-Office hours: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
+**Office hours**: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
 
-Important links: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing)
+**Important links**: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing)
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
