@@ -1,0 +1,215 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{./header, amssymb}
+
+\hdr{Mathematical Statistics}{Chapter 8: More probability theory}
+
+\begin{document}
+
+\bigskip
+
+\prob Suppose that $X$ and $Y$ are jointly continuous random variables with density
+
+	\[
+	f(x,y) = \begin{cases}
+	24xy & : 0\leq x \leq 1, \ 0 \leq y \leq 1, \ x+y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+
+Compute the expectation $E(XY)$.
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Suppose $X$ and $Y$ are jointly continuous random variables with the same density from Problem 1. Compute a formula for the conditional expectation $E(Y\mid X=x)$. Take care to precisely state the domain of this function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\newpage
+\prob Let $X$ and $Y$ be two random variables on the probability space $S = \{a,b,c\}$. Suppose that the probability distribution $P$ on $S$ has mass function $p(s)$ and that $X$ and $Y$ are defined according to the following table:
+
+	\[
+	\begin{array}{c|ccc}
+	s & p(s) & X(s) & Y(s) \\ \hline
+	a & 0.2 & 1 & 2 \\
+	b & 0.5 & 2 & 1 \\
+	c & 0.3 & 1 & 1
+	\end{array}
+	\] 
+
+Compute the random variable $E(Y \mid X)$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Suppose that a point $X=x$ is chosen uniformly in the interval $(0,1)$. After $x$ has been chosen, suppose that a second point $Y=y$ is chosen uniformly in the interval $[x,1]$. Compute the expectation $E(Y)$.
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\prob The waiting time $X$ in minutes between calls to a 911 center is exponentially distributed with mean $\mu = 2$ minutes. Compute the distribution of the transformed random variable $Y=60X$ that measures the waiting time in seconds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\newpage
+\prob Suppose that $X$ and $Y$ are two random variables such that $Y=e^X$ and $X\sim \mathcal{N}(\mu,\sigma^2)$. Compute the density of $Y$.
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Suppose that $\mathbf{X}=(X_1,X_2)$ is a two-dimensional continuous random vector with density
+
+	\[
+	f(x_1,x_2) = \begin{cases}
+	4x_1x_2 & : 0 < x_1 < 1, \ 0 < x_2 < 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+
+Letting $T$ be the support of the density, define $r:T \to \mathbb{R}^2$ by setting
+
+	\[r(x_1,x_2) = \left( \frac{x_1}{x_2}, x_1x_2 \right)
+	\]
+	
+for $(x_1,x_2)\in \mathbb{R}^2$. Compute the density of the random vector $\mathbf{Y} = r(\mathbf{X})$.
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\newpage
+\prob Suppose that $X$ is a continuous random variable with uniform distribution on $[a,b]$. Compute its moment generating function $\psi(t)$, and then find all moments $E(X^k)$, for $k\geq 1$.
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Use moment generating functions to confirm that the mean and variance of a random variable $X \sim \mathcal{N}(\mu,\sigma^2)$ are indeed $\mu$ and $\sigma^2$.
+
+
+
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Suppose that $X$ and $Y$ are random variables with the joint density function
+
+	\[
+	f(x,y) = \begin{cases}
+	2xy + 0.5 & : 0 \leq x\leq 1, \ 0 \leq y \leq 1, \\
+	0 & : \text{otherwise}.
+	\end{cases}
+	\]
+	
+Compute the covariance of $X$ and $Y$.
+
+
+
+
+
+
+
+
+\vfill
+\newpage
+\prob Compute the correlation $\rho_{XY}$ of the random variables in the previous problem.
+
+
+
+
+
+
+
+
+
+\vfill
+\prob Many students applying for college take the SAT, which consists of math and verbal components (the latter is currently called evidence-based reading and writing). Let $X$ and $Y$ denote the math and verbal scores, respectively, for a randomly selected student. According to the College Board, the population of students taking the exam in 2017 had the following results:
+	\[\mu_X = 527, \quad \sigma_X = 107, \quad \mu_Y = 533, \quad \sigma_Y = 100, \quad \rho_{XY} = 0.77.
+	\]
+
+Supposing that $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu,\boldsymbol\Sigma)$, determine the probability that a student's total score $X+Y$ exceeds 1250, the minimum admission score for a particular university.
+\vfill
+
+
+
+\end{document}

@@ -377,8 +377,27 @@ By symmetry, we also have $\sigma_Y^2 = 5/12$. Thus,
 
 
 
+\prob Many students applying for college take the SAT, which consists of math and verbal components (the latter is currently called evidence-based reading and writing). Let $X$ and $Y$ denote the math and verbal scores, respectively, for a randomly selected student. According to the College Board, the population of students taking the exam in 2017 had the following results:
+	\[\mu_X = 527, \quad \sigma_X = 107, \quad \mu_Y = 533, \quad \sigma_Y = 100, \quad \rho_{XY} = 0.77.
+	\]
 
+Supposing that $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu,\boldsymbol\Sigma)$, determine the probability that a student's total score $X+Y$ exceeds 1250, the minimum admission score for a particular university.
 
+\bigskip
+\textcolor{red}{From class, we learned that the random variable $Z =X+Y$ is normal. Using linearity of expectation, we compute its mean
+	\[E(Z) = \mu_X + \mu_Y = 527 + 533 = 1060
+	\]
+and using bilinearity and symmetry of covariance we compute its variance
+	\begin{align*}
+	\sigma_Z^2 &= \operatorname{Cov}(X+Y,X+Y)  \\
+	&= \operatorname{Cov}(X,X) + \operatorname{Cov}(Y,Y) + 2\operatorname{Cov}(X,Y) \\
+	&= \sigma_X^2 + \sigma_Y^2 + 2 \rho_{XY} \sigma_{X}\sigma_Y \\
+	&= 107 ^ 2 + 100 ^ 2 + 2(0.77)(107)(100) \\
+	&= 37{,}927.
+	\end{align*}
+Thus, $Z \sim \mathcal{N}(1060, 37{,}927)$. Using technology, we then compute
+	\[P(X+Y > 1250) = P(Z > 1250) = 1 - F_Z(1250) \approx 0.165.
+	\]}
 
 
 \end{document}

@@ -17,6 +17,7 @@
 9. [Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
 10. [Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
 11. [Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
+12. [Practice with bivariate normal vectors](#problem-12-practice-with-bivariate-normal-vectors)
 
 
  **Tips (to maximize your grade)**:
@@ -149,3 +150,20 @@ $$
 
 **(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
 
+## Problem 12: Practice with bivariate normal vectors
+
+(_From [Section 8.6](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#multivariate-normal-distributions)._) Suppose $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu, \boldsymbol\Sigma)$ is a normal random vector with
+
+$$
+\boldsymbol\mu^\intercal = (\mu_X,\mu_Y) \quad \text{and} \quad \boldsymbol \Sigma = \begin{bmatrix} \sigma_{X}^2 & \sigma_{XY} \\ \sigma_{XY}  & \sigma_Y^2 \end{bmatrix}.
+$$
+
+**(a)**: For scalars $a,b\in \mathbb{R}$, identify the distribution of the random variable
+
+$$
+Y = aX + bY,
+$$
+
+including a description of all parameters.
+
+**(b)**: Show that if $X$ and $Y$ are uncorrelated, then they are independent. (This is the converse of [Theorem 8.18](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-vs-correlation-thm) in the case of jointly normal random variables.)
