@@ -15,8 +15,9 @@
 7. [Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
 8. [A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
 9. [Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
-10. [Practice with correlation matrices](#problem-10-practice-with-correlation-matrices)
-11. [Practice with positive definite matrices](#problem-11-practice-with-positive-definite-matrices)
+10. [Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
+11. [Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
+
 
  **Tips (to maximize your grade)**:
  
@@ -119,9 +120,21 @@ $$
 
 ## Problem 9: Diagonals of positive semidefinite matrices
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite $d\times d$ matrix. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
+(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite matrix of size $d\times d$. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
 
-## Problem 10: Practice with correlation matrices
+## Problem 10: Practice with positive definite matrices
+
+(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Show that the matrix
+
+$$
+\mathbf{A} = \begin{bmatrix}
+5 & 1 \\\ 1 & 5
+\end{bmatrix}
+$$
+
+is positive definite.
+
+## Problem 11: Practice with correlation matrices
 
 (_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{X} = (X_1,X_2,X_3)$ be a continuous random vector with density
 
@@ -136,14 +149,3 @@ $$
 
 **(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
 
-## Problem 11: Practice with positive definite matrices
-
-Show that the matrix
-
-$$
-\mathbf{A} = \begin{bmatrix}
-5 & 1 \\\ 1 & 5
-\end{bmatrix}
-$$
-
-is positive definite.
