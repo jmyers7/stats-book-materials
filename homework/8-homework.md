@@ -135,7 +135,6 @@ $$
 **(a)**: Are $X_1$, $X_2$, and $X_3$ are independent? Be sure to entirely and completely justify your reasoning with the utmost care.
 
 **(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
-<<<<<<< HEAD
 
 ## Problem 11: Practice with positive definite matrices
 
@@ -143,10 +142,8 @@ Show that the matrix
 
 $$
 \mathbf{A} = \begin{bmatrix}
-5 & 1 \\ 1 & 5
+5 & 1 \\\ 1 & 5
 \end{bmatrix}
 $$
 
 is positive definite.
-=======
->>>>>>> d36dbf30dc8fd0d8176a032310bb8232f0994f2e
