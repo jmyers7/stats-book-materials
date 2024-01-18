@@ -6,9 +6,9 @@
 
 **List of problems:**
 
-1. [Expectation of a transformation of two variables](#problem-1-expectation-of-a-transformation-of-two-variables)
+1. [Expectation of a function of two variables](#problem-1-expectation-of-a-function-of-two-variables)
 2. [Independence and expectations](#problem-2-independence-and-expectations)
-3. [An expectation of a function of an IID random sample](#problem-3-an-expectation-of-a-function-of-an-iid-random-sample)
+3. [Expectation of a function of an IID random sample](#problem-3-expectation-of-a-function-of-an-iid-random-sample)
 4. [Conditional expectations](#problem-4-conditional-expectations)
 5. [Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
 6. [A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
@@ -32,7 +32,7 @@
 5. Figure out the answer before writing! More precisely: Carry through your initial computations on your own scratch paper before writing your solutions.  It is difficult to follow a solution that is written in a "stream-of-consciousness" style. If I can't follow along, I am likely to give up and take off points (even if your final answer is right).
 
 
-## Problem 1: Expectation of a transformation of two variables
+## Problem 1: Expectation of a function of two variables
 
 (_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
@@ -49,7 +49,7 @@ Compute $E(XY)$.
 
 (_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-expect-thm) in the book.)
 
-## Problem 3: An expectation of a function of an IID random sample
+## Problem 3: Expectation of a function of an IID random sample
 
 (_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Let three random variables $X$, $Y$, and $Z$ form an IID random sample from the continuous uniform distribution on $[0,1]$. Determine the value of the expectation
 
