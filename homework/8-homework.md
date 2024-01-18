@@ -16,6 +16,7 @@
 8. [A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
 9. [Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
 10. [Practice with correlation matrices](#problem-10-practice-with-correlation-matrices)
+11. [Practice with positive definite matrices](#problem-11-practice-with-positive-definite-matrices)
 
  **Tips (to maximize your grade)**:
  
@@ -134,3 +135,15 @@ $$
 **(a)**: Are $X_1$, $X_2$, and $X_3$ are independent? Be sure to entirely and completely justify your reasoning with the utmost care.
 
 **(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
+
+## Problem 11: Practice with positive definite matrices
+
+Show that the matrix
+
+$$
+\bA = \begin{bmatrix}
+5 & 1 \\ 1 & 5
+\end{bmatrix}
+$$
+
+is positive definite.
