@@ -142,7 +142,7 @@ $$
 Show that the matrix
 
 $$
-\bA = \begin{bmatrix}
+\mathbf{A} = \begin{bmatrix}
 5 & 1 \\ 1 & 5
 \end{bmatrix}
 $$
