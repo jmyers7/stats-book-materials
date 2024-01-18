@@ -70,7 +70,7 @@ $$
 
 **(b)**: Using your answer to (a), compute the  expectation $E\left[ E(Y \mid X) \right]$ of the random variable $E(Y\mid X)$ via the LotUS.
 
-**(c)**: Now, compute the maginal density $f(y)$ and use it to compute the expectation $E(Y)$ directly. Does this expectation agree with the one in part (b)?
+**(c)**: Now, compute the marginal density $f(y)$ and use it to compute the expectation $E(Y)$ directly. Does this expectation agree with the one in part (b)?
 
 ## Problem 5: Average scores on a standardized exam
 
