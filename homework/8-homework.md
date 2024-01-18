@@ -118,4 +118,4 @@ $$
 
 ## Problem 9: Diagonals of positive semidefinite matrices
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a real positive semidefinite $d\times d$ matrix. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
+(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite $d\times d$ matrix. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
