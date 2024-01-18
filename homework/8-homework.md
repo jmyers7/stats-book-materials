@@ -127,7 +127,7 @@ $$
 
 $$
 f(x_1,x_2,x_3) = \begin{cases}
-2x & : 0\leq x \leq 1, \ 0\leq y \leq 1, \ 0 \leq z \leq 1, \\
+2x & : 0\leq x_1 \leq 1, \ 0\leq x_2 \leq 1, \ 0 \leq x_3 \leq 1, \\
 0 & : \text{otherwise}.
 \end{cases}
 $$
@@ -135,6 +135,7 @@ $$
 **(a)**: Are $X_1$, $X_2$, and $X_3$ are independent? Be sure to entirely and completely justify your reasoning with the utmost care.
 
 **(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
+<<<<<<< HEAD
 
 ## Problem 11: Practice with positive definite matrices
 
@@ -147,3 +148,5 @@ $$
 $$
 
 is positive definite.
+=======
+>>>>>>> d36dbf30dc8fd0d8176a032310bb8232f0994f2e
