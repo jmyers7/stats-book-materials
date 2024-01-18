@@ -15,7 +15,7 @@
 7. [Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
 8. [A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
 9. [Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
-
+10. [Practice with correlation matrices](#problem-10-practice-with-correlation-matrices)
 
  **Tips (to maximize your grade)**:
  
@@ -119,3 +119,18 @@ $$
 ## Problem 9: Diagonals of positive semidefinite matrices
 
 (_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite $d\times d$ matrix. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
+
+## Problem 10: Practice with correlation matrices
+
+(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{X} = (X_1,X_2,X_3)$ be a continuous random vector with density
+
+$$
+f(x_1,x_2,x_3) = \begin{cases}
+2x & : 0\leq x \leq 1, \ 0\leq y \leq 1, \ 0 \leq z \leq 1, \\
+0 & : \text{otherwise}.
+\end{cases}
+$$
+
+**(a)**: Are $X_1$, $X_2$, and $X_3$ are independent? Be sure to entirely and completely justify your reasoning with the utmost care.
+
+**(b)**: Compute the correlation matrix $\mathbf{P}_\mathbf{X}$.
