@@ -7,6 +7,88 @@
 
 \bigskip
 
+\prob Suppose $P$ is a probability measure defined on $S = \{1,2,3,4,5\}$ with mass function
+
+	\[
+	\begin{array}{c|c}
+	s & p(s) \\ \hline
+	1 & 0.1 \\
+	2 & 0.3 \\
+	3 & 0.2 \\
+	4 & 0.3 \\
+	5 & 0.1 
+	\end{array}
+	\]
+
+Compute the information content $I(s)$ of each sample point and the entropy $H(P)$.
+
+\bigskip
+\textcolor{red}{We compute
+	\[
+	\begin{array}{c|cc}
+	s & p(s) & I(s)\\ \hline
+	1 & 0.1 & 3.322\\
+	2 & 0.3 & 1.737\\
+	3 & 0.2 & 2.322\\
+	4 & 0.3 & 1.737\\
+	5 & 0.1 & 3.322
+	\end{array}
+	\]
+where the surprisals are rounded to three places after the decimal point. The entropy is $H(P) \approx 2.171$.}
+\bigskip
+
+
+
+
+
+
+
+
+
+\prob Let $X\sim \mathcal{B}er(\theta)$ for $\theta \in [0,1]$. Compute a formula for $H(X)$ in terms of $\theta$.
+
+\bigskip
+\textcolor{red}{We compute:
+	\[H(X) = -\sum_{x=0}^1 p(x) \log_2(p(x)) = -(1-\theta) \log_2(1-\theta) - \theta \log_2(\theta).
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
+
+\prob Suppose $P$ and $Q$ are probability measures defined on $S = \{1,2,3,4,5\}$ with mass functions
+
+	\[
+	\begin{array}{c|cc}
+	s & p(s) & q(s) \\ \hline
+	1 & 0.1 & 0.05 \\
+	2 & 0.3 & 0.15 \\
+	3 & 0.2 & 0.7 \\
+	4 & 0.3 & 0.03 \\
+	5 & 0.1 & 0.07
+	\end{array}
+	\]
+
+Compute the cross entropies $H( P \parallel Q)$ and $H(Q \parallel P)$.
+
+\bigskip
+\textcolor{red}{
+	\[H( P \parallel Q) = - \sum_{s=1}^5 p(s) \log_2(q(s)) \approx 3.258, \quad H(Q \parallel P) = -\sum_{s=1}^5 q(s) \log_2(p(s)) \approx 2.337.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+
 \prob Suppose $P$ and $Q$ are probability measures defined on $S = \{1,2,3,4,5\}$ with mass functions
 
 	\[
@@ -23,7 +105,7 @@
 Compute $D( P \parallel Q)$ and $D(Q\parallel P)$.
 
 \bigskip
-\textcolor{red}{Using technology, we compute:
+\textcolor{red}{
 	\[D( P \parallel Q) = \sum_{s=1}^5 p(s) \log_2 \left( \frac{p(s)}{q(s)} \right) \approx 1.087 \quad \text{and} \quad D( Q \parallel P) = \sum_{s=1}^5 q(s) \log_2 \left( \frac{q(s)}{p(s)} \right) \approx 0.929.
 	\]}
 \bigskip
@@ -34,11 +116,4 @@ Compute $D( P \parallel Q)$ and $D(Q\parallel P)$.
 
 
 
-\prob Compute the entropies $H(P \parallel Q)$ and $H(P)$ for the distributions in the previous problem.
-
-\bigskip
-\textcolor{red}{Using technology, we compute:
-	\[H(P \parallel Q) = -\sum_{s=1}^5 p(s) \log_2(q(s)) \approx 3.258 \quad \text{and} \quad H(P) = - \sum_{s=1}^5 p(s) \log_2(p(s)) \approx 2.171
-	\]}
-\bigskip
 \end{document}
