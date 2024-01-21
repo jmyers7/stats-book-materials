@@ -1,0 +1,44 @@
+\documentclass[12pt,reqno]{amsart}
+\usepackage{./header, amssymb}
+
+\hdr{Mathematical Statistics}{Chapter 9: Information theory}
+
+\begin{document}
+
+\bigskip
+
+\prob Suppose $P$ and $Q$ are probability measures defined on $S = \{1,2,3,4,5\}$ with mass functions
+
+	\[
+	\begin{array}{c|cc}
+	s & p(s) & q(s) \\ \hline
+	1 & 0.1 & 0.05 \\
+	2 & 0.3 & 0.15 \\
+	3 & 0.2 & 0.7 \\
+	4 & 0.3 & 0.03 \\
+	5 & 0.1 & 0.07
+	\end{array}
+	\]
+
+Compute $D( P \parallel Q)$ and $D(Q\parallel P)$.
+
+\bigskip
+\textcolor{red}{Using technology, we compute:
+	\[D( P \parallel Q) = \sum_{s=1}^5 p(s) \log_2 \left( \frac{p(s)}{q(s)} \right) \approx 1.087 \quad \text{and} \quad D( Q \parallel P) = \sum_{s=1}^5 q(s) \log_2 \left( \frac{q(s)}{p(s)} \right) \approx 0.929.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+\prob Compute the entropies $H(P \parallel Q)$ and $H(P)$ for the distributions in the previous problem.
+
+\bigskip
+\textcolor{red}{Using technology, we compute:
+	\[H(P \parallel Q) = -\sum_{s=1}^5 p(s) \log_2(q(s)) \approx 3.258 \quad \text{and} \quad H(P) = - \sum_{s=1}^5 p(s) \log_2(p(s)) \approx 2.171
+	\]}
+\bigskip
+\end{document}
