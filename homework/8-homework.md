@@ -155,7 +155,7 @@ $$
 (_From [Section 8.6](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#multivariate-normal-distributions)._) Suppose $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu, \boldsymbol\Sigma)$ is a normal random vector with
 
 $$
-\boldsymbol\mu^\intercal = (\mu_X,\mu_Y) \quad \text{and} \quad \boldsymbol \Sigma = \begin{bmatrix} \sigma_{X}^2 & \sigma_{XY} \\ \sigma_{XY}  & \sigma_Y^2 \end{bmatrix}.
+\boldsymbol\mu^\intercal = (\mu_X,\mu_Y) \quad \text{and} \quad \boldsymbol \Sigma = \begin{bmatrix} \sigma_{X}^2 & \sigma_{XY} \\\ \sigma_{XY}  & \sigma_Y^2 \end{bmatrix}.
 $$
 
 **(a)**: For scalars $a,b\in \mathbb{R}$, identify the distribution of the random variable
