@@ -14,7 +14,7 @@
 
 **Office hours**: TBA
 
-**Important links**: [Syllabus]()
+**Important links**: [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link)
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
