@@ -14,7 +14,10 @@
 
 **Office hours**: TBA
 
-**Important links**: [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link), learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
+**Important links**:
+
+* [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link)
+* Learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
 
 
 Class Number/Date | Description | Other information
