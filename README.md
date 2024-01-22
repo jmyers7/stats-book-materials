@@ -14,7 +14,8 @@
 
 **Office hours**: TBA
 
-**Important links**: [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link)
+**Important links**: [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link), learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
+
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
@@ -29,8 +30,7 @@ Class Number/Date | Description | Other information
 
 **Office hours**: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
 
-**Important links**: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
-
+**Important links**: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing)
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
 | Wed 12-13 | **Final exam** | Material runs [4.8](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#expectations-of-functions-of-random-variables-and-the-lotus) to [7.9](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#independence) <br> Shineman 130, 8-10am
