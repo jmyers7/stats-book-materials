@@ -29,7 +29,7 @@ Class Number/Date | Description | Other information
 
 **Office hours**: 10:10-11:10 on Monday and Friday; 3-4 on Wednesday; and by appointment
 
-**Important links**: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing)
+**Important links**: [Syllabus](https://drive.google.com/file/d/1PTaVFtTDctfyg_vWVqFBNTbdAq5TiACZ/view?usp=sharing), learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
