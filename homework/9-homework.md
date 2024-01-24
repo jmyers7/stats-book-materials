@@ -7,7 +7,7 @@
 **List of problems:**
 
 1. [Practice with surprisal and entropy](#problem-1-practice-with-surprisals-and-entropies)
-2. [Entropies in different bases](#problem-2-entropies-in-different-bases)
+2. [Entropy in different bases](#problem-2-entropies-in-different-bases)
 3. [Independence and entropy](#problem-3-independence-and-entropy)
 4. [Uncertain draws](#problem-4-uncertain-draws)
 5. [Differential entropy](#problem-5-differential-entropy)
