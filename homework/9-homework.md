@@ -28,14 +28,14 @@
 
 ## Problem 1: Practice with surprisals and entropies
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure defined on $S = \{1,2,3,4\}$ with mass function
+(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure defined on $S = \\{1,2,3,4\\}$ with mass function
 
 $$
 \begin{array}{c|c}
-s & p(s) \\ \hline
-1 & 0.4 \\
-2 & 0.05 \\
-3 & 0.15 \\
+s & p(s) \\\ \hline
+1 & 0.4 \\\
+2 & 0.05 \\\
+3 & 0.15 \\\
 4 & 0.4
 \end{array}
 $$
@@ -44,13 +44,13 @@ Compute the surprisal $I(s)$ of each sample point and the entropy $H(P)$.
 
 ## Problem 2: Entropies in different bases
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base-$2$ logarithm:
+(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base $2$ logarithm:
 
 $$
 H(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
 $$
 
-However, suppose that we defined a new entropy, denoted $H_e(P)$, using the base-$e$ logarithm:
+However, suppose that we defined a new entropy, denoted $H_e(P)$, using the base $e$ logarithm:
 
 $$
 H_e(P) = - \sum_{s\in S} p(s) \log(p(s)).
@@ -108,14 +108,14 @@ Compute the differential entropy of $X$. (You might be surprised by the answer.)
 
 ## Problem 6: Practice with KL divergence
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) Let $P$ and $Q$ be two probability measures defined on $S = \{1,2,3,4\}$ with mass functions
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) Let $P$ and $Q$ be two probability measures defined on $S = \\{1,2,3,4\\}$ with mass functions
 
 $$
 \begin{array}{c|cc}
-s & p(s) & q(s) \\ \hline
-1 & 0.4 & 0.5 \\
-2 & 0.05 & 0.35 \\
-3 & 0.15 & 0.05 \\
+s & p(s) & q(s) \\\ \hline
+1 & 0.4 & 0.5 \\\
+2 & 0.05 & 0.35 \\\
+3 & 0.15 & 0.05 \\\
 4 & 0.4 & 0.55
 \end{array}
 $$
@@ -124,13 +124,13 @@ Compute the KL divergences $D(P \parallel Q)$ and $D(Q \parallel P)$.
 
 ## Problem 7: Differential KL divergence
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) We only defined KL divergence for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define _KL divergence_ (or _differential relative entropy_) for continuous random variables as follows:
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) We only defined KL divergence for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define KL divergence for continuous random variables as follows:
 
 $$
 D(Y \parallel X) = \int_\mathbb{R} f(y) \log \left( \frac{f(y)}{f(x)} \right) \ \text{d}x,
 $$
 
-where $f(x)$ and $f(y)$ are the densities of $X$ and $Y$, respectively. Because it will prove convenient for this problem, we are taking the base-$e$ logarithm rather than base-$2$.
+where $f(x)$ and $f(y)$ are the densities of $X$ and $Y$, respectively. Because it will prove convenient for this problem, we are taking the base $e$ logarithm rather than base $2$. This is called the _differential KL divergence_ from $Y$ to $X$.
 
 **(a)**: Consider the family of all exponential distributions with densities
 
