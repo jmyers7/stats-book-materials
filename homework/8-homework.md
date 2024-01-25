@@ -6,18 +6,18 @@
 
 **List of problems:**
 
-1. [Expectation of a function of two variables](#problem-1-expectation-of-a-function-of-two-variables)
-2. [Independence and expectations](#problem-2-independence-and-expectations)
-3. [Expectation of a function of an IID random sample](#problem-3-expectation-of-a-function-of-an-iid-random-sample)
-4. [Conditional expectations](#problem-4-conditional-expectations)
-5. [Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
-6. [A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
-7. [Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
-8. [A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
-9. [Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
-10. [Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
-11. [Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
-12. [Practice with bivariate normal vectors](#problem-12-practice-with-bivariate-normal-vectors)
+1. [Section 8.1: Expectation of a function of two variables](#problem-1-expectation-of-a-function-of-two-variables)
+2. [Section 8.1: Independence and expectations](#problem-2-independence-and-expectations)
+3. [Section 8.1: Expectation of a function of an IID random sample](#problem-3-expectation-of-a-function-of-an-iid-random-sample)
+4. [Section 8.2: Conditional expectations](#problem-4-conditional-expectations)
+5. [Section 8.2: Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
+6. [Section 8.3: A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
+7. [Section 8.5: Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
+8. [Section 8.5: A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
+9. [Section 8.5: Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
+10. [Section 8.5: Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
+11. [Section 8.5: Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
+12. [Section 8.6: Practice with bivariate normal vectors](#problem-12-practice-with-bivariate-normal-vectors)
 
 
  **Tips (to maximize your grade)**:
