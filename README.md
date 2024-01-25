@@ -22,9 +22,9 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :-: |
-| Class 3: <br> Fri 01-26 | 
-| Class 2: <br> Wed 01-24 | 
-| Class 1: <br> Mon 01-22 | Topics: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> - [Chapter 8 worksheet](./worksheets/08-more-prob.pdf) <br> - [Chapter 8 worksheet solutions](./worksheets/08-more-prob-sol.pdf) <br> - [Chapter 8 homework](./homework/8-homework.md) <br> - [Chapter 8 programming assignment](./programming-assignments/assignment_08_instructions.md)
+| Class 3: <br> Fri 01-26 | Topics: [8.3](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#density-transformations), [8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)
+| Class 2: <br> Wed 01-24 | Topics: [8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions) 
+| Class 1: <br> Mon 01-22 | Topics: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> - [Chapter 8 worksheet](./worksheets/08-more-prob.pdf) <br> - [Chapter 8 worksheet solutions](./worksheets/08-more-prob-sol.pdf) <br> - [Chapter 8 homework](./homework/08-homework.md) <br> - [Chapter 8 programming assignment](./programming-assignments/assignment_08_instructions.md)
 
 
 ## First-semester schedule and other class information
