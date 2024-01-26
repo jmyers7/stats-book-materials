@@ -6,13 +6,13 @@
 
 **List of problems:**
 
-1. [Section 9.2: Practice with surprisal and entropy](#problem-1-practice-with-surprisals-and-entropies)
-2. [Section 9.2: Entropy in different bases](#problem-2-entropies-in-different-bases)
-3. [Section 9.2: Independence and entropy](#problem-3-independence-and-entropy)
-4. [Section 9.2: Uncertain draws](#problem-4-uncertain-draws)
-5. [Section 9.2: Differential entropy](#problem-5-differential-entropy)
-6. [Section 9.3: Practice with KL divergence](#problem-6-practice-with-kl-divergence)
-7. [Section 9.3: Differential KL divergence](#problem-7-differential-kl-divergence)
+1. [Section 9.1: Practice with surprisal and entropy](#problem-1-practice-with-surprisals-and-entropies)
+2. [Section 9.1: Entropy in different bases](#problem-2-entropy-in-different-bases)
+3. [Section 9.1: Independence and entropy](#problem-3-independence-and-entropy)
+4. [Section 9.1: Uncertain draws](#problem-4-uncertain-draws)
+5. [Section 9.1: Differential entropy](#problem-5-differential-entropy)
+6. [Section 9.2: Practice with KL divergence](#problem-6-practice-with-kl-divergence)
+7. [Section 9.2: Differential KL divergence](#problem-7-differential-kl-divergence)
 
  **Tips (to maximize your grade)**:
  
@@ -28,7 +28,7 @@
 
 ## Problem 1: Practice with surprisals and entropies
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure defined on $S = \\{1,2,3,4\\}$ with mass function
+(_From [Section 9.1](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure defined on $S = \\{1,2,3,4\\}$ with mass function
 
 $$
 \begin{array}{c|c}
@@ -42,9 +42,9 @@ $$
 
 Compute the surprisal $I(s)$ of each sample point and the entropy $H(P)$.
 
-## Problem 2: Entropies in different bases
+## Problem 2: Entropy in different bases
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base $2$ logarithm:
+(_From [Section 9.1](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base $2$ logarithm:
 
 $$
 H(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
@@ -66,7 +66,7 @@ Find the constant $k$.
 
 ## Problem 3: Independence and entropy
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $X$ and $Y$ be **independent** random variables with finite ranges and mass functions $p(x)$ and $p(y)$. Prove that
+(_From [Section 9.1](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) Let $X$ and $Y$ be **independent** random variables with finite ranges and mass functions $p(x)$ and $p(y)$. Prove that
 
 $$
 H(X,Y) = H(X) + H(Y).
@@ -74,7 +74,7 @@ $$
 
 ## Problem 4: Uncertain draws
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) I have two urns, both containing 100 balls.
+(_From [Section 9.1](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) I have two urns, both containing 100 balls.
 
 * Urn #1 contains: 20 red balls, 62 white balls, and 18 blue balls.
 * Urn #2 contains: 35 red balls, 28 white balls, and 37 blue balls.
@@ -87,7 +87,7 @@ Suppose I draw a ball at random from both urns and record the color of each ball
 
 ## Problem 5: Differential entropy
 
-(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) We only defined entropy for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define entropy for continuous random variables as follows:
+(_From [Section 9.1](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#shannon-information-and-entropy)_.) We only defined entropy for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define entropy for continuous random variables as follows:
 
 $$
 H(X) \stackrel{\text{def}}{=} -\int_\mathbb{R} f(x) \log_2(f(x)) \ \text{d}x,
@@ -108,7 +108,7 @@ Compute the differential entropy of $X$. (You might be surprised by the answer.)
 
 ## Problem 6: Practice with KL divergence
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) Let $P$ and $Q$ be two probability measures defined on $S = \\{1,2,3,4\\}$ with mass functions
+(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) Let $P$ and $Q$ be two probability measures defined on $S = \\{1,2,3,4\\}$ with mass functions
 
 $$
 \begin{array}{c|cc}
@@ -124,7 +124,7 @@ Compute the KL divergences $D(P \parallel Q)$ and $D(Q \parallel P)$.
 
 ## Problem 7: Differential KL divergence
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) We only defined KL divergence for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define KL divergence for continuous random variables as follows:
+(_From [Section 9.2](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#kullback-leibler-divergence)_.) We only defined KL divergence for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define KL divergence for continuous random variables as follows:
 
 $$
 D(Y \parallel X) = \int_\mathbb{R} f(y) \log \left( \frac{f(y)}{f(x)} \right) \ \text{d}x,
@@ -164,3 +164,11 @@ $$
 $$
 
 and evaluate it at $\theta = \lambda$. Do you notice a similarity to your answer in (c)?
+
+## Problem x: 
+
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Let $\mathbf{A} = [a_{ij}]$ be an $m\times n$ matrix whose rows all sum to $1$, e.g., the transition matrix of a Markov kernel. If $\mathbf{x} = [x_i]$ is an $m$-dimensional probability vector, show that $\mathbf{x}^\intercal \mathbf{A}$ is an $n$-dimensional probability vector.
+
+## Problem x:
+
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Let $X$ and $Y$ be two random variables with finite ranges. Prove that $p(x)p(y) =0$ implies $p(x,y)=0$ for all $x$ and $y$. (This is a demonstration of the "absolute continuity" condition in the definition of mutual information.)
