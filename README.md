@@ -74,6 +74,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 7.9: Independence](https://youtu.be/IYy8EYHwYuQ)
     * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
 8. [More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html) --- [worksheet](), [solutions](./worksheets/08-more-prob-sol.pdf), [homework](./homework/8-homework.md), [programming assignment](./programming-assignments/assignment_08.ipynb)
+    * [Video for 8.1: Expectations and joint distributions](https://youtu.be/8qDN_uNvDA8)
     * [Video for 8.2: Expectations and conditional distributions](https://youtu.be/v_P7PdW_0TE)
 
 
