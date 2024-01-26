@@ -134,4 +134,102 @@ One then easily proves $D(P_\theta \parallel Q_\theta) = D(Q_\theta \parallel P_
 
 
 
+
+
+
+
+
+
+\prob For each $\phi \in [0,1]$, consider the communication channel with transition matrix
+
+	\[\mathbf{K} = \begin{bmatrix}
+	1 - \phi & \phi \\
+	\phi & 1-\phi
+	\end{bmatrix}
+	\]
+	
+These are called \textit{binary symmetric channels}. Suppose that $X \sim \mathcal{B}er(\alpha)$ for some $\alpha \in [0,1]$, with the range of $X$ enumerated as $x_0 = 0$ and $x_1=1$. Show that $X$ and the communication channel determine a random variable $Y$ with range $y_0=0$ and $y_1=1$. Determine its distribution.
+
+\bigskip
+\textcolor{red}{Since the range of $Y$ is $\{0,1\}$, it must be Bernoulli, with $Y \sim \mathcal{B}er(\beta)$ for some $\beta \in [0,1]$. We need to determine the parameter $\beta$. But notice that the probability vectors encoding the mass functions of $X$ and $Y$ have the form
+	\[\boldsymbol{\pi}(X)^\intercal = \begin{bmatrix} 1- \alpha & \alpha \end{bmatrix} \quad \text{and} \quad \boldsymbol{\pi}(Y)^\intercal = \begin{bmatrix} 1- \beta & \beta \end{bmatrix}.
+	\]
+So, if we conceptualize the entries in the transition matrix as the conditional probabilities, then by the Law of Total Probability we must have
+	\[\boldsymbol{\pi}(Y)^\intercal = \boldsymbol{\pi}(X)^\intercal\mathbf{K} = \begin{bmatrix} 1- \alpha & \alpha \end{bmatrix} \begin{bmatrix}
+	1 - \phi & \phi \\
+	\phi & 1-\phi
+	\end{bmatrix}
+ = \begin{bmatrix} (1-\alpha)(1-\phi) + \alpha \phi & (1-\alpha)\phi + \alpha(1-\phi) \end{bmatrix}.
+	\]
+Thus, $\beta = \phi + \alpha - 2\phi \alpha$.}
+\bigskip
+
+
+
+
+
+
+
+
+\prob Suppose $X$ and $Y$ are random variables with range $\{0,1\}$ and joint mass function given by
+	\[\begin{array}{c|cc}
+	p(x,y) & y=0 & y=1 \\ \hline
+	x=0 & 1/3 & 1/3 \\ 
+	x=1 & 0 & 1/3
+	\end{array}
+	\]
+	
+\bigskip
+\begin{enumerate}
+\item Compute the transition matrix of the communication channel induced from $X$ and $Y$.
+
+\bigskip
+\textcolor{red}{This just means that we need to compute the conditional mass function $p(y|x)$. We begin by computing the marginals:
+	\[\begin{array}{c|c}
+	x & p(x) \\ \hline
+	0 & 2/3 \\
+	1 & 1/3
+	\end{array} \quad\text{and} \quad
+	\begin{array}{c|c}
+	y & p(y) \\ \hline
+	0 & 1/3 \\
+	1 & 2/3
+	\end{array}
+	\]
+Then
+	\[\begin{array}{c|cc}
+	p(y|x) & y=0 & y=1 \\ \hline
+	x = 0 & 1 / 2 & 1 / 2 \\
+	x = 1 &  0 & 1
+	\end{array}
+	\]
+Thus, the transition matrix is given by
+	\[\mathbf{K} = \begin{bmatrix}
+	1 / 2 & 1 / 2 \\
+	0 & 1
+	\end{bmatrix}
+	\]
+with the ranges of $X$ and $Y$ given by $x_0=y_0=0$ and $x_1=y_1=1$.}
+\bigskip
+
+\item Compute the mutual information $I(X,Y)$.
+
+\bigskip
+\textcolor{red}{From the marginals in part (a), we get
+	\[H(X) = -(2/3) \log_2(2/3) - (1/3)\log_2(1/3) = -2/3+ \log_2(3)
+	\]
+and
+	\[H(Y) = -(1/3)\log_2(1/3) - (2/3) \log_2(2/3) = -2/3+ \log_2(3).
+	\]
+But
+	\[H(X,Y) = -\log_2(1/3) = \log_2(3),
+	\]
+and so
+	\[
+	I(X,Y) = H(X) + H(Y) - H(X,Y) = -4/3 + \log_2(3) \approx 0.252.
+	\]}
+\bigskip
+\end{enumerate}
+
+
 \end{document}
