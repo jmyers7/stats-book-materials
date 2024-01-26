@@ -5,8 +5,9 @@
 # Materials for ["Mathematical Statistics with a View Toward Machine Learning"](https://mml.johnmyersmath.com/stats-book/index.html), by John Myers
 
 1. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
-2. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
-3. [List of materials](#list-of-materials)
+2. [List of materials](#list-of-materials)
+3. [First-semester schedule and other class information](#first-semester-schedule-and-other-class-information)
+
 
 ## Second-semester schedule and other class information
 
@@ -25,6 +26,56 @@ Class Number/Date | Description | Other information
 | Class 3: <br> Fri 01-26 | Topics: [8.3](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#density-transformations), [8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)
 | Class 2: <br> Wed 01-24 | Topics: [8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions) 
 | Class 1: <br> Mon 01-22 | Topics: [8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions) <br> - [Chapter 8 worksheet](./worksheets/08-more-prob.pdf) <br> - [Chapter 8 worksheet solutions](./worksheets/08-more-prob-sol.pdf) <br> - [Chapter 8 homework](./homework/08-homework.md) <br> - [Chapter 8 programming assignment](./programming-assignments/assignment_08_instructions.md)
+
+
+## List of materials
+
+The videos are _not_ public yet. They are only available to students taking the course in person.
+
+0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) --- no worksheet, no homework, [programming assignment](./programming-assignments/assignment_00.ipynb)
+1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet, no homework, no programming assignment
+2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf), no homework (yet), no programming assignment
+    * [Video for 2.1: What is probability?](https://youtu.be/2THPpgZXj3s)
+    * [Video for 2.2: A first look at the axiomatic framework](https://youtu.be/bOg-YGcOSy4)
+    * [Video for 2.4: Probability spaces](https://youtu.be/wqyfo2i_rKk)
+    * [Video for 2.6: Discrete and uniform probability measures](https://youtu.be/7G51NpDzfb8)
+    * [Video for 2.8: Continuous probability measures](https://youtu.be/L10Q5jXs6M4)
+    * [Video for 2.10: Distribution and quantile functions](https://youtu.be/Kcr09antsWE)
+3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_03.ipynb)
+    * No videos yet
+4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_04.ipynb)
+    * No videos yet
+5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_05.ipynb)
+    * [Video for Chapter 5 Introduction](https://youtu.be/T0U98EPRgHk)
+    * [Video for 5.1: Bernoulli distributions](https://youtu.be/XIcIZnQqV4U)
+    * [Video for 5.2: Binomial distributions](https://youtu.be/0Yik-Imm8eU)
+    * [Video for 5.5: Poisson distributions](https://youtu.be/FyGM-q1_Ez0)
+    * [Video for 5.6: Normal distributions](https://youtu.be/T0DSrbY0pmY)
+    * [Video for 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
+    * [Video for 5.8: Gamma distributions](https://youtu.be/c3761wTmeXo)
+    * [Video for 5.9: Beta distributions](https://youtu.be/WvsuQFN8Qdg)
+6. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet, no homework, [programming assignment](./programming-assignments/assignment_06.ipynb)
+    * [Video for Chapter 6 Introduction](https://youtu.be/_KgjM1n-k2M)
+    * [Video for 6.1: Data and random samples](https://youtu.be/dwZOCPRYZP0)
+    * [Video for 6.2: Probabilistic models and empirical distributions](https://youtu.be/vBeSU-183uU)
+    * [Video for 6.3: Histograms](https://youtu.be/9krOI3G52x8)
+    * [Video for 6.4: Kernel density estimation](https://youtu.be/S1sQH9GRCvY)
+    * [Video for 6.5: Empirical statistics](https://youtu.be/NSKzQToAQbo)
+    * [Video for 6.6: QQ-plots](https://youtu.be/xmus_up80ic)
+    * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
+7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf), no homework (yet), no programming assignment
+    * [Video for Chapter 7 Introduction](https://youtu.be/y8NlbEs4V8k)
+    * [Video for 7.2: 2-dimensional random vectors](https://youtu.be/WTE25nt8DG8)
+    * [Video for 7.3: Bivariate distribution functions](https://youtu.be/Yc37Im5asnU)
+    * [Video for 7.4: Marginal distributions](https://youtu.be/N2IVULTDf40)
+    * [Video for 7.6: Conditional distributions](https://youtu.be/t2rqQN0rk4I)
+    * [Video for 7.7: Law of Total Probability and Bayes' Theorem](https://youtu.be/ZPZAWOKATv0)
+    * [Video for 7.8: Random vectors in arbitrary dimensions](https://youtu.be/AcOXDgtwmKs)
+    * [Video for 7.9: Independence](https://youtu.be/IYy8EYHwYuQ)
+    * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
+8. [More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html) --- [worksheet](), [solutions](./worksheets/08-more-prob-sol.pdf), [homework](./homework/8-homework.md), [programming assignment](./programming-assignments/assignment_08.ipynb)
+    * [Video for 8.2: Expectations and conditional distributions](https://youtu.be/v_P7PdW_0TE)
+
 
 
 ## First-semester schedule and other class information
@@ -78,50 +129,3 @@ Class Number/Date | Description | Other information
 | Class 2: <br> Wed 08-30 | **Topics**: [Chapter 1](https://mml.johnmyersmath.com/stats-book/chapters/preview.html), [2.1](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#what-is-probability) <br> **Slides**: [Chapter 1](./slides/01-preview.pdf), [Chapter 2](./slides/02-prob-spaces.pdf) <br> **Worksheet**: [Chapter 2](/worksheets/02-prob-spaces.pdf) <br> **Worksheet solutions**: [Chapter 2](/worksheets/02-prob-spaces-sol.pdf)
 | Class 1: <br> Mon 08-28 | **Topics**: [Chapter 1](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) <br> **Slides**: [Chapter 1](./slides/01-preview.pdf)
 
-## List of materials
-
-The videos are _not_ public yet. They are only available to students taking the course in person.
-
-0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) --- no worksheet, no homework, [programming assignment](./programming-assignments/assignment_00.ipynb)
-1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html) --- no worksheet, no homework, no programming assignment
-2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html) --- [worksheet](/worksheets/02-prob-spaces.pdf), [solutions](/worksheets/02-prob-spaces-sol.pdf), no homework (yet), no programming assignment
-    * [Video for 2.1: What is probability?](https://youtu.be/2THPpgZXj3s)
-    * [Video for 2.2: A first look at the axiomatic framework](https://youtu.be/bOg-YGcOSy4)
-    * [Video for 2.4: Probability spaces](https://youtu.be/wqyfo2i_rKk)
-    * [Video for 2.6: Discrete and uniform probability measures](https://youtu.be/7G51NpDzfb8)
-    * [Video for 2.8: Continuous probability measures](https://youtu.be/L10Q5jXs6M4)
-    * [Video for 2.10: Distribution and quantile functions](https://youtu.be/Kcr09antsWE)
-3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html) --- [worksheet](/worksheets/03-rules-of-prob.pdf), [solutions](/worksheets/03-rules-of-prob-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_03.ipynb)
-    * No videos yet
-4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html) --- [worksheet](/worksheets/04-random-variables.pdf), [solutions](/worksheets/04-random-variables-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_04.ipynb)
-    * No videos yet
-5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html) --- [worksheet](/worksheets/05-examples-of-rvs.pdf), [solutions](/worksheets/05-examples-of-rvs-sol.pdf), no homework (yet), [programming assignment](./programming-assignments/assignment_05.ipynb)
-    * [Video for Chapter 5 Introduction](https://youtu.be/T0U98EPRgHk)
-    * [Video for 5.1: Bernoulli distributions](https://youtu.be/XIcIZnQqV4U)
-    * [Video for 5.2: Binomial distributions](https://youtu.be/0Yik-Imm8eU)
-    * [Video for 5.5: Poisson distributions](https://youtu.be/FyGM-q1_Ez0)
-    * [Video for 5.6: Normal distributions](https://youtu.be/T0DSrbY0pmY)
-    * [Video for 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
-    * [Video for 5.8: Gamma distributions](https://youtu.be/c3761wTmeXo)
-    * [Video for 5.9: Beta distributions](https://youtu.be/WvsuQFN8Qdg)
-6. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html) --- no worksheet, no homework, [programming assignment](./programming-assignments/assignment_06.ipynb)
-    * [Video for Chapter 6 Introduction](https://youtu.be/_KgjM1n-k2M)
-    * [Video for 6.1: Data and random samples](https://youtu.be/dwZOCPRYZP0)
-    * [Video for 6.2: Probabilistic models and empirical distributions](https://youtu.be/vBeSU-183uU)
-    * [Video for 6.3: Histograms](https://youtu.be/9krOI3G52x8)
-    * [Video for 6.4: Kernel density estimation](https://youtu.be/S1sQH9GRCvY)
-    * [Video for 6.5: Empirical statistics](https://youtu.be/NSKzQToAQbo)
-    * [Video for 6.6: QQ-plots](https://youtu.be/xmus_up80ic)
-    * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
-7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html) --- [worksheet](/worksheets/07-random-vectors.pdf), [solutions](/worksheets/07-random-vectors-sol.pdf), no homework (yet), no programming assignment
-    * [Video for Chapter 7 Introduction](https://youtu.be/y8NlbEs4V8k)
-    * [Video for 7.2: 2-dimensional random vectors](https://youtu.be/WTE25nt8DG8)
-    * [Video for 7.3: Bivariate distribution functions](https://youtu.be/Yc37Im5asnU)
-    * [Video for 7.4: Marginal distributions](https://youtu.be/N2IVULTDf40)
-    * [Video for 7.6: Conditional distributions](https://youtu.be/t2rqQN0rk4I)
-    * [Video for 7.7: Law of Total Probability and Bayes' Theorem](https://youtu.be/ZPZAWOKATv0)
-    * [Video for 7.8: Random vectors in arbitrary dimensions](https://youtu.be/AcOXDgtwmKs)
-    * [Video for 7.9: Independence](https://youtu.be/IYy8EYHwYuQ)
-    * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
-8. [More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html) --- [worksheet](), [solutions](./worksheets/08-more-prob-sol.pdf), [homework](./homework/8-homework.md), [programming assignment](./programming-assignments/assignment_08.ipynb)
-    * No videos yet
