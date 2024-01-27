@@ -13,6 +13,8 @@
 5. [Section 9.1: Differential entropy](#problem-5-differential-entropy)
 6. [Section 9.2: Practice with KL divergence](#problem-6-practice-with-kl-divergence)
 7. [Section 9.2: Differential KL divergence](#problem-7-differential-kl-divergence)
+8. [Section 9.3: Practice with "flows" of information](#problem-8-practice-with-flows-of-information)
+9. [Section 9.3: The data processing inequality](#problem-9-the-data-processing-inequality)
 
  **Tips (to maximize your grade)**:
  
@@ -165,10 +167,77 @@ $$
 
 and evaluate it at $\theta = \lambda$. Do you notice a similarity to your answer in (c)?
 
-## Problem x: 
+(This question will take on more significance when we learn about _Fisher information_ in [Chapter 13](https://mml.johnmyersmath.com/stats-book/chapters/13-stats-estimators.html).)
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Let $\mathbf{A} = [a_{ij}]$ be an $m\times n$ matrix whose rows all sum to $1$, e.g., the transition matrix of a Markov kernel. If $\mathbf{x} = [x_i]$ is an $m$-dimensional probability vector, show that $\mathbf{x}^\intercal \mathbf{A}$ is an $n$-dimensional probability vector.
+## Problem 8: Practice with "flows" of information
 
-## Problem x:
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Suppose that $X$ and $Y$ are Bernoulli random variables with $X\sim Ber(0.5)$, and that the communication channel from $X$ to $Y$ has transition matrix
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Let $X$ and $Y$ be two random variables with finite ranges. Prove that $p(x)p(y) =0$ implies $p(x,y)=0$ for all $x$ and $y$. (This is a demonstration of the "absolute continuity" condition in the definition of mutual information.)
+$$
+
+\begin{array}{c|cc}
+p(y|x) & y=0 & y=1 \\ \hline
+x = 0 & 0.75 & 0.25 \\
+x = 1 & 0.6 & 0.4
+\end{array}
+$$
+
+
+**(a)**: Compute the mutual information $I(X,Y)$.
+
+**(b)**: Use Bayes' theorem to "reverse the flow" of the communication channel, i.e., compute the transition matrix $\mathbf{K}$ of the Markov kernel
+
+$$
+\kappa:\{0,1\} \to \mathbb{R}^2, \quad \kappa(i)^\intercal = \begin{bmatrix} p(x=0 \mid y = i) & p(x=1 \mid y=i) \end{bmatrix},
+$$
+
+in the opposite direction.
+
+## Problem 9: The data processing inequality
+
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Consider the disease/test/vacation probabilistic model considering in class of the form:
+
+&nbsp;
+<p align="center">
+  <img src="../img/markov.svg" width="50%">
+</p>
+&nbsp;
+
+Suppose that the transition matrices between the variables are given by
+
+$$
+\begin{array}{c|cc}
+p(y|x) & y=0 & y=1 \\ \hline
+x=0 & 0.8 & 0.2 \\
+x=1 & 0.1 & 0.9
+\end{array} \quad\quad \text{and} \quad\quad
+\begin{array}{c|cc}
+p(z|y) & z=0 & z=1 \\ \hline
+y=0 & 0.25 & 0.75 \\
+y=1 & 0.95 & 0.05
+\end{array}
+$$
+
+and that the marginal distribution for $X$ is given by
+
+$$
+\begin{array}{c|c}
+x & p(x) \\ \hline
+0 & 0.99 \\
+1 & 0.1
+\end{array}
+$$
+
+Before beginning, think about what the probabilities in these tables mean! For example, the conditional probability $p(y=1\mid x=1) = 0.9$ says that if the subject has the disease, then the probability is $0.9$ that the test is positive.
+
+**(a)**: Compute the marginal mass function $p(y)$.
+
+**(b)**: Compute the joint mass function $p(x,y)$.
+
+**(c)**: Show that $p(x,y,z) = p(y|x)p(z|y)p(x)$. (_Hint_: Remember, $X$ and $Z$ are conditionally independent given $Y$.)
+
+**(d)**: Using your answer to (c), compute the joint mass function $p(x,z)$.
+
+**(e)**: Using your answer to (d), compute the marginal mass function $p(z)$.
+
+**(f)**: Compute the mutual information $I(X,Y)$ and $I(X,Z)$ and confirm that the data processing inequality holds.
