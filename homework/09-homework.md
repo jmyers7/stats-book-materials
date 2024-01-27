@@ -174,32 +174,30 @@ and evaluate it at $\theta = \lambda$. Do you notice a similarity to your answer
 (_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Suppose that $X$ and $Y$ are Bernoulli random variables with $X\sim Ber(0.5)$, and that the communication channel from $X$ to $Y$ has transition matrix
 
 $$
-
 \begin{array}{c|cc}
-p(y|x) & y=0 & y=1 \\ \hline
-x = 0 & 0.75 & 0.25 \\
+p(y|x) & y=0 & y=1 \\\ \hline
+x = 0 & 0.75 & 0.25 \\\
 x = 1 & 0.6 & 0.4
 \end{array}
 $$
-
 
 **(a)**: Compute the mutual information $I(X,Y)$.
 
 **(b)**: Use Bayes' theorem to "reverse the flow" of the communication channel, i.e., compute the transition matrix $\mathbf{K}$ of the Markov kernel
 
 $$
-\kappa:\{0,1\} \to \mathbb{R}^2, \quad \kappa(i)^\intercal = \begin{bmatrix} p(x=0 \mid y = i) & p(x=1 \mid y=i) \end{bmatrix},
+\kappa:\\{0,1\\} \to \mathbb{R}^2, \quad \kappa(i)^\intercal = \begin{bmatrix} p(x=0 \mid y = i) & p(x=1 \mid y=i) \end{bmatrix},
 $$
 
 in the opposite direction.
 
 ## Problem 9: The data processing inequality
 
-(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Consider the disease/test/vacation probabilistic model considering in class of the form:
+(_From [Section 9.3](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html#flow-of-information)_.) Consider the disease/test/vacation probabilistic model described in class of the form:
 
 &nbsp;
 <p align="center">
-  <img src="../img/markov.svg" width="50%">
+  <img src="../img/markov.svg" width="30%">
 </p>
 &nbsp;
 
@@ -207,13 +205,13 @@ Suppose that the transition matrices between the variables are given by
 
 $$
 \begin{array}{c|cc}
-p(y|x) & y=0 & y=1 \\ \hline
-x=0 & 0.8 & 0.2 \\
+p(y|x) & y=0 & y=1 \\\ \hline
+x=0 & 0.8 & 0.2 \\\
 x=1 & 0.1 & 0.9
 \end{array} \quad\quad \text{and} \quad\quad
 \begin{array}{c|cc}
-p(z|y) & z=0 & z=1 \\ \hline
-y=0 & 0.25 & 0.75 \\
+p(z|y) & z=0 & z=1 \\\ \hline
+y=0 & 0.25 & 0.75 \\\
 y=1 & 0.95 & 0.05
 \end{array}
 $$
@@ -222,8 +220,8 @@ and that the marginal distribution for $X$ is given by
 
 $$
 \begin{array}{c|c}
-x & p(x) \\ \hline
-0 & 0.99 \\
+x & p(x) \\\ \hline
+0 & 0.99 \\\
 1 & 0.1
 \end{array}
 $$
