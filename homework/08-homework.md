@@ -1,4 +1,4 @@
-# Homework for [Chapter 8](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#)
+# Homework for [Chapter 8: More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#)
 
 **Due date**: TBD
 
