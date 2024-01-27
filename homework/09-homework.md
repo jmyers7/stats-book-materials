@@ -1,4 +1,4 @@
-# Homework for [Chapter 9](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html)
+# Homework for [Chapter 9: Information theory](https://mml.johnmyersmath.com/stats-book/chapters/09-info-theory.html)
 
 **Due date**: TBD
 
