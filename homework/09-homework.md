@@ -234,7 +234,7 @@ Before beginning, think about what the probabilities in these tables mean! For e
 
 **(c)**: Show that $p(x,y,z) = p(y|x)p(z|y)p(x)$. (_Hint_: Remember, $X$ and $Z$ are conditionally independent given $Y$.)
 
-**(d)**: Using your answer to (c), compute the joint mass function $p(x,z)$.
+**(d)**: Using your answer to (c), compute the joint mass function $p(x,z)$. (_Hint_: You can do this in one line of code in Python by leveragine the [`tensordot`](https://numpy.org/doc/stable/reference/generated/numpy.tensordot.html) method in NumPy. Can you discover how?)
 
 **(e)**: Using your answer to (d), compute the marginal mass function $p(z)$.
 
