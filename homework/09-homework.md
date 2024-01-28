@@ -183,13 +183,17 @@ $$
 
 **(a)**: Compute the mutual information $I(X,Y)$.
 
-**(b)**: Use Bayes' theorem to "reverse the flow" of the communication channel, i.e., compute the transition matrix $\mathbf{K}$ of the Markov kernel
+**(b)**: Use Bayes' theorem to "reverse the flow" of the communication channel, i.e., compute the transition matrix
 
 $$
-\kappa:\\{0,1\\} \to \mathbb{R}^2, \quad \kappa(i)^\intercal = \begin{bmatrix} p(x=0 \mid y = i) & p(x=1 \mid y=i) \end{bmatrix},
+\begin{array}{c|cc}
+p(x|y) & x=0 & x=1 \\\ \hline
+y = 0 & ? & ? \\\
+y = 1 & ? & ?
+\end{array}
 $$
 
-in the opposite direction.
+of the Markov kernel in the opposite direction.
 
 ## Problem 9: The data processing inequality
 
