@@ -232,7 +232,7 @@ $$
 
 Before beginning, think about what the probabilities in these tables mean! For example, the conditional probability $p(y=1\mid x=1) = 0.9$ says that if the subject has the disease, then the probability is $0.9$ that the test is positive.
 
-Except in part (c), all your answers in this problem will be tables of probabilities like those above. You do _not_ need to show me any intermediate computations. I strongly recommend that you use appropriate methods from Python for each part (except (c)) to cut down on the number of tedious computations that you need to do. (In fact, it's possible to complete this entire problem having done _no_ computations by hand!)
+Except in parts (c) and (f), all your answers in this problem will be tables of probabilities like those above. You do _not_ need to show me any intermediate computations. I strongly recommend that you use appropriate methods from Python for each part (except (c)) to cut down on the number of tedious computations that you need to do. (In fact, it's possible to complete this entire problem having done _no_ computations by hand!)
 
 **(a)**: Compute the marginal mass function $p(y)$.
 
