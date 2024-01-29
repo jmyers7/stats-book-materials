@@ -22,7 +22,11 @@
 
 
 Class Number/Date | Description | Other information
-| :-: | :- | :-: |
+| :-: | :- | :- |
+| Class 8: <br> Wed 02-07 | | - Chapter 8 homework due in class <br> - Programming assignment due <br> at 11:30am ([submission link](https://forms.gle/2io7yqjy5VKY9xu96))
+| Class 7: <br> Mon 02-05 | 
+| Class 6: <br> Fri 02-02 | 
+| Class 5: <br> Wed 01-31 | 
 | Class 4: <br> Mon 01-29 | Topics: [8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)
 | Class 3: <br> Fri 01-26 | Topics: [8.3](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#density-transformations)
 | Class 2: <br> Wed 01-24 | Topics: [8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions) 
