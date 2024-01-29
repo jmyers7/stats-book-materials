@@ -13,7 +13,7 @@
 
 **Office**: MCC 175
 
-**Office hours**: TBA
+**Office hours**: 2-3pm Monday, 2:30-3:30pm Tuesday, 2-3pm Friday, and by appointment
 
 **Important links**:
 
