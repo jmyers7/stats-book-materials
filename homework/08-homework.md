@@ -1,6 +1,6 @@
 # Homework for [Chapter 8: More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#)
 
-**Due date**: TBD
+**Due date**: Wednesday, February 07
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted.
 
