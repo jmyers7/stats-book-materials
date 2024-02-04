@@ -24,7 +24,7 @@
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
 | Class 8: <br> Wed 02-07 | | - Chapter 8 homework due in class <br> - Programming assignment due <br> at 11:30am ([submission link](https://forms.gle/2io7yqjy5VKY9xu96))
-| Class 7: <br> Mon 02-05 | 
+| Class 7: <br> Mon 02-05 | Topics: [Chapter 9](https://mml.johnmyersmath.com/stats-book/chapters/09-halfway.html#), [10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#shannon-information-and-entropy) <br> - [Chapter 10 worksheet](./worksheets/10-info-theory.pdf) <br> - [Chapter 10 worksheet solutions](./worksheets/10-info-theory-sol.pdf) <br> - [Chapter 10 homework](./homework/10-homework.md) <br> - [Chapter 10 programming assignment](./programming-assignments/assignment_10_instructions.md)
 | Class 6: <br> Fri 02-02 | Topics: [8.6](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#multivariate-normal-distributions)
 | Class 5: <br> Wed 01-31 | Topics: [8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)
 | Class 4: <br> Mon 01-29 | Topics: [8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)
