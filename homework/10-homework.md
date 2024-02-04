@@ -167,7 +167,7 @@ $$
 
 and evaluate it at $\theta = \lambda$. Do you notice a similarity to your answer in (c)?
 
-(This question will take on more significance when we learn about _Fisher information_ in [Chapter 13](https://mml.johnmyersmath.com/stats-book/chapters/13-stats-estimators.html).)
+(This question will take on more significance when we learn about _Fisher information_ in [Chapter 14](https://mml.johnmyersmath.com/stats-book/chapters/14-stats-estimators.html).)
 
 ## Problem 8: Practice with "flows" of information
 
