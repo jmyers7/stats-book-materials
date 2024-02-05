@@ -141,7 +141,7 @@ is positive definite.
 
 $$
 f(x_1,x_2,x_3) = \begin{cases}
-2x & : 0\leq x_1 \leq 1, \ 0\leq x_2 \leq 1, \ 0 \leq x_3 \leq 1, \\
+2x_1 & : 0\leq x_1 \leq 1, \ 0\leq x_2 \leq 1, \ 0 \leq x_3 \leq 1, \\
 0 & : \text{otherwise}.
 \end{cases}
 $$
@@ -161,7 +161,7 @@ $$
 **(a)**: For scalars $a,b\in \mathbb{R}$, identify the distribution of the random variable
 
 $$
-Y = aX + bY,
+Z = aX + bY,
 $$
 
 including a description of all parameters.
