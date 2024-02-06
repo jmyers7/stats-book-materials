@@ -46,22 +46,22 @@ Compute the surprisal $I(s)$ of each sample point and the entropy $H(P)$.
 
 ## Problem 2: Entropy in different bases
 
-(_From [Section 10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base $2$ logarithm:
+(_From [Section 10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#shannon-information-and-entropy)_.) Let $P$ be a probability measure on a finite sample space with mass function $p(s)$. The entropy $H(P)$ was defined in class using the base $e$ logarithm:
 
 $$
-H(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
+H(P) = - \sum_{s\in S} p(s) \log(p(s)).
 $$
 
-However, suppose that we defined a new entropy, denoted $H_e(P)$, using the base $e$ logarithm:
+However, suppose that we defined a new entropy, denoted $H_2(P)$, using the base $2$ logarithm:
 
 $$
-H_e(P) = - \sum_{s\in S} p(s) \log(p(s)).
+H_e(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
 $$
 
-(Remember, in this class we write $\log$ instead of $\ln$.) Then these two entropies are proportional, which means there is a constant $k$ (not depending on $P$) such that
+Then these two entropies are proportional, which means there is a constant $k$ (not depending on $P$) such that
 
 $$
-H(P) = k\cdot H_e(P).
+H_2(P) = k\cdot H(P).
 $$
 
 Find the constant $k$.
@@ -92,7 +92,7 @@ Suppose I draw a ball at random from both urns and record the color of each ball
 (_From [Section 10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#shannon-information-and-entropy)_.) We only defined entropy for random variables with finite ranges. However, by replacing sums with integrals and mass functions with density functions in the usual way, we may define entropy for continuous random variables as follows:
 
 $$
-H(X) \stackrel{\text{def}}{=} -\int_\mathbb{R} f(x) \log_2(f(x)) \ \text{d}x,
+H(X) \stackrel{\text{def}}{=} -\int_\mathbb{R} f(x) \log(f(x)) \ \text{d}x,
 $$
 
 where $f(x)$ is the density of $X$. This is called the _differential entropy_ of $X$.
@@ -132,7 +132,7 @@ $$
 D(Y \parallel X) = \int_\mathbb{R} f(y) \log \left( \frac{f(y)}{f(x)} \right) \ \text{d}x,
 $$
 
-where $f(x)$ and $f(y)$ are the densities of $X$ and $Y$, respectively. Because it will prove convenient for this problem, we are taking the base $e$ logarithm rather than base $2$. This is called the _differential KL divergence_ from $Y$ to $X$.
+where $f(x)$ and $f(y)$ are the densities of $X$ and $Y$, respectively. This is called the _differential KL divergence_ from $Y$ to $X$.
 
 **(a)**: Consider the family of all exponential distributions with densities
 
