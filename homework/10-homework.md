@@ -55,7 +55,7 @@ $$
 However, suppose that we defined a new entropy, denoted $H_2(P)$, using the base $2$ logarithm:
 
 $$
-H_e(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
+H_2(P) = - \sum_{s\in S} p(s) \log_2(p(s)).
 $$
 
 Then these two entropies are proportional, which means there is a constant $k$ (not depending on $P$) such that
