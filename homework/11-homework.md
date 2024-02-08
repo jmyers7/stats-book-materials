@@ -43,7 +43,7 @@ $$
 
 $$
 \mathbf{A} = \begin{bmatrix}
-\alpha & \beta \\ \beta & \gamma \end{bmatrix}\in \mathbb{R}^{2\times 2}, \quad \mathbf{b} = \begin{bmatrix} \delta \\ \epsilon \end{bmatrix} \in \mathbb{R}^2, \quad c\in \mathbb{R}.
+\alpha & \beta \\\ \beta & \gamma \end{bmatrix}\in \mathbb{R}^{2\times 2}, \quad \mathbf{b} = \begin{bmatrix} \delta \\\ \epsilon \end{bmatrix} \in \mathbb{R}^2, \quad c\in \mathbb{R}.
 $$
 
 Using these, define the function
@@ -58,7 +58,7 @@ $$
 
 **(c)**: How do you expect your formulas in (a) and (b) to generalize to $\mathbf{A}\in \mathbb{R}^{d\times d}$ and $\mathbf{b} \in \mathbb{R}^d$ for arbitrary $d$?
 
-(_Hint_: Notice that $J$ is the $2$-dimensional analog of the degree-$2$ polynomial $J(\theta) = a\theta^2 + b\theta + c$. The formulas you will derive in (a) and (b) are the natural extensions of the equations $J'(\theta) =2a\theta + b$ and $J''(\theta) = 2a$.)
+(_Hint_: Notice that $J$ is the $2$-dimensional analog of the single-variable polynomial $J(\theta) = a\theta^2 + b\theta + c$. The formulas you will derive in (a) and (b) are the natural extensions of the equations $J'(\theta) =2a\theta + b$ and $J''(\theta) = 2a$.)
 
 
 ## Problem 3: Practice with multi-variable calculus
@@ -77,7 +77,7 @@ $$
 
 **(b)**: Compute the gradient vector $\nabla J(\boldsymbol{\theta})$ and the Hessian matrix $\nabla^2 J(\boldsymbol{\theta})$. (_Hint_: Use part (a) and the previous problem.)
 
-**(c)**: Compute the directional derivatives $J'_\mathbf{v}(2,2)$ and $J''_\mathbf{v}(2,2)$, where $\mathbf{v}^\intercal = (1,1)$.
+**(c)**: Compute the directional derivatives $J^\prime_{\mathbf{v}}(2,2)$ and $J''_{\mathbf{v}}(2,2)$, where $\mathbf{v}^\intercal = (1,1)$.
 
 **(d)**: Find the direction of minimum rate of change at the point $\boldsymbol{\theta} = (3,4)$. What is the rate of change in this direction?
 
@@ -89,7 +89,7 @@ $$
 
 ## Problem 4: Rate of convergence of gradient descent
 
-(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the degree-$2$ objective function $J$ from Problem 3:
+(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the polynomial objective function $J$ from Problem 3:
 
 $$
 J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
