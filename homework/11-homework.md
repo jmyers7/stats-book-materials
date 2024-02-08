@@ -9,6 +9,8 @@
 1. [Section 11.1: Finding saddle points](#problem-1-finding-saddle-points)
 2. [Section 11.2: Derivatives of quadratic functions](#problem-2-derivatives-of-quadratic-functions)
 3. [Section 11.2: Practice with multi-variable calculus](#problem-3-practice-with-multi-variable-calculus)
+4. [Section 11.3: Rate of convergence of gradient descent](#problem-4-rate-of-convergence-of-gradient-descent)
+5. [Section 11.4: Convergence of batch gradient descent](#problem-5-convergence-of-batch-gradient-descent)
 
  **Tips (to maximize your grade)**:
  
@@ -64,7 +66,7 @@ $$
 (_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the objective function
 
 $$
-J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = -2\theta_1^2 -2\theta_1\theta_2 - 3 \theta_2^2 +12\theta_1 +16\theta_2 -28.
+J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
 $$
 
 **(a)**: Find a matrix $\mathbf{A} \in \mathbb{R}^{2\times 2}$, a vector $\mathbf{b} \in \mathbb{R}^2$, and a scalar $c\in \mathbb{R}$ such that
@@ -83,4 +85,24 @@ $$
 
 **(f)**: Find the directions of extreme curvature at the point $\boldsymbol{\theta}^\intercal =(3,4)$. What are the curvatures in these directions?
 
-**(g)**: Compute the spectral radius $\rho\left(\nabla J(3,4)\right)$ and the condition number $\kappa\left(\nabla^2 J(3,4)\right)$.
+**(g)**: Compute the spectral radius $\rho\left(\nabla^2 J(3,4)\right)$ and the condition number $\kappa\left(\nabla^2 J(3,4)\right)$.
+
+## Problem 4: Rate of convergence of gradient descent
+
+(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the degree-$2$ objective function $J$ from Problem 3:
+
+$$
+J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
+$$
+
+Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. (Assume the decay rate is $\beta=0$.)
+
+## Problem 5: Convergence of batch gradient descent
+
+(_From [Section 11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#stochastic-gradient-descent)_.) Consider the stochastic objective function
+
+$$
+J: \mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = \frac{1}{m} \sum_{i=1}^m \left[\frac{3}{2}(x_{i1}-\theta_1)^2 + \frac{3}{2}(x_{i2} - \theta_2)^2 \right],
+$$
+
+where $\mathbf{x}_1,\mathbf{x}_2,\ldots,\mathbf{x}_m\in \mathbb{R}^2$ is an observed dataset. Identify values of the learning rate $\alpha$ that guarantee convergence of the batch gradient descent algorithm applied to $J$. Of course, this will require that you identify _what_ the algorithm converges _to_. (Assume the decay rate is $\beta=0$.)
