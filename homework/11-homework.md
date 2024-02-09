@@ -95,7 +95,7 @@ $$
 J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
 $$
 
-Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ (according to [this](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#quadratic-conv-thm) theorem) that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. (Assume the decay rate is $\beta=0$.)
+Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ (according to [this](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#quadratic-conv-thm) theorem) that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. What is the rate of convergence? (Assume the decay rate is $\beta=0$.)
 
 ## Problem 5: Convergence of batch gradient descent
 
