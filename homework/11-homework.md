@@ -85,7 +85,7 @@ $$
 
 **(f)**: Find the directions of extreme curvature at the point $\boldsymbol{\theta}^\intercal =(3,4)$. What are the curvatures in these directions?
 
-**(g)**: Compute the spectral radius $\rho\left(\nabla^2 J(3,4)\right)$ and the condition number $\kappa\left(\nabla^2 J(3,4)\right)$.
+**(g)**: Set $\mathbf{H} = \nabla^2 J(3,4)$. Compute the spectrum $\sigma ( \mathbf{H} )$, the spectral radius $\rho(\mathbf{H})$, and the condition number $\kappa (\mathbf{H})$.
 
 ## Problem 4: Rate of convergence of gradient descent
 
