@@ -40,8 +40,10 @@ The videos are _not_ public yet. They are only available to students taking the 
 
 0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) 
 
-    * Programming assignment: [Python Libraries: NumPy, Pandas and Matplotlib](./programming-assignments/assignment_00.ipynb)
+    * Programming assignment: [Python Libraries: NumPy, Pandas and Matplotlib](/programming-assignments/assignment_00_instructions.md)
+
 1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
+
 2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html)
     * [Worksheet](/worksheets/02-prob-spaces.pdf)
     * [Worksheet solutions](/worksheets/02-prob-spaces-sol.pdf)
@@ -51,18 +53,21 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 2.6: Discrete and uniform probability measures](https://youtu.be/7G51NpDzfb8)
     * [Video for 2.8: Continuous probability measures](https://youtu.be/L10Q5jXs6M4)
     * [Video for 2.10: Distribution and quantile functions](https://youtu.be/Kcr09antsWE)
+
 3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html)
     * [Worksheet](/worksheets/03-rules-of-prob.pdf)
     * [Worksheet solutions](/worksheets/03-rules-of-prob-sol.pdf)
-    * Programming assignment: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03.ipynb)
+    * Programming assignment: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03_instructions.ipynb)
+
 4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html)
     * [Worksheet](/worksheets/04-random-variables.pdf)
     * [Worksheet solutions](/worksheets/04-random-variables-sol.pdf)
-    * Programming assignment: [Random variables and empirical distributions](./programming-assignments/assignment_04.ipynb)
+    * Programming assignment: [Random variables and empirical distributions](./programming-assignments/assignment_04_instructions.ipynb)
+
 5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html)
     * [Worksheet](/worksheets/05-examples-of-rvs.pdf)
     * [Worksheet solutions](/worksheets/05-examples-of-rvs-sol.pdf)
-    * Programming assignment: [Random variables in SciPy](./programming-assignments/assignment_05.ipynb)
+    * Programming assignment: [Random variables in SciPy](./programming-assignments/assignment_05_instructions.ipynb)
     * [Video for Chapter 5 Introduction](https://youtu.be/T0U98EPRgHk)
     * [Video for 5.1: Bernoulli distributions](https://youtu.be/XIcIZnQqV4U)
     * [Video for 5.2: Binomial distributions](https://youtu.be/0Yik-Imm8eU)
@@ -71,8 +76,9 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 5.7: Exponential distributions](https://youtu.be/asIQw8aE9Bw)
     * [Video for 5.8: Gamma distributions](https://youtu.be/c3761wTmeXo)
     * [Video for 5.9: Beta distributions](https://youtu.be/WvsuQFN8Qdg)
+
 6. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html)
-    * Programming assignment: [A first look at probabilistic models](./programming-assignments/assignment_06.ipynb)
+    * Programming assignment: [A first look at probabilistic models](./programming-assignments/assignment_06_instructions.ipynb)
     * [Video for Chapter 6 Introduction](https://youtu.be/_KgjM1n-k2M)
     * [Video for 6.1: Data and random samples](https://youtu.be/dwZOCPRYZP0)
     * [Video for 6.2: Probabilistic models and empirical distributions](https://youtu.be/vBeSU-183uU)
@@ -81,6 +87,7 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 6.5: Empirical statistics](https://youtu.be/NSKzQToAQbo)
     * [Video for 6.6: QQ-plots](https://youtu.be/xmus_up80ic)
     * [Video for 6.7: Box and violin plots](https://youtu.be/HhxsXOwRLLE)
+
 7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html)
     * [Worksheet](/worksheets/07-random-vectors.pdf)
     * [Worksheet solutions](/worksheets/07-random-vectors-sol.pdf)
@@ -93,20 +100,28 @@ The videos are _not_ public yet. They are only available to students taking the 
     * [Video for 7.8: Random vectors in arbitrary dimensions](https://youtu.be/AcOXDgtwmKs)
     * [Video for 7.9: Independence](https://youtu.be/IYy8EYHwYuQ)
     * [Video for 7.10: A Bayes' Theorem case study](https://youtu.be/9bNLoG8rfHA)
+
 8. [More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html)
     * [Worksheet](./worksheets/08-more-prob.pdf)
     * [Worksheet solutions](./worksheets/08-more-prob-sol.pdf)
     * [Homework](./homework/08-homework.md)
-    * Programming assignment: [Probabilistic loose ends](./programming-assignments/assignment_08.ipynb)
+    * Programming assignment: [Probabilistic loose ends](./programming-assignments/assignment_08_instructions.ipynb)
     * [Video for 8.1: Expectations and joint distributions](https://youtu.be/8qDN_uNvDA8)
     * [Video for 8.2: Expectations and conditional distributions](https://youtu.be/v_P7PdW_0TE)
+
 9. [The halfway point: pivoting toward models and data analysis](https://mml.johnmyersmath.com/stats-book/chapters/09-halfway.html)
+
 10. [Information theory](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html)
     * [Worksheet](./worksheets/10-info-theory.pdf)
     * [Worksheet solutions](./worksheets/10-info-theory-sol.pdf)
     * [Homework](./homework/10-homework.md)
-    * Programming assignment: [Mutual information](./programming-assignments/assignment_10.ipynb)
+    * Programming assignment: [Mutual information](./programming-assignments/assignment_10_instructions.ipynb)
 
+11. [Optimization](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html)
+    * [Worksheet](/worksheets/11-optim.pdf)
+    * [Worksheet solutions](/worksheets/11-optim-sol.pdf)
+    * [Homework](/homework/11-homework.md)
+    * Programming assignment: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.ipynb)
 
 ## First-semester schedule and other class information
 
