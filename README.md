@@ -23,6 +23,7 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
+| Class 10: <br> Mon 02-12 | Topics: [10.3](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#flow-of-information)
 | Class 9: <br> Fri 02-09 | Topics: [10.2](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#kullback-leibler-divergence)
 | Class 8: <br> Wed 02-07 | Topics: [10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#shannon-information-and-entropy) <br> - [Chapter 10 worksheet](./worksheets/10-info-theory.pdf) <br> - [Chapter 10 worksheet solutions](./worksheets/10-info-theory-sol.pdf) <br> - [Chapter 10 homework](./homework/10-homework.md) <br> - [Chapter 10 programming assignment](./programming-assignments/assignment_10_instructions.md) | - Chapter 8 homework due in class <br> - Programming assignment due <br> at 11:30am ([submission link](https://forms.gle/2io7yqjy5VKY9xu96))
 | Class 7: <br> Mon 02-05 | Topics: [Chapter 9](https://mml.johnmyersmath.com/stats-book/chapters/09-halfway.html)
