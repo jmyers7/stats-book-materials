@@ -40,47 +40,27 @@ Class Number/Date | Description | Other information
 
 ## List of materials
 
-The videos are _not_ public yet. They are only available to students taking the course in person.
+Programming assignments:
 
-0. [Introduction](https://mml.johnmyersmath.com/stats-book/intro.html) 
-    * Programming assignment: [Python Libraries: NumPy, Pandas and Matplotlib](/programming-assignments/assignment_00_instructions.md)
-1. [Preview](https://mml.johnmyersmath.com/stats-book/chapters/preview.html)
-2. [Probability spaces](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html)
-    * [Worksheet](/worksheets/02-prob-spaces.pdf)
-    * [Worksheet solutions](/worksheets/02-prob-spaces-sol.pdf)
-3. [Rules of probability](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html)
-    * [Worksheet](/worksheets/03-rules-of-prob.pdf)
-    * [Worksheet solutions](/worksheets/03-rules-of-prob-sol.pdf)
-    * Programming assignment: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03_instructions.md)
-4. [Random variables](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html)
-    * [Worksheet](/worksheets/04-random-variables.pdf)
-    * [Worksheet solutions](/worksheets/04-random-variables-sol.pdf)
-    * Programming assignment: [Random variables and empirical distributions](./programming-assignments/assignment_04_instructions.md)
-5. [Examples of random variables](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html)
-    * [Worksheet](/worksheets/05-examples-of-rvs.pdf)
-    * [Worksheet solutions](/worksheets/05-examples-of-rvs-sol.pdf)
-    * Programming assignment: [Random variables in SciPy](./programming-assignments/assignment_05_instructions.md)
-6. [Connecting theory to practice: a first look at model building](https://mml.johnmyersmath.com/stats-book/chapters/theory-to-practice.html)
-    * Programming assignment: [A first look at probabilistic models](./programming-assignments/assignment_06_instructions.md)
-7. [Random vectors](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html)
-    * [Worksheet](/worksheets/07-random-vectors.pdf)
-    * [Worksheet solutions](/worksheets/07-random-vectors-sol.pdf)
-8. [More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html)
-    * [Worksheet](./worksheets/08-more-prob.pdf)
-    * [Worksheet solutions](./worksheets/08-more-prob-sol.pdf)
-    * [Homework](./homework/08-homework.md)
-    * Programming assignment: [Probabilistic loose ends](./programming-assignments/assignment_08_instructions.md)
-9. [The halfway point: pivoting toward models and data analysis](https://mml.johnmyersmath.com/stats-book/chapters/09-halfway.html)
-10. [Information theory](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html)
-    * [Worksheet](./worksheets/10-info-theory.pdf)
-    * [Worksheet solutions](./worksheets/10-info-theory-sol.pdf)
-    * [Homework](./homework/10-homework.md)
-    * Programming assignment: [Mutual information](./programming-assignments/assignment_10_instructions.md)
-11. [Optimization](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html)
-    * [Worksheet](/worksheets/11-optim.pdf)
-    * [Worksheet solutions](/worksheets/11-optim-sol.pdf)
-    * [Homework](/homework/11-homework.md)
-    * Programming assignment: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.md)
+* Chapter 0: [Python Libraries: NumPy, Pandas and Matplotlib](/programming-assignments/assignment_00_instructions.md)
+* Chapter 3 Rules of probability: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03_instructions.md)
+* Chapter 4 Random variables: [Random variables and empirical distributions](./programming-assignments/assignment_04_instructions.md)
+* Chapter 5 Examples of random variables: [Random variables in SciPy](./programming-assignments/assignment_05_instructions.md)
+* Chapter 6 Connecting theory to practice --- a first look at model building: [A first look at probabilistic models](./programming-assignments/assignment_06_instructions.md)
+* Chapter 8 More probability theory: [Probabilistic loose ends](./programming-assignments/assignment_08_instructions.md)
+* Chapter 10 Information theory: [Mutual information](./programming-assignments/assignment_10_instructions.md)
+* Chapter 11 Optimization: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.md)
+
+Worksheets and solutions:
+
+* Chapter 2 Probability spaces: [Worksheet](./worksheets/02-prob-spaces.pdf), [solutions](./worksheets/02-prob-spaces-sol.pdf)
+* Chapter 3 Rules of probability: [Worksheet](./worksheets/03-rules-of-prob.pdf), [solutions](./worksheets/03-rules-of-prob-sol.pdf)
+* Chapter 4 Random variables: [Worksheet](./worksheets/04-random-variables.pdf), [solutions](./worksheets/04-random-variables-sol.pdf)
+* Chapter 5 Examples of random variables: [Worksheet](./worksheets/05-examples-of-rvs.pdf), [solutions](./worksheets/05-examples-of-rvs-sol.pdf)
+* Chapter 7 Random vectors: [Worksheet](./worksheets/07-random-vectors.pdf), [solutions](./worksheets/07-random-vectors-sol.pdf)
+* Chapter 8 More probability theory: [Worksheet](./worksheets/08-more-prob.pdf), [solutions](./worksheets/08-more-prob-sol.pdf)
+* Chapter 10 Information theory: [Worksheet](./worksheets/10-info-theory.pdf), [solutions](./worksheets/10-info-theory-sol.pdf)
+* Chapter 11 Optimization: [Worksheet](./worksheets/11-optim.pdf), [solutions](./worksheets/11-optim-sol.pdf)
 
 ## First-semester schedule and other class information
 
