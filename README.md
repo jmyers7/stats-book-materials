@@ -62,6 +62,12 @@ Worksheets and solutions:
 * Chapter 10 Information theory: [Worksheet](./worksheets/10-info-theory.pdf), [solutions](./worksheets/10-info-theory-sol.pdf)
 * Chapter 11 Optimization: [Worksheet](./worksheets/11-optim.pdf), [solutions](./worksheets/11-optim-sol.pdf)
 
+Homework:
+
+* Chapter 8 More probability theory: [Homework](./homework/08-homework.md)
+* Chapter 10 Information theory: [Homeowork](./homework/10-homework.md)
+* Chapter 11 Optimization: [Homework](./homework/11-homework.md)
+
 ## First-semester schedule and other class information
 
 **Office**: MCC 175
