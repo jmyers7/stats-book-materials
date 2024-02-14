@@ -42,7 +42,7 @@ Of course, you may not use any of the examples we discussed in class.
 
 &nbsp;
 <p align="center">
-  <img src="../img/hw-plated.svg" width="50%">
+  <img src="../img/hw-plated.svg" width="35%">
 </p>
 &nbsp;
 
