@@ -22,18 +22,25 @@
 
 ## Problem x:
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.)
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
 
-**(a)**: Give a concrete example of three random variables $X$, $Y$, and $Z$ (other than the examples discussed in class) where $Y$ serves as a confounding variable in the causal structure.
+**(a)**: A situation where $Y$ serves as a confounding variable in the causal structure.
 
-**(b)**: Give a concrete example of three random variables $X$, $Y$, and $Z$ (other than the examples discussed in class) where $Y$ serves as a mediating variable in the causal structure.
+**(b)**: A situation where $Y$ serves as a mediating variable in the causal structure.
+
+Of course, you may not use any of the examples we discussed in class.
 
 ## Problem x: 
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
 
-$$
-C, R, W, S,
-$$
+## Problem x:
 
-which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic model when $m=2$:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw-plated.svg" width="50%">
+</p>
+&nbsp;
+
