@@ -38,7 +38,7 @@ Of course, you may not use any of the examples we discussed in class.
 
 ## Problem 3: Practice with plate notation
 
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic model when $m=2$:
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$:
 
 &nbsp;
 <p align="center">
