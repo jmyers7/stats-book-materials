@@ -6,7 +6,9 @@
 
 **List of problems:**
 
-1. 
+1. [Section 12.1: Examples of causal structures](#problem-1-examples-of-causal-structures)
+2. [Section 12.1: Constructing causal structures](#problem-2-constructing-causal-structures)
+3. [Section 12.2: Practice with plate notation](#problem-3-practice-with-plate-notation)
 
  **Tips (to maximize your grade)**:
  
@@ -20,7 +22,7 @@
 
 5. Figure out the answer before writing! More precisely: Carry through your initial computations on your own scratch paper before writing your solutions.  It is difficult to follow a solution that is written in a "stream-of-consciousness" style. If I can't follow along, I am likely to give up and take off points (even if your final answer is right).
 
-## Problem x:
+## Problem 1: Examples of causal structures
 
 (_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
 
@@ -30,11 +32,11 @@
 
 Of course, you may not use any of the examples we discussed in class.
 
-## Problem x: 
+## Problem 2: Constructing causal structures
 
 (_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
 
-## Problem x:
+## Problem 3: Practice with plate notation
 
 (_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic model when $m=2$:
 
