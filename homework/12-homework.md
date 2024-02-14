@@ -38,7 +38,7 @@ Of course, you may not use any of the examples we discussed in class.
 
 ## Problem 3: Practice with plate notation
 
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$:
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#id4)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$. Then, answer the questions that follow.
 
 &nbsp;
 <p align="center">
@@ -46,3 +46,22 @@ Of course, you may not use any of the examples we discussed in class.
 </p>
 &nbsp;
 
+Assuming your drawing is correct, you should have a graph with ten nodes. Of these ten nodes, which are...
+
+**(a)**: ...random?
+
+**(b)**: ...deterministic?
+
+**(c)**: ...parameters?
+
+**(d)**: ...observed?
+
+**(e)**: ...hidden?
+
+**(f)**: ...hidden and random?
+
+**(g)**: ...hidden and deterministic?
+
+**(h)**: ...observed and random?
+
+**(i)**: ...observed and deterministic?
