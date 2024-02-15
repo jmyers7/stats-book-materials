@@ -108,7 +108,7 @@ $$
 
 on the data and obtain $\beta_1 \approx 0.11$. Interpret the meaning of this parameter in terms that an average person on the street would understand.
 
-(You might imagine being asked a question very similar to this if you use this stuff in the real world. Get comfortable with ambiguity!)
+(If you tell me $\beta_1$ is the slope of a line, you're getting half credit. :grimacing: There's a much better answer than this! In the real world, you might imagine being asked a question very similar to this, especially by clients or stakeholders with non-technical backgrounds. They want _real_ answers with _concrete insight_, not technical jargon about lines and models and whatnot. So, get comfortable with ambiguous questions!)
 
 ## Problem 8: The derivative of the sigmoid function
 
