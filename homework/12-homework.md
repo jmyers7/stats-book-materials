@@ -15,6 +15,7 @@
 7. [Section 12.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
 8. [Section 12.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
 9. [Section 12.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
+10. [Section 12.5: A thin neural network](#problem-10-practice-with-drawing-neural-networks)
 
  **Tips (to maximize your grade)**:
  
@@ -124,13 +125,13 @@ $$
 (x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R}^2,
 $$
 
-we saw in class that we may visualize the "goodness of fit" of a linear regression model by plotting the regression line $\mu = \beta_0 + x\beta_1$ over a scatter plot of the data. If instead the dataset is of the form
+we saw in class that we may visualize the "goodness of fit" of a linear regression model by plotting the regression line $y = \beta_0 + x\beta_1$ over a scatter plot of the data. If instead the dataset is of the form
 
 $$
 (x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R} \times \\{0,1\\},
 $$
 
-we may do something similar with a logistic regression model by plotting the curve $\phi = \sigma(\beta_0 + x \beta_1)$ over a scatter plot:
+we may do something similar with a logistic regression model by plotting the curve $y = \sigma(\beta_0 + x \beta_1)$ over a scatter plot:
 
 &nbsp;
 <p align="center">
@@ -145,3 +146,37 @@ The decision boundary corresponds to the $x$-value for which $\beta_0 + x\beta_1
 **(b)**: How many data points does the model misclassify as belonging to class $0$, when they are truly in class $1$?
 
 **(c)**: Find the values of the parameters $\beta_0$ and $\beta_1$ for this model.
+
+## Problem 10: Practice with drawing neural networks
+
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Draw a fully-connected, feedforward neural network (in [this](https://mml.johnmyersmath.com/stats-book/_images/nn-neuron-02.svg) style) that has an input layer consisting of $6$ nodes and three hidden layers consisting (from left to right) of $5$, $4$, and $2$ neurons. What is the depth of this network? What are its widths?
+
+## Problem 11: A thin neural network
+
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Consider the same dataset that we used in [Problem 9](#problem-9-goodness-of-fit-of-logistic-regression-models). Using techniques that we will learn in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a network of the following architecture on this dataset:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw-nn.svg" width="50%">
+</p>
+&nbsp;
+
+Notice that all layers have width $1$, i.e., everything in sight is a scalar, not a vector. Plotting $y=\sigma(w_2 z + b_2)$ as a function of $x$ over a scatter plot of the data reveals the following:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw12-nn.svg" width="50%">
+</p>
+&nbsp;
+
+**(a)**: Write down an explicit piecewise formula for $y = \sigma(w_2z+b_2)$ as a function of $x$. (_Hint_: You'll need to recall the functional dependence of $z$ on $x$. You can verify if your answer is correct by plotting your formula and checking that it matches the curve in the figure above.)
+
+**(b)**: Using your formula in (a), find a formula for the $x$-value of the decision boundary in terms of the four parameters $w_1,b_1,w_2,b_2$.
+
+**(c)**: The training process yields the following values (rounded to four decimal places) for the parameters:
+
+$$
+w_1 = 1.9553, \quad b_1 = 0.5873, \quad w_2 = 2.0696, \quad b_2 = -1.2039.
+$$
+
+Using your formula in (b), find the $x$-value of the decision boundary in the figure above. Round your answer to four decimal places. (_Hint_: The answer is _not_ $0$.)
