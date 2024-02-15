@@ -15,7 +15,7 @@
 7. [Section 12.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
 8. [Section 12.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
 9. [Section 12.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
-10. [Section 12.5: A thin neural network](#problem-10-practice-with-drawing-neural-networks)
+10. [Section 12.5: A thin neural network](#problem-11-a-thin-neural-network)
 
  **Tips (to maximize your grade)**:
  
