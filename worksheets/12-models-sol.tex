@@ -99,4 +99,57 @@ where $Y \mid \mathbf{X} = \mathbf{x} \sim N(\mu,\sigma^2)$ with $\mu = \beta_0 
 The ratio $p/(1-p)$ is often called the \textit{odds} of an event of probability $p$ occurring. If this event is drawn from a sample space with uniform probability measure, then it is simply the number of outcomes resulting in the event occurring, divided by the number of outcomes for which the event does not occur. Thus, the inverse function $\sigma^{-1}$ is often called the \textit{log-odds function}. (It is also sometimes called the \textit{logit function}.)}
 \bigskip
 
+
+
+
+
+
+
+
+
+
+
+
+\prob The \textit{confusion matrix} for the logistic regression model discussed in class is given by
+	\[\begin{array}{c|cc}
+	& \hat{y}=0 & \hat{y} = 1 \\ \hline
+	y=0 & 422 & 90 \\
+	y=1 & 95 & 417
+	\end{array}
+	\]
+where $y$ is the true class and $\hat{y}$ the predicted class of an instance in the dataset. In this problem, a \textit{positive} class label corresponds to $1$, while a \textit{negative} class label corresponds to $0$.
+
+\medskip
+\begin{enumerate}
+\item Compute the \textit{accuracy} of the classifier, which is the proportion of correctly classified instances out of all total instances.
+
+\bigskip
+\textcolor{red}{The accuracy is
+	\[\frac{422 + 417}{1024} \approx 0.819.
+	\]}
+\bigskip
+
+\item Compute the \textit{precision} of the classifier, which is the proportion of all true positive predictions out of all positive predictions. (High precision $=$ avoids false positives.)
+
+\bigskip
+\textcolor{red}{The precision is
+	\[\frac{417}{90 + 417} \approx 0.822.
+	\]}
+\bigskip
+
+\item Compute the \textit{recall} (or \textit{sensitivity}) of the classifier, which is the proportion of all true positive predictions out of all actual positive instances. (High sensitivity $=$ avoids false negatives.)
+
+\bigskip
+\textcolor{red}{The recall is
+	\[\frac{417}{95 + 417} \approx 0.814.
+	\]}
+\bigskip
+
+\item Discuss situations in which the primary interest is in classifiers with high precision, versus a situation in which the primary interest is high sensitivity.
+
+\bigskip
+\textcolor{red}{We would desire a spam filter to have high precision, since this means that it rarely tags a legitimate email as spam. (Where $1=$ spam and $0=$ not spam.) A high sensitivity is also desirable, since this means it avoids letting spam emails through to the user's inbox, but most users are willing to endure a stray spam email every now and then as long as the filter never misclassifies potentially important emails as spam. On the other hand, we would want an internet content filter to have high sensitivity. (Where $1=$ inappropriate and $0=$ appropriate.) This means that it would rarely mark inappropriate material as appropriate. A high precision is also desirable, since this means it avoids marking appropriate material as inappropriate, but most users are willing to endure a lower precision score as long as it means the filter never lets inappropriate content pass through which could lead to all sorts of very bad outcomes.}
+\bigskip
+\end{enumerate}
+
 \end{document}
