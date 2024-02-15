@@ -127,7 +127,7 @@ $$
 we saw in class that we may visualize the "goodness of fit" of a linear regression model by plotting the regression line $\mu = \beta_0 + x\beta_1$ over a scatter plot of the data. If instead the dataset is of the form
 
 $$
-(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R} \times \{0,1\},
+(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R} \times \\{0,1\\},
 $$
 
 we may do something similar with a logistic regression model by plotting the curve $\phi = \sigma(\beta_0 + x \beta_1)$ over a scatter plot:
