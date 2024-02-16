@@ -226,7 +226,7 @@ $$
 \begin{array}{c|c}
 x & p(x) \\\ \hline
 0 & 0.99 \\\
-1 & 0.1
+1 & 0.01
 \end{array}
 $$
 
