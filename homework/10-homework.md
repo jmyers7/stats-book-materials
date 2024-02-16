@@ -115,7 +115,7 @@ Compute the differential entropy of $X$. (You might be surprised by the answer.)
 $$
 \begin{array}{c|cc}
 s & p(s) & q(s) \\\ \hline
-1 & 0.4 & 0.5 \\\
+1 & 0.4 & 0.05 \\\
 2 & 0.05 & 0.35 \\\
 3 & 0.15 & 0.05 \\\
 4 & 0.4 & 0.55
