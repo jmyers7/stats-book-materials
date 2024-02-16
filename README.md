@@ -18,6 +18,8 @@
 **Important links**:
 
 * [Syllabus](https://drive.google.com/file/d/14-UelehoS8v5rZRqCXlu_WY307QOOELz/view?usp=drive_link)
+* [Homework solutions](https://drive.google.com/drive/folders/14rPJQo3CBF8_wQ6YOgWgH_1dXYZ56nLQ?usp=drive_link)
+* [Programming assignment solutions](https://drive.google.com/drive/folders/156kCGK4AvlSVDZUNsQN18dTCZn7JICHi?usp=drive_link)
 * Learn or refresh your knowledge of Python [here](https://www.kaggle.com/learn/python)
 
 
