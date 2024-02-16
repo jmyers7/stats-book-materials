@@ -152,4 +152,21 @@ where $y$ is the true class and $\hat{y}$ the predicted class of an instance in 
 \bigskip
 \end{enumerate}
 
+
+
+
+
+
+
+
+\prob Describe a neural network architecture for datasets of the form
+	\[(\mathbf{x}_1,y_1),(\mathbf{x}_2,y_2),\ldots,(\mathbf{x}_m,y_m) \in \mathbb{R}^n \times \mathbb{R},
+	\]
+i.e., datasets in which the target variable $Y$ is not binary.
+
+\bigskip
+\textcolor{red}{We may modify the architectures described in class by taking the output neuron to be distributed normally. For a neural network of depth $d$, this would look like:
+	\[Y ;\  \mathbf{z}_{d-1}, \mathbf{w}_d, b_d, \sigma^2 \sim N(\mu,\sigma^2) \quad \text{where} \quad \mu = \mathbf{z}_{d-1} ^\intercal \mathbf{w}_d + b_d.
+	\]}
+
 \end{document}
