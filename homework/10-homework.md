@@ -234,9 +234,9 @@ Before beginning, think about what the probabilities in these tables mean! For e
 
 Except in parts (c) and (f), all your answers in this problem will be tables of probabilities like those above. You do _not_ need to show me any intermediate computations. I strongly recommend that you use appropriate methods from Python for each part (except (c)) to cut down on the number of tedious computations that you need to do. (In fact, it's possible to complete this entire problem having done _no_ computations by hand!)
 
-**(a)**: Compute the marginal mass function $p(y)$.
+**(a)**: Compute the joint mass function $p(x,y)$.
 
-**(b)**: Compute the joint mass function $p(x,y)$.
+**(b)**: Compute the marginal mass function $p(y)$.
 
 **(c)**: Show that $p(x,y,z) = p(y|x)p(z|y)p(x)$. (_Hint_: Remember, $X$ and $Z$ are conditionally independent given $Y$.)
 
