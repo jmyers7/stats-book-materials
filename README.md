@@ -44,7 +44,7 @@ Class Number/Date | Description | Other information
 
 Programming assignments:
 
-* Chapter 0: [Python Libraries: NumPy, Pandas and Matplotlib](/programming-assignments/assignment_00_instructions.md)
+* Chapter 0: [Python Libraries: NumPy, pandas and matplotlib](/programming-assignments/assignment_00_instructions.md)
 * Chapter 3 Rules of probability: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03_instructions.md)
 * Chapter 4 Random variables: [Random variables and empirical distributions](./programming-assignments/assignment_04_instructions.md)
 * Chapter 5 Examples of random variables: [Random variables in SciPy](./programming-assignments/assignment_05_instructions.md)
