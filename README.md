@@ -52,6 +52,7 @@ Programming assignments:
 * Chapter 8 More probability theory: [Probabilistic loose ends](./programming-assignments/assignment_08_instructions.md)
 * Chapter 10 Information theory: [Mutual information](./programming-assignments/assignment_10_instructions.md)
 * Chapter 11 Optimization: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.md)
+* Chapter 12 Probabilistic graphical models: [Probabilistic modeling with scikit-learn](/programming-assignments/assignment_12_instructions.md)
 
 Worksheets and solutions:
 
@@ -63,12 +64,14 @@ Worksheets and solutions:
 * Chapter 8 More probability theory: [Worksheet](./worksheets/08-more-prob.pdf), [solutions](./worksheets/08-more-prob-sol.pdf)
 * Chapter 10 Information theory: [Worksheet](./worksheets/10-info-theory.pdf), [solutions](./worksheets/10-info-theory-sol.pdf)
 * Chapter 11 Optimization: [Worksheet](./worksheets/11-optim.pdf), [solutions](./worksheets/11-optim-sol.pdf)
+* Chapter 12 Probabilistic graphical models: [Worksheet](./worksheets/12-models.pdf), [solutions](./worksheets/12-models-sol.pdf)
 
 Homework:
 
 * Chapter 8 More probability theory: [Homework](./homework/08-homework.md)
 * Chapter 10 Information theory: [Homeowork](./homework/10-homework.md)
 * Chapter 11 Optimization: [Homework](./homework/11-homework.md)
+* Chapter 12 Probabilistic graphical models: [Homework](./homework/12-homework.md)
 
 ## First-semester schedule and other class information
 
