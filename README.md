@@ -25,7 +25,7 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
-| Class 13: <br> Mon 02-19 | Class cancelled | - Chapter 10 homework due in class <br> - Programming assignment 10 due <br> at 11:30am ([submission link](https://forms.gle/PTQg29eMxh8c8Bkv9))
+| Class 13: <br> Mon 02-19 | Class cancelled <br> (Check your email) | - Chapter 10 homework due in class <br> - Programming assignment 10 due <br> at 11:30am ([submission link](https://forms.gle/PTQg29eMxh8c8Bkv9))
 | Class 12: <br> Fri 02-16 | Topics: [11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable) <br> - [Chapter 11 worksheet](./worksheets/11-optim.pdf) <br> - [Chapter 11 worksheet solutions](./worksheets/11-optim-sol.pdf) <br> - [Chapter 11 homework](./homework/11-homework.md) <br> - [Chapter 11 programming assignment](./programming-assignments/assignment_11_instructions.md)
 | Class 11: <br> Wed 02-14 | Topics: [10.3](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#flow-of-information)
 | Class 10: <br> Mon 02-12 | Topics: [10.3](https://mml.johnmyersmath.com/stats-book/chapters/10-info-theory.html#flow-of-information)
