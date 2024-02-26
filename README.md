@@ -25,7 +25,8 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
-| Class 14: <br> Wed 02-23 | Topics: [11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#differential-geometry)
+| Class 15: <br> Mon 02-26 | Topics: [11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#differential-geometry), [11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)
+| Class 14: <br> Fri 02-23 | Topics: [11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#differential-geometry)
 | Class 13: <br> Wed 02-21 | Topics: [11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable)
 | Mon 02-19 | Class cancelled <br> (Check your email) | - Chapter 10 homework due in class <br> - Programming assignment 10 due <br> at 11:30am ([submission link](https://forms.gle/PTQg29eMxh8c8Bkv9))
 | Class 12: <br> Fri 02-16 | Topics: [11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable) <br> - [Chapter 11 worksheet](./worksheets/11-optim.pdf) <br> - [Chapter 11 worksheet solutions](./worksheets/11-optim-sol.pdf) <br> - [Chapter 11 homework](./homework/11-homework.md) <br> - [Chapter 11 programming assignment](./programming-assignments/assignment_11_instructions.md)
