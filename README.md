@@ -25,6 +25,7 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
+| Class 17: <br> Wed 03-01 | Topics: [11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables), [11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#stochastic-gradient-descent)
 | Class 16: <br> Wed 02-28 | Topics: [11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)
 | Class 15: <br> Mon 02-26 | Topics: [11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#differential-geometry)| Class 14: <br> Fri 02-23 | Topics: [11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#differential-geometry)
 | Class 13: <br> Wed 02-21 | Topics: [11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable)
