@@ -1,6 +1,6 @@
 # Homework for [Chapter 11: Optimization](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html)
 
-**Due date**: TBD
+**Due date**: Monday, March 18
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted.
 
