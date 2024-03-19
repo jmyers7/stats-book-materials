@@ -7,6 +7,7 @@
 **List of problems:**
 
 1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
+2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
 
  **Tips (to maximize your grade)**:
  
@@ -27,6 +28,28 @@
 
 Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking values in the interval $(0,\infty)$.
 
-**(a)**: Prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global maximizer of $J(\boldsymbol{\theta})$ if it is a global minimizer of $-\log{J(\boldsymbol{\theta})}$. (_Hint_: The negative logarithm function is a _strictly decreasing function_. What's the definition of a strictly decreasing function? Do **not** assume any form of differentiability!)
+**(a)**: Prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global maximizer of $J(\boldsymbol{\theta})$ if it is a global minimizer of $-\log{J(\boldsymbol{\theta})}$. (_Hint_: The negative logarithm function is a _strictly decreasing function_. What's the definition of a _strictly decreasing function_? Look it up! Also, do **not** assume any form of differentiability!)
 
 **(b)**: Conversely, prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global minimizer of $-\log{J(\boldsymbol{\theta})}$ if it is a global maximizer of $J(\boldsymbol{\theta})$.
+
+## Problem 2: MLEs for the univariate Bernoulli model
+
+(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) Suppose we choose to model an observed dataset
+
+$$
+1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
+$$
+
+with our simple Bernoulli PGM with parameter $\theta$. In all parts below that require computations, round your final answer to three decimal places.
+
+**(a)**: Plot the data surprisal function $\mathcal{I}(\theta;x_1,\ldots,x_{11})$.
+
+**(b)**: Compute the maximum likelihood estimate $\theta^\star_\text{MLE}$ for $\theta$.
+
+**(c)**: Compute the data surprisal $\mathcal{I}(\theta^\star_\text{MLE};x_1,\ldots,x_{11})$ corresponding to the MLE.
+
+**(d)**: Compute the data likelihood $\mathcal{L}(\theta^\star_\text{MLE};x_1,\ldots,x_{11})$ corresponding to the MLE.
+
+**(e)**: If $P_\theta$ is the model distribution of the Bernoulli model and $\hat{P}$ is the empirical distribution of the dataset, compute the cross entropy $H_{\hat{P}}(P_{\theta^\star_\text{MLE}})$.
+
+**(f)**: Compute the KL divergence $D(\hat{P} \parallel P_{\theta^\star_\text{MLE}})$.
