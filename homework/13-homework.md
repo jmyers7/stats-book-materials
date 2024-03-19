@@ -6,7 +6,7 @@
 
 **List of problems:**
 
-1. 
+1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
 
  **Tips (to maximize your grade)**:
  
