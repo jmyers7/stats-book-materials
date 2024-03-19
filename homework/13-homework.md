@@ -20,23 +20,13 @@
 
 5. Figure out the answer before writing! More precisely: Carry through your initial computations on your own scratch paper before writing your solutions.  It is difficult to follow a solution that is written in a "stream-of-consciousness" style. If I can't follow along, I am likely to give up and take off points (even if your final answer is right).
 
-## Problem 1:
 
-(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that global minimizers of a function are the same as global maximizers of the negative of the function. In this problem, you will **rigorously** prove this statement from first principles.
+## Problem 1: Negative logarithms and optimization
 
-Precisely, let $J:\mathbb{R}^n \to \mathbb{R}$ be a function.
+(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that the maximizers of a (nonnegatively-valued) function are the same as the minimizers of the negative logarithm of the function. In this problem, you will prove this statement.
 
-**(a)**: Prove that $\boldsymbol\theta^\star \in \mathbb{R}^n$ is a global minimizer of $J(\boldsymbol\theta)$ if it is a global minimizer of $-J(\boldsymbol\theta)$.
+Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking values in the interval $(0,\infty)$.
 
-**(b)**: Conversely, prove that $\boldsymbol\theta^\star \in \mathbb{R}^n$ is a global maximizer of $-J(\boldsymbol\theta)$ if it is a global minimizer of $J(\boldsymbol\theta)$.
+**(a)**: Prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global maximizer of $J(\boldsymbol{\theta})$ if it is a global minimizer of $-\log{J(\boldsymbol{\theta})}$. (_Hint_: The negative logarithm function is a _strictly decreasing function_. What's the definition of a strictly decreasing function? Do **not** assume any form of differentiability!)
 
-
-## Problem 2:
-
-(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that the maximizers of a (nonnegatively-valued) function are the same as the minimizers of the logarithm of the function. In this problem, you will prove this statement.
-
-Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be a function taking values in the interval $(0,\infty)$.
-
-**(a)**: Prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global minimizer of $J(\boldsymbol{\theta})$ if it is a global minimizer of $\log{J(\boldsymbol{\theta})}$. (_Hint_: The logarithm function is a strictly increasing function.)
-
-**(b)**: Conversely, prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global minimizer of $\log{J(\boldsymbol{\theta})}$ if it is a global minimizer of $J(\boldsymbol{\theta})$. (_Hint_: The exponential function is a strictly increasing function.)
+**(b)**: Conversely, prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global minimizer of $-\log{J(\boldsymbol{\theta})}$ if it is a global maximizer of $J(\boldsymbol{\theta})$.
