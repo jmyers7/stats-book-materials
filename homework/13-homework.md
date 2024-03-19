@@ -8,6 +8,7 @@
 
 1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
 2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
+3. [Section 13.2: Training objectives for Naive Bayes models](#problem-3-training-objectives-for-naive-bayes-models)
 
  **Tips (to maximize your grade)**:
  
@@ -53,3 +54,35 @@ with our simple Bernoulli PGM with parameter $\theta$. In all parts below that r
 **(e)**: If $P_\theta$ is the model distribution of the Bernoulli model and $\hat{P}$ is the empirical distribution of the dataset, compute the cross entropy $H_{\hat{P}}(P_{\theta^\star_\text{MLE}})$.
 
 **(f)**: Compute the KL divergence $D(\hat{P} \parallel P_{\theta^\star_\text{MLE}})$.
+
+## Problem 3: Training objectives for Naive Bayes models
+
+(_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) Consider a Naive Bayes model as described in the [programming assignment](https://github.com/jmyers7/stats-book-materials/blob/main/programming-assignments/assignment_12.ipynb) for [Chapter 12](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html). The underlying graph is of the form
+
+<br>
+<center>
+<img src="https://raw.githubusercontent.com/jmyers7/stats-book-materials/main/img/nb.svg" width="200" align="center">
+</center>
+<br>
+
+where $\mathbf{X}\in \mathbb{R}^n$. The parameters are described as follows:
+
+1. The parameter $\psi$ is a real number in $[0,1]$ such that $Y\sim Ber(\psi)$.
+
+2. The parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_1$ are vectors in $[0,1]^n$.
+
+The link function at $\mathbf{X}$ is given by
+
+$$
+p(\mathbf{x} \mid y; \boldsymbol{\theta}_0,\boldsymbol{\theta}_1) = \prod_{j=1}^n \phi_j^{x_j}(1-\phi_j)^{1-x_j} \quad \text{where} \quad \boldsymbol{\phi} = (1-y)\boldsymbol{\theta}_0 + y \boldsymbol{\theta}_1
+$$
+
+and $\boldsymbol{\phi}^\intercal = (\phi_1,\ldots,\phi_n)$.
+
+**(a)**: Assuming that Naive Bayes models are trained as **generative** models, write down an explicit formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. Your formula will involve $\psi$, $y$, all the $x_j$'s, and all the $\theta_{ij}$'s, where
+
+$$
+\boldsymbol{\theta}_0^\intercal = (\theta_{01},\ldots,\theta_{0n}) \quad \text{and} \quad \boldsymbol{\theta}_1^\intercal = (\theta_{11},\ldots,\theta_{1n}).
+$$
+
+**(b)**: Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$.
