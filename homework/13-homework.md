@@ -37,7 +37,7 @@ Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking v
 (_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) Suppose we choose to model an observed dataset
 
 $$
-1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
+x_1,x_2,\ldots,x_{11} = 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
 $$
 
 with our simple Bernoulli PGM with parameter $\theta$. In all parts below that require computations, round your final answer to three decimal places.
