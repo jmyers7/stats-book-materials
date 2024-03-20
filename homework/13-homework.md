@@ -55,34 +55,32 @@ with our simple Bernoulli PGM with parameter $\theta$. In all parts below that r
 
 **(f)**: Compute the KL divergence $D(\hat{P} \parallel P_{\theta^\star_\text{MLE}})$.
 
-## Problem 3: Training objectives for Naive Bayes models
+## Problem 3: Gaussian mixture models
 
-(_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) Consider a Naive Bayes model as described in the [programming assignment](https://github.com/jmyers7/stats-book-materials/blob/main/programming-assignments/assignment_12.ipynb) for [Chapter 12](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html). The underlying graph is of the form
+(_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) A _Gaussian mixture model_ (or _GMM_) is a probabilistic graphical model with underlying graph of the form
 
 <br>
 <center>
-<img src="https://raw.githubusercontent.com/jmyers7/stats-book-materials/main/img/nb.svg" width="200" align="center">
+<img src="https://raw.githubusercontent.com/jmyers7/stats-book-materials/main/img/gmm.svg" width="300" align="center">
 </center>
 <br>
 
-where $\mathbf{X}\in \mathbb{R}^n$. The parameters are described as follows:
-
-1. The parameter $\psi$ is a real number in $[0,1]$ such that $Y\sim Ber(\psi)$.
-
-2. The parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_1$ are vectors in $[0,1]^n$.
-
-The link function at $\mathbf{X}$ is given by
+The parameters are given by a number $\theta\in [0,1]$ that parametrizes $Z \sim Ber(\theta)$, as well as real parameters $\mu_0$ and $\mu_1$, and positive real parameters $\sigma_0^2$ and $\sigma_1^2$. The link function at $X$ is given by
 
 $$
-p(\mathbf{x} \mid y; \boldsymbol{\theta}_0,\boldsymbol{\theta}_1) = \prod_{j=1}^n \phi_j^{x_j}(1-\phi_j)^{1-x_j} \quad \text{where} \quad \boldsymbol{\phi} = (1-y)\boldsymbol{\theta}_0 + y \boldsymbol{\theta}_1
+X \mid Z \sim N(\mu,\sigma^2),
 $$
 
-and $\boldsymbol{\phi}^\intercal = (\phi_1,\ldots,\phi_n)$.
-
-**(a)**: Assuming that Naive Bayes models are trained as **generative** models, write down an explicit formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. Your formula will involve $\psi$, $y$, all the $x_j$'s, and all the $\theta_{ij}$'s, where
+where
 
 $$
-\boldsymbol{\theta}_0^\intercal = (\theta_{01},\ldots,\theta_{0n}) \quad \text{and} \quad \boldsymbol{\theta}_1^\intercal = (\theta_{11},\ldots,\theta_{1n}).
+\mu = (1-z)\mu_0 + z \mu_1 \quad \text{and} \quad \sigma^2 = (1-z)\sigma_0^2 + z \sigma_1^2.
 $$
 
-**(b)**: Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$.
+**(a)**: Assuming that GMMs are trained as **generative** models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
+
+
+
+**(b)**: Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
+
+**(c)**: Discuss the difficulties that would be encountered in maximum likelihood estimation for the parameters in a GMM.
