@@ -59,11 +59,11 @@ with our simple Bernoulli PGM with parameter $\theta$. In all parts below that r
 
 (_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) A _Gaussian mixture model_ (or _GMM_) is a probabilistic graphical model with underlying graph of the form
 
-<br>
-<center>
+&nbsp;
+<p align="center">
 <img src="https://raw.githubusercontent.com/jmyers7/stats-book-materials/main/img/gmm.svg" width="300" align="center">
-</center>
-<br>
+</p>
+&nbsp;
 
 The parameters are given by a number $\theta\in [0,1]$ that parametrizes $Z \sim Ber(\theta)$, as well as real parameters $\mu_0$ and $\mu_1$, and positive real parameters $\sigma_0^2$ and $\sigma_1^2$. The link function at $X$ is given by
 
