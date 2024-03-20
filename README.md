@@ -25,7 +25,8 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
-| Class 21: <br> Mon 03-18 | Topics: [12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models), [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models) | - Chapter 11 homework due in class <br> - Programming assignment 11 due <br> at 11:30am ([submission link](https://forms.gle/faoJnahZsQZ5WdS37))
+| Class 22: <br> Wed 03-20 | Topics: [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models)
+| Class 21: <br> Mon 03-18 | Topics: [12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models) | - Chapter 11 homework due in class <br> - Programming assignment 11 due <br> at 11:30am ([submission link](https://forms.gle/faoJnahZsQZ5WdS37))
 | Class 20: <br> Fri 03-08 | Topics: [12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models), [12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models)
 | Class 19: <br> Wed 03-06 | Topics: [12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference), [12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)
 | Class 18: <br> Mon 03-04 | Topics: [11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#stochastic-gradient-descent), [12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference) <br> - [Chapter 12 worksheet](./worksheets/12-models.pdf) <br> - [Chapter 12 worksheet solutions](./worksheets/12-models-sol.pdf) <br> - [Chapter 12 homework](./homework/12-homework.md) <br> - [Chapter 12 programming assignment](./programming-assignments/assignment_12_instructions.md)
