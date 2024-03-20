@@ -8,7 +8,7 @@
 
 1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
 2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
-3. [Section 13.2: Training objectives for Naive Bayes models](#problem-3-training-objectives-for-naive-bayes-models)
+3. [Section 13.2: Gaussian mixture models](#problem-3-gaussian-mixture-models)
 
  **Tips (to maximize your grade)**:
  
@@ -78,8 +78,6 @@ $$
 $$
 
 **(a)**: Assuming that GMMs are trained as **generative** models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
-
-
 
 **(b)**: Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
 
