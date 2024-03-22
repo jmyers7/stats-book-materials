@@ -23,6 +23,7 @@
 
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
+| Class 23: <br> Fri 03-22 | Topics: [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models), [12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models#neural-network-models)
 | Class 22: <br> Wed 03-20 | Topics: [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models)
 | Class 21: <br> Mon 03-18 | Topics: [12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models) | - Chapter 11 homework due in class <br> - Programming assignment 11 due <br> at 11:30am ([submission link](https://forms.gle/faoJnahZsQZ5WdS37))
 | Class 20: <br> Fri 03-08 | Topics: [12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models), [12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models)
