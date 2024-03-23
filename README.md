@@ -62,6 +62,7 @@ Programming assignments:
 * Chapter 10 Information theory: [Mutual information](./programming-assignments/assignment_10_instructions.md)
 * Chapter 11 Optimization: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.md)
 * Chapter 12 Probabilistic graphical models: [Probabilistic modeling with scikit-learn](/programming-assignments/assignment_12_instructions.md)
+* Chapter 13 Learning: [Training probabilistic graphical models](/programming-assignments/assignment_13_instructions.md)
 
 Worksheets and solutions:
 
