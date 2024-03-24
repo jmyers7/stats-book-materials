@@ -27,7 +27,7 @@ and	$\boldsymbol{\phi}^\intercal = (\phi_1,\ldots,\phi_n)$.
 
 \bigskip
 \begin{enumerate}
-\item Assuming that Naive Bayes models are trained as \textbf{generative} models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselvs.
+\item Assuming that Naive Bayes models are trained as \textbf{generative} models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselves.
 
 \bigskip
 \textcolor{red}{We have
@@ -63,5 +63,71 @@ be the dataset, by definition we have
 	\end{align*}}
 \bigskip
 \end{enumerate}
+
+
+
+
+
+
+
+
+\bigskip
+\prob Consider the observed dataset
+	\[
+	(0, 0), (1, 1), (2,3) \in \mathbb{R}^2.
+	\]
+Using this dataset, compute the exact MLEs for the parameters $\beta_0$ and $\beta_1$ of a simple linear regression model (with known variance).
+
+\bigskip
+\textcolor{red}{We have $\bar{x} = 1$ and $\bar{y} = 4/3$, so
+	\[
+	(\beta_1)^\star_\text{MLE} = \frac{(0-1)(0-4/3) + (1-1)(1-4/3) + (2-1)(3-4/3)}{(0-1)^2 + (1-1)^2 + (2-1)^2} = \frac{3}{2}
+	\]
+and
+	\[
+	(\beta_0)^\star_\text{MLE} = \frac{4}{3} - \frac{3}{2} \cdot 1 = - \frac{1}{6}.
+	\]}
+\bigskip
+
+
+
+
+
+
+
+\prob For the neural network trained in Section 13.5, compute the following:
+
+\bigskip
+\begin{enumerate}
+\item The number of gradient steps per epoch.
+
+\bigskip
+\textcolor{red}{The dataset has size $m=3{,}072$ and the mini-batch size is $k=128$. Thus, the algorithm takes $3{,}072/128 = 24$ gradient steps per epoch.}
+\bigskip
+
+\item The \textit{exact} number of gradient steps over all epochs.
+
+\bigskip
+\textcolor{red}{The algorithm takes a total of $80 \times 24 = 1{,}920$ gradient steps.}
+\bigskip
+
+\item The number of trainable parameters in the network.
+
+\bigskip
+\textcolor{red}{The network has three hidden layers of widths $8$, $8$, and $4$, and an input layer of width $2$. This means we have \textit{four} parameter groups:
+	\[
+	(\mathbf{W}_1,\mathbf{b}_1),(\mathbf{W}_2,\mathbf{b}_2),(\mathbf{W}_3,\mathbf{b}_3),(\mathbf{w}_4,b_4),
+	\]
+with
+	\[
+	\mathbf{W}_1 \in \mathbb{R}^{2\times 8}, \ \mathbf{b}_1 \in \mathbb{R}^8, \ \mathbf{W}_2 \in \mathbb{R}^{8\times 8}, \ \mathbf{b}_2 \in \mathbb{R}^8, \ \mathbf{W}_3 \in \mathbb{R}^{8\times 4}, \ \mathbf{b}_3 \in \mathbb{R}^4, \ \mathbf{w}_4 \in \mathbb{R}^{4}, \ b_4 \in \mathbb{R} .
+	\]
+So, there are
+	\[
+	(2\cdot 8) + 8 + (8 \cdot 8) + 8 + (8 \cdot 4) + 4 + 4 + 1 = 137
+	\]
+trainable parameters.}
+\end{enumerate}
+
 
 \end{document}

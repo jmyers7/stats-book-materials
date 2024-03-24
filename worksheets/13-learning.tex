@@ -27,11 +27,33 @@ and	$\boldsymbol{\phi}^\intercal = (\phi_1,\ldots,\phi_n)$.
 
 \bigskip
 \begin{enumerate}
-\item Assuming that Naive Bayes models are trained as \textbf{generative} models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselvs.
+\item Assuming that Naive Bayes models are trained as \textbf{generative} models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselves.\vfill
+\item Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselves.\vfill
+\item Using your answer from part (b), write down an explicit formula for the cross entropy stochastic objective function $J(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$ for a dataset of size $m$.\vfill
+\end{enumerate}
 
-\item Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$. For simplicity, your formula should contain the $\phi_j$'s rather than the parameters $\boldsymbol{\theta}_0$ and $\boldsymbol{\theta}_0$ themselves.
 
-\item Using your answer from part (b), write down an explicit formula for the cross entropy stochastic objective function $J(\psi,\boldsymbol{\theta}_0,\boldsymbol{\theta}_1)$ for a dataset of size $m$.
+
+
+
+
+
+
+\newpage
+\prob Consider the observed dataset
+	\[
+	(0, 0), (1, 1), (2,3) \in \mathbb{R}^2.
+	\]
+Using this dataset, compute the exact MLEs for the parameters $\beta_0$ and $\beta_1$ of a simple linear regression model (with known variance).
+
+\vfill
+\prob For the neural network trained in Section 13.5, compute the following:
+
+\bigskip
+\begin{enumerate}
+\item The number of gradient steps per epoch.\vfill
+\item The \textit{exact} number of gradient steps over all epochs.\vfill
+\item The number of trainable parameters in the network.\vfill
 \end{enumerate}
 
 \end{document}
