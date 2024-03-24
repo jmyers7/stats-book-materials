@@ -47,7 +47,7 @@ $$
 x_1,x_2,\ldots,x_{11} = 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
 $$
 
-with our simple Bernoulli PGM with parameter $\theta$. In all parts below that require computations, round your final answer to three decimal places.
+with our simple Bernoulli PGM with parameter $\theta$. In all parts below that require computations, round your final answer to four decimal places.
 
 **(a)**: Plot the data surprisal function $\mathcal{I}(\theta;x_1,\ldots,x_{11})$.
 
