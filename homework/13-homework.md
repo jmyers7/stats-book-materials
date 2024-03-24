@@ -95,10 +95,10 @@ $$
 
 $$
 \begin{array}{r|r|r}
-x_1 & x_2 & y \\ \hline
-2 & 3 & 0 \\
-0 & 4 & 1 \\
-2 & 6 & -3 \\
+x_1 & x_2 & y \\\ \hline
+2 & 3 & 0 \\\
+0 & 4 & 1 \\\
+2 & 6 & -3 \\\
 -1 & -2 & 5
 \end{array}
 $$
@@ -140,10 +140,10 @@ where $\mu = \mu(\boldsymbol{\theta},\mathbf{x})$ is the link function. (_Hint_:
 
 $$
 \begin{array}{r|r|r}
-x_1 & x_2 & y \\ \hline
-2 & 1 & 0 \\
-1 & -1 & 1 \\
-3 & -2 & 1 \\
+x_1 & x_2 & y \\\ \hline
+2 & 1 & 0 \\\
+1 & -1 & 1 \\\
+3 & -2 & 1 \\\
 1 & 5 & 0
 \end{array}
 $$
@@ -180,8 +180,8 @@ Using the theorem [here](https://mml.johnmyersmath.com/stats-book/chapters/13-le
 
 $$
 \begin{array}{c|cc}
-& \hat{y}=0 & \hat{y}=1 \\ \hline
-y = 0 & 1529 & 7  \\
+& \hat{y}=0 & \hat{y}=1 \\\ \hline
+y = 0 & 1529 & 7  \\\
 y = 1 & 6 & 1530
 \end{array}
 $$
@@ -202,7 +202,7 @@ Let's consider a very (*very!*) simple example of this process. Suppose that you
 
 &nbsp;
 <p align="center">
-  <img src="../img/nn-00.svg" width="50%">
+  <img src="../img/nn-00.svg" width="25%">
 </p>
 &nbsp;
 
