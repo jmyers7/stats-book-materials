@@ -158,11 +158,11 @@ The decision boundary corresponds to the $x$-value for which $\beta_0 + x\beta_1
 
 &nbsp;
 <p align="center">
-  <img src="../img/hw-nn.svg" width="50%">
+  <img src="../img/hw-nn.svg" width="25%">
 </p>
 &nbsp;
 
-Notice that all layers have width $1$, i.e., everything in sight is a scalar, not a vector. Plotting $y=\sigma(w_2 z + b_2)$ as a function of $x$ over a scatter plot of the data reveals the following:
+Notice that all layers have width $1$, i.e., everything in sight is a scalar, not a vector. Plotting $y=\sigma(w_2 a + b_2)$ as a function of $x$ over a scatter plot of the data reveals the following:
 
 &nbsp;
 <p align="center">
@@ -170,7 +170,7 @@ Notice that all layers have width $1$, i.e., everything in sight is a scalar, no
 </p>
 &nbsp;
 
-**(a)**: Write down an explicit piecewise formula for $y = \sigma(w_2z+b_2)$ as a function of $x$. (_Hint_: You'll need to recall the functional dependence of $z$ on $x$. You can verify if your answer is correct by plotting your formula and checking that it matches the curve in the figure above.)
+**(a)**: Write down an explicit piecewise formula for $y = \sigma(w_2a+b_2)$ as a function of $x$. (_Hint_: You'll need to recall the functional dependence of $a$ on $x$. You can verify if your answer is correct by plotting your formula and checking that it matches the curve in the figure above.)
 
 **(b)**: Using your formula in (a), find a formula for the $x$-value of the decision boundary in terms of the four parameters $w_1,b_1,w_2,b_2$.
 
