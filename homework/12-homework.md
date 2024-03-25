@@ -80,7 +80,7 @@ Assuming your drawing is correct, you should have a graph with ten nodes. Of the
 
 ## Problem 5: Linear regression models and multivariate normal vectors
 
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Write the data probability function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
+(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Write the data likelihood function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
 
 ## Problem 6: Expectations of residuals in linear regression models
 
