@@ -79,6 +79,7 @@ Worksheets and solutions:
 * Chapter 10 Information theory: [Worksheet](./worksheets/10-info-theory.pdf), [solutions](./worksheets/10-info-theory-sol.pdf)
 * Chapter 11 Optimization: [Worksheet](./worksheets/11-optim.pdf), [solutions](./worksheets/11-optim-sol.pdf)
 * Chapter 12 Probabilistic graphical models: [Worksheet](./worksheets/12-models.pdf), [solutions](./worksheets/12-models-sol.pdf)
+* Chapter 13 Learning: [Worksheet](./worksheets/13-learning.pdf), [solutions](./worksheets/13-learning-sol.pdf)
 
 Homework:
 
@@ -86,6 +87,8 @@ Homework:
 * Chapter 10 Information theory: [Homeowork](./homework/10-homework.md)
 * Chapter 11 Optimization: [Homework](./homework/11-homework.md)
 * Chapter 12 Probabilistic graphical models: [Homework](./homework/12-homework.md)
+* Chapter 13 Learning: [Homework](./homework/13-homework.md)
+
 
 ## First-semester schedule and other class information
 
