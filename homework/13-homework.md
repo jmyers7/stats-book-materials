@@ -14,7 +14,6 @@
 6. [Section 13.4: SGD for logistic regression models](#problem-6-sgd-for-logistic-regression-models)
 7. [Section 13.5: Counting neural network stuff](#problem-7-counting-neural-network-stuff)
 8. [Section 13.5: Assessing goodness-of-fit of a neural network](#problem-8-assessing-goodness-of-fit-of-a-neural-network)
-9. [Section 13.5: Fine tuning neural networks](#problem-9-fine-tuning-neural-networks)
 
  **Tips (to maximize your grade)**:
  
@@ -193,17 +192,3 @@ For all parts below, round your answers to four decimal places.
 **(b)**: Compute the _precision_ of the classifier.
 
 **(c)**: Compute the _recall_ of the classifier.
-
-## Problem 9: Fine tuning neural networks
-
-(_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) Sometimes, rather than train a neural network from scratch on your data, you may find a pretrained network and _fine tune_ it for your needs. This is desirable, for example, if you do not have the time, powerful hardware, or other resources needed to train a large model with millions or billions of parameters. In the _fine tuning process_, you would "freeze" the weights and biases in the initial layers of the pretrained network, and then only train the weights and biases in the latter layers on your data.
-
-Let's consider a very (*very!*) simple example of this process. Suppose that you have obtained a pretrained neural network with just a single hidden layer:
-
-&nbsp;
-<p align="center">
-  <img src="../img/nn-00.svg" width="25%">
-</p>
-&nbsp;
-
-You then "freeze" the weight matrix $\mathbf{W}_1$ and bias vector $\mathbf{b}_1$ so that they are fixed and do not vary during the training process. The model surprisal function is thus a function only of the weight $\mathbf{w}_2$ and the bias $b_2$. Explain why the model surprisal function becomes convex.
