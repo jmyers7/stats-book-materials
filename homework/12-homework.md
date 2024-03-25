@@ -103,7 +103,7 @@ $$
 As we will see in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a linear regression model
 
 $$
-Y \mid X = x \sim N(\mu,\sigma^2), \quad \mu = \beta_0 + x \beta_1,
+Y \mid X  \sim N(\mu,\sigma^2), \quad \mu = \beta_0 + x \beta_1,
 $$
 
 on the data and obtain $\beta_1 \approx 0.11$. Interpret the meaning of this parameter in terms that an average person on the street would understand.
