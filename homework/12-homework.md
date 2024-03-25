@@ -1,6 +1,6 @@
 # Homework for [Chapter 12: Probabilistic graphical models](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html)
 
-**Due date**: TBD
+**Due date**: Monday, April 1
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted.
 
