@@ -10,10 +10,8 @@
 2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
 3. [Section 13.2: Gaussian mixture models](#problem-3-gaussian-mixture-models)
 4. [Section 13.3: MLEs for linear regression models](#problem-4-mles-for-linear-regression-models)
-5. [Section 13.4: Gradients in linear and logistic regression models](#problem-5-gradients-in-linear-and-logistic-regression-models)
-6. [Section 13.4: SGD for logistic regression models](#problem-6-sgd-for-logistic-regression-models)
-7. [Section 13.5: Counting neural network stuff](#problem-7-counting-neural-network-stuff)
-8. [Section 13.5: Assessing goodness-of-fit of a neural network](#problem-8-assessing-goodness-of-fit-of-a-neural-network)
+5. [Section 13.5: Counting neural network stuff](#problem-5-counting-neural-network-stuff)
+6. [Section 13.5: Assessing goodness-of-fit of a neural network](#problem-6-assessing-goodness-of-fit-of-a-neural-network)
 
  **Tips (to maximize your grade)**:
  
@@ -110,58 +108,7 @@ in $\mathbb{R}^3$, with predictor vectors $\mathbf{x}^\intercal= (x_1,x_2) \in \
 
 **(b)**: With respect to the parameters you found in part (a), compute the mean squared error of the model on the given dataset.
 
-## Problem 5: Gradients in linear and logistic regression models
-
-(_From [Section 13.4](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-logistic-regression)_.) We saw in the theorem [here](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#log-reg-surprisal-grad-thm) that the gradient of the model surprisal function of a logistic regression model is given by
-
-$$
-\nabla \mathcal{I}_\text{model}(\boldsymbol{\theta}) = (\phi - y) \mathbf{x},
-$$
-
-where
-
-$$
-\boldsymbol{\theta}^\intercal = (\beta_0,\boldsymbol{\beta}) \quad \text{and} \quad \mathbf{x}^\intercal = (1,x_1,\ldots,x_n),
-$$
-
-and $\phi = \phi(\boldsymbol{\theta},\mathbf{x})$ is the link function. Show that the gradient of the model surprisal function of a _linear_ regression model with fixed variance $\sigma^2=1$ is given by a similar formula
-
-$$
-\nabla \mathcal{I}_\text{model}(\boldsymbol{\theta}) = (\mu -y ) \mathbf{x},
-$$
-
-where $\mu = \mu(\boldsymbol{\theta},\mathbf{x})$ is the link function. (_Hint_: Begin from the expression for the model surprisal function given in the proof of the theorem [here](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#MSE-min-thm). By the way, the fact that both models have similar formulas for their gradients is _not_ a coincidence! See [here](https://en.wikipedia.org/wiki/Generalized_linear_model).) 
-
-
-## Problem 6: SGD for logistic regression models
-
-(_From [Section 13.4](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-logistic-regression)_.) Consider the dataset
-
-$$
-\begin{array}{r|r|r}
-x_1 & x_2 & y \\\ \hline
-2 & 1 & 0 \\\
-1 & -1 & 1 \\\
-3 & -2 & 1 \\\
-1 & 5 & 0
-\end{array}
-$$
-
-with predictor vectors $\mathbf{x}^\intercal= (x_1,x_2) \in \mathbb{R}^2$ and binary response variables $y\in \{0,1\}$. Suppose that we run the SGD algorithm to train a logistic regression model on this data with learning rate $\alpha = 0.1$, decay rate $\beta=0$, mini-batch size $k=2$, and initial parameter values
-
-$$
-\boldsymbol{\theta}_0^\intercal = (\beta_0,\boldsymbol{\beta}) = (0.1, 0.2, 0.4).
-$$
-
-(Note that the decay rate is _also_ called $\beta$! Do not confuse this with the parameters $\beta_0$ and $\boldsymbol{\beta}$ of the model!) Suppose that the first mini-batch $B_1$ selected by SGD consists of the second and third data instances:
-
-$$
-B_1 = \{(1,-1,1),(3,-2,1)\}.
-$$
-
-Using the theorem [here](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#log-reg-surprisal-grad-thm), compute the first updated parameter vector $\boldsymbol{\theta}_1$ obtained by taking one gradient step from the initial parameter vector $\boldsymbol{\theta}_0$ given above. Round all entries in $\boldsymbol{\theta}_1$ to four decimal places. (_Hint_: Please, please, please do **not** attempt the computations in this problem by hand! Be an intelligent person and write a short NumPy routine to do the computations for you!)
-
-## Problem 7: Counting neural network stuff
+## Problem 5: Counting neural network stuff
 
 (_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) Suppose that we have a neural network with _four_ hidden layers of widths $16$, $32$, $8$, and $4$, and an input layer of width $4$. We run SGD on this network over $N=20$ epochs over a dataset of size $m=3{,}000$ with a mini-batch size of $k=320$.
 
@@ -173,7 +120,7 @@ Using the theorem [here](https://mml.johnmyersmath.com/stats-book/chapters/13-le
 
 **(d)**: How many trainable parameters does the network contain?
 
-## Problem 8: Assessing goodness-of-fit of a neural network
+## Problem 6: Assessing goodness-of-fit of a neural network
 
 (_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) The confusion matrix for the neural network classifier trained in [the book](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks) is given by
 
