@@ -24,8 +24,8 @@
 Class Number/Date | Description | Other information
 | :-: | :- | :- |
 | Class 27: <br> Mon 04-01 | | - Chapter 12 homework due in class <br> - Programming assignment 12 due <br> at 11:30am ([submission link](https://forms.gle/5hroGM9FYHk8SzCTA))
-| Class 26: <br> Fri 03-29 |
-| Class 25: <br> Wed 03-27 | Topics: [13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives), [13.3](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-linear-regression)
+| Class 26: <br> Fri 03-29 | Topics: [13.3](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-linear-regression), [13.4](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-logistic-regression), [13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)
+| Class 25: <br> Wed 03-27 | Topics: [13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)
 | Class 24: <br> Mon 03-25 | Topics: [12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models#neural-network-models), [13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives) <br> - [Chapter 13 worksheet](./worksheets/13-learning.pdf) <br> - [Chapter 13 worksheet solutions](./worksheets/13-learning-sol.pdf) <br> - [Chapter 13 homework](./homework/13-homework.md) <br> - [Chapter 13 programming assignment](./programming-assignments/assignment_13_instructions.md)
 | Class 23: <br> Fri 03-22 | Topics: [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models), [12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models#neural-network-models)
 | Class 22: <br> Wed 03-20 | Topics: [12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models#logistic-regression-models)
