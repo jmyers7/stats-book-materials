@@ -2,7 +2,7 @@
   <img src="./img/header.png" width="100%">
 </p>
 
-# Materials for ["Mathematical Statistics with a View Toward Machine Learning"](https://mml.johnmyersmath.com/stats-book/index.html), by John Myers
+# Materials for ["Probability Theory with a View Toward Machine Learning"](https://mml.johnmyersmath.com/stats-book/index.html), by John Myers
 
 1. [Second-semester schedule and other class information](#second-semester-schedule-and-other-class-information)
 2. [List of materials](#list-of-materials)
