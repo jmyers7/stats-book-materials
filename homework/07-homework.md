@@ -48,7 +48,7 @@ Compute $E(XY)$.
 
 ## Problem 2: Independence and expectations
 
-(_From [Section 7.1](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-expect-thm) in the book.)
+(_From [Section 7.1](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 7.2](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#ind-expect-thm) in the book.)
 
 ## Problem 3: Expectation of a function of an IID random sample
 
@@ -105,7 +105,7 @@ $$
 
 **(a)**: Compute the marginal densities $f(x)$ and $f(y)$.
 
-**(b)**: Note that $X$ and $Y$ are identically distributed. They are examples of what type of random variable from [Chapter 5](https://mml.johnmyersmath.com/stats-book/chapters/05-examples-of-rvs.html)? What are the parameters?
+**(b)**: Note that $X$ and $Y$ are identically distributed. They are examples of what type of random variable from [Chapter 4](https://mml.johnmyersmath.com/stats-book/chapters/04-examples-of-rvs.html)? What are the parameters?
 
 **(c)**: Compute the covariance $\sigma_{XY}$.
 
@@ -166,4 +166,4 @@ $$
 
 including a description of all parameters.
 
-**(b)**: Show that if $X$ and $Y$ are uncorrelated, then they are independent. (This is the converse of [Theorem 8.18](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-vs-correlation-thm) in the case of jointly normal random variables.)
+**(b)**: Show that if $X$ and $Y$ are uncorrelated, then they are independent. (This is the converse of [Theorem 7.18](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#ind-vs-correlation-thm) in the case of jointly normal random variables.)
