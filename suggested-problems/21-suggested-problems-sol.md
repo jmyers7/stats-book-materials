@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Sections [7.7](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables).** ([Problems](./21-suggested-problems.md))
+**Solutions for suggested problems for Sections [6.7](https://mml.johnmyersmath.com/stats-book/chapters/06-random-vectors.html#the-law-of-total-probability-and-bayes-theorem-for-random-variables).** ([Problems](./21-suggested-problems.md))
 
 ---
 

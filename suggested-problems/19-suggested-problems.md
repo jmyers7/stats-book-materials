@@ -1,4 +1,4 @@
-**Suggested problems for Section [7.3](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#bivariate-distribution-functions).**
+**Suggested problems for Section [6.3](https://mml.johnmyersmath.com/stats-book/chapters/06-random-vectors.html#bivariate-distribution-functions).**
 
 * Problems 5.5 and 5.13 in the Wackerly textbook. (The "official" textbook of the course.)
 

@@ -1,4 +1,4 @@
-**Suggested problems for Sections [5.2](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#binomial-distributions) and [5.5](https://mml.johnmyersmath.com/stats-book/chapters/examples-of-rvs.html#poisson-distributions).**
+**Suggested problems for Sections [4.2](https://mml.johnmyersmath.com/stats-book/chapters/04-examples-of-rvs.html#binomial-distributions) and [4.5](https://mml.johnmyersmath.com/stats-book/chapters/04-examples-of-rvs.html#poisson-distributions).**
 
 * Problems 63, 67, and 71 in [section 3.5](https://drive.google.com/file/d/1TMiqHR94wYTdoQ_-6Ep12syGCIW9kxWS/view?usp=drive_link) ([solutions](https://drive.google.com/file/d/1TMBXWfsXcOydUAYWrBL_vPVteVHye5tH/view?usp=drive_link)) of the Devore textbook. (Note that the authors use the notation $b(x;n,p)$ for the mass function of a random variable $X\sim \mathcal{B}in(n,p)$.)
 

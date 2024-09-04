@@ -1,4 +1,4 @@
-**Suggested problems for Section [3.7](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem).**
+**Suggested problems for Section [2.7](https://mml.johnmyersmath.com/stats-book/chapters/02-rules-of-prob.html#the-law-of-total-probability-and-bayes-theorem).**
 
 * Problems 2.129, 2.133, 2.135 in the Wackerly textbook. (The "official" textbook for the class.)
 

@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Section [2.8](./03-suggested-problems.md).**
+**Solutions for suggested problems for Section [1.8](./03-suggested-problems.md).**
 
 ---
 

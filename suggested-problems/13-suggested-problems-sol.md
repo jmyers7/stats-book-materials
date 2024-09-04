@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Sections [4.6](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#the-algebra-of-random-variables) and [4.7](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#functions-of-random-variables).** ([Problems](./13-suggested-problems.md))
+**Solutions for suggested problems for Sections [3.6](https://mml.johnmyersmath.com/stats-book/chapters/03-random-variables.html#the-algebra-of-random-variables) and [3.7](https://mml.johnmyersmath.com/stats-book/chapters/03-random-variables.html#functions-of-random-variables).** ([Problems](./13-suggested-problems.md))
 
 ---
 

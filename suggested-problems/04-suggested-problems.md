@@ -1,4 +1,4 @@
-**Suggested problems for Section [2.10](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#distribution-and-quantile-functions).** ([Solutions](04-suggested-problems-sol.md))
+**Suggested problems for Section [1.10](https://mml.johnmyersmath.com/stats-book/chapters/01-prob-spaces.html#distribution-and-quantile-functions).** ([Solutions](04-suggested-problems-sol.md))
 
 ---
 

@@ -1,4 +1,4 @@
-**Suggested problems for Sections [3.3](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#the-sum-rule-for-probability) and [3.4](https://mml.johnmyersmath.com/stats-book/chapters/rules-of-prob.html#conditional-probability).**
+**Suggested problems for Sections [2.3](https://mml.johnmyersmath.com/stats-book/chapters/02-rules-of-prob.html#the-sum-rule-for-probability) and [2.4](https://mml.johnmyersmath.com/stats-book/chapters/02-rules-of-prob.html#conditional-probability).**
 
 * Problems 2.71, 2.75, 2.77, 2.91, and 2.93 in the Wackerly textbook. (The official textbook for the class.)
 

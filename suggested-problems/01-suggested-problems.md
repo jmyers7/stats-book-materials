@@ -1,4 +1,4 @@
-**Suggested problems for Section [2.4](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#id1).**
+**Suggested problems for Section [1.4](https://mml.johnmyersmath.com/stats-book/chapters/01-prob-spaces.html#id1).**
 
 * Problems 2.9 and 2.13 in the Wackerly textbook. (The official textbook for the class.)
 

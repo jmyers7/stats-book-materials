@@ -1,4 +1,4 @@
-**Suggested problems for Section [7.6](https://mml.johnmyersmath.com/stats-book/chapters/random-vectors.html#conditional-distributions).**
+**Suggested problems for Section [6.6](https://mml.johnmyersmath.com/stats-book/chapters/06-random-vectors.html#conditional-distributions).**
 
 * Problems 5.27, 5.31 and 5.33 in the Wackerly textbook. (The "official" textbook of the course.)
 

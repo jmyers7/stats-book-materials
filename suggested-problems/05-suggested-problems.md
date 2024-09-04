@@ -1,4 +1,4 @@
-**Suggested problems for Section [2.11](https://mml.johnmyersmath.com/stats-book/chapters/prob-spaces.html#bivariate-continuous-probability-measures).** ([Solutions](05-suggested-problems-sol.md))
+**Suggested problems for Section [1.11](https://mml.johnmyersmath.com/stats-book/chapters/01-prob-spaces.html#bivariate-continuous-probability-measures).** ([Solutions](05-suggested-problems-sol.md))
 
 ---
 

@@ -1,4 +1,4 @@
-**Solutions for suggested problems for Section [2.11](./05-suggested-problems.md).**
+**Solutions for suggested problems for Section [1.11](./05-suggested-problems.md).**
 
 ---
 

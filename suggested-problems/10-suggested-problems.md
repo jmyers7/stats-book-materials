@@ -1,3 +1,3 @@
-**Suggested problems for Section [4.2](https://mml.johnmyersmath.com/stats-book/chapters/random-variables.html#probability-measures-of-random-variables).**
+**Suggested problems for Section [3.2](https://mml.johnmyersmath.com/stats-book/chapters/03-random-variables.html#probability-measures-of-random-variables).**
 
 * Problems 1, 3, 5, and 9 in the DeGroot textbook [here](https://drive.google.com/file/d/1RucgrRtvByhzndlEuu9vY7zT-eP6X10h/view?usp=drive_link). [Solutions (section 3.1)](https://drive.google.com/file/d/1Rudy9eDGTeqdglDv1Ks_6go6gNLlEutJ/view?usp=drive_link). The authors refer to a "p.f.", which stands for a _probability function_. This is what we call a _probability mass function_.
