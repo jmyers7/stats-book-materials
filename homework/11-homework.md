@@ -1,4 +1,4 @@
-# Homework for [Chapter 12: Probabilistic graphical models](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html)
+# Homework for [Chapter 11: Probabilistic graphical models](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html)
 
 **Due date**: Monday, April 1
 
@@ -6,17 +6,17 @@
 
 **List of problems:**
 
-1. [Section 12.1: Examples of causal structures](#problem-1-examples-of-causal-structures)
-2. [Section 12.1: Constructing causal structures](#problem-2-constructing-causal-structures)
-3. [Section 12.2: Practice with plate notation](#problem-3-practice-with-plate-notation)
-4. [Section 12.2: A PGM for clustered data](#problem-4-a-pgm-for-clustered-data)
-5. [Section 12.3: Linear regression models and multivariate normal vectors](#problem-5-linear-regression-models-and-multivariate-normal-vectors)
-6. [Section 12.3: Expectations of residuals in linear regression models](#problem-6-expectations-of-residuals-in-linear-regression-models)
-7. [Section 12.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
-8. [Section 12.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
-9. [Section 12.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
-10. [Section 12.5: Practice with drawing neural networks](#problem-10-practice-with-drawing-neural-networks)
-11. [Section 12.5: A thin neural network](#problem-11-a-thin-neural-network)
+1. [Section 11.1: Examples of causal structures](#problem-1-examples-of-causal-structures)
+2. [Section 11.1: Constructing causal structures](#problem-2-constructing-causal-structures)
+3. [Section 11.2: Practice with plate notation](#problem-3-practice-with-plate-notation)
+4. [Section 11.2: A PGM for clustered data](#problem-4-a-pgm-for-clustered-data)
+5. [Section 11.3: Linear regression models and multivariate normal vectors](#problem-5-linear-regression-models-and-multivariate-normal-vectors)
+6. [Section 11.3: Expectations of residuals in linear regression models](#problem-6-expectations-of-residuals-in-linear-regression-models)
+7. [Section 11.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
+8. [Section 11.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
+9. [Section 11.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
+10. [Section 11.5: Practice with drawing neural networks](#problem-10-practice-with-drawing-neural-networks)
+11. [Section 11.5: A thin neural network](#problem-11-a-thin-neural-network)
 
  **Tips (to maximize your grade)**:
  
@@ -32,7 +32,7 @@
 
 ## Problem 1: Examples of causal structures
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
+(_From [Section 11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
 
 **(a)**: A situation where $Y$ serves as a confounding variable in the causal structure.
 
@@ -42,11 +42,11 @@ Of course, you may not use any of the examples we discussed in class.
 
 ## Problem 2: Constructing causal structures
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
+(_From [Section 11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
 
 ## Problem 3: Practice with plate notation
 
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$. Then, answer the questions that follow.
+(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#general-probabilistic-graphical-models)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$. Then, answer the questions that follow.
 
 &nbsp;
 <p align="center">
@@ -76,15 +76,15 @@ Assuming your drawing is correct, you should have a graph with ten nodes. Of the
 
 ## Problem 4: A PGM for clustered data
 
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) We believe that an observed dataset clusters into two groups of normally distributed data, the first of mean $\mu_0$ and variance $\sigma_0^2$, and the second of mean $\mu_1$ and variance $\sigma_1^2$. Though we cannot directly observe which cluster a given data point belongs to, we do know that the probability that a given data point falls in the second cluster is $\theta$. Describe a probabilistic graphical model for this data. (Draw the underlying graph, including all random variables and parameters. Indicate which variables are observed and which are hidden. Describe the distributions of all random variables, along with all link functions.)
+(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#general-probabilistic-graphical-models)_.) We believe that an observed dataset clusters into two groups of normally distributed data, the first of mean $\mu_0$ and variance $\sigma_0^2$, and the second of mean $\mu_1$ and variance $\sigma_1^2$. Though we cannot directly observe which cluster a given data point belongs to, we do know that the probability that a given data point falls in the second cluster is $\theta$. Describe a probabilistic graphical model for this data. (Draw the underlying graph, including all random variables and parameters. Indicate which variables are observed and which are hidden. Describe the distributions of all random variables, along with all link functions.)
 
 ## Problem 5: Linear regression models and multivariate normal vectors
 
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Write the data likelihood function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
+(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#linear-regression-models)_.) Write the data likelihood function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
 
 ## Problem 6: Expectations of residuals in linear regression models
 
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Let
+(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#linear-regression-models)_.) Let
 
 $$
 R = Y - \beta_0 - \mathbf{X}^\intercal \boldsymbol{\beta}
@@ -94,13 +94,13 @@ be the residual term in a linear regression model. Prove that $E(R)=0$.
 
 ## Problem 7: Interpreting linear regression parameters
 
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Consider the Ames housing dataset with
+(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#linear-regression-models)_.) Consider the Ames housing dataset with
 
 $$
 Y = \text{price} \quad \text{and} \quad X = \text{area}.
 $$
 
-As we will see in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a linear regression model
+As we will see in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html), we may train a linear regression model
 
 $$
 Y \mid X  \sim N(\mu,\sigma^2), \quad \mu = \beta_0 + x \beta_1,
@@ -112,7 +112,7 @@ on the data and obtain $\beta_1 \approx 0.11$. Interpret the meaning of this par
 
 ## Problem 8: The derivative of the sigmoid function
 
-(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Show that the derivative of the sigmoid function satisfies the relation
+(_From [Section 11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#logistic-regression-models)_.) Show that the derivative of the sigmoid function satisfies the relation
 
 $$
 \frac{\text{d}\sigma}{\text{d}x}(x) = \sigma(x) \left[1-\sigma(x)\right].
@@ -120,7 +120,7 @@ $$
 
 ## Problem 9: Goodness of fit of logistic regression models
 
-(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Given a bivariate observed dataset
+(_From [Section 11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#logistic-regression-models)_.) Given a bivariate observed dataset
 
 $$
 (x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R}^2,
@@ -150,11 +150,11 @@ The decision boundary corresponds to the $x$-value for which $\beta_0 + x\beta_1
 
 ## Problem 10: Practice with drawing neural networks
 
-(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Draw a fully-connected, feedforward neural network (in [this](https://mml.johnmyersmath.com/stats-book/_images/nn-neuron-02.svg) style) that has an input layer consisting of $6$ nodes and three hidden layers consisting (from left to right) of $5$, $4$, and $2$ neurons. What is the depth of this network? What are its widths?
+(_From [Section 11.5](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#neural-network-models)_.) Draw a fully-connected, feedforward neural network (in [this](https://mml.johnmyersmath.com/stats-book/_images/nn-neuron-02.svg) style) that has an input layer consisting of $6$ nodes and three hidden layers consisting (from left to right) of $5$, $4$, and $2$ neurons. What is the depth of this network? What are its widths?
 
 ## Problem 11: A thin neural network
 
-(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Consider the same dataset that we used in [Problem 9](#problem-9-goodness-of-fit-of-logistic-regression-models). Using techniques that we will learn in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a network of the following architecture on this dataset:
+(_From [Section 11.5](https://mml.johnmyersmath.com/stats-book/chapters/11-models.html#neural-network-models)_.) Consider the same dataset that we used in [Problem 9](#problem-9-goodness-of-fit-of-logistic-regression-models). Using techniques that we will learn in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html), we may train a network of the following architecture on this dataset:
 
 &nbsp;
 <p align="center">
