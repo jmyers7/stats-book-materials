@@ -1,4 +1,4 @@
-# Homework for [Chapter 11: Optimization](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html)
+# Homework for [Chapter 10: Optimization](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html)
 
 **Due date**: Monday, March 18
 
@@ -6,11 +6,11 @@
 
 **List of problems:**
 
-1. [Section 11.1: Finding saddle points](#problem-1-finding-saddle-points)
-2. [Section 11.2: Derivatives of quadratic functions](#problem-2-derivatives-of-quadratic-functions)
-3. [Section 11.2: Practice with multi-variable calculus](#problem-3-practice-with-multi-variable-calculus)
-4. [Section 11.3: Rate of convergence of gradient descent](#problem-4-rate-of-convergence-of-gradient-descent)
-5. [Section 11.4: Convergence of batch gradient descent](#problem-5-convergence-of-batch-gradient-descent)
+1. [Section 10.1: Finding saddle points](#problem-1-finding-saddle-points)
+2. [Section 10.2: Derivatives of quadratic functions](#problem-2-derivatives-of-quadratic-functions)
+3. [Section 10.2: Practice with multi-variable calculus](#problem-3-practice-with-multi-variable-calculus)
+4. [Section 10.3: Rate of convergence of gradient descent](#problem-4-rate-of-convergence-of-gradient-descent)
+5. [Section 10.4: Convergence of batch gradient descent](#problem-5-convergence-of-batch-gradient-descent)
 
  **Tips (to maximize your grade)**:
  
@@ -26,7 +26,7 @@
 
 ## Problem 1: Finding saddle points
 
-(_From [Section 11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable)_.) Consider the objective function
+(_From [Section 10.1](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#gradient-descent-in-one-variable)_.) Consider the objective function
 
 $$
 J:\mathbb{R} \to \mathbb{R}, \quad J(\theta) = \theta^3.
@@ -39,7 +39,7 @@ $$
 
 ## Problem 2: Derivatives of quadratic functions
 
-(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the following matrix, vector, and scalar:
+(_From [Section 10.2](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the following matrix, vector, and scalar:
 
 $$
 \mathbf{A} = \begin{bmatrix}
@@ -63,7 +63,7 @@ $$
 
 ## Problem 3: Practice with multi-variable calculus
 
-(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the objective function
+(_From [Section 10.2](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the objective function
 
 $$
 J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
@@ -89,17 +89,17 @@ $$
 
 ## Problem 4: Rate of convergence of gradient descent
 
-(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the polynomial objective function $J$ from Problem 3:
+(_From [Section 10.3](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the polynomial objective function $J$ from Problem 3:
 
 $$
 J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
 $$
 
-Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ (according to [this](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#quadratic-conv-thm) theorem) that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. What is the rate of convergence? (Assume the decay rate is $\beta=0$.)
+Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ (according to [this](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#quadratic-conv-thm) theorem) that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. What is the rate of convergence? (Assume the decay rate is $\beta=0$.)
 
 ## Problem 5: Convergence of batch gradient descent
 
-(_From [Section 11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#stochastic-gradient-descent)_.) Consider the stochastic objective function
+(_From [Section 10.4](https://mml.johnmyersmath.com/stats-book/chapters/10-optim.html#stochastic-gradient-descent)_.) Consider the stochastic objective function
 
 $$
 J: \mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = \frac{1}{m} \sum_{i=1}^m \left[\frac{3}{2}(x_{i1}-\theta_1)^2 + \frac{3}{2}(x_{i2} - \theta_2)^2 \right],
