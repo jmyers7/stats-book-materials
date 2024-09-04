@@ -70,16 +70,16 @@ Programming assignments:
 
 Worksheets and solutions:
 
-* Chapter 2 Probability spaces: [Worksheet](./worksheets/02-prob-spaces.pdf), [solutions](./worksheets/02-prob-spaces-sol.pdf)
-* Chapter 3 Rules of probability: [Worksheet](./worksheets/03-rules-of-prob.pdf), [solutions](./worksheets/03-rules-of-prob-sol.pdf)
-* Chapter 4 Random variables: [Worksheet](./worksheets/04-random-variables.pdf), [solutions](./worksheets/04-random-variables-sol.pdf)
-* Chapter 5 Examples of random variables: [Worksheet](./worksheets/05-examples-of-rvs.pdf), [solutions](./worksheets/05-examples-of-rvs-sol.pdf)
-* Chapter 7 Random vectors: [Worksheet](./worksheets/07-random-vectors.pdf), [solutions](./worksheets/07-random-vectors-sol.pdf)
-* Chapter 8 More probability theory: [Worksheet](./worksheets/08-more-prob.pdf), [solutions](./worksheets/08-more-prob-sol.pdf)
-* Chapter 10 Information theory: [Worksheet](./worksheets/10-info-theory.pdf), [solutions](./worksheets/10-info-theory-sol.pdf)
-* Chapter 11 Optimization: [Worksheet](./worksheets/11-optim.pdf), [solutions](./worksheets/11-optim-sol.pdf)
-* Chapter 12 Probabilistic graphical models: [Worksheet](./worksheets/12-models.pdf), [solutions](./worksheets/12-models-sol.pdf)
-* Chapter 13 Learning: [Worksheet](./worksheets/13-learning.pdf), [solutions](./worksheets/13-learning-sol.pdf)
+* Chapter 1 Probability spaces: [Worksheet](./worksheets/01-prob-spaces.pdf), [solutions](./worksheets/01-prob-spaces-sol.pdf)
+* Chapter 2 Rules of probability: [Worksheet](./worksheets/02-rules-of-prob.pdf), [solutions](./worksheets/02-rules-of-prob-sol.pdf)
+* Chapter 3 Random variables: [Worksheet](./worksheets/03-random-variables.pdf), [solutions](./worksheets/03-random-variables-sol.pdf)
+* Chapter 4 Examples of random variables: [Worksheet](./worksheets/04-examples-of-rvs.pdf), [solutions](./worksheets/04-examples-of-rvs-sol.pdf)
+* Chapter 6 Random vectors: [Worksheet](./worksheets/06-random-vectors.pdf), [solutions](./worksheets/06-random-vectors-sol.pdf)
+* Chapter 7 More probability theory: [Worksheet](./worksheets/07-more-prob.pdf), [solutions](./worksheets/07-more-prob-sol.pdf)
+* Chapter 9 Information theory: [Worksheet](./worksheets/09-info-theory.pdf), [solutions](./worksheets/09-info-theory-sol.pdf)
+* Chapter 10 Optimization: [Worksheet](./worksheets/10-optim.pdf), [solutions](./worksheets/10-optim-sol.pdf)
+* Chapter 11 Probabilistic graphical models: [Worksheet](./worksheets/11-models.pdf), [solutions](./worksheets/11-models-sol.pdf)
+* Chapter 12 Learning: [Worksheet](./worksheets/12-learning.pdf), [solutions](./worksheets/12-learning-sol.pdf)
 
 Homework:
 
