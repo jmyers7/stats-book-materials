@@ -83,11 +83,11 @@ Worksheets and solutions:
 
 Homework:
 
-* Chapter 8 More probability theory: [Homework](./homework/08-homework.md)
-* Chapter 10 Information theory: [Homeowork](./homework/10-homework.md)
-* Chapter 11 Optimization: [Homework](./homework/11-homework.md)
-* Chapter 12 Probabilistic graphical models: [Homework](./homework/12-homework.md)
-* Chapter 13 Learning: [Homework](./homework/13-homework.md)
+* Chapter 7 More probability theory: [Homework](./homework/07-homework.md)
+* Chapter 9 Information theory: [Homeowork](./homework/09-homework.md)
+* Chapter 10 Optimization: [Homework](./homework/10-homework.md)
+* Chapter 11 Probabilistic graphical models: [Homework](./homework/11-homework.md)
+* Chapter 12 Learning: [Homework](./homework/12-homework.md)
 
 
 ## First-semester schedule and other class information

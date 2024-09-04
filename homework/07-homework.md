@@ -1,4 +1,4 @@
-# Homework for [Chapter 8: More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#)
+# Homework for [Chapter 7: More probability theory](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#)
 
 **Due date**: Wednesday, February 07
 
@@ -6,18 +6,18 @@
 
 **List of problems:**
 
-1. [Section 8.1: Expectation of a function of two variables](#problem-1-expectation-of-a-function-of-two-variables)
-2. [Section 8.1: Independence and expectations](#problem-2-independence-and-expectations)
-3. [Section 8.1: Expectation of a function of an IID random sample](#problem-3-expectation-of-a-function-of-an-iid-random-sample)
-4. [Section 8.2: Conditional expectations](#problem-4-conditional-expectations)
-5. [Section 8.2: Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
-6. [Section 8.3: A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
-7. [Section 8.5: Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
-8. [Section 8.5: A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
-9. [Section 8.5: Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
-10. [Section 8.5: Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
-11. [Section 8.5: Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
-12. [Section 8.6: Practice with bivariate normal vectors](#problem-12-practice-with-bivariate-normal-vectors)
+1. [Section 7.1: Expectation of a function of two variables](#problem-1-expectation-of-a-function-of-two-variables)
+2. [Section 7.1: Independence and expectations](#problem-2-independence-and-expectations)
+3. [Section 7.1: Expectation of a function of an IID random sample](#problem-3-expectation-of-a-function-of-an-iid-random-sample)
+4. [Section 7.2: Conditional expectations](#problem-4-conditional-expectations)
+5. [Section 7.2: Average scores on a standardized exam](#problem-5-average-scores-on-a-standardized-exam)
+6. [Section 7.3: A transformation of a uniform variable](#problem-6-a-transformation-of-a-uniform-variable)
+7. [Section 7.5: Practice with covariance and correlation](#problem-7-practice-with-covariance-and-correlation)
+8. [Section 7.5: A special case of bilinearity](#problem-8-a-special-case-of-bilinearity)
+9. [Section 7.5: Diagonals of positive semidefinite matrices](#problem-9-diagonals-of-positive-semidefinite-matrices)
+10. [Section 7.5: Practice with positive definite matrices](#problem-10-practice-with-positive-definite-matrices)
+11. [Section 7.5: Practice with correlation matrices](#problem-11-practice-with-correlation-matrices)
+12. [Section 7.6: Practice with bivariate normal vectors](#problem-12-practice-with-bivariate-normal-vectors)
 
 
  **Tips (to maximize your grade)**:
@@ -35,7 +35,7 @@
 
 ## Problem 1: Expectation of a function of two variables
 
-(_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
+(_From [Section 7.1](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
 $$
 f(x,y) = \begin{cases}
@@ -48,11 +48,11 @@ Compute $E(XY)$.
 
 ## Problem 2: Independence and expectations
 
-(_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-expect-thm) in the book.)
+(_From [Section 7.1](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-joint-distributions)_.) Suppose that $X$ and $Y$ are two independent, continuous random variables. Prove that $E(XY) = E(X)E(Y)$. (This is [Theorem 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#ind-expect-thm) in the book.)
 
 ## Problem 3: Expectation of a function of an IID random sample
 
-(_From [Section 8.1](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-joint-distributions)_.) Let three random variables $X$, $Y$, and $Z$ form an IID random sample from the continuous uniform distribution on $[0,1]$. Determine the value of the expectation
+(_From [Section 7.1](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-joint-distributions)_.) Let three random variables $X$, $Y$, and $Z$ form an IID random sample from the continuous uniform distribution on $[0,1]$. Determine the value of the expectation
 
 $$
 E\left[ (X - 2Y + Z)^2\right].
@@ -60,7 +60,7 @@ $$
 
 ## Problem 4: Conditional expectations
 
-(_From [Section 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
+(_From [Section 7.2](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
 $$
 f(x,y) = \begin{cases}
@@ -77,11 +77,11 @@ $$
 
 ## Problem 5: Average scores on a standardized exam
 
-(_From [Section 8.2](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that 20% of students in a certain district attend School A, 30% attend School B, and the remaining 50% attend School C. The average score on a standardized exam of the students at School A is 80, the average score for those students at School B is 76, and the average score for students at School C is 84. If a student is selected at random from the entire school district, what is the expected value of their score on the exam?
+(_From [Section 7.2](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#expectations-and-conditional-distributions)_.) Suppose that 20% of students in a certain district attend School A, 30% attend School B, and the remaining 50% attend School C. The average score on a standardized exam of the students at School A is 80, the average score for those students at School B is 76, and the average score for students at School C is 84. If a student is selected at random from the entire school district, what is the expected value of their score on the exam?
 
 ## Problem 6: A transformation of a uniform variable
 
-(_From [Section 8.3](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#density-transformations)_.) Let $X$ be the continuous random variable with density
+(_From [Section 7.3](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#density-transformations)_.) Let $X$ be the continuous random variable with density
 
 $$
 f(x) = \begin{cases}
@@ -94,7 +94,7 @@ Thus, $X$ is uniformly distributed on $(0,1)$. Use the Density Transformation Th
 
 ## Problem 7: Practice with covariance and correlation
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)_.) Suppose that $X$ and $Y$ are jointly continuous with density
+(_From [Section 7.5](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#covariance-and-correlation)_.) Suppose that $X$ and $Y$ are jointly continuous with density
 
 $$
 f(x,y) = \begin{cases}
@@ -113,7 +113,7 @@ $$
 
 ## Problem 8: A special case of bilinearity
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)_.) Let $X_1,X_2,Y_1,Y_2$ be four random variables. Prove
+(_From [Section 7.5](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#covariance-and-correlation)_.) Let $X_1,X_2,Y_1,Y_2$ be four random variables. Prove
 
 $$
 \sigma(X_1+X_2,Y_1+Y_2) = \sigma(X_1,Y_1) + \sigma(X_1,Y_2) + \sigma(X_2,Y_1) +  \sigma(X_2,Y_2)
@@ -121,11 +121,11 @@ $$
 
 ## Problem 9: Diagonals of positive semidefinite matrices
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite matrix of size $d\times d$. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
+(_From [Section 7.5](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#covariance-and-correlation)._) Let $\mathbf{A}=[a_{ij}]$ be a positive semidefinite matrix of size $d\times d$. Prove that the diagonal entries $a_{ii}$ ($i=1,\ldots,d$) are all nonnegative.
 
 ## Problem 10: Practice with positive definite matrices
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Show that the matrix
+(_From [Section 7.5](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#covariance-and-correlation)._) Show that the matrix
 
 $$
 \mathbf{A} = \begin{bmatrix}
@@ -137,7 +137,7 @@ is positive definite.
 
 ## Problem 11: Practice with correlation matrices
 
-(_From [Section 8.5](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#covariance-and-correlation)._) Let $\mathbf{X} = (X_1,X_2,X_3)$ be a continuous random vector with density
+(_From [Section 7.5](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#covariance-and-correlation)._) Let $\mathbf{X} = (X_1,X_2,X_3)$ be a continuous random vector with density
 
 $$
 f(x_1,x_2,x_3) = \begin{cases}
@@ -152,7 +152,7 @@ $$
 
 ## Problem 12: Practice with bivariate normal vectors
 
-(_From [Section 8.6](https://mml.johnmyersmath.com/stats-book/chapters/08-more-prob.html#multivariate-normal-distributions)._) Suppose $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu, \boldsymbol\Sigma)$ is a normal random vector with
+(_From [Section 7.6](https://mml.johnmyersmath.com/stats-book/chapters/07-more-prob.html#multivariate-normal-distributions)._) Suppose $(X,Y) \sim \mathcal{N}_2(\boldsymbol\mu, \boldsymbol\Sigma)$ is a normal random vector with
 
 $$
 \boldsymbol\mu^\intercal = (\mu_X,\mu_Y) \quad \text{and} \quad \boldsymbol \Sigma = \begin{bmatrix} \sigma_{X}^2 & \sigma_{XY} \\\ \sigma_{XY}  & \sigma_Y^2 \end{bmatrix}.

@@ -1,16 +1,22 @@
-# Homework for [Chapter 11: Optimization](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html)
+# Homework for [Chapter 12: Probabilistic graphical models](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html)
 
-**Due date**: Monday, March 18
+**Due date**: Monday, April 1
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted.
 
 **List of problems:**
 
-1. [Section 11.1: Finding saddle points](#problem-1-finding-saddle-points)
-2. [Section 11.2: Derivatives of quadratic functions](#problem-2-derivatives-of-quadratic-functions)
-3. [Section 11.2: Practice with multi-variable calculus](#problem-3-practice-with-multi-variable-calculus)
-4. [Section 11.3: Rate of convergence of gradient descent](#problem-4-rate-of-convergence-of-gradient-descent)
-5. [Section 11.4: Convergence of batch gradient descent](#problem-5-convergence-of-batch-gradient-descent)
+1. [Section 12.1: Examples of causal structures](#problem-1-examples-of-causal-structures)
+2. [Section 12.1: Constructing causal structures](#problem-2-constructing-causal-structures)
+3. [Section 12.2: Practice with plate notation](#problem-3-practice-with-plate-notation)
+4. [Section 12.2: A PGM for clustered data](#problem-4-a-pgm-for-clustered-data)
+5. [Section 12.3: Linear regression models and multivariate normal vectors](#problem-5-linear-regression-models-and-multivariate-normal-vectors)
+6. [Section 12.3: Expectations of residuals in linear regression models](#problem-6-expectations-of-residuals-in-linear-regression-models)
+7. [Section 12.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
+8. [Section 12.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
+9. [Section 12.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
+10. [Section 12.5: Practice with drawing neural networks](#problem-10-practice-with-drawing-neural-networks)
+11. [Section 12.5: A thin neural network](#problem-11-a-thin-neural-network)
 
  **Tips (to maximize your grade)**:
  
@@ -24,85 +30,154 @@
 
 5. Figure out the answer before writing! More precisely: Carry through your initial computations on your own scratch paper before writing your solutions.  It is difficult to follow a solution that is written in a "stream-of-consciousness" style. If I can't follow along, I am likely to give up and take off points (even if your final answer is right).
 
-## Problem 1: Finding saddle points
+## Problem 1: Examples of causal structures
 
-(_From [Section 11.1](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-one-variable)_.) Consider the objective function
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
 
-$$
-J:\mathbb{R} \to \mathbb{R}, \quad J(\theta) = \theta^3.
-$$
+**(a)**: A situation where $Y$ serves as a confounding variable in the causal structure.
 
-**(a)**: Write the update rule (in the form of a recurrence relation) for the gradient descent algorithm with learning rate $\alpha$ and decay rate $\beta$.
+**(b)**: A situation where $Y$ serves as a mediating variable in the causal structure.
 
-**(b)**: Beginning from $\theta_0=1$ and with decay rate $\beta=0$, there is one (and only one) value of the learning rate $\alpha$ such that the algorithm finds the saddle point $\theta^\star = 0$ in _two_ gradient steps. Find this $\alpha$.
+Of course, you may not use any of the examples we discussed in class.
 
+## Problem 2: Constructing causal structures
 
-## Problem 2: Derivatives of quadratic functions
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
 
-(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the following matrix, vector, and scalar:
+## Problem 3: Practice with plate notation
 
-$$
-\mathbf{A} = \begin{bmatrix}
-\alpha & \beta \\\ \beta & \gamma \end{bmatrix}\in \mathbb{R}^{2\times 2}, \quad \mathbf{b} = \begin{bmatrix} \delta \\\ \epsilon \end{bmatrix} \in \mathbb{R}^2, \quad c\in \mathbb{R}.
-$$
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$. Then, answer the questions that follow.
 
-Using these, define the function
+&nbsp;
+<p align="center">
+  <img src="../img/hw-plated.svg" width="35%">
+</p>
+&nbsp;
 
-$$
-J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = \boldsymbol{\theta}^\intercal \mathbf{A} \boldsymbol{\theta} + \mathbf{b}^\intercal \boldsymbol{\theta} + c.
-$$
+Assuming your drawing is correct, you should have a graph with ten nodes. Of these ten nodes, which are...
 
-**(a)**: Compute the gradient vector $\nabla J(\boldsymbol{\theta})$ in terms of $\mathbf{A}$, $\boldsymbol{\theta}$, and $\mathbf{b}$. (Suppose that $\boldsymbol{\theta}^\intercal = (\theta_1,\theta_2)$.)
+**(a)**: ...random?
 
-**(b)**: Compute the Hessian matrix $\nabla^2 J(\boldsymbol{\theta})$ in terms of $\mathbf{A}$. (Again suppose that $\boldsymbol{\theta}^\intercal = (\theta_1,\theta_2)$.)
+**(b)**: ...deterministic?
 
-**(c)**: How do you expect your formulas in (a) and (b) to generalize to $\mathbf{A}\in \mathbb{R}^{d\times d}$ and $\mathbf{b} \in \mathbb{R}^d$ for arbitrary $d$?
+**(c)**: ...parameters?
 
-(_Hint_: Notice that $J$ is the $2$-dimensional analog of the single-variable polynomial $J(\theta) = a\theta^2 + b\theta + c$. The formulas you will derive in (a) and (b) are the natural extensions of the equations $J'(\theta) =2a\theta + b$ and $J''(\theta) = 2a$.)
+**(d)**: ...observed?
 
+**(e)**: ...hidden?
 
-## Problem 3: Practice with multi-variable calculus
+**(f)**: ...hidden and random?
 
-(_From [Section 11.2](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#curvature-and-derivatives-in-higher-dimensions)_.) Consider the objective function
+**(g)**: ...hidden and deterministic?
 
-$$
-J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
-$$
+**(h)**: ...observed and random?
 
-**(a)**: Find a matrix $\mathbf{A} \in \mathbb{R}^{2\times 2}$, a vector $\mathbf{b} \in \mathbb{R}^2$, and a scalar $c\in \mathbb{R}$ such that
+**(i)**: ...observed and deterministic?
 
-$$
-J(\boldsymbol{\theta}) = \boldsymbol{\theta}^\intercal \mathbf{A} \boldsymbol{\theta} + \mathbf{b}^\intercal \boldsymbol{\theta} + c.
-$$
+## Problem 4: A PGM for clustered data
 
-**(b)**: Compute the gradient vector $\nabla J(\boldsymbol{\theta})$ and the Hessian matrix $\nabla^2 J(\boldsymbol{\theta})$. (_Hint_: Use part (a) and the previous problem.)
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) We believe that an observed dataset clusters into two groups of normally distributed data, the first of mean $\mu_0$ and variance $\sigma_0^2$, and the second of mean $\mu_1$ and variance $\sigma_1^2$. Though we cannot directly observe which cluster a given data point belongs to, we do know that the probability that a given data point falls in the second cluster is $\theta$. Describe a probabilistic graphical model for this data. (Draw the underlying graph, including all random variables and parameters. Indicate which variables are observed and which are hidden. Describe the distributions of all random variables, along with all link functions.)
 
-**(c)**: Compute the directional derivatives $J^\prime_{\mathbf{v}}(2,2)$ and $J''_{\mathbf{v}}(2,2)$, where $\mathbf{v}^\intercal = (1,1)$.
+## Problem 5: Linear regression models and multivariate normal vectors
 
-**(d)**: Find the direction of minimum rate of change at the point $\boldsymbol{\theta} = (3,4)$. What is the rate of change in this direction?
+(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Write the data likelihood function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
 
-**(e)**: Find and classify all extremizers of $J$ using the Second Derivative Test.
+## Problem 6: Expectations of residuals in linear regression models
 
-**(f)**: Find the directions of extreme curvature at the point $\boldsymbol{\theta}^\intercal =(3,4)$. What are the curvatures in these directions?
-
-**(g)**: Set $\mathbf{H} = \nabla^2 J(3,4)$. Compute the spectrum $\sigma ( \mathbf{H} )$, the spectral radius $\rho(\mathbf{H})$, and the condition number $\kappa (\mathbf{H})$.
-
-## Problem 4: Rate of convergence of gradient descent
-
-(_From [Section 11.3](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#gradient-descent-in-multiple-variables)_.) Consider again the polynomial objective function $J$ from Problem 3:
+(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Let
 
 $$
-J:\mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = 2\theta_1^2 +2\theta_1\theta_2 + 3 \theta_2^2 -12\theta_1 -16\theta_2 +28.
+R = Y - \beta_0 - \mathbf{X}^\intercal \boldsymbol{\beta}
 $$
 
-Beginning from _any_ initial guess $\boldsymbol{\theta}_0$, find the largest value of the learning rate $\alpha$ (according to [this](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#quadratic-conv-thm) theorem) that will guarantee exponentially fast convergence to the global minimizer $\boldsymbol{\theta}^\star$ identified in part (e) of Problem 3. What is the rate of convergence? (Assume the decay rate is $\beta=0$.)
+be the residual term in a linear regression model. Prove that $E(R)=0$.
 
-## Problem 5: Convergence of batch gradient descent
+## Problem 7: Interpreting linear regression parameters
 
-(_From [Section 11.4](https://mml.johnmyersmath.com/stats-book/chapters/11-optim.html#stochastic-gradient-descent)_.) Consider the stochastic objective function
+(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Consider the Ames housing dataset with
 
 $$
-J: \mathbb{R}^2 \to \mathbb{R}, \quad J(\boldsymbol{\theta}) = \frac{1}{m} \sum_{i=1}^m \left[\frac{3}{2}(x_{i1}-\theta_1)^2 + \frac{3}{2}(x_{i2} - \theta_2)^2 \right],
+Y = \text{price} \quad \text{and} \quad X = \text{area}.
 $$
 
-where $\mathbf{x}_1,\mathbf{x}_2,\ldots,\mathbf{x}_m\in \mathbb{R}^2$ is an observed dataset. Identify values of the learning rate $\alpha$ that guarantee convergence of the batch gradient descent algorithm applied to $J$. Of course, this will require that you identify _what_ the algorithm converges _to_. (Assume the decay rate is $\beta=0$.)
+As we will see in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a linear regression model
+
+$$
+Y \mid X  \sim N(\mu,\sigma^2), \quad \mu = \beta_0 + x \beta_1,
+$$
+
+on the data and obtain $\beta_1 \approx 0.11$. Interpret the meaning of this parameter in terms that an average person on the street would understand.
+
+(If you tell me $\beta_1$ is the slope of a line, you're getting half credit. :grimacing: There's a much better answer than this! In the real world, you might imagine being asked a question very similar to this, especially by clients or stakeholders with non-technical backgrounds. They want _real_ answers with _concrete insight_, not technical jargon about lines and probabilistic models and whatnot. So, get comfortable with ambiguous questions!)
+
+## Problem 8: The derivative of the sigmoid function
+
+(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Show that the derivative of the sigmoid function satisfies the relation
+
+$$
+\frac{\text{d}\sigma}{\text{d}x}(x) = \sigma(x) \left[1-\sigma(x)\right].
+$$
+
+## Problem 9: Goodness of fit of logistic regression models
+
+(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Given a bivariate observed dataset
+
+$$
+(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R}^2,
+$$
+
+we saw in class that we may visualize the "goodness of fit" of a linear regression model by plotting the regression line $y = \beta_0 + x\beta_1$ over a scatter plot of the data. If instead the dataset is of the form
+
+$$
+(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R} \times \\{0,1\\},
+$$
+
+we may do something similar with a logistic regression model by plotting the curve $y = \sigma(\beta_0 + x \beta_1)$ over a scatter plot:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw12-log-reg.svg" width="50%">
+</p>
+&nbsp;
+
+The decision boundary corresponds to the $x$-value for which $\beta_0 + x\beta_1=0$, as described in class.
+
+**(a)**: How many data points does the model misclassify as belonging to class $1$, when they are truly in class $0$?
+
+**(b)**: How many data points does the model misclassify as belonging to class $0$, when they are truly in class $1$?
+
+**(c)**: Find the values of the parameters $\beta_0$ and $\beta_1$ for this model.
+
+## Problem 10: Practice with drawing neural networks
+
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Draw a fully-connected, feedforward neural network (in [this](https://mml.johnmyersmath.com/stats-book/_images/nn-neuron-02.svg) style) that has an input layer consisting of $6$ nodes and three hidden layers consisting (from left to right) of $5$, $4$, and $2$ neurons. What is the depth of this network? What are its widths?
+
+## Problem 11: A thin neural network
+
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Consider the same dataset that we used in [Problem 9](#problem-9-goodness-of-fit-of-logistic-regression-models). Using techniques that we will learn in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a network of the following architecture on this dataset:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw-nn.svg" width="25%">
+</p>
+&nbsp;
+
+Notice that all layers have width $1$, i.e., everything in sight is a scalar, not a vector. Plotting $y=\sigma(w_2 a + b_2)$ as a function of $x$ over a scatter plot of the data reveals the following:
+
+&nbsp;
+<p align="center">
+  <img src="../img/hw12-nn.svg" width="50%">
+</p>
+&nbsp;
+
+**(a)**: Write down an explicit piecewise formula for $y = \sigma(w_2a+b_2)$ as a function of $x$. (_Hint_: You'll need to recall the functional dependence of $a$ on $x$. You can verify if your answer is correct by plotting your formula and checking that it matches the curve in the figure above.)
+
+**(b)**: Using your formula in (a), find a formula for the $x$-value of the decision boundary in terms of the four parameters $w_1,b_1,w_2,b_2$.
+
+**(c)**: The training process yields the following values (rounded to four decimal places) for the parameters:
+
+$$
+w_1 = 1.9553, \quad b_1 = 0.5873, \quad w_2 = 2.0696, \quad b_2 = -1.2039.
+$$
+
+Using your formula in (b), find the $x$-value of the decision boundary in the figure above. Round your answer to four decimal places. (_Hint_: The answer is _not_ $0$.)

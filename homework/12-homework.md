@@ -1,22 +1,17 @@
-# Homework for [Chapter 12: Probabilistic graphical models](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html)
+# Homework for [Chapter 13: Learning](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html)
 
-**Due date**: Monday, April 1
+**Due date**: TBD
 
 **Guidelines:** You are free to work and collaborate with your classmates, but you must turn in your own written solutions. Do not consult any outside resources for your solutions, including anything on the web. Late submissions will not be accepted.
 
 **List of problems:**
 
-1. [Section 12.1: Examples of causal structures](#problem-1-examples-of-causal-structures)
-2. [Section 12.1: Constructing causal structures](#problem-2-constructing-causal-structures)
-3. [Section 12.2: Practice with plate notation](#problem-3-practice-with-plate-notation)
-4. [Section 12.2: A PGM for clustered data](#problem-4-a-pgm-for-clustered-data)
-5. [Section 12.3: Linear regression models and multivariate normal vectors](#problem-5-linear-regression-models-and-multivariate-normal-vectors)
-6. [Section 12.3: Expectations of residuals in linear regression models](#problem-6-expectations-of-residuals-in-linear-regression-models)
-7. [Section 12.3: Interpreting linear regression parameters](#problem-7-interpreting-linear-regression-parameters)
-8. [Section 12.4: The derivative of the sigmoid function](#problem-8-the-derivative-of-the-sigmoid-function)
-9. [Section 12.4: Goodness of fit of logistic regression models](#problem-9-goodness-of-fit-of-logistic-regression-models)
-10. [Section 12.5: Practice with drawing neural networks](#problem-10-practice-with-drawing-neural-networks)
-11. [Section 12.5: A thin neural network](#problem-11-a-thin-neural-network)
+1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
+2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
+3. [Section 13.2: Gaussian mixture models](#problem-3-gaussian-mixture-models)
+4. [Section 13.3: MLEs for linear regression models](#problem-4-mles-for-linear-regression-models)
+5. [Section 13.5: Counting neural network stuff](#problem-5-counting-neural-network-stuff)
+6. [Section 13.5: Assessing goodness-of-fit of a neural network](#problem-6-assessing-goodness-of-fit-of-a-neural-network)
 
  **Tips (to maximize your grade)**:
  
@@ -30,154 +25,117 @@
 
 5. Figure out the answer before writing! More precisely: Carry through your initial computations on your own scratch paper before writing your solutions.  It is difficult to follow a solution that is written in a "stream-of-consciousness" style. If I can't follow along, I am likely to give up and take off points (even if your final answer is right).
 
-## Problem 1: Examples of causal structures
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose $X$, $Y$, and $Z$ are three random variables. Give a concrete example of:
+## Problem 1: Negative logarithms and optimization
 
-**(a)**: A situation where $Y$ serves as a confounding variable in the causal structure.
+(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that the maximizers of a (nonnegatively-valued) function are the same as the minimizers of the negative logarithm of the function. In this problem, you will prove this statement.
 
-**(b)**: A situation where $Y$ serves as a mediating variable in the causal structure.
+Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking values in the interval $(0,\infty)$.
 
-Of course, you may not use any of the examples we discussed in class.
+**(a)**: Prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global maximizer of $J(\boldsymbol{\theta})$ if it is a global minimizer of $-\log{J(\boldsymbol{\theta})}$. (_Hint_: The negative logarithm function is a _strictly decreasing function_. What's the definition of a _strictly decreasing function_? Look it up! Also, do **not** assume any form of differentiability!)
 
-## Problem 2: Constructing causal structures
+**(b)**: Conversely, prove that $\boldsymbol{\theta}^\star \in \mathbb{R}^n$ is a global minimizer of $-\log{J(\boldsymbol{\theta})}$ if it is a global maximizer of $J(\boldsymbol{\theta})$.
 
-(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#a-brief-look-at-causal-inference)_.) Suppose that we have four binary random variables $C$, $R$, $W$, and $S$, which indicate whether it is cloudy ($C$), whether it is raining ($R$), whether the grass is wet ($W$), and whether the sprinkler is running ($S$). Draw a plausible graph depicting the cause and effect relationships between these variables.
+## Problem 2: MLEs for the univariate Bernoulli model
 
-## Problem 3: Practice with plate notation
+(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) Suppose we choose to model an observed dataset
 
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) Explicitly draw the full graphical structure for the following plated probabilistic graphical model when $m=2$. Then, answer the questions that follow.
+$$
+x_1,x_2,\ldots,x_{11} = 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
+$$
+
+with our simple Bernoulli PGM with parameter $\theta$. In all parts below that require computations, round your final answer to four decimal places.
+
+**(a)**: Plot the data surprisal function $\mathcal{I}(\theta;x_1,\ldots,x_{11})$.
+
+**(b)**: Compute the maximum likelihood estimate $\theta^\star_\text{MLE}$ for $\theta$.
+
+**(c)**: Compute the data surprisal $\mathcal{I}(\theta^\star_\text{MLE};x_1,\ldots,x_{11})$ corresponding to the MLE.
+
+**(d)**: Compute the data likelihood $\mathcal{L}(\theta^\star_\text{MLE};x_1,\ldots,x_{11})$ corresponding to the MLE.
+
+**(e)**: If $P_\theta$ is the model distribution of the Bernoulli model and $\hat{P}$ is the empirical distribution of the dataset, compute the cross entropy $H_{\hat{P}}(P_{\theta^\star_\text{MLE}})$.
+
+**(f)**: Compute the KL divergence $D(\hat{P} \parallel P_{\theta^\star_\text{MLE}})$.
+
+## Problem 3: Gaussian mixture models
+
+(_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) A _Gaussian mixture model_ (or _GMM_) is a probabilistic graphical model with underlying graph of the form
 
 &nbsp;
 <p align="center">
-  <img src="../img/hw-plated.svg" width="35%">
+<img src="https://raw.githubusercontent.com/jmyers7/stats-book-materials/main/img/gmm.svg" width="300" align="center">
 </p>
 &nbsp;
 
-Assuming your drawing is correct, you should have a graph with ten nodes. Of these ten nodes, which are...
-
-**(a)**: ...random?
-
-**(b)**: ...deterministic?
-
-**(c)**: ...parameters?
-
-**(d)**: ...observed?
-
-**(e)**: ...hidden?
-
-**(f)**: ...hidden and random?
-
-**(g)**: ...hidden and deterministic?
-
-**(h)**: ...observed and random?
-
-**(i)**: ...observed and deterministic?
-
-## Problem 4: A PGM for clustered data
-
-(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#general-probabilistic-graphical-models)_.) We believe that an observed dataset clusters into two groups of normally distributed data, the first of mean $\mu_0$ and variance $\sigma_0^2$, and the second of mean $\mu_1$ and variance $\sigma_1^2$. Though we cannot directly observe which cluster a given data point belongs to, we do know that the probability that a given data point falls in the second cluster is $\theta$. Describe a probabilistic graphical model for this data. (Draw the underlying graph, including all random variables and parameters. Indicate which variables are observed and which are hidden. Describe the distributions of all random variables, along with all link functions.)
-
-## Problem 5: Linear regression models and multivariate normal vectors
-
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Write the data likelihood function of a linear regression model (in [this](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-reg-data-pf-thm) theorem) as the density of a multivariate normal distribution. What is the dimension of the distribution? What is the mean vector $\boldsymbol{\mu}$? What is the covariance matrix $\boldsymbol{\Sigma}$?
-
-## Problem 6: Expectations of residuals in linear regression models
-
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Let
+The parameters are given by a number $\theta\in [0,1]$ that parametrizes $Z \sim Ber(\theta)$, as well as real parameters $\mu_0$ and $\mu_1$, and positive real parameters $\sigma_0^2$ and $\sigma_1^2$. The link function at $X$ is given by
 
 $$
-R = Y - \beta_0 - \mathbf{X}^\intercal \boldsymbol{\beta}
+X \mid Z \sim N(\mu,\sigma^2),
 $$
 
-be the residual term in a linear regression model. Prove that $E(R)=0$.
-
-## Problem 7: Interpreting linear regression parameters
-
-(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#linear-regression-models)_.) Consider the Ames housing dataset with
+where
 
 $$
-Y = \text{price} \quad \text{and} \quad X = \text{area}.
+\mu = (1-z)\mu_0 + z \mu_1 \quad \text{and} \quad \sigma^2 = (1-z)\sigma_0^2 + z \sigma_1^2.
 $$
 
-As we will see in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a linear regression model
+**(a)**: Assuming that GMMs are trained as **generative** models, write down a formula for the model likelihood function $\mathcal{L}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
+
+**(b)**: Using your answer from part (a), write down a formula for the model surprisal function $\mathcal{I}_\text{model}(\theta,\mu_0,\mu_1,\sigma_0^2,\sigma_1^2)$. For simplicity, your formula should contain $\mu$ and $\sigma^2$ rather than the parameters $\mu_0$, $\mu_1$, $\sigma_0^2$, and $\sigma_1^2$ themselves.
+
+**(c)**: Discuss the difficulties that would be encountered in maximum likelihood estimation for the parameters in a GMM.
+
+## Problem 4: MLEs for linear regression models
+
+(_From [Section 13.3](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-linear-regression)_.) Consider the dataset
 
 $$
-Y \mid X  \sim N(\mu,\sigma^2), \quad \mu = \beta_0 + x \beta_1,
+\begin{array}{r|r|r}
+x_1 & x_2 & y \\\ \hline
+2 & 3 & 0 \\\
+0 & 4 & 1 \\\
+2 & 6 & -3 \\\
+-1 & -2 & 5
+\end{array}
 $$
 
-on the data and obtain $\beta_1 \approx 0.11$. Interpret the meaning of this parameter in terms that an average person on the street would understand.
+in $\mathbb{R}^3$, with predictor vectors $\mathbf{x}^\intercal= (x_1,x_2) \in \mathbb{R}^2$ and response variables $y\in \mathbb{R}$. In both parts below, round your answers to four decimal places. And please do not carry out the computations with something silly like a handheld calculator. A few lines of basic NumPy code is enough to get this problem done in a jiffy.
 
-(If you tell me $\beta_1$ is the slope of a line, you're getting half credit. :grimacing: There's a much better answer than this! In the real world, you might imagine being asked a question very similar to this, especially by clients or stakeholders with non-technical backgrounds. They want _real_ answers with _concrete insight_, not technical jargon about lines and probabilistic models and whatnot. So, get comfortable with ambiguous questions!)
+**(a)**: Using the formula in [this](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-lin-reg-thm) theorem, compute the MLEs for the parameters $\beta_0$ and $\boldsymbol{\beta} = (\beta_1,\beta_2)$ of a linear regression model with known variance.
 
-## Problem 8: The derivative of the sigmoid function
+**(c)**: Just to make sure you aren't cheating by using a Python library that computes MLEs for you, give me your matrix $(\mathcal{X}^\intercal \mathcal{X})^{-1}$ used in the formula in part (a). Round all nine entries in this matrix to four decimal places.
 
-(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Show that the derivative of the sigmoid function satisfies the relation
+**(b)**: With respect to the parameters you found in part (a), compute the mean squared error of the model on the given dataset.
 
-$$
-\frac{\text{d}\sigma}{\text{d}x}(x) = \sigma(x) \left[1-\sigma(x)\right].
-$$
+## Problem 5: Counting neural network stuff
 
-## Problem 9: Goodness of fit of logistic regression models
+(_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) Suppose that we have a neural network with _four_ hidden layers of widths $16$, $32$, $8$, and $4$, and an input layer of width $4$. We run SGD on this network over $N=20$ epochs over a dataset of size $m=3{,}000$ with a mini-batch size of $k=320$.
 
-(_From [Section 12.4](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#logistic-regression-models)_.) Given a bivariate observed dataset
+**(a)**: What is the number of mini-batches per epoch? What are the sizes of the mini-batches?
 
-$$
-(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R}^2,
-$$
+**(b)**: What is the number of gradient steps per epoch?
 
-we saw in class that we may visualize the "goodness of fit" of a linear regression model by plotting the regression line $y = \beta_0 + x\beta_1$ over a scatter plot of the data. If instead the dataset is of the form
+**(c)**: How many total gradient steps are taken over the whole training run?
 
-$$
-(x_1,y_1),(x_2,y_2),\ldots,(x_m,y_m) \in \mathbb{R} \times \\{0,1\\},
-$$
+**(d)**: How many trainable parameters does the network contain?
 
-we may do something similar with a logistic regression model by plotting the curve $y = \sigma(\beta_0 + x \beta_1)$ over a scatter plot:
+## Problem 6: Assessing goodness-of-fit of a neural network
 
-&nbsp;
-<p align="center">
-  <img src="../img/hw12-log-reg.svg" width="50%">
-</p>
-&nbsp;
-
-The decision boundary corresponds to the $x$-value for which $\beta_0 + x\beta_1=0$, as described in class.
-
-**(a)**: How many data points does the model misclassify as belonging to class $1$, when they are truly in class $0$?
-
-**(b)**: How many data points does the model misclassify as belonging to class $0$, when they are truly in class $1$?
-
-**(c)**: Find the values of the parameters $\beta_0$ and $\beta_1$ for this model.
-
-## Problem 10: Practice with drawing neural networks
-
-(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Draw a fully-connected, feedforward neural network (in [this](https://mml.johnmyersmath.com/stats-book/_images/nn-neuron-02.svg) style) that has an input layer consisting of $6$ nodes and three hidden layers consisting (from left to right) of $5$, $4$, and $2$ neurons. What is the depth of this network? What are its widths?
-
-## Problem 11: A thin neural network
-
-(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-models.html#neural-network-models)_.) Consider the same dataset that we used in [Problem 9](#problem-9-goodness-of-fit-of-logistic-regression-models). Using techniques that we will learn in the [next chapter](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html), we may train a network of the following architecture on this dataset:
-
-&nbsp;
-<p align="center">
-  <img src="../img/hw-nn.svg" width="25%">
-</p>
-&nbsp;
-
-Notice that all layers have width $1$, i.e., everything in sight is a scalar, not a vector. Plotting $y=\sigma(w_2 a + b_2)$ as a function of $x$ over a scatter plot of the data reveals the following:
-
-&nbsp;
-<p align="center">
-  <img src="../img/hw12-nn.svg" width="50%">
-</p>
-&nbsp;
-
-**(a)**: Write down an explicit piecewise formula for $y = \sigma(w_2a+b_2)$ as a function of $x$. (_Hint_: You'll need to recall the functional dependence of $a$ on $x$. You can verify if your answer is correct by plotting your formula and checking that it matches the curve in the figure above.)
-
-**(b)**: Using your formula in (a), find a formula for the $x$-value of the decision boundary in terms of the four parameters $w_1,b_1,w_2,b_2$.
-
-**(c)**: The training process yields the following values (rounded to four decimal places) for the parameters:
+(_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) The confusion matrix for the neural network classifier trained in [the book](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks) is given by
 
 $$
-w_1 = 1.9553, \quad b_1 = 0.5873, \quad w_2 = 2.0696, \quad b_2 = -1.2039.
+\begin{array}{c|cc}
+& \hat{y}=0 & \hat{y}=1 \\\ \hline
+y = 0 & 1529 & 7  \\\
+y = 1 & 6 & 1530
+\end{array}
 $$
 
-Using your formula in (b), find the $x$-value of the decision boundary in the figure above. Round your answer to four decimal places. (_Hint_: The answer is _not_ $0$.)
+For all parts below, round your answers to four decimal places.
+
+**(a)**: Compute the _accuracy_ of the classifier.
+
+**(b)**: Compute the _precision_ of the classifier.
+
+**(c)**: Compute the _recall_ of the classifier.
