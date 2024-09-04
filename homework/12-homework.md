@@ -1,4 +1,4 @@
-# Homework for [Chapter 13: Learning](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html)
+# Homework for [Chapter 12: Learning](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html)
 
 **Due date**: TBD
 
@@ -6,12 +6,12 @@
 
 **List of problems:**
 
-1. [Section 13.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
-2. [Section 13.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
-3. [Section 13.2: Gaussian mixture models](#problem-3-gaussian-mixture-models)
-4. [Section 13.3: MLEs for linear regression models](#problem-4-mles-for-linear-regression-models)
-5. [Section 13.5: Counting neural network stuff](#problem-5-counting-neural-network-stuff)
-6. [Section 13.5: Assessing goodness-of-fit of a neural network](#problem-6-assessing-goodness-of-fit-of-a-neural-network)
+1. [Section 12.1: Negative logarithms and optimization](#problem-1-negative-logarithms-and-optimization)
+2. [Section 12.1: MLEs for the univariate Bernoulli model](#problem-2-mles-for-the-univariate-bernoulli-model)
+3. [Section 12.2: Gaussian mixture models](#problem-3-gaussian-mixture-models)
+4. [Section 12.3: MLEs for linear regression models](#problem-4-mles-for-linear-regression-models)
+5. [Section 12.5: Counting neural network stuff](#problem-5-counting-neural-network-stuff)
+6. [Section 12.5: Assessing goodness-of-fit of a neural network](#problem-6-assessing-goodness-of-fit-of-a-neural-network)
 
  **Tips (to maximize your grade)**:
  
@@ -28,7 +28,7 @@
 
 ## Problem 1: Negative logarithms and optimization
 
-(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that the maximizers of a (nonnegatively-valued) function are the same as the minimizers of the negative logarithm of the function. In this problem, you will prove this statement.
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) It was mentioned in class that the maximizers of a (nonnegatively-valued) function are the same as the minimizers of the negative logarithm of the function. In this problem, you will prove this statement.
 
 Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking values in the interval $(0,\infty)$.
 
@@ -38,7 +38,7 @@ Precisely, let $J:\mathbb{R}^n \to (0,\infty)$ be an objective function taking v
 
 ## Problem 2: MLEs for the univariate Bernoulli model
 
-(_From [Section 13.1](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) Suppose we choose to model an observed dataset
+(_From [Section 12.1](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#a-first-look-at-likelihood-based-learning-objectives)_.) Suppose we choose to model an observed dataset
 
 $$
 x_1,x_2,\ldots,x_{11} = 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0
@@ -60,7 +60,7 @@ with our simple Bernoulli PGM with parameter $\theta$. In all parts below that r
 
 ## Problem 3: Gaussian mixture models
 
-(_From [Section 13.2](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#general-mle)_.) A _Gaussian mixture model_ (or _GMM_) is a probabilistic graphical model with underlying graph of the form
+(_From [Section 12.2](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#general-mle)_.) A _Gaussian mixture model_ (or _GMM_) is a probabilistic graphical model with underlying graph of the form
 
 &nbsp;
 <p align="center">
@@ -88,7 +88,7 @@ $$
 
 ## Problem 4: MLEs for linear regression models
 
-(_From [Section 13.3](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-linear-regression)_.) Consider the dataset
+(_From [Section 12.3](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#mle-for-linear-regression)_.) Consider the dataset
 
 $$
 \begin{array}{r|r|r}
@@ -110,7 +110,7 @@ in $\mathbb{R}^3$, with predictor vectors $\mathbf{x}^\intercal= (x_1,x_2) \in \
 
 ## Problem 5: Counting neural network stuff
 
-(_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) Suppose that we have a neural network with _four_ hidden layers of widths $16$, $32$, $8$, and $4$, and an input layer of width $4$. We run SGD on this network over $N=20$ epochs over a dataset of size $m=3{,}000$ with a mini-batch size of $k=320$.
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#mle-for-neural-networks)_.) Suppose that we have a neural network with _four_ hidden layers of widths $16$, $32$, $8$, and $4$, and an input layer of width $4$. We run SGD on this network over $N=20$ epochs over a dataset of size $m=3{,}000$ with a mini-batch size of $k=320$.
 
 **(a)**: What is the number of mini-batches per epoch? What are the sizes of the mini-batches?
 
@@ -122,7 +122,7 @@ in $\mathbb{R}^3$, with predictor vectors $\mathbf{x}^\intercal= (x_1,x_2) \in \
 
 ## Problem 6: Assessing goodness-of-fit of a neural network
 
-(_From [Section 13.5](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks)_.) The confusion matrix for the neural network classifier trained in [the book](https://mml.johnmyersmath.com/stats-book/chapters/13-learning.html#mle-for-neural-networks) is given by
+(_From [Section 12.5](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#mle-for-neural-networks)_.) The confusion matrix for the neural network classifier trained in [the book](https://mml.johnmyersmath.com/stats-book/chapters/12-learning.html#mle-for-neural-networks) is given by
 
 $$
 \begin{array}{c|cc}
