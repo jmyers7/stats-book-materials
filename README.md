@@ -58,15 +58,15 @@ Class Number/Date | Description | Other information
 Programming assignments:
 
 * Chapter 0: [Python libraries: NumPy, pandas and matplotlib](/programming-assignments/assignment_00_instructions.md)
-* Chapter 3 Rules of probability: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_03_instructions.md)
-* Chapter 4 Random variables: [Random variables and empirical distributions](./programming-assignments/assignment_04_instructions.md)
-* Chapter 5 Examples of random variables: [Random variables in SciPy](./programming-assignments/assignment_05_instructions.md)
-* Chapter 6 Connecting theory to practice --- a first look at model building: [A first look at probabilistic models](./programming-assignments/assignment_06_instructions.md)
-* Chapter 8 More probability theory: [Probabilistic loose ends](./programming-assignments/assignment_08_instructions.md)
-* Chapter 10 Information theory: [Mutual information](./programming-assignments/assignment_10_instructions.md)
-* Chapter 11 Optimization: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_11_instructions.md)
-* Chapter 12 Probabilistic graphical models: [Probabilistic modeling with scikit-learn](/programming-assignments/assignment_12_instructions.md)
-* Chapter 13 Learning: [Training probabilistic graphical models](/programming-assignments/assignment_13_instructions.md)
+* Chapter 2 Rules of probability: [A case study in conditional probabilities and Bayes' Theorem](./programming-assignments/assignment_02_instructions.md)
+* Chapter 3 Random variables: [Random variables and empirical distributions](./programming-assignments/assignment_03_instructions.md)
+* Chapter 4 Examples of random variables: [Random variables in SciPy](./programming-assignments/assignment_04_instructions.md)
+* Chapter 5 Connecting theory to practice --- a first look at model building: [A first look at probabilistic models](./programming-assignments/assignment_05_instructions.md)
+* Chapter 7 More probability theory: [Probabilistic loose ends](./programming-assignments/assignment_07_instructions.md)
+* Chapter 9 Information theory: [Mutual information](./programming-assignments/assignment_09_instructions.md)
+* Chapter 10 Optimization: [PyTorch, calculus, and gradient descent](/programming-assignments/assignment_10_instructions.md)
+* Chapter 11 Probabilistic graphical models: [Probabilistic modeling with scikit-learn](/programming-assignments/assignment_11_instructions.md)
+* Chapter 12 Learning: [Training probabilistic graphical models](/programming-assignments/assignment_12_instructions.md)
 
 Worksheets and solutions:
 

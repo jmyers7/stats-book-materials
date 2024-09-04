@@ -1,6 +1,6 @@
 # How to open assignment in Google Colab
 
-1. Open the assignment by clicking this [link](./assignment_06.ipynb). This will open a preview of the assignment in GitHub.
+1. Open the assignment by clicking this [link](./assignment_10.ipynb). This will open a preview of the assignment in GitHub.
 
 2. With the assignment open in GitHub, click on the button in the upper-right hand corner labeled "Download raw file" shown in the picture below (see the red arrow). This will download the notebook file to your computer (with extension `.ipynb`.)
 
