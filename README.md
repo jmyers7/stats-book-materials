@@ -84,7 +84,7 @@ Worksheets and solutions:
 Homework:
 
 * Chapter 7 More probability theory: [Homework](./homework/07-homework.md)
-* Chapter 9 Information theory: [Homeowork](./homework/09-homework.md)
+* Chapter 9 Information theory: [Homework](./homework/09-homework.md)
 * Chapter 10 Optimization: [Homework](./homework/10-homework.md)
 * Chapter 11 Probabilistic graphical models: [Homework](./homework/11-homework.md)
 * Chapter 12 Learning: [Homework](./homework/12-homework.md)
